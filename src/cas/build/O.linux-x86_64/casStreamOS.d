@@ -11,6 +11,7 @@ casStreamOS.o: ../../../../src/cas/generic/st/casStreamOS.cc \
  ../../../../include/compilerDependencies.h \
  ../../../../include/os/Linux/osdMutex.h \
  ../../../../include/os/Linux/osdThread.h ../../../../include/shareLib.h \
+ ../../../../include/ellLib.h ../../../../include/epicsEvent.h \
  ../../../../include/errlog.h \
  ../../../../src/cas/generic/st/casStreamOS.h \
  ../../../../include/epicsAssert.h ../../../../include/epicsTimer.h \

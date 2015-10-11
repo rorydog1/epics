@@ -5,4 +5,5 @@ cacChannelNotify.o: ../cacChannelNotify.cpp ../iocinf.h ../cacIO.h \
  ../../../include/os/Linux/osdMutex.h ../../../include/epicsGuard.h \
  ../../../include/epicsThread.h ../../../include/epicsEvent.h \
  ../../../include/os/Linux/osdEvent.h ../../../include/epicsMutex.h \
- ../../../include/os/Linux/osdThread.h ../../../include/shareLib.h
+ ../../../include/os/Linux/osdThread.h ../../../include/shareLib.h \
+ ../../../include/ellLib.h ../../../include/epicsEvent.h

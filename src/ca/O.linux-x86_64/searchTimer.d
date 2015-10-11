@@ -7,6 +7,7 @@ searchTimer.o: ../searchTimer.cpp ../../../include/tsMinMax.h \
  ../../../include/epicsMutex.h ../../../include/compilerDependencies.h \
  ../../../include/os/Linux/osdMutex.h \
  ../../../include/os/Linux/osdThread.h ../../../include/shareLib.h \
+ ../../../include/ellLib.h ../../../include/epicsEvent.h \
  ../../../include/epicsMemory.h ../../../include/epicsTime.h \
  ../../../include/epicsTypes.h ../../../include/os/Linux/osdTime.h \
  ../../../include/tsDLList.h ../netiiu.h ../cacIO.h \

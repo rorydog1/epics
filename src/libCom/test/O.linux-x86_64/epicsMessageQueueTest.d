@@ -9,6 +9,6 @@ epicsMessageQueueTest.o: ../epicsMessageQueueTest.cpp \
  ../../../../include/os/Linux/osdEvent.h ../../../../include/epicsMutex.h \
  ../../../../include/os/Linux/osdMutex.h \
  ../../../../include/os/Linux/osdThread.h ../../../../include/shareLib.h \
- ../../../../include/epicsExit.h ../../../../include/epicsEvent.h \
- ../../../../include/epicsAssert.h ../../../../include/epicsUnitTest.h \
- ../../../../include/testMain.h
+ ../../../../include/ellLib.h ../../../../include/epicsEvent.h \
+ ../../../../include/epicsExit.h ../../../../include/epicsAssert.h \
+ ../../../../include/epicsUnitTest.h ../../../../include/testMain.h

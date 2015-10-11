@@ -5,6 +5,7 @@ epicsThreadPerform.o: ../epicsThreadPerform.cpp \
  ../../../../include/compilerDependencies.h \
  ../../../../include/os/Linux/osdMutex.h \
  ../../../../include/os/Linux/osdThread.h ../../../../include/shareLib.h \
+ ../../../../include/ellLib.h ../../../../include/epicsEvent.h \
  ../../../../include/epicsTime.h ../../../../include/epicsTypes.h \
  ../../../../include/os/Linux/osdTime.h ../../../../include/errlog.h \
  ../../../../include/testMain.h

@@ -6,5 +6,6 @@ epicsTimeTest.o: ../epicsTimeTest.cpp ../../../../include/epicsTime.h \
  ../../../../include/compilerDependencies.h \
  ../../../../include/os/Linux/osdMutex.h \
  ../../../../include/os/Linux/osdThread.h ../../../../include/shareLib.h \
+ ../../../../include/ellLib.h ../../../../include/epicsEvent.h \
  ../../../../include/errlog.h ../../../../include/epicsUnitTest.h \
  ../../../../include/testMain.h

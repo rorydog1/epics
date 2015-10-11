@@ -11,6 +11,7 @@ beaconTimer.o: ../../../../src/cas/generic/beaconTimer.cc \
  ../../../../include/compilerDependencies.h \
  ../../../../include/os/Linux/osdMutex.h \
  ../../../../include/os/Linux/osdThread.h ../../../../include/shareLib.h \
+ ../../../../include/ellLib.h ../../../../include/epicsEvent.h \
  ../../../../include/envDefs.h ../../../../include/errlog.h \
  ../../../../src/cas/generic/caServerI.h ../../../../include/tsFreeList.h \
  ../../../../include/epicsGuard.h ../../../../src/cas/../ca/caProto.h \

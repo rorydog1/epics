@@ -15,7 +15,8 @@ casStrmClient.o: ../../../../src/cas/generic/casStrmClient.cc \
  ../../../../include/os/Linux/osdMutex.h ../../../../include/epicsGuard.h \
  ../../../../include/epicsThread.h ../../../../include/epicsEvent.h \
  ../../../../include/os/Linux/osdEvent.h \
- ../../../../include/os/Linux/osdThread.h ../../../../include/gddUtils.h \
+ ../../../../include/os/Linux/osdThread.h ../../../../include/ellLib.h \
+ ../../../../include/epicsEvent.h ../../../../include/gddUtils.h \
  ../../../../include/gddErrorCodes.h ../../../../include/gddUtilsI.h \
  ../../../../include/aitConvert.h ../../../../include/osiSock.h \
  ../../../../include/os/Linux/osdSock.h ../../../../include/ellLib.h \

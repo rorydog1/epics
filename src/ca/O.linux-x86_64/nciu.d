@@ -12,9 +12,9 @@ nciu.o: ../nciu.cpp ../../../include/epicsAlgorithm.h \
  ../../../include/epicsTypes.h ../../../include/os/Linux/osdTime.h \
  ../../../include/epicsThread.h ../../../include/epicsEvent.h \
  ../../../include/os/Linux/osdEvent.h \
- ../../../include/os/Linux/osdThread.h ../../../include/epicsEvent.h \
- ../../../include/freeList.h ../localHostName.h \
- ../../../include/epicsSingleton.h ../nciu.h \
+ ../../../include/os/Linux/osdThread.h ../../../include/ellLib.h \
+ ../../../include/epicsEvent.h ../../../include/freeList.h \
+ ../localHostName.h ../../../include/epicsSingleton.h ../nciu.h \
  ../../../include/resourceLib.h ../../../include/tsSLList.h \
  ../../../include/epicsString.h ../../../include/tsDLList.h \
  ../../../include/epicsMutex.h ../caProto.h ../cacIO.h \

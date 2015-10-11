@@ -14,10 +14,11 @@ compressRecord.o: ../compressRecord.c ../../../include/dbDefs.h \
  ../../../include/epicsAssert.h ../../../include/os/Linux/osdMutex.h \
  ../../../include/db_field_log.h ../../../include/dbEvent.h \
  ../../../include/epicsThread.h ../../../include/os/Linux/osdThread.h \
- ../../../include/shareLib.h ../../../include/dbFldTypes.h \
- ../../../include/errMdef.h ../../../include/special.h \
- ../../../include/recSup.h ../../../include/recGbl.h \
- ../O.Common/compressRecord.h ../../../include/epicsTypes.h \
- ../../../include/link.h ../../../include/epicsMutex.h \
- ../../../include/ellLib.h ../../../include/epicsTime.h \
+ ../../../include/shareLib.h ../../../include/ellLib.h \
+ ../../../include/epicsEvent.h ../../../include/os/Linux/osdEvent.h \
+ ../../../include/dbFldTypes.h ../../../include/errMdef.h \
+ ../../../include/special.h ../../../include/recSup.h \
+ ../../../include/recGbl.h ../O.Common/compressRecord.h \
+ ../../../include/epicsTypes.h ../../../include/link.h \
+ ../../../include/epicsMutex.h ../../../include/epicsTime.h \
  ../../../include/epicsAssert.h ../../../include/epicsExport.h

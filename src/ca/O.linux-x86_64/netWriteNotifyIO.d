@@ -10,12 +10,12 @@ netWriteNotifyIO.o: ../netWriteNotifyIO.cpp ../../../include/errlog.h \
  ../../../include/epicsGuard.h ../../../include/epicsThread.h \
  ../../../include/epicsEvent.h ../../../include/os/Linux/osdEvent.h \
  ../../../include/os/Linux/osdThread.h ../../../include/shareLib.h \
- ../cac.h ../../../include/ipAddrToAsciiAsynchronous.h \
- ../../../include/osiSock.h ../../../include/os/Linux/osdSock.h \
- ../../../include/ellLib.h ../msgForMultiplyDefinedPV.h \
- ../../../include/epicsTimer.h ../../../include/epicsTime.h \
- ../../../include/os/Linux/osdTime.h ../../../include/epicsThread.h \
- ../../../include/epicsEvent.h ../../../include/freeList.h \
+ ../../../include/ellLib.h ../../../include/epicsEvent.h ../cac.h \
+ ../../../include/ipAddrToAsciiAsynchronous.h ../../../include/osiSock.h \
+ ../../../include/os/Linux/osdSock.h ../../../include/ellLib.h \
+ ../msgForMultiplyDefinedPV.h ../../../include/epicsTimer.h \
+ ../../../include/epicsTime.h ../../../include/os/Linux/osdTime.h \
+ ../../../include/epicsThread.h ../../../include/freeList.h \
  ../localHostName.h ../../../include/epicsSingleton.h ../comBuf.h \
  ../../../include/epicsAssert.h ../../../include/epicsTypes.h \
  ../../../include/osiWireFormat.h \

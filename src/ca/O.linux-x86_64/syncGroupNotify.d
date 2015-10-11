@@ -8,8 +8,8 @@ syncGroupNotify.o: ../syncGroupNotify.cpp ../iocinf.h ../syncGroup.h \
  ../../../include/epicsEvent.h ../../../include/os/Linux/osdEvent.h \
  ../../../include/compilerDependencies.h ../../../include/shareLib.h \
  ../cadef.h ../../../include/epicsThread.h ../../../include/epicsEvent.h \
- ../../../include/os/Linux/osdThread.h ../caerr.h \
- ../../../include/epicsTypes.h ../db_access.h \
+ ../../../include/os/Linux/osdThread.h ../../../include/ellLib.h \
+ ../caerr.h ../../../include/epicsTypes.h ../db_access.h \
  ../../../include/epicsTime.h ../../../include/os/Linux/osdTime.h \
  ../caeventmask.h ../cacIO.h ../../../include/epicsMutex.h \
  ../../../include/epicsGuard.h ../oldAccess.h \

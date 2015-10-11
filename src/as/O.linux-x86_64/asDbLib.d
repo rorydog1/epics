@@ -3,6 +3,8 @@ asDbLib.o: ../asDbLib.c ../../../include/epicsStdioRedirect.h \
  ../../../include/compilerDependencies.h ../../../include/dbDefs.h \
  ../../../include/cantProceed.h ../../../include/epicsThread.h \
  ../../../include/os/Linux/osdThread.h ../../../include/shareLib.h \
+ ../../../include/ellLib.h ../../../include/epicsEvent.h \
+ ../../../include/epicsAssert.h ../../../include/os/Linux/osdEvent.h \
  ../../../include/errlog.h ../../../include/taskwd.h \
  ../../../include/epicsThread.h ../../../include/alarm.h \
  ../../../include/epicsTypes.h ../../../include/caeventmask.h \
@@ -16,8 +18,7 @@ asDbLib.o: ../asDbLib.c ../../../include/epicsStdioRedirect.h \
  ../../../include/dbAddr.h ../../../include/dbLock.h \
  ../../../include/dbAccessDefs.h ../../../include/dbCa.h \
  ../../../include/dbCommon.h ../../../include/epicsMutex.h \
- ../../../include/epicsAssert.h ../../../include/os/Linux/osdMutex.h \
- ../../../include/db_field_log.h ../../../include/db_field_log.h \
- ../../../include/dbEvent.h ../../../include/dbCommon.h \
- ../../../include/recSup.h ../asLib.h ../../../include/ellLib.h \
+ ../../../include/os/Linux/osdMutex.h ../../../include/db_field_log.h \
+ ../../../include/db_field_log.h ../../../include/dbEvent.h \
+ ../../../include/dbCommon.h ../../../include/recSup.h ../asLib.h \
  ../../../include/errMdef.h ../asCa.h ../asDbLib.h

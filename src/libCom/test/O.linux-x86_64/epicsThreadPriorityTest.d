@@ -5,5 +5,6 @@ epicsThreadPriorityTest.o: ../epicsThreadPriorityTest.cpp \
  ../../../../include/compilerDependencies.h \
  ../../../../include/os/Linux/osdMutex.h \
  ../../../../include/os/Linux/osdThread.h ../../../../include/shareLib.h \
- ../../../../include/epicsEvent.h ../../../../include/epicsExit.h \
- ../../../../include/epicsUnitTest.h ../../../../include/testMain.h
+ ../../../../include/ellLib.h ../../../../include/epicsEvent.h \
+ ../../../../include/epicsExit.h ../../../../include/epicsUnitTest.h \
+ ../../../../include/testMain.h

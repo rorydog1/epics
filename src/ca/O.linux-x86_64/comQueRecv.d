@@ -16,9 +16,9 @@ comQueRecv.o: ../comQueRecv.cpp ../iocinf.h ../virtualCircuit.h \
  ../../../include/epicsGuard.h ../../../include/epicsThread.h \
  ../../../include/epicsEvent.h ../../../include/os/Linux/osdEvent.h \
  ../../../include/os/Linux/osdThread.h ../../../include/shareLib.h \
- ../comQueSend.h ../comQueRecv.h ../tcpRecvWatchdog.h \
- ../../../include/epicsTimer.h ../../../include/epicsTime.h \
- ../../../include/os/Linux/osdTime.h ../../../include/epicsThread.h \
- ../tcpSendWatchdog.h ../hostNameCache.h \
+ ../../../include/ellLib.h ../../../include/epicsEvent.h ../comQueSend.h \
+ ../comQueRecv.h ../tcpRecvWatchdog.h ../../../include/epicsTimer.h \
+ ../../../include/epicsTime.h ../../../include/os/Linux/osdTime.h \
+ ../../../include/epicsThread.h ../tcpSendWatchdog.h ../hostNameCache.h \
  ../../../include/ipAddrToAsciiAsynchronous.h ../../../include/osiSock.h \
  ../SearchDest.h ../../../include/epicsTime.h

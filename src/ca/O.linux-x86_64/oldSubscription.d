@@ -9,9 +9,10 @@ oldSubscription.o: ../oldSubscription.cpp ../../../include/errlog.h \
  ../cacIO.h ../../../include/tsDLList.h ../../../include/epicsMutex.h \
  ../../../include/epicsGuard.h ../../../include/epicsThread.h \
  ../../../include/epicsEvent.h ../../../include/os/Linux/osdEvent.h \
- ../../../include/os/Linux/osdThread.h ../cadef.h ../caerr.h \
+ ../../../include/os/Linux/osdThread.h ../../../include/ellLib.h \
+ ../../../include/epicsEvent.h ../cadef.h ../caerr.h \
  ../../../include/epicsTypes.h ../db_access.h \
  ../../../include/epicsTime.h ../../../include/epicsTypes.h \
  ../../../include/os/Linux/osdTime.h ../caeventmask.h ../syncGroup.h \
  ../../../include/resourceLib.h ../../../include/tsSLList.h \
- ../../../include/epicsString.h ../../../include/epicsEvent.h
+ ../../../include/epicsString.h

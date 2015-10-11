@@ -13,7 +13,8 @@ devAoSoftRaw.o: ../devAoSoftRaw.c ../../../../include/alarm.h \
  ../../../../include/db_field_log.h ../../../../include/dbEvent.h \
  ../../../../include/epicsThread.h \
  ../../../../include/os/Linux/osdThread.h ../../../../include/shareLib.h \
- ../../../../include/recGbl.h ../../../../include/recSup.h \
- ../../../../include/devSup.h ../../../../include/link.h \
- ../../../../include/special.h ../../../../include/aoRecord.h \
- ../../../../include/epicsExport.h
+ ../../../../include/ellLib.h ../../../../include/epicsEvent.h \
+ ../../../../include/os/Linux/osdEvent.h ../../../../include/recGbl.h \
+ ../../../../include/recSup.h ../../../../include/devSup.h \
+ ../../../../include/link.h ../../../../include/special.h \
+ ../../../../include/aoRecord.h ../../../../include/epicsExport.h

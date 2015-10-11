@@ -5,5 +5,5 @@ gddUtils.o: ../gddUtils.cc ../gddNewDel.h ../../../include/epicsMutex.h \
  ../../../include/epicsThread.h ../../../include/epicsEvent.h \
  ../../../include/os/Linux/osdEvent.h ../../../include/epicsMutex.h \
  ../../../include/os/Linux/osdThread.h ../../../include/shareLib.h \
- ../gddUtils.h ../aitTypes.h ../aitHelpers.h ../gddErrorCodes.h \
- ../gddUtilsI.h
+ ../../../include/ellLib.h ../../../include/epicsEvent.h ../gddUtils.h \
+ ../aitTypes.h ../aitHelpers.h ../gddErrorCodes.h ../gddUtilsI.h

@@ -10,7 +10,8 @@ casAsyncIOI.o: ../../../../src/cas/generic/casAsyncIOI.cc \
  ../../../../include/os/Linux/osdMutex.h ../../../../include/epicsGuard.h \
  ../../../../include/epicsThread.h ../../../../include/epicsEvent.h \
  ../../../../include/os/Linux/osdEvent.h \
- ../../../../include/os/Linux/osdThread.h ../../../../include/gddUtils.h \
+ ../../../../include/os/Linux/osdThread.h ../../../../include/ellLib.h \
+ ../../../../include/epicsEvent.h ../../../../include/gddUtils.h \
  ../../../../include/aitTypes.h ../../../../include/aitHelpers.h \
  ../../../../include/gddErrorCodes.h ../../../../include/gddUtilsI.h \
  ../../../../include/aitConvert.h ../../../../include/osiSock.h \

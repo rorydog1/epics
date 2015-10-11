@@ -6,4 +6,5 @@ epicsExceptionTest.o: ../epicsExceptionTest.cpp \
  ../../../../include/os/Linux/osdEvent.h ../../../../include/epicsMutex.h \
  ../../../../include/os/Linux/osdMutex.h \
  ../../../../include/os/Linux/osdThread.h ../../../../include/shareLib.h \
+ ../../../../include/ellLib.h ../../../../include/epicsEvent.h \
  ../../../../include/testMain.h

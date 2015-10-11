@@ -3,7 +3,9 @@ caget.o: ../caget.c ../../../include/epicsStdlib.h \
  ../../../include/epicsString.h ../../../include/epicsTypes.h \
  ../../../include/shareLib.h ../../../include/alarm.h \
  ../../../include/cadef.h ../../../include/epicsThread.h \
- ../../../include/os/Linux/osdThread.h ../../../include/caerr.h \
+ ../../../include/os/Linux/osdThread.h ../../../include/ellLib.h \
+ ../../../include/epicsEvent.h ../../../include/epicsAssert.h \
+ ../../../include/os/Linux/osdEvent.h ../../../include/caerr.h \
  ../../../include/db_access.h ../../../include/epicsTime.h \
  ../../../include/os/Linux/osdTime.h ../../../include/caeventmask.h \
  ../../../include/os/Linux/epicsGetopt.h ../tool_lib.h \

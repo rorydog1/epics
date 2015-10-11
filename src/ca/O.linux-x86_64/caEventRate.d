@@ -5,7 +5,8 @@ caEventRate.o: ../caEventRate.cpp ../cadef.h \
  ../../../include/compilerDependencies.h \
  ../../../include/os/Linux/osdMutex.h \
  ../../../include/os/Linux/osdThread.h ../../../include/shareLib.h \
- ../caerr.h ../../../include/epicsTypes.h ../db_access.h \
+ ../../../include/ellLib.h ../../../include/epicsEvent.h ../caerr.h \
+ ../../../include/epicsTypes.h ../db_access.h \
  ../../../include/epicsTime.h ../../../include/epicsTypes.h \
  ../../../include/os/Linux/osdTime.h ../caeventmask.h \
  ../../../include/dbDefs.h ../../../include/errlog.h

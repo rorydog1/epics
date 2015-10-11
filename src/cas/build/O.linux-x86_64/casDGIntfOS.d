@@ -11,6 +11,7 @@ casDGIntfOS.o: ../../../../src/cas/generic/st/casDGIntfOS.cc \
  ../../../../include/compilerDependencies.h \
  ../../../../include/os/Linux/osdMutex.h \
  ../../../../include/os/Linux/osdThread.h ../../../../include/shareLib.h \
+ ../../../../include/ellLib.h ../../../../include/epicsEvent.h \
  ../../../../include/errlog.h \
  ../../../../src/cas/generic/st/casDGIntfOS.h \
  ../../../../src/cas/io/bsdSocket/casDGIntfIO.h \

@@ -3,7 +3,8 @@ callback.o: ../callback.c ../../../include/cantProceed.h \
  ../../../include/epicsEvent.h ../../../include/epicsAssert.h \
  ../../../include/os/Linux/osdEvent.h ../../../include/epicsThread.h \
  ../../../include/os/Linux/osdThread.h ../../../include/shareLib.h \
- ../../../include/epicsExit.h ../../../include/epicsInterrupt.h \
+ ../../../include/ellLib.h ../../../include/epicsExit.h \
+ ../../../include/epicsInterrupt.h \
  ../../../include/os/Linux/osdInterrupt.h ../../../include/epicsTimer.h \
  ../../../include/epicsTime.h ../../../include/epicsTypes.h \
  ../../../include/os/Linux/osdTime.h ../../../include/epicsThread.h \
@@ -17,6 +18,5 @@ callback.o: ../callback.c ../../../include/cantProceed.h \
  ../../../include/recSup.h ../../../include/taskwd.h \
  ../../../include/errMdef.h ../O.Common/dbCommon.h \
  ../../../include/epicsTypes.h ../../../include/epicsMutex.h \
- ../../../include/os/Linux/osdMutex.h ../../../include/ellLib.h \
- ../../../include/epicsTime.h ../dbAddr.h ../dbAccessDefs.h ../dbLock.h \
- ../callback.h
+ ../../../include/os/Linux/osdMutex.h ../../../include/epicsTime.h \
+ ../dbAddr.h ../dbAccessDefs.h ../dbLock.h ../callback.h

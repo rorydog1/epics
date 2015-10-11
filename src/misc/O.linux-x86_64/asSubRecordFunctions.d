@@ -14,8 +14,9 @@ asSubRecordFunctions.o: ../asSubRecordFunctions.c \
  ../../../include/errlog.h ../../../include/compilerDependencies.h \
  ../../../include/dbEvent.h ../../../include/epicsThread.h \
  ../../../include/os/Linux/osdThread.h ../../../include/shareLib.h \
- ../../../include/recSup.h ../../../include/recGbl.h \
- ../../../include/registryFunction.h ../../../include/asLib.h \
- ../../../include/errlog.h ../../../include/asDbLib.h \
- ../../../include/callback.h ../../../include/subRecord.h \
- ../../../include/epicsExport.h
+ ../../../include/ellLib.h ../../../include/epicsEvent.h \
+ ../../../include/os/Linux/osdEvent.h ../../../include/recSup.h \
+ ../../../include/recGbl.h ../../../include/registryFunction.h \
+ ../../../include/asLib.h ../../../include/errlog.h \
+ ../../../include/asDbLib.h ../../../include/callback.h \
+ ../../../include/subRecord.h ../../../include/epicsExport.h

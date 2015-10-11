@@ -1,11 +1,11 @@
 dbBkpt.o: ../dbBkpt.c ../../../include/dbDefs.h \
  ../../../include/epicsThread.h ../../../include/shareLib.h \
  ../../../include/os/Linux/osdThread.h ../../../include/shareLib.h \
- ../../../include/epicsMutex.h ../../../include/epicsAssert.h \
- ../../../include/os/Linux/osdMutex.h ../../../include/epicsEvent.h \
- ../../../include/os/Linux/osdEvent.h ../../../include/epicsTime.h \
- ../../../include/epicsTypes.h ../../../include/os/Linux/osdTime.h \
- ../../../include/ellLib.h ../../../include/errlog.h \
+ ../../../include/ellLib.h ../../../include/epicsEvent.h \
+ ../../../include/epicsAssert.h ../../../include/os/Linux/osdEvent.h \
+ ../../../include/epicsMutex.h ../../../include/os/Linux/osdMutex.h \
+ ../../../include/epicsTime.h ../../../include/epicsTypes.h \
+ ../../../include/os/Linux/osdTime.h ../../../include/errlog.h \
  ../../../include/compilerDependencies.h ../../../include/alarm.h \
  ../../../include/dbBase.h ../../../include/dbFldTypes.h \
  ../../../include/ellLib.h ../../../include/dbDefs.h \

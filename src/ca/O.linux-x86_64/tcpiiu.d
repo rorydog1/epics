@@ -17,14 +17,13 @@ tcpiiu.o: ../tcpiiu.cpp ../../../include/errlog.h \
  ../../../include/epicsGuard.h ../../../include/epicsThread.h \
  ../../../include/epicsEvent.h ../../../include/os/Linux/osdEvent.h \
  ../../../include/os/Linux/osdThread.h ../../../include/shareLib.h \
- ../comQueSend.h ../comQueRecv.h ../tcpRecvWatchdog.h \
- ../../../include/epicsTimer.h ../../../include/epicsTime.h \
- ../../../include/os/Linux/osdTime.h ../../../include/epicsThread.h \
- ../tcpSendWatchdog.h ../hostNameCache.h \
+ ../../../include/ellLib.h ../../../include/epicsEvent.h ../comQueSend.h \
+ ../comQueRecv.h ../tcpRecvWatchdog.h ../../../include/epicsTimer.h \
+ ../../../include/epicsTime.h ../../../include/os/Linux/osdTime.h \
+ ../../../include/epicsThread.h ../tcpSendWatchdog.h ../hostNameCache.h \
  ../../../include/ipAddrToAsciiAsynchronous.h ../../../include/osiSock.h \
  ../SearchDest.h ../../../include/epicsTime.h ../inetAddrID.h ../cac.h \
- ../msgForMultiplyDefinedPV.h ../../../include/epicsEvent.h \
- ../../../include/freeList.h ../nciu.h ../bhe.h ../netIO.h \
- ../net_convert.h ../db_access.h ../../../include/epicsSignal.h \
- ../caerr.h ../udpiiu.h ../searchTimer.h ../disconnectGovernorTimer.h \
- ../repeaterSubscribeTimer.h
+ ../msgForMultiplyDefinedPV.h ../../../include/freeList.h ../nciu.h \
+ ../bhe.h ../netIO.h ../net_convert.h ../db_access.h \
+ ../../../include/epicsSignal.h ../caerr.h ../udpiiu.h ../searchTimer.h \
+ ../disconnectGovernorTimer.h ../repeaterSubscribeTimer.h

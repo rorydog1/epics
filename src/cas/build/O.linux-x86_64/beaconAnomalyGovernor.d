@@ -12,6 +12,7 @@ beaconAnomalyGovernor.o: \
  ../../../../include/compilerDependencies.h \
  ../../../../include/os/Linux/osdMutex.h \
  ../../../../include/os/Linux/osdThread.h ../../../../include/shareLib.h \
+ ../../../../include/ellLib.h ../../../../include/epicsEvent.h \
  ../../../../src/cas/generic/caServerI.h ../../../../include/tsFreeList.h \
  ../../../../include/epicsGuard.h ../../../../src/cas/../ca/caProto.h \
  ../../../../src/cas/generic/casdef.h ../../../../include/errMdef.h \

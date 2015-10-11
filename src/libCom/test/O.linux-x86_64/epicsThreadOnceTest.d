@@ -4,7 +4,7 @@ epicsThreadOnceTest.o: ../epicsThreadOnceTest.c \
  ../../../../include/epicsExit.h ../../../../include/shareLib.h \
  ../../../../include/epicsMutex.h ../../../../include/os/Linux/osdMutex.h \
  ../../../../include/epicsThread.h \
- ../../../../include/os/Linux/osdThread.h \
+ ../../../../include/os/Linux/osdThread.h ../../../../include/ellLib.h \
  ../../../../include/epicsUnitTest.h \
  ../../../../include/compilerDependencies.h \
  ../../../../include/testMain.h

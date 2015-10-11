@@ -6,8 +6,9 @@ dbLock.o: ../dbLock.c ../../../include/epicsStdioRedirect.h \
  ../../../include/dbDefs.h ../../../include/epicsMutex.h \
  ../../../include/epicsAssert.h ../../../include/os/Linux/osdMutex.h \
  ../../../include/epicsThread.h ../../../include/os/Linux/osdThread.h \
- ../../../include/shareLib.h ../../../include/epicsAssert.h \
- ../../../include/cantProceed.h ../../../include/ellLib.h \
+ ../../../include/shareLib.h ../../../include/ellLib.h \
+ ../../../include/epicsEvent.h ../../../include/os/Linux/osdEvent.h \
+ ../../../include/epicsAssert.h ../../../include/cantProceed.h \
  ../../../include/dbStaticLib.h ../../../include/dbBase.h \
  ../../../include/link.h ../../../include/errMdef.h \
  ../../../include/cantProceed.h ../../../include/dbFldTypes.h \

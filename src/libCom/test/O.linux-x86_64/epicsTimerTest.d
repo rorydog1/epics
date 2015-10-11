@@ -7,7 +7,7 @@ epicsTimerTest.o: ../epicsTimerTest.cpp ../../../../include/epicsTimer.h \
  ../../../../include/compilerDependencies.h \
  ../../../../include/os/Linux/osdMutex.h \
  ../../../../include/os/Linux/osdThread.h ../../../../include/shareLib.h \
- ../../../../include/epicsEvent.h ../../../../include/epicsAssert.h \
- ../../../../include/epicsGuard.h ../../../../include/tsFreeList.h \
- ../../../../include/epicsGuard.h ../../../../include/epicsUnitTest.h \
- ../../../../include/testMain.h
+ ../../../../include/ellLib.h ../../../../include/epicsEvent.h \
+ ../../../../include/epicsAssert.h ../../../../include/epicsGuard.h \
+ ../../../../include/tsFreeList.h ../../../../include/epicsGuard.h \
+ ../../../../include/epicsUnitTest.h ../../../../include/testMain.h

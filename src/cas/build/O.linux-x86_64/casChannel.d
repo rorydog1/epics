@@ -8,6 +8,7 @@ casChannel.o: ../../../../src/cas/generic/casChannel.cc \
  ../../../../include/epicsThread.h ../../../../include/epicsEvent.h \
  ../../../../include/os/Linux/osdEvent.h \
  ../../../../include/os/Linux/osdThread.h ../../../../include/shareLib.h \
+ ../../../../include/ellLib.h ../../../../include/epicsEvent.h \
  ../../../../include/gddUtils.h ../../../../include/aitTypes.h \
  ../../../../include/aitHelpers.h ../../../../include/gddErrorCodes.h \
  ../../../../include/gddUtilsI.h ../../../../include/aitConvert.h \

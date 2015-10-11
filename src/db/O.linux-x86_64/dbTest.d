@@ -18,4 +18,5 @@ dbTest.o: ../dbTest.c ../../../include/epicsStdlib.h \
  ../../../include/os/Linux/osdTime.h ../../../include/special.h \
  ../db_field_log.h ../dbAddr.h ../dbLock.h ../dbAccessDefs.h ../recGbl.h \
  ../dbEvent.h ../../../include/epicsThread.h \
- ../../../include/os/Linux/osdThread.h ../callback.h ../dbTest.h
+ ../../../include/os/Linux/osdThread.h ../../../include/epicsEvent.h \
+ ../../../include/os/Linux/osdEvent.h ../callback.h ../dbTest.h

@@ -7,4 +7,4 @@ noopiiu.o: ../noopiiu.cpp ../../../include/osiSock.h \
  ../../../include/epicsThread.h ../../../include/epicsEvent.h \
  ../../../include/os/Linux/osdEvent.h ../../../include/epicsMutex.h \
  ../../../include/os/Linux/osdThread.h ../../../include/shareLib.h \
- ../caProto.h
+ ../../../include/ellLib.h ../../../include/epicsEvent.h ../caProto.h

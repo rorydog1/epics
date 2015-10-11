@@ -6,6 +6,6 @@ epicsMutexTest.o: ../epicsMutexTest.cpp ../../../../include/epicsTime.h \
  ../../../../include/compilerDependencies.h \
  ../../../../include/os/Linux/osdMutex.h \
  ../../../../include/os/Linux/osdThread.h ../../../../include/shareLib.h \
- ../../../../include/epicsMutex.h ../../../../include/epicsEvent.h \
- ../../../../include/errlog.h ../../../../include/epicsUnitTest.h \
- ../../../../include/testMain.h
+ ../../../../include/ellLib.h ../../../../include/epicsEvent.h \
+ ../../../../include/epicsMutex.h ../../../../include/errlog.h \
+ ../../../../include/epicsUnitTest.h ../../../../include/testMain.h

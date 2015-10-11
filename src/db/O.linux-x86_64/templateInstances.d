@@ -9,10 +9,10 @@ templateInstances.o: ../templateInstances.cpp ../dbCAC.h \
  ../../../include/epicsThread.h ../../../include/epicsEvent.h \
  ../../../include/os/Linux/osdEvent.h \
  ../../../include/os/Linux/osdThread.h ../../../include/shareLib.h \
+ ../../../include/ellLib.h ../../../include/epicsEvent.h \
  ../../../include/compilerDependencies.h ../../../include/epicsMemory.h \
  ../../../include/db_access.h ../../../include/epicsTime.h \
- ../../../include/os/Linux/osdTime.h ../dbNotify.h \
- ../../../include/ellLib.h ../../../include/epicsEvent.h ../callback.h \
+ ../../../include/os/Linux/osdTime.h ../dbNotify.h ../callback.h \
  ../dbEvent.h ../../../include/epicsThread.h ../dbAddr.h ../dbLock.h \
  ../O.Common/dbCommon.h ../../../include/epicsTypes.h \
  ../../../include/link.h ../../../include/dbDefs.h \

@@ -9,6 +9,7 @@ repeater.o: ../repeater.cpp ../../../include/tsDLList.h \
  ../../../include/epicsThread.h ../../../include/epicsEvent.h \
  ../../../include/os/Linux/osdEvent.h \
  ../../../include/os/Linux/osdThread.h ../../../include/shareLib.h \
+ ../../../include/ellLib.h ../../../include/epicsEvent.h \
  ../../../include/errlog.h ../iocinf.h ../caProto.h ../udpiiu.h \
  ../../../include/osiSock.h ../../../include/os/Linux/osdSock.h \
  ../../../include/ellLib.h ../../../include/epicsThread.h \

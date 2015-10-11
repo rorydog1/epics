@@ -7,4 +7,5 @@ epicsThreadPrivateTest.o: ../epicsThreadPrivateTest.cpp \
  ../../../../include/compilerDependencies.h \
  ../../../../include/os/Linux/osdMutex.h \
  ../../../../include/os/Linux/osdThread.h ../../../../include/shareLib.h \
+ ../../../../include/ellLib.h ../../../../include/epicsEvent.h \
  ../../../../include/epicsUnitTest.h ../../../../include/testMain.h

@@ -6,6 +6,7 @@ caRepeater.o: ../caRepeater.cpp ../../../include/epicsAssert.h \
  ../../../include/epicsMutex.h ../../../include/compilerDependencies.h \
  ../../../include/os/Linux/osdMutex.h \
  ../../../include/os/Linux/osdThread.h ../../../include/shareLib.h \
+ ../../../include/ellLib.h ../../../include/epicsEvent.h \
  ../../../include/epicsMemory.h ../../../include/epicsTime.h \
  ../../../include/epicsTypes.h ../../../include/os/Linux/osdTime.h \
  ../../../include/tsMinMax.h ../../../include/tsDLList.h ../netiiu.h \

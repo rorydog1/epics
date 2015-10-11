@@ -10,4 +10,4 @@ baseNMIU.o: ../baseNMIU.cpp ../iocinf.h ../nciu.h \
  ../../../include/epicsThread.h ../../../include/epicsEvent.h \
  ../../../include/os/Linux/osdEvent.h \
  ../../../include/os/Linux/osdThread.h ../../../include/shareLib.h \
- ../netIO.h
+ ../../../include/ellLib.h ../../../include/epicsEvent.h ../netIO.h

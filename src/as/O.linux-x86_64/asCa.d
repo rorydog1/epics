@@ -1,9 +1,9 @@
 asCa.o: ../asCa.c ../../../include/dbDefs.h ../../../include/ellLib.h \
  ../../../include/shareLib.h ../../../include/epicsThread.h \
  ../../../include/os/Linux/osdThread.h ../../../include/shareLib.h \
- ../../../include/epicsMutex.h ../../../include/epicsAssert.h \
- ../../../include/os/Linux/osdMutex.h ../../../include/epicsEvent.h \
- ../../../include/os/Linux/osdEvent.h ../../../include/cantProceed.h \
+ ../../../include/epicsEvent.h ../../../include/epicsAssert.h \
+ ../../../include/os/Linux/osdEvent.h ../../../include/epicsMutex.h \
+ ../../../include/os/Linux/osdMutex.h ../../../include/cantProceed.h \
  ../../../include/errlog.h ../../../include/compilerDependencies.h \
  ../../../include/taskwd.h ../../../include/epicsThread.h \
  ../../../include/callback.h ../../../include/db_access.h \

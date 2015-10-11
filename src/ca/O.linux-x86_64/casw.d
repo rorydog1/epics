@@ -14,6 +14,7 @@ casw.o: ../casw.cpp ../../../include/envDefs.h \
  ../udpiiu.h ../../../include/epicsThread.h ../../../include/epicsEvent.h \
  ../../../include/os/Linux/osdEvent.h \
  ../../../include/os/Linux/osdThread.h ../../../include/shareLib.h \
+ ../../../include/ellLib.h ../../../include/epicsEvent.h \
  ../../../include/epicsMemory.h ../../../include/tsMinMax.h ../netiiu.h \
  ../cacIO.h ../../../include/epicsMutex.h ../../../include/epicsGuard.h \
  ../searchTimer.h ../../../include/epicsTimer.h \

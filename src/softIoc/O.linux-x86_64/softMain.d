@@ -5,6 +5,7 @@ softMain.o: ../softMain.cpp ../../../include/registryFunction.h \
  ../../../include/compilerDependencies.h \
  ../../../include/os/Linux/osdMutex.h \
  ../../../include/os/Linux/osdThread.h ../../../include/shareLib.h \
+ ../../../include/ellLib.h ../../../include/epicsEvent.h \
  ../../../include/epicsExit.h ../../../include/epicsStdio.h \
  ../../../include/dbStaticLib.h ../../../include/dbFldTypes.h \
  ../../../include/dbBase.h ../../../include/epicsTypes.h \

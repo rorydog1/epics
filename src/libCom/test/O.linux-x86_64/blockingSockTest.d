@@ -11,5 +11,6 @@ blockingSockTest.o: ../blockingSockTest.cpp ../../../../include/osiSock.h \
  ../../../../include/compilerDependencies.h \
  ../../../../include/os/Linux/osdMutex.h \
  ../../../../include/os/Linux/osdThread.h ../../../../include/shareLib.h \
+ ../../../../include/ellLib.h ../../../../include/epicsEvent.h \
  ../../../../include/epicsSignal.h ../../../../include/epicsUnitTest.h \
  ../../../../include/testMain.h

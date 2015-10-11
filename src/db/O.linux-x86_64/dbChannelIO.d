@@ -11,10 +11,10 @@ dbChannelIO.o: ../dbChannelIO.cpp ../../../include/tsFreeList.h \
  ../../../include/tsSLList.h ../../../include/epicsString.h \
  ../../../include/cacIO.h ../../../include/tsDLList.h \
  ../../../include/epicsThread.h ../../../include/epicsEvent.h \
- ../../../include/os/Linux/osdThread.h \
+ ../../../include/os/Linux/osdThread.h ../../../include/ellLib.h \
  ../../../include/compilerDependencies.h ../../../include/epicsMemory.h \
- ../dbNotify.h ../../../include/ellLib.h ../callback.h ../dbEvent.h \
- ../../../include/epicsThread.h ../dbLock.h ../O.Common/dbCommon.h \
- ../../../include/epicsTypes.h ../../../include/link.h \
- ../../../include/dbDefs.h ../../../include/epicsTime.h ../db_convert.h \
- ../dbChannelIO.h ../dbPutNotifyBlocker.h
+ ../dbNotify.h ../callback.h ../dbEvent.h ../../../include/epicsThread.h \
+ ../dbLock.h ../O.Common/dbCommon.h ../../../include/epicsTypes.h \
+ ../../../include/link.h ../../../include/dbDefs.h \
+ ../../../include/epicsTime.h ../db_convert.h ../dbChannelIO.h \
+ ../dbPutNotifyBlocker.h

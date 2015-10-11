@@ -13,7 +13,8 @@ udpiiu.o: ../udpiiu.cpp ../../../include/envDefs.h \
  ../../../include/epicsEvent.h ../../../include/epicsAssert.h \
  ../../../include/os/Linux/osdEvent.h ../../../include/epicsMutex.h \
  ../../../include/os/Linux/osdMutex.h \
- ../../../include/os/Linux/osdThread.h ../../../include/epicsMemory.h \
+ ../../../include/os/Linux/osdThread.h ../../../include/ellLib.h \
+ ../../../include/epicsEvent.h ../../../include/epicsMemory.h \
  ../../../include/epicsTime.h ../../../include/os/Linux/osdTime.h \
  ../../../include/tsMinMax.h ../../../include/tsDLList.h ../netiiu.h \
  ../cacIO.h ../../../include/epicsMutex.h ../../../include/epicsGuard.h \
@@ -25,9 +26,8 @@ udpiiu.o: ../udpiiu.cpp ../../../include/envDefs.h \
  ../../../include/compilerDependencies.h \
  ../../../include/ipAddrToAsciiAsynchronous.h ../../../include/osiSock.h \
  ../msgForMultiplyDefinedPV.h ../../../include/tsFreeList.h \
- ../../../include/epicsGuard.h ../../../include/epicsEvent.h \
- ../../../include/freeList.h ../localHostName.h \
- ../../../include/epicsSingleton.h ../nciu.h ../comBuf.h \
- ../../../include/epicsAssert.h ../bhe.h ../netIO.h ../virtualCircuit.h \
- ../caServerID.h ../comQueSend.h ../comQueRecv.h ../tcpRecvWatchdog.h \
- ../tcpSendWatchdog.h ../hostNameCache.h
+ ../../../include/epicsGuard.h ../../../include/freeList.h \
+ ../localHostName.h ../../../include/epicsSingleton.h ../nciu.h \
+ ../comBuf.h ../../../include/epicsAssert.h ../bhe.h ../netIO.h \
+ ../virtualCircuit.h ../caServerID.h ../comQueSend.h ../comQueRecv.h \
+ ../tcpRecvWatchdog.h ../tcpSendWatchdog.h ../hostNameCache.h

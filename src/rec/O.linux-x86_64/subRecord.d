@@ -15,10 +15,11 @@ subRecord.o: ../subRecord.c ../../../include/dbDefs.h \
  ../../../include/epicsAssert.h ../../../include/os/Linux/osdMutex.h \
  ../../../include/db_field_log.h ../../../include/dbEvent.h \
  ../../../include/epicsThread.h ../../../include/os/Linux/osdThread.h \
- ../../../include/dbFldTypes.h ../../../include/errMdef.h \
- ../../../include/recSup.h ../../../include/recGbl.h \
- ../../../include/special.h ../O.Common/subRecord.h \
- ../../../include/epicsTypes.h ../../../include/link.h \
- ../../../include/epicsMutex.h ../../../include/ellLib.h \
+ ../../../include/ellLib.h ../../../include/epicsEvent.h \
+ ../../../include/os/Linux/osdEvent.h ../../../include/dbFldTypes.h \
+ ../../../include/errMdef.h ../../../include/recSup.h \
+ ../../../include/recGbl.h ../../../include/special.h \
+ ../O.Common/subRecord.h ../../../include/epicsTypes.h \
+ ../../../include/link.h ../../../include/epicsMutex.h \
  ../../../include/epicsTime.h ../../../include/epicsAssert.h \
  ../../../include/epicsExport.h
