@@ -2,6 +2,7 @@
 
 ../O.Common/vgauge.dbd : /home/rory/Desktop/epics/dbd/base.dbd
 ../O.Common/vgauge.dbd : /home/rory/Desktop/epics/extensions/src/asyn4-27/dbd/drvAsynSerialPort.dbd
+../O.Common/vgauge.dbd : /home/rory/Desktop/epics/extensions/src/asyn4-27/dbd/asyn.dbd
 ../O.Common/vgauge.dbd : /home/rory/Desktop/epics/dbd/menuGlobal.dbd
 ../O.Common/vgauge.dbd : /home/rory/Desktop/epics/dbd/menuConvert.dbd
 ../O.Common/vgauge.dbd : /home/rory/Desktop/epics/dbd/aaiRecord.dbd
@@ -33,6 +34,8 @@
 ../O.Common/vgauge.dbd : /home/rory/Desktop/epics/dbd/subArrayRecord.dbd
 ../O.Common/vgauge.dbd : /home/rory/Desktop/epics/dbd/waveformRecord.dbd
 ../O.Common/vgauge.dbd : /home/rory/Desktop/epics/dbd/devSoft.dbd
+../O.Common/vgauge.dbd : /home/rory/Desktop/epics/extensions/src/asyn4-27/dbd/asynRecord.dbd
+../O.Common/vgauge.dbd : /home/rory/Desktop/epics/extensions/src/asyn4-27/dbd/devEpics.dbd
 ../O.Common/vgauge.dbd : /home/rory/Desktop/epics/dbd/menuAlarmSevr.dbd
 ../O.Common/vgauge.dbd : /home/rory/Desktop/epics/dbd/menuAlarmStat.dbd
 ../O.Common/vgauge.dbd : /home/rory/Desktop/epics/dbd/menuCompress.dbd
@@ -45,6 +48,18 @@
 ../O.Common/vgauge.dbd : /home/rory/Desktop/epics/dbd/menuSimm.dbd
 ../O.Common/vgauge.dbd : /home/rory/Desktop/epics/dbd/menuYesNo.dbd
 ../O.Common/vgauge.dbd : /home/rory/Desktop/epics/dbd/dbCommon.dbd
+../O.Common/vgauge.dbd : /home/rory/Desktop/epics/extensions/src/asyn4-27/dbd/devAsynOctet.dbd
+../O.Common/vgauge.dbd : /home/rory/Desktop/epics/extensions/src/asyn4-27/dbd/devAsynInt32.dbd
+../O.Common/vgauge.dbd : /home/rory/Desktop/epics/extensions/src/asyn4-27/dbd/devAsynInt8Array.dbd
+../O.Common/vgauge.dbd : /home/rory/Desktop/epics/extensions/src/asyn4-27/dbd/devAsynInt16Array.dbd
+../O.Common/vgauge.dbd : /home/rory/Desktop/epics/extensions/src/asyn4-27/dbd/devAsynInt32Array.dbd
+../O.Common/vgauge.dbd : /home/rory/Desktop/epics/extensions/src/asyn4-27/dbd/devAsynInt32TimeSeries.dbd
+../O.Common/vgauge.dbd : /home/rory/Desktop/epics/extensions/src/asyn4-27/dbd/devAsynFloat64.dbd
+../O.Common/vgauge.dbd : /home/rory/Desktop/epics/extensions/src/asyn4-27/dbd/devAsynFloat32Array.dbd
+../O.Common/vgauge.dbd : /home/rory/Desktop/epics/extensions/src/asyn4-27/dbd/devAsynFloat64Array.dbd
+../O.Common/vgauge.dbd : /home/rory/Desktop/epics/extensions/src/asyn4-27/dbd/devAsynFloat64TimeSeries.dbd
+../O.Common/vgauge.dbd : /home/rory/Desktop/epics/extensions/src/asyn4-27/dbd/devAsynUInt32Digital.dbd
+../O.Common/vgauge.dbd : /home/rory/Desktop/epics/extensions/src/asyn4-27/dbd/devAsynRecord.dbd
 
 
 ../O.Common/vgaugeInclude.dbd : ../Makefile
