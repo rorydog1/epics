@@ -21,6 +21,7 @@
 
 TEMPLATE_TOP=$(EPICS_BASE)/templates/makeBaseApp/top
 ASYN=/home/rory/Desktop/epics/extensions/src/asyn4-27
+STREAM=/home/rory/Desktop/epics/StreamDevice
 # If using the sequencer, point SNCSEQ at its top directory:
 #SNCSEQ=$(EPICS_BASE)/../modules/soft/seq
 

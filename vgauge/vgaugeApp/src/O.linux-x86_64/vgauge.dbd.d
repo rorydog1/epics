@@ -3,6 +3,7 @@
 ../O.Common/vgauge.dbd : /home/rory/Desktop/epics/dbd/base.dbd
 ../O.Common/vgauge.dbd : /home/rory/Desktop/epics/extensions/src/asyn4-27/dbd/drvAsynSerialPort.dbd
 ../O.Common/vgauge.dbd : /home/rory/Desktop/epics/extensions/src/asyn4-27/dbd/asyn.dbd
+../O.Common/vgauge.dbd : /home/rory/Desktop/epics/StreamDevice/dbd/stream.dbd
 ../O.Common/vgauge.dbd : /home/rory/Desktop/epics/dbd/menuGlobal.dbd
 ../O.Common/vgauge.dbd : /home/rory/Desktop/epics/dbd/menuConvert.dbd
 ../O.Common/vgauge.dbd : /home/rory/Desktop/epics/dbd/aaiRecord.dbd

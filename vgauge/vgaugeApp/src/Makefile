@@ -18,8 +18,10 @@ vgauge_DBD += base.dbd
 # Include dbd files from all support applications:
 vgauge_DBD += drvAsynSerialPort.dbd
 vgauge_DBD += asyn.dbd
+vgauge_DBD += stream.dbd
 
 # Add all the support libraries needed by this IOC
+vgauge_LIBS += stream
 vgauge_LIBS += asyn 
 
 # vgauge_registerRecordDeviceDriver.cpp derives from vgauge.dbd
