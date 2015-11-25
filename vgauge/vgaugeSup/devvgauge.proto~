@@ -1,12 +1,14 @@
 # Stream Device Protocol for the MKS 937A Gauge Controller
-# 09/11/2015
-# Rory Clarke 
+#09/11/2015
+# Rory Clarke modification of agilenXgs6000 by Pete Owens 24/6/2015
 #
 terminator   = CR;
 MaxInput = 40;
 
-#Not really very usefull as the data stream is longer than the max 40 chars in EPICS
-#This was used for setting up comms during testing
+#PZ may be up to 45 char long. The rext up to 10
+
+#sendCmd { out "\$1"; in "%45[0-9a-zA-Z ]"  }
+
 get_PZ {out "PZ"; in "%#s" }
 
 #
