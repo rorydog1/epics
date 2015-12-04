@@ -20,3 +20,5 @@ extern void* ref_MantissaExponentConverter;
 void* pMantissaExponent = ref_MantissaExponentConverter;
 extern void* ref_TimestampConverter;
 void* pTimestamp = ref_TimestampConverter;
+extern void* ref_RegexpConverter;
+void* pRegexp = ref_RegexpConverter;

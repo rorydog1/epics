@@ -1,0 +1,222 @@
+# Template database for the the vacuum gaugeMKS 937A
+# Rory Clarke 26/11/2015
+#
+# Notation: S are setters, G are getters
+# The MKS must be set to pressure in Torr otherwise HC will fail
+#
+# substitutions:
+# DEVICE  - DEVICE name
+# PORT    - asyn PORT
+# SENSOR  - SENSOR (T1-T5)
+#
+
+
+################################################################################
+record(stringin, "$(DEVICE):ERR")
+{
+}
+
+################################################################################
+# Read pressure set points
+#
+record(ai, "$(DEVICE):GtP")
+{
+    field(DESC, "Channel=1-5 Pressure")
+    field(DTYP, "stream")
+    field(INP,  "@mks937.proto get_pres($(SENSOR),$(DEVICE):ERR) $(PORT)")
+    field(EGU,  $(UNITS='Torr'))
+    field(PREC, "9")
+    field(LOPR, "0")
+    field(HOPR, "1000")
+    field(LOW,  "0")
+    field(HIGH, "1")
+    field(LOLO, "-0.1")
+    field(HIHI, "1000")
+    field(LSV,  "MINOR")
+    field(HSV,  "MINOR")
+    field(LLSV, "MAJOR")
+    field(HHSV, "MAJOR")
+}
+
+record(ai, "$(DEVICE):GtC")
+{
+    field(DESC, "Channel=1,2 combination sensor.")
+    field(DTYP, "stream")
+    field(INP,  "@mks937.proto get_comb($(SENSOR),$(DEVICE):ERR) $(PORT)")
+    field(EGU,  $(UNITS='Torr'))
+}
+
+################################################################################
+# Hot cathode settings
+#
+
+record(ai, "$(DEVICE):GtRLY")
+{
+    field(DESC, "Channel=1-5 Relay set points")
+    field(DTYP, "stream")
+    field(INP,  "@mks937.proto get_gen('RLY',$(SENSOR),$(DEVICE):ERR) $(PORT)")
+    field(EGU,  $(UNITS='Torr'))
+}
+
+record(ao, "$(DEVICE):StRLY")
+{
+    field(DESC, "Relay disable")
+    field(DESC, "Channel=1-5 Set relay points")
+    field(DTYP, "stream")
+    field(OUT,  "@mks937.proto set_gen('RLY',$(SENSOR),$(DEVICE):ERR) $(PORT)")
+}
+
+record(ao, "$(DEVICE):StDisableRLY")
+{
+    field(DESC, "Relay set points")
+    field(DESC, "Channel=1-5 disable relay")
+    field(DTYP, "stream")
+    field(OUT,  "@mks937.proto dis_gen('RLY',$(SENSOR),$(DEVICE):ERR) $(PORT)")
+}
+
+record(ai, "$(DEVICE):GtPRO")
+{
+    field(DESC, "Channel=1,2,4 Protection set points")
+    field(DTYP, "stream")
+    field(INP,  "@mks937.proto get_gen('PRO',$(SENSOR),$(DEVICE):ERR) $(PORT)")
+    field(EGU,  $(UNITS='Torr'))
+}
+
+record(ao, "$(DEVICE):StPRO")
+{
+    field(DESC, "Channel=1,2,4 Set protection points")
+    field(DTYP, "stream")
+    field(OUT,  "@mks937.proto set_gen('PRO',$(SENSOR),$(DEVICE):ERR) $(PORT)")
+}
+
+record(ao, "$(DEVICE):StDisablePRO")
+{
+    field(DESC, "Channel=1,2,4 disable protection")
+    field(DTYP, "stream")
+    field(OUT,  "@mks937.proto dis_gen('PRO',$(SENSOR),$(DEVICE):ERR) $(PORT)")
+}
+
+record(ai, "$(DEVICE):GtCTL")
+{
+    field(DESC, "Channel=1,2 control set points")
+    field(DTYP, "stream")
+    field(INP,  "@mks937.proto get_gen('CTL',$(SENSOR),$(DEVICE):ERR) $(PORT)")
+    field(EGU,  $(UNITS='Torr'))
+}
+
+record(ao, "$(DEVICE):StCTL")
+{
+    field(DESC, "Channel=1,2 Set control points")
+    field(DTYP, "stream")
+    field(OUT,  "@mks937.proto set_gen('CTL',$(SENSOR),$(DEVICE):ERR) $(PORT)")
+}
+
+record(ao, "$(DEVICE):StDisableCTL")
+{
+    field(DESC, "Channel=1,2 disable control")
+    field(DTYP, "stream")
+    field(OUT,  "@mks937.proto dis_gen('CTL',$(SENSOR),$(DEVICE):ERR) $(PORT)")
+}
+
+record(ai, "$(DEVICE):GtSEN")
+{
+    field(DESC, "Channel=1,2 HC sensitivity set points")
+    field(DTYP, "stream")
+    field(INP,  "@mks937.proto get_gen('SEN',$(SENSOR),$(DEVICE):ERR) $(PORT)")
+    field(EGU,  $(UNITS='Torr'))
+}
+
+record(ao, "$(DEVICE):StSEN")
+{
+    field(DESC, "Channel=1,2 Set HC sensitivity points")
+    field(DTYP, "stream")
+    field(OUT,  "@mks937.proto set_gen('SEN',$(SENSOR),$(DEVICE):ERR) $(PORT)")
+}
+
+################################################################################
+# Setpoint relay commands
+#
+
+record(stringin, "$(DEVICE):StER")
+{
+    field(DESC, "Enable setpoint relay n=1-5")
+    field(DTYP, "stream")
+    field(INP,  "@mks937.proto set_er($(SENSOR),$(DEVICE):ERR) $(PORT)")
+}
+
+record(stringin, "$(DEVICE):StXR")
+{
+    field(DESC, "Disable setpoint relay n=1-5")
+    field(DTYP, "stream")
+    field(INP,  "@mks937.proto set_xr($(SENSOR),$(DEVICE):ERR) $(PORT)")
+}
+
+record(mbbiDirect, "$(DEVICE):GtRELAYS")
+{
+    field(DESC, "Five bit relay state; MSB=channel 1")
+    field(DTYP, "stream")
+    field(INP,  "@mks937.proto get_rly($(SENSOR),$(DEVICE):ERR) $(PORT)")
+}
+
+################################################################################
+# Cold cathode commands
+#
+
+record(stringin, "$(DEVICE):StECC")
+{
+    field(DESC, "Enable cold cathode ch,1,2,4")
+    field(DTYP, "stream")
+    field(INP,  "@mks937.proto set_ecc($(SENSOR),$(DEVICE):ERR) $(PORT)")
+}
+
+record(stringin, "$(DEVICE):StXCC")
+{
+    field(DESC, "Disable cold cathode channel n=1,2,4")
+    field(DTYP, "stream")
+    field(INP,  "@mks937.proto set_xcc($(SENSOR),$(DEVICE):ERR) $(PORT)")
+}
+
+################################################################################
+# Hot cathode power and gas commands
+#
+
+###################
+#Interlocks test the pressure at the hot cathode sensor is below 10-2 torr
+#before enabling the filament, or it may be damaged. 
+
+record(stringin, "$(DEVICE):StEFIL")
+{
+    field(DESC, "Enable hot cathode ch,1,2")
+    field(DTYP, "stream")
+    field(INP,  "@mks937.proto set_efil($(SENSOR),$(DEVICE):ERR) $(PORT)")
+}
+
+record(stringin, "$(DEVICE):StEDEG")
+{
+    field(DESC, "Enable degass hot cathode ch 1,2")
+    field(DTYP, "stream")
+    field(INP,  "@mks937.proto set_edeg($(SENSOR),$(DEVICE):ERR) $(PORT)")
+}
+record(stringin, "$(DEVICE):StXFIL")
+{
+    field(DESC, "Disable hot cathode ch,1,2")
+    field(DTYP, "stream")
+    field(INP,  "@mks937.proto set_xfil($(SENSOR),$(DEVICE):ERR) $(PORT)")
+}
+
+record(stringin, "$(DEVICE):StXDEG")
+{
+    field(DESC, "Disable degass hot cathode n=1,2")
+    field(DTYP, "stream")
+    field(INP,  "@mks937.proto set_xdeg($(SENSOR),$(DEVICE):ERR) $(PORT)")
+}
+
+record(ai, "$(DEVICE):GtDEGAS")
+{
+    field(DESC, "HC abd A slot degas")
+    field(DTYP, "stream")
+    field(INP,  "@mks937.proto get_deg($(SENSOR),$(DEVICE):ERR) $(PORT)")
+}
+
+
+

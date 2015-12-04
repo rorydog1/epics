@@ -1,15 +1,53 @@
-# Stream Device Protocol for the MKS 937A Gauge Controller
-#09/11/2015
-# Rory Clarke modification of agilenXgs6000 by Pete Owens 24/6/2015
+## Stream Device Protocol for the MKS 937A Gauge Controller
+## 09/11/2015
+## Rory Clarke 
+
+##
+##Error Responses: Return these as an error message via mismatch
+##
+
+#CALLOCK! User calibration functions are locked out
+#COMLOCK! Control and configuration commands are locked out, but commands that only
+#read information may be used.
+
+#MISCONN! A Pirani, convection Pirani, or thermocouple sensor is not connected
+#NOGAUGE!
+#NOT929! The Controller is not a 929A
+#NOT937! The Controller is not a 937A
+#NOT CC! The sensor is not a cold cathode sensor
+#NOT CM! The sensor is not a capacitance manometer
+#NotCMD! The characters received did not form a valid command
+#NOT EB! The Hot Cathode Degas Module is not electron bombardment type
+#NOT HC! The sensor is not a hot cathode sensor
+#NOT ION! The sensor is not an ion (hot or cold cathode) sensor
+#NOTCONV! The sensor is not a convection sensor
+
+@mismatch {"%(\$2)s";}
+
 #
+#Char input
+#
+
 terminator   = CR;
 MaxInput = 40;
 
-#PZ may be up to 45 char long. The rext up to 10
 
-#sendCmd { out "\$1"; in "%45[0-9a-zA-Z ]"  }
+#
+#Pressure
+#
 
-get_PZ {out "PZ"; in "%#s" }
+#PZ: Not useful as the data stream is longer than the max 40 chars in EPICS. Used for testing
+
+get_PZ {out "PZ"; in "%#s"  }
+
+#Pn: read pressure on channel n
+
+get_press {out "P\$1"; in "%#s"  }
+
+# Gauge Parameters
+
+set_label { out "#0014\$1%5s"; in ">";    }
+get_label { out "#0015\$1";    in ">%5c"; }
 
 #
 # Controller Parameters
@@ -37,12 +75,12 @@ get_PZ {out "PZ"; in "%#s" }
 #get_afadv { out "#0037";         in ">%d"; }
 #set_atmos { out "#00A3%.3fE+03"; in ">";   }
 
-#
+
 # Gauge Parameters
-#
-#get_pres  { out "#0002\$1";    in ">%g";  }
-#set_label { out "#0014\$1%5s"; in ">";    }
-#get_label { out "#0015\$1";    in ">%5c"; }
+
+get_pres  { out "#0002\$1";    in ">%g";  }
+set_label { out "#0014\$1%5s"; in ">";    }
+get_label { out "#0015\$1";    in ">%5c"; }
 
 #
 # IMG Parameters

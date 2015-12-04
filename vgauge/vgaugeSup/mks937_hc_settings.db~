@@ -1,0 +1,62 @@
+################################################################################
+# Hot cathode power and gas commands
+#
+
+###################START check HC pressure enable
+#Warning: Verify that the pressure at the hot cathode sensor is below 10-2
+#Torr before enabling the filament, or it may be damaged.
+
+### StEFIL =FLINK=> PriTorr
+### StEFIL.CALC Test units and pressure VAL=1 <OK> VAL=0 <FAIL> =FLINK=> SwtEFIL
+### SwtEFIL(StEFIL.VAL=1) PriStEFIL(StEFIL.VAL) or SwtEFIL(StEFIL.VAL=0) PriStErrEFIL
+
+record(calcout, "$(DEVICE):StEFIL")
+{
+    field(DESC, "Pressure OK? Enable HC.")
+    field(INPA,  "$(DEVICE):GtP")
+    field(INPB,  "$(DEVICE):PriTorr")
+    field(CALC,  "B=1?(A<10e-2?VAL=2:VAL=1):VAL=3")
+    field(OOPT,"Evey Time")
+    field(OUT, "$(DEVICE):PriFanEFIL")
+
+}
+
+record(fanout,"$(DEVICE):StFanEFIL")
+{
+    field(DESC, "1 OK, 2 Prs err, 3 Unit err")
+    field(SELM, "Specified")
+    field(SELL, "$(DEVICE):StEFIL.VAL NPP")
+    field(LNK1, "$(DEVICE):PriStEFIL")
+    field(LNK2, "$(DEVICE):PriStPErrEFIL NPP")
+    field(LNK3, "$(DEVICE):PriStUErrEFIL NPP")
+}
+
+record(bi, "$(DEVICE):PriTorr")
+{
+    field(DESC, "Check units are in Torr")
+    field(INP, "($UNITS)")
+    field(ONAM, "Torr")
+
+}
+
+record(stringout, "PriStPErrEFIL")
+{
+    field(DESC, "Pressure HV error")
+    field(OUT, "$(DEVICE):ERR")
+    field(OMSL, "closed_loop")
+    field(VAL,  "HC pressure > 10e-2 Torr")
+}
+
+record(stringout, "PriStUErrEFIL")
+{
+    field(DESC, "Unit error")
+    field(OUT, "$(DEVICE):ERR")
+    field(OMSL, "closed_loop")
+    field(VAL,  "HC pressure not in Torr")
+}
+
+record(stringin, "$(DEVICE):PriStEFIL")
+{
+    field(DESC, "Enable hot cathode ch,1,2")
+    field(DTYP, "stream")
+    field(INP,  "@mks937.proto set_efil(SEN$(SENSOR),$(DEVICE):ERR, $(DEVICE):StEFIL ) $(PORT)")

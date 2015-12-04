@@ -15,7 +15,7 @@ vgauge_registerRecordDeviceDriver pdbbase
 epicsEnvSet ("STREAM_PROTOCOL_PATH","$(EPICS_BASE)/vgauge/vgaugeSup")
 
 ## Configure devices
-   drvAsynSerialPortConfigure("L0","/dev/ttyUSB0",0,0,0)
+   drvAsynSerialPortConfigure("L0","/home/rory/COM8",0,0,0)
    asynSetOption("L0",-1,"baud","9600")
    asynSetOption("L0",-1,"bits","8")
    asynSetOption("L0",-1,"parity","even")

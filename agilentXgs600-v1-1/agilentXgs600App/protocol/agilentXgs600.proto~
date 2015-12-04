@@ -49,7 +49,7 @@ get_afadv { out "#0037";         in ">%d"; }
 set_atmos { out "#00A3%.3fE+03"; in ">";   }
 
 #
-# Gauge ParametersstreamReload
+# Gauge Parameters
 #
 get_pres  { out "#0002\$1";    in ">%g";  }
 set_label { out "#0014\$1%5s"; in ">";    }
