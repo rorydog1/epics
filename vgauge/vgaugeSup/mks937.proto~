@@ -37,12 +37,11 @@ MaxInput = 40;
 #
 
 ## PZ: Not useful as the data stream is longer than the max 40 chars in EPICS. Used for testing
+#get_PZ {out "PZ"; in "%1.1E" }
 
-get_PZ {out "PZ"; in "%1.1E" }
+## Pn: read pressure on channel n: Use the regexp to filter numbers from match HI>Eee, LO<Eee,AA_Eee
+get_pres {out "P\$1"; in "%E"; @mismatch{in "%(\$2)/[A-Za-z_! (937)(929)]+/"}  }
 
-## Pn: read pressure on channel n %(\$2)#s
-
-get_pres {out "P\$1"; in "%E"; @mismatch{in "%(\$2)#s";}  }
 
 ## Pressure and combination sensors
 get_comb {out "C\$1"; in "%E"; @mismatch{in "%(\$2)#s";}  }
@@ -78,7 +77,5 @@ set_xdeg {out "XDEG\$1"; in "OK";        @mismatch{in "%(\$2)#s";}}
 #There are 9 combinations for the two degass and two disconnects but we have 16 options with four bits
 #H can't be with a 1, A can't be with a zero and HH AA make no sense
 #To make this work 00->0, 01->1, 10->2, 11->3, 0X->4,1X->6,X0->8,X1->9,XX->12
-#get_deg  {out "DEGAS"; in "degas%#{00=0|01=1|10=2|11=3|0X=4|1X=6|X0=8|X1=9|XX=12}"; @mismatch{in "%(\$2)#s";}}
-get_deg  {out "DEGAS"; in "%{zero|NOT929!|two}!";}
-#get_deg  {out "DEGAS"; in "%#s"; @mismatch{in "%(\$2)#s";}}
+get_deg  {out "DEGAS"; in "degas%#{00=0|01=1|10=2|11=3|0X=4|1X=6|X0=8|X1=9|XX=12}"; @mismatch{in "%(\$2)#s";}}
 

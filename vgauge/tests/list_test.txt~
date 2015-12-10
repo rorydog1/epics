@@ -4,7 +4,7 @@
 # Set Error:
 # ONERROR, Error record from PV
 # All other lines:
-#record,PV to read, desired MKS response, expected output from IOC PV, IOC data type, error record
+# record and value,record and PV to read, desired MKS response, expected output from IOC PV, IOC data type, error record
 #############
 
 # Hash and blank lines are skipped
@@ -24,36 +24,54 @@
 ONERROR,mks937:ERR.VAL
 
 #Test pressure
-#mks937:GtP,VAL,5.2E-6,5.2e-06,2
+#mks937:GtP 0,mks937:GtP,5.2E-6,5.2e-06,2
 
 #Test relay states on states
-#mks937:GtRELAYS,VAL,rly11111,31,3
-#mks937:GtRELAYS,B0,rly10110,0,4
-#mks937:GtRELAYS,B1,rly11100,0,4
-#mks937:GtRELAYS,B2,rly11010,0,4
-#mks937:GtRELAYS,B3,rly10110,0,4
-#mks937:GtRELAYS,B4,rly01111,0,4
+#mks937:GtRELAYS 0,mks937:GtRELAYS,rly11111,31,3
+#mks937:GtRELAYS 0,mks937:GtRELAYS.B0,rly10110,0,4
+#mks937:GtRELAYS 0,mks937:GtRELAYS.B1,rly11100,0,4
+#mks937:GtRELAYS 0,mks937:GtRELAYS.B2,rly11010,0,4
+#mks937:GtRELAYS 0,mks937:GtRELAYS.B3,rly10110,0,4
+#mks937:GtRELAYS 0,mks937:GtRELAYS.B4,rly01111,0,4
 
 #Test relay states off states
-#mks937:GtRELAYS,B0,rly00111,1,4
-#mks937:GtRELAYS,B1,rly10110,1,4
-#mks937:GtRELAYS,B2,rly10110,1,4
-#mks937:GtRELAYS,B3,rly11100,1,4
-#mks937:GtRELAYS,B4,rly11110,1,4
+#mks937:GtRELAYS 0,mks937:GtRELAYS.B0,rly00111,1,4
+#mks937:GtRELAYS 0,mks937:GtRELAYS.B1,rly10110,1,4
+#mks937:GtRELAYS 0,mks937:GtRELAYS.B2,rly10110,1,4
+#mks937:GtRELAYS 0,mks937:GtRELAYS.B3,rly11100,1,4
+#mks937:GtRELAYS 0,mks937:GtRELAYS.B4,rly11110,1,4
 
 #Test degas
 #
-#mks937:GtDEGAS,VAL,degas00,0,3
-#mks937:GtDEGAS,VAL,degas01,1,3
-#mks937:GtDEGAS,VAL,degas10,2,3
-#mks937:GtDEGAS,VAL,degas11,3,3
-#mks937:GtDEGAS,VAL,degas0X,4,3
-#mks937:GtDEGAS,VAL,degasX0,6,3
-#mks937:GtDEGAS,VAL,degas1X,8,3
-#mks937:GtDEGAS,VAL,degasX1,9,3
-#mks937:GtDEGAS,VAL,degasXX,12,1
+#mks937:GtDEGAS 0,GtDEGAS,degas00,0,3
+#mks937:GtDEGAS 0,GtDEGAS,degas01,1,3
+#mks937:GtDEGAS 0,GtDEGAS,degas10,2,3
+#mks937:GtDEGAS 0,GtDEGAS,degas11,3,3
+#mks937:GtDEGAS 0,GtDEGAS,degas0X,4,3
+#mks937:GtDEGAS 0,GtDEGAS,degasX0,6,3
+#mks937:GtDEGAS 0,GtDEGAS,degas1X,8,3
+#mks937:GtDEGAS 0,GtDEGAS,degasX1,9,3
+#mks937:GtDEGAS 0,GtDEGAS,degasXX,12,1
 
-mks937:GtDEGAS,VAL,onebla,1,3
+#Test errors
+mks937:GtP 0,mks937:ERR,LO,LO,0
+mks937:GtP 0,mks937:ERR,AA_E+22,AA_E,0
+mks937:GtP 0,mks937:ERR,NOT937!,NOT937!,0
+mks937:GtP 0,mks937:ERR,NOT CC!,NOT CC!,0
+mks937:GtP 0,mks937:GtPErr,LO,9,1
+mks937:GtP 0,mks937:GtSetRlyPntErr,OUT!,1,1
+mks937:GtP 0,mks937:GtGlobalErr,NOCONV!,12,1
+mks937:GtP 0,mks937:GtCCHCErr,COM_dis!,7,1
+
+#Test calibrations
+#Assume set as CC in startup file and CM is 10
+#Note: no MKS response here so just use DUMMY
+
+mks937:StSenT TC,mks937:PrvGtSenT,DUMMY,5,1
+
+
+
+
 
 
 

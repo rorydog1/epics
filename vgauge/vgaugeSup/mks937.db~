@@ -7,18 +7,261 @@
 # substitutions:
 # DEVICE  - DEVICE name
 # PORT    - asyn PORT
-# SENSOR  - SENSOR (T1-T5)
+# SENSOR  - SENSOR (1-5)
+# SEN_TY  - CC,PR,CP,CM,TC => Cold Cathode, Pirani, Convection Pirani, Capacitance Manometer, Thermocouple
+#         - Override default ranges in:
+#	    GtSenRngL
+#           GtSenRngH
+#           GtSenRngRlyL
+#           GtSenRngRlyH
+#         - A CM (Capacative Manometer) is a special case. Set the scale in CAPMAN and its ranges are calculated in
+#           GtCmRangeL
+#           GtCmRangeH
+#           GtCmRelayRngL
+#           GtCmRelayRngH 
+
+# UNITS   - Default = Torr
+
+
+# Notes:
+#The five sensor channels, HC/CC, A1, A2, B1, B2, are identified in
+#commands and responses as channel numbers 1-5.
+#
+#Default units are in Torr, can be changed with $UNITS
+#if you want to use units other than torr, then pressure limits need to be added to substitution file
+
+#ERR will hold any message that is not parsed by StreamDevice. These can be a mix of errors or warnings
 #
 
 
+
 ################################################################################
+#Setup:
+#There are five different types of sensor
+#PtSenT reads a sensor string and triggers PrvGtSenT to convert it to a number (ENUM)
+#calc records translate that sensor number to the correct range 
+
+record(stringout, "$(DEVICE):StSenT")
+{
+      field(VAL,"$(SENTYP)")
+      field(OUT,"$(DEVICE):PrvGtSenT.VAL PP")
+}
+
+record(mbbi, "$(DEVICE):PrvGtSenT")
+{
+    field(DESC, "Convert sensor type to a number")
+    field(VAL,"0")
+    field(ONST,"CC")
+    field(TWST,"PR")
+    field(THST,"CP")
+    field(FRST,"CM")
+    field(FVST,"TC")
+    field(ZRSV,"INVALID")
+}
+
+###Sensor ranges
+
+record(calc, "$(DEVICE):GtSenRngL")
+{
+    field(DESC, "Low sensor range")
+    field(INPL, "$(DEVICE):PrvGtSenT.VAL")
+#   Low
+    field(INPA,1.0e-11)
+    field(INPB,5.0e-04)
+    field(INPC,1.0e-03)
+    field(INPD, "GtCmRangeL.VAL")
+    field(INPE,1.0e-03)
+    field(CALC,"L=1?A:L=2?B:L=3?C:L=4?D:E")
+}
+
+record(calc, "$(DEVICE):GtSenRngH")
+{
+    field(DESC, "High sensor range")
+    field(INPL, "$(DEVICE):PrvGtSenT.VAL")
+#   Low
+    field(INPA,1.0e-02)
+    field(INPB,4.0e-02)
+    field(INPC,1.0e+03)
+    field(INPD, "GtCmRangeH.VAL")
+    field(INPE,1.0e-01)
+    field(CALC,"L=1?A:L=2?B:L=3?C:L=4?D:E")
+}
+
+### Relay setpoint ranges
+
+record(calc, "$(DEVICE):GtSenRngRlyL")
+{
+    field(DESC, "Low realy sensor range")
+    field(INPL, "$(DEVICE):PrvGtSenT.VAL")
+#   Low
+    field(INPA,2.0e-12)
+    field(INPB,2.0e-03)
+    field(INPC,2.0e-03)
+    field(INPD, "GtCmRangeRlyL.VAL")
+    field(INPE,2.0e-03)
+    field(CALC,"L=1?A:L=2?B:L=3?C:L=4?D:E")
+}
+
+record(calc, "$(DEVICE):GtSenRngRlyH")
+{
+    field(DESC, "High relay sensor range")
+    field(INPL, "$(DEVICE):PrvGtSenT.VAL")
+#   High
+    field(INPA,9.5e-03)
+    field(INPB,9.5e+01)
+    field(INPC,9.5e+02)
+    field(INPD, "GtCmRangeRlyH.VAL")
+    field(INPE,9.5e-01)
+    field(CALC,"L=1?A:L=2?B:L=3?C:L=4?D:E")
+}
+
+### Capacative manometer ranges
+record(calc, "$(DEVICE):GtCmRangeL")
+{
+    field(DESC, "Capacative manometer low ranges")
+    field(CALC,"$(CAPMAN)*1.0e-3")
+}
+record(calc, "$(DEVICE):GtCmRangeH")
+{
+    field(DESC, "Capacative manometer high ranges")
+    field(CALC,"$(CAPMAN)")
+}
+record(calc, "$(DEVICE):GtCmRangeRlyL")
+{
+    field(DESC, "Capacative manometer relay low ranges")
+    field(CALC,"$(CAPMAN)*0.01")
+}
+record(calc, "$(DEVICE):GtCmRangeRlyH")
+{
+    field(DESC, "Capacative manometer relay high ranges")
+    field(CALC,"$(CAPMAN)*.95")
+}
+
+
+################################################################################
+#Errors:
+#Due to the nature of input links and VAL we need an stringout as a buffer for a string input to match in mbbi
+#When an error is put into ERR, PrvErrFan triggers the St setters that read the ERR value
+#and trigger Gt miibs to start the matching
+
 record(stringin, "$(DEVICE):ERR")
 {
+    field(FLNK,"PrvErrFan")
+}
+
+record(fanout, "PrvErrFan")
+{
+    field(LNK1,"$(DEVICE):StGlobalErr")
+    field(LNK2,"$(DEVICE):StPErr")
+    field(LNK3,"$(DEVICE):StSetRlyPntErr")
+    field(LNK4,"$(DEVICE):StCCHCErr")
+}
+
+###Global
+
+record(stringout, "$(DEVICE):StGlobalErr")
+{
+    field(DESC, "Set string for global errors")
+    field(DOL,"$(DEVICE):ERR.VAL")
+    field(OMSL,"closed_loop")
+    field(OUT,"$(DEVICE):GtGlobalErr")
+}
+
+record(mbbi, "$(DEVICE):GtGlobalErr")
+{
+    field(DESC, "Set bits for global errors")
+    field(INP, "$(DEVICE):ERR.VAL PP")
+    field(VAL,"0")
+    field(ZRST,"OK")
+    field(ONST,"NotCMD!")
+    field(TWST,"NOT929!")
+    field(THST,"NOT937!")
+    field(FRST,"CALLOCK!")
+    field(FVST,"COMLOCK!")
+    field(SXST, "NOGAUGE!")
+    field(SVST, "NOT CC!")
+    field(EIST, "NOT CM!")
+    field(NIST, "NOT EB!")
+    field(TEST, "NOT HC!")
+    field(ELST, "NOTION!")
+    field(TVST, "NOCONV!")
+}
+
+###Pressure
+
+record(stringout, "$(DEVICE):StPErr")
+{
+   field(DESC, "Set string for pressure errors")
+   field(DOL,"$(DEVICE):ERR.VAL")
+   field(OMSL,"closed_loop")
+   field(OUT,"$(DEVICE):GtPErr")
+}
+
+record(mbbi, "$(DEVICE):GtPErr")
+{
+    field(DESC, "Set bits for pressure errors")
+    field(VAL,"0")
+    field(ZRST,"OK")
+    field(ONST,"MISCONN!")
+    field(TWST,"NEGATIV!")
+    field(THST,"PROTECT!")
+    field(FRST,"CONTROL!")
+    field(FVST,"LowEmis!")
+    field(SXST,"WAIT")
+    field(SVST,"HV_OFF!")
+    field(EIST,"FIL_OFF!")
+    field(NIST,"LO")
+    field(TEST,"LO<E")
+    field(ELST,"AA_E")
+    field(TVST,"HI>E")
+}
+###Relay set point and HC error
+
+record(stringout, "$(DEVICE):StSetRlyPntErr")
+{
+   field(DESC, "Set string for rly errors")
+   field(DOL,"$(DEVICE):ERR.VAL")
+   field(OMSL,"closed_loop")
+   field(OUT,"$(DEVICE):GtSetRlyPntErr")
+}
+
+record(mbbi, "$(DEVICE):GtSetRlyPntErr")
+{
+    field(DESC, "Set bits for Rly errors")
+    field(INP, "$(DEVICE):ERR.VAL PP")
+    field(VAL,"0")
+    field(ZRST,"OK")
+    field(ONST,"OUT!")
+}
+###Cold Cathode/ HC comands and error
+
+record(stringout, "$(DEVICE):StCCHCErr")
+{
+   field(DESC, "Set string for CC errors")
+   field(DOL,"$(DEVICE):ERR.VAL")
+   field(OMSL,"closed_loop")
+   field(OUT,"$(DEVICE):GtCCHCErr")
+}
+
+record(mbbi, "$(DEVICE):GtCCHCErr")
+{
+    field(DESC, "Set bits for CC errors")
+    field(INP, "$(DEVICE):ERR.VAL PP")
+    field(VAL,"0")
+    field(ZRST,"OK")
+    field(ONST,"AGAIN")
+    field(TWST,"PENDING")
+    field(THST,"PS_FAULT!")
+    field(FRST,"REARdis!")
+    field(FVST,"LOCAL!")
+    field(SXST,"REAR!")
+    field(SVST,"COM_dis!")
 }
 
 ################################################################################
 # Read pressure set points
 #
+
 record(ai, "$(DEVICE):GtP")
 {
     field(DESC, "Channel=1-5 Pressure")
@@ -28,10 +271,10 @@ record(ai, "$(DEVICE):GtP")
     field(PREC, "9")
     field(LOPR, "0")
     field(HOPR, "1000")
-    field(LOW,  "0")
-    field(HIGH, "1")
-    field(LOLO, "-0.1")
-    field(HIHI, "1000")
+    field(LOW,  "")
+    field(HIGH, "")
+    field(LOLO, "1e-11")
+    field(HIHI, "1e+4")
     field(LSV,  "MINOR")
     field(HSV,  "MINOR")
     field(LLSV, "MAJOR")
@@ -211,7 +454,7 @@ record(stringin, "$(DEVICE):StXDEG")
     field(INP,  "@mks937.proto set_xdeg($(SENSOR),$(DEVICE):ERR) $(PORT)")
 }
 
-record(ai, "$(DEVICE):GtDEGAS")
+record(mbbi, "$(DEVICE):GtDEGAS")
 {
     field(DESC, "HC abd A slot degas")
     field(DTYP, "stream")

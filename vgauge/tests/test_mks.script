@@ -66,13 +66,13 @@ do
 
  #Use caput to trigger the record. caget does not trigger the record, only reads it. Use a caput and ignore input vals
  #Save any errors
- caput  $PV.VAL 0 2> /dev/null > /dev/null
- TESTOUT=`caget -d$TYPE $PV.$PFIELD | awk '/Value/{print $2}'`
+ caput  `echo $PV | awk '{print $1}'` `echo $PV | awk '{print $2}'` 2> /dev/null > /dev/null
+ TESTOUT=`caget -d$TYPE $PFIELD | awk '/Value/{print substr($0, index($0,$2))}'`
  ERROR_RESULT=`caget $ERROR_RECORD`
  echo "IOC responded" $TESTOUT "and user expected" $PVOUT
 
  #Check that the record returned what you expected
- [ "$TESTOUT" = "$PVOUT" ] && { echo "<OK> $PV.$PFIELD"; } || { echo "************Error $PV.$PFIELD : Type $ERROR_RESULT"; }
+ [ "$TESTOUT" = "$PVOUT" ] && { echo "<OK> $PFIELD"; } || { echo "************Error $PFIELD : Type $ERROR_RESULT"; }
 done < $INPUTF
 
 #Kill last gawk

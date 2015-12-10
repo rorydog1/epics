@@ -1,0 +1,208 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 387
+y 110
+w 602
+h 689
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-12.0"
+btnFont "helvetica-bold-r-14.0"
+fgColor index 0
+bgColor index 50
+textColor index 0
+ctlFgColor1 index 1
+ctlFgColor2 index 7
+ctlBgColor1 index 19
+ctlBgColor2 index 21
+topShadowColor index 2
+botShadowColor index 0
+endScreenProperties
+
+# (Meter)
+object activeMeterClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 23
+y 111
+w 259
+h 167
+caseColor index 49
+scaleColor index 49
+labelColor index 49
+fgColor index 49
+bgColor index 1
+topShadowColor index 2
+botShadowColor index 0
+readPv "GtP"
+label "Pressure (Torr) $R"
+showScale
+scaleFormat "Exponential"
+scalePrecision ""
+scaleLimitsFromDb
+useDisplayBg
+complexNeedle
+3d
+labelFontTag "helvetica-medium-r-18.0"
+scaleFontTag "helvetica-medium-r-12.0"
+endObjectProperties
+
+# (Meter)
+object activeMeterClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 24
+y 302
+w 259
+h 167
+caseColor index 49
+scaleColor index 49
+labelColor index 49
+fgColor index 49
+bgColor index 1
+topShadowColor index 2
+botShadowColor index 0
+readPv "GtP"
+label "Pressure (Torr)"
+showScale
+scaleFormat "Exponential"
+scalePrecision ""
+scaleLimitsFromDb
+useDisplayBg
+complexNeedle
+3d
+labelFontTag "helvetica-medium-r-18.0"
+scaleFontTag "helvetica-medium-r-12.0"
+endObjectProperties
+
+# (Meter)
+object activeMeterClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 324
+y 111
+w 259
+h 167
+caseColor index 49
+scaleColor index 49
+labelColor index 49
+fgColor index 49
+bgColor index 1
+topShadowColor index 2
+botShadowColor index 0
+readPv "GtP"
+label "Pressure (Torr)"
+showScale
+scaleFormat "Exponential"
+scalePrecision ""
+scaleLimitsFromDb
+useDisplayBg
+complexNeedle
+3d
+labelFontTag "helvetica-medium-r-18.0"
+scaleFontTag "helvetica-medium-r-12.0"
+endObjectProperties
+
+# (Meter)
+object activeMeterClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 322
+y 304
+w 259
+h 167
+caseColor index 49
+scaleColor index 49
+labelColor index 49
+fgColor index 49
+bgColor index 1
+topShadowColor index 2
+botShadowColor index 0
+readPv "GtP"
+label "Pressure (Torr)"
+showScale
+scaleFormat "Exponential"
+scalePrecision ""
+scaleLimitsFromDb
+useDisplayBg
+complexNeedle
+3d
+labelFontTag "helvetica-medium-r-18.0"
+scaleFontTag "helvetica-medium-r-12.0"
+endObjectProperties
+
+# (Meter)
+object activeMeterClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 23
+y 489
+w 259
+h 167
+caseColor index 49
+scaleColor index 49
+labelColor index 49
+fgColor index 49
+bgColor index 1
+topShadowColor index 2
+botShadowColor index 0
+readPv "GtP"
+label "Pressure (Torr)"
+showScale
+scaleFormat "Exponential"
+scalePrecision ""
+scaleLimitsFromDb
+useDisplayBg
+complexNeedle
+3d
+labelFontTag "helvetica-medium-r-18.0"
+scaleFontTag "helvetica-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 153
+y 11
+w 312
+h 43
+lineColor index 0
+fill
+fillColor index 31
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 202
+y 27
+w 22
+h 24
+font "helvetica-medium-r-18.0"
+fgColor index 0
+bgColor index 19
+useDisplayBg
+value {
+  "$P"
+}
+autoSize
+endObjectProperties
+
