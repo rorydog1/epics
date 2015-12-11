@@ -3,8 +3,8 @@ beginScreenProperties
 major 4
 minor 0
 release 1
-x 387
-y 110
+x 178
+y 243
 w 602
 h 689
 font "helvetica-medium-r-18.0"
@@ -38,15 +38,132 @@ fgColor index 49
 bgColor index 1
 topShadowColor index 2
 botShadowColor index 0
-readPv "GtP"
-label "Pressure (Torr) $R"
+readPv "$(P)1:GtP"
+label "Pressure (Torr) Chan 1"
 showScale
 scaleFormat "Exponential"
 scalePrecision ""
-scaleLimitsFromDb
 useDisplayBg
+labelIntervals "10"
 complexNeedle
 3d
+scaleMin "$(LO1)"
+scaleMax "$(HI1)"
+labelFontTag "helvetica-medium-r-18.0"
+scaleFontTag "helvetica-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 154
+y 12
+w 312
+h 43
+lineColor index 0
+fill
+fillColor index 31
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 160
+y 22
+w 174
+h 21
+controlPv "$(P)1:GtDeviceName"
+fgColor index 14
+bgColor index 19
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 354
+y 22
+w 75
+h 24
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 19
+useDisplayBg
+value {
+  "Pressure"
+}
+autoSize
+endObjectProperties
+
+# (Meter)
+object activeMeterClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 302
+y 111
+w 259
+h 167
+caseColor index 49
+scaleColor index 49
+labelColor index 49
+fgColor index 49
+bgColor index 1
+topShadowColor index 2
+botShadowColor index 0
+readPv "$(P)2:GtP"
+label "Pressure (Torr) Chan 1"
+showScale
+scaleFormat "Exponential"
+scalePrecision ""
+useDisplayBg
+labelIntervals "10"
+complexNeedle
+3d
+scaleMin "$(LO2)"
+scaleMax "$(HI2)"
+labelFontTag "helvetica-medium-r-18.0"
+scaleFontTag "helvetica-medium-r-12.0"
+endObjectProperties
+
+# (Meter)
+object activeMeterClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 303
+y 313
+w 259
+h 167
+caseColor index 49
+scaleColor index 49
+labelColor index 49
+fgColor index 49
+bgColor index 1
+topShadowColor index 2
+botShadowColor index 0
+readPv "$(P)4:GtP"
+label "Pressure (Torr) Chan 1"
+showScale
+scaleFormat "Exponential"
+scalePrecision ""
+useDisplayBg
+labelIntervals "10"
+complexNeedle
+3d
+scaleMin "$(LO4)"
+scaleMax "$(HI4)"
 labelFontTag "helvetica-medium-r-18.0"
 scaleFontTag "helvetica-medium-r-12.0"
 endObjectProperties
@@ -58,7 +175,7 @@ major 4
 minor 1
 release 0
 x 24
-y 302
+y 313
 w 259
 h 167
 caseColor index 49
@@ -68,15 +185,17 @@ fgColor index 49
 bgColor index 1
 topShadowColor index 2
 botShadowColor index 0
-readPv "GtP"
-label "Pressure (Torr)"
+readPv "$(P)3:GtP"
+label "Pressure (Torr) Chan 1"
 showScale
 scaleFormat "Exponential"
 scalePrecision ""
-scaleLimitsFromDb
 useDisplayBg
+labelIntervals "10"
 complexNeedle
 3d
+scaleMin "$(LO3)"
+scaleMax "$(HI3)"
 labelFontTag "helvetica-medium-r-18.0"
 scaleFontTag "helvetica-medium-r-12.0"
 endObjectProperties
@@ -87,8 +206,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 324
-y 111
+x 24
+y 513
 w 259
 h 167
 caseColor index 49
@@ -98,111 +217,133 @@ fgColor index 49
 bgColor index 1
 topShadowColor index 2
 botShadowColor index 0
-readPv "GtP"
-label "Pressure (Torr)"
+readPv "$(P)5:GtP"
+label "Pressure (Torr) Chan 1"
 showScale
 scaleFormat "Exponential"
 scalePrecision ""
-scaleLimitsFromDb
 useDisplayBg
+labelIntervals "10"
 complexNeedle
 3d
+scaleMin "$(LO5)"
+scaleMax "$(HI5)"
 labelFontTag "helvetica-medium-r-18.0"
 scaleFontTag "helvetica-medium-r-12.0"
 endObjectProperties
 
-# (Meter)
-object activeMeterClass
+# (Text Monitor)
+object activeXTextDspClass:noedit
 beginObjectProperties
 major 4
-minor 1
+minor 7
 release 0
-x 322
-y 304
-w 259
-h 167
-caseColor index 49
-scaleColor index 49
-labelColor index 49
-fgColor index 49
-bgColor index 1
-topShadowColor index 2
-botShadowColor index 0
-readPv "GtP"
-label "Pressure (Torr)"
-showScale
-scaleFormat "Exponential"
-scalePrecision ""
-scaleLimitsFromDb
-useDisplayBg
-complexNeedle
-3d
-labelFontTag "helvetica-medium-r-18.0"
-scaleFontTag "helvetica-medium-r-12.0"
-endObjectProperties
-
-# (Meter)
-object activeMeterClass
-beginObjectProperties
-major 4
-minor 1
-release 0
-x 23
-y 489
-w 259
-h 167
-caseColor index 49
-scaleColor index 49
-labelColor index 49
-fgColor index 49
-bgColor index 1
-topShadowColor index 2
-botShadowColor index 0
-readPv "GtP"
-label "Pressure (Torr)"
-showScale
-scaleFormat "Exponential"
-scalePrecision ""
-scaleLimitsFromDb
-useDisplayBg
-complexNeedle
-3d
-labelFontTag "helvetica-medium-r-18.0"
-scaleFontTag "helvetica-medium-r-12.0"
-endObjectProperties
-
-# (Rectangle)
-object activeRectangleClass
-beginObjectProperties
-major 4
-minor 0
-release 0
-x 153
-y 11
-w 312
-h 43
-lineColor index 0
-fill
-fillColor index 31
-endObjectProperties
-
-# (Text w. Reg. Exp.)
-object activeXRegTextClass
-beginObjectProperties
-major 4
-minor 1
-release 1
-x 202
-y 27
-w 22
+x 25
+y 85
+w 69
 h 24
+controlPv "$(P)1:GtSenType"
 font "helvetica-medium-r-18.0"
-fgColor index 0
+fgColor index 14
 bgColor index 19
 useDisplayBg
-value {
-  "$P"
-}
-autoSize
+autoHeight
+limitsFromDb
+nullColor index 7
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 304
+y 86
+w 69
+h 24
+controlPv "$(P)2:GtSenType"
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 19
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 7
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 26
+y 288
+w 69
+h 24
+controlPv "$(P)3:GtSenType"
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 19
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 7
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 304
+y 289
+w 69
+h 24
+controlPv "$(P)4:GtSenType"
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 19
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 7
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 27
+y 487
+w 69
+h 24
+controlPv "$(P)5:GtSenType"
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 19
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 7
+useHexPrefix
+newPos
+objType "monitors"
 endObjectProperties
 

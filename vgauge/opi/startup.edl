@@ -1,0 +1,3 @@
+edm -m "P=mks937a,LO1=`caget -t mks937a1:GtSenRngL`,HI1=`caget -t mks937a1:GtSenRngH`,LO2=`caget -t mks937a2:GtSenRngL`,HI2=`caget -t mks937a2:GtSenRngH`,LO3=`caget -t mks937a3:GtSenRngL`,HI3=`caget -t mks937a3:GtSenRngH`,LO4=`caget -t mks937a4:GtSenRngL`,HI4=`caget -t mks937a4:GtSenRngH`,LO5=`caget -t mks937a5:GtSenRngL`,HI5=`caget -t mks937a5:GtSenRngH`" pressure.edl
+
+

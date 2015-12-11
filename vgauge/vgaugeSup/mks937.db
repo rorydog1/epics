@@ -3,9 +3,11 @@
 #
 # Notation: S are setters, G are getters
 # The MKS must be set to pressure in Torr otherwise HC will fail
+# Each device sensor (1-5) is started from st.cmd with a new dbLoadRecords
+#
 #
 # substitutions:
-# DEVICE  - DEVICE name
+#  - DEVICE name
 # PORT    - asyn PORT
 # SENSOR  - SENSOR (1-5)
 # SEN_TY  - CC,PR,CP,CM,TC => Cold Cathode, Pirani, Convection Pirani, Capacitance Manometer, Thermocouple
@@ -19,7 +21,7 @@
 #           GtCmRangeH
 #           GtCmRelayRngL
 #           GtCmRelayRngH 
-
+# CAPMAN  - Scale of capacative manometer. Default is 100
 # UNITS   - Default = Torr
 
 
@@ -34,20 +36,71 @@
 #
 
 
+################################################################################
+#General Info for OIPs
+
+record(stringin, "$(DEVICE)$(SENSOR):GtDeviceName")
+{
+    field(VAL,"$(DEVICE)")
+}
+
+record(stringin, "$(DEVICE)$(SENSOR):GtSenNum")
+{
+    field(VAL,"$(SENSOR)")
+}
+
+record(stringin,"$(DEVICE)$(SENSOR):GtSenType")
+{
+    field(VAL,"$(SENTYP)")
+}
+record(stringin,"$(DEVICE)$(SENSOR):GtTypeCP")
+{
+    field(VAL,"$(CAPMAN=100)")
+}
 
 ################################################################################
 #Setup:
 #There are five different types of sensor
-#PtSenT reads a sensor string and triggers PrvGtSenT to convert it to a number (ENUM)
-#calc records translate that sensor number to the correct range 
+#StUpdateRage reads a sensor string and triggers a fanout
+#Map sensor type to a number in StSenT
+#Deal with the CM calculatio in GtCmRange*
+#The sensor type and the CM ranges are fed into GtSen*
+#calc records translate that sensor number to the correct range for a sensor
 
-record(stringout, "$(DEVICE):StSenT")
+record(stringin, "$(DEVICE)$(SENSOR):StUpdateRange")
 {
-      field(VAL,"$(SENTYP)")
-      field(OUT,"$(DEVICE):PrvGtSenT.VAL PP")
+    field(VAL,"$(SENTYP)")
+    field(PINI,"YES")
+    field(FLNK,"$(DEVICE)$(SENSOR):PrvRngFan")
 }
 
-record(mbbi, "$(DEVICE):PrvGtSenT")
+record(fanout, "$(DEVICE)$(SENSOR):PrvRngFan")
+{
+    field(LNK1,"$(DEVICE)$(SENSOR):StSenT")
+    field(LNK2,"$(DEVICE)$(SENSOR):GtCmRangeL")
+    field(LNK3,"$(DEVICE)$(SENSOR):GtCmRangeH")
+    field(LNK4,"$(DEVICE)$(SENSOR):GtCmRangeRlyL")
+    field(LNK5,"$(DEVICE)$(SENSOR):GtCmRangeRlyH")
+    field(LNK6,"$(DEVICE)$(SENSOR):PrvRngFan2")
+}
+
+record(fanout, "$(DEVICE)$(SENSOR):PrvRngFan2")
+{
+    field(LNK1,"$(DEVICE)$(SENSOR):GtSenRngL")
+    field(LNK2,"$(DEVICE)$(SENSOR):GtSenRngH")
+    field(LNK3,"$(DEVICE)$(SENSOR):GtSenRngRlyL")
+    field(LNK4,"$(DEVICE)$(SENSOR):GtSenRngRlyH")
+}
+
+record(stringout, "$(DEVICE)$(SENSOR):StSenT")
+{
+    field(DESC, "Set string for GtSenT")
+    field(DOL,"$(DEVICE)$(SENSOR):StUpdateRange.VAL")
+    field(OMSL,"closed_loop")
+    field(OUT,"$(DEVICE)$(SENSOR):GtSenT")
+}
+
+record(mbbi, "$(DEVICE)$(SENSOR):GtSenT")
 {
     field(DESC, "Convert sensor type to a number")
     field(VAL,"0")
@@ -61,80 +114,80 @@ record(mbbi, "$(DEVICE):PrvGtSenT")
 
 ###Sensor ranges
 
-record(calc, "$(DEVICE):GtSenRngL")
+record(calc, "$(DEVICE)$(SENSOR):GtSenRngL")
 {
     field(DESC, "Low sensor range")
-    field(INPL, "$(DEVICE):PrvGtSenT.VAL")
+    field(INPL, "$(DEVICE)$(SENSOR):GtSenT.VAL")
 #   Low
     field(INPA,1.0e-11)
     field(INPB,5.0e-04)
     field(INPC,1.0e-03)
-    field(INPD, "GtCmRangeL.VAL")
+    field(INPD, "$(DEVICE)$(SENSOR):GtCmRangeL.VAL")
     field(INPE,1.0e-03)
     field(CALC,"L=1?A:L=2?B:L=3?C:L=4?D:E")
 }
 
-record(calc, "$(DEVICE):GtSenRngH")
+record(calc, "$(DEVICE)$(SENSOR):GtSenRngH")
 {
     field(DESC, "High sensor range")
-    field(INPL, "$(DEVICE):PrvGtSenT.VAL")
+    field(INPL, "$(DEVICE)$(SENSOR):GtSenT.VAL")
 #   Low
     field(INPA,1.0e-02)
     field(INPB,4.0e-02)
     field(INPC,1.0e+03)
-    field(INPD, "GtCmRangeH.VAL")
+    field(INPD, "$(DEVICE)$(SENSOR):GtCmRangeH.VAL")
     field(INPE,1.0e-01)
     field(CALC,"L=1?A:L=2?B:L=3?C:L=4?D:E")
 }
 
 ### Relay setpoint ranges
 
-record(calc, "$(DEVICE):GtSenRngRlyL")
+record(calc, "$(DEVICE)$(SENSOR):GtSenRngRlyL")
 {
     field(DESC, "Low realy sensor range")
-    field(INPL, "$(DEVICE):PrvGtSenT.VAL")
+    field(INPL, "$(DEVICE)$(SENSOR):GtSenT.VAL")
 #   Low
     field(INPA,2.0e-12)
     field(INPB,2.0e-03)
     field(INPC,2.0e-03)
-    field(INPD, "GtCmRangeRlyL.VAL")
+    field(INPD, "$(DEVICE)$(SENSOR):GtCmRangeRlyL.VAL")
     field(INPE,2.0e-03)
     field(CALC,"L=1?A:L=2?B:L=3?C:L=4?D:E")
 }
 
-record(calc, "$(DEVICE):GtSenRngRlyH")
+record(calc, "$(DEVICE)$(SENSOR):GtSenRngRlyH")
 {
     field(DESC, "High relay sensor range")
-    field(INPL, "$(DEVICE):PrvGtSenT.VAL")
+    field(INPL, "$(DEVICE)$(SENSOR):GtSenT.VAL")
 #   High
     field(INPA,9.5e-03)
     field(INPB,9.5e+01)
     field(INPC,9.5e+02)
-    field(INPD, "GtCmRangeRlyH.VAL")
+    field(INPD, "$(DEVICE)$(SENSOR):GtCmRangeRlyH.VAL")
     field(INPE,9.5e-01)
     field(CALC,"L=1?A:L=2?B:L=3?C:L=4?D:E")
 }
 
 ### Capacative manometer ranges
-record(calc, "$(DEVICE):GtCmRangeL")
+record(calc, "$(DEVICE)$(SENSOR):GtCmRangeL")
 {
     field(DESC, "Capacative manometer low ranges")
-    field(CALC,"$(CAPMAN)*1.0e-3")
+    field(CALC,"$(CAPMAN=100)*1.0e-3")
 }
-record(calc, "$(DEVICE):GtCmRangeH")
+record(calc, "$(DEVICE)$(SENSOR):GtCmRangeH")
 {
     field(DESC, "Capacative manometer high ranges")
-    field(CALC,"$(CAPMAN)")
+    field(CALC,"$(CAPMAN=100)")
 }
-record(calc, "$(DEVICE):GtCmRangeRlyL")
+record(calc, "$(DEVICE)$(SENSOR):GtCmRangeRlyL")
 {
     field(DESC, "Capacative manometer relay low ranges")
-    field(CALC,"$(CAPMAN)*0.01")
+    field(CALC,"$(CAPMAN=100)*0.01")
 }
-record(calc, "$(DEVICE):GtCmRangeRlyH")
+record(calc, "$(DEVICE)$(SENSOR):GtCmRangeRlyH")
 {
     field(DESC, "Capacative manometer relay high ranges")
-    field(CALC,"$(CAPMAN)*.95")
+    field(CALC,"$(CAPMAN=100)*.95")
 }
 
 
@@ -144,33 +197,33 @@ record(calc, "$(DEVICE):GtCmRangeRlyH")
 #When an error is put into ERR, PrvErrFan triggers the St setters that read the ERR value
 #and trigger Gt miibs to start thier matching
 
-record(stringin, "$(DEVICE):ERR")
+record(stringin, "$(DEVICE)$(SENSOR):ERR")
 {
-    field(FLNK,"PrvErrFan")
+    field(FLNK,"$(DEVICE)$(SENSOR):PrvErrFan")
 }
 
-record(fanout, "PrvErrFan")
+record(fanout, "$(DEVICE)$(SENSOR):PrvErrFan")
 {
-    field(LNK1,"$(DEVICE):StGlobalErr")
-    field(LNK2,"$(DEVICE):StPErr")
-    field(LNK3,"$(DEVICE):StSetRlyPntErr")
-    field(LNK4,"$(DEVICE):StCCHCErr")
+    field(LNK1,"$(DEVICE)$(SENSOR):StGlobalErr")
+    field(LNK2,"$(DEVICE)$(SENSOR):StPErr")
+    field(LNK3,"$(DEVICE)$(SENSOR):StSetRlyPntErr")
+    field(LNK4,"$(DEVICE)$(SENSOR):StCCHCErr")
 }
 
 ###Global
 
-record(stringout, "$(DEVICE):StGlobalErr")
+record(stringout, "$(DEVICE)$(SENSOR):StGlobalErr")
 {
     field(DESC, "Set string for global errors")
-    field(DOL,"$(DEVICE):ERR.VAL")
+    field(DOL,"$(DEVICE)$(SENSOR):ERR.VAL")
     field(OMSL,"closed_loop")
-    field(OUT,"$(DEVICE):GtGlobalErr")
+    field(OUT,"$(DEVICE)$(SENSOR):GtGlobalErr")
 }
 
-record(mbbi, "$(DEVICE):GtGlobalErr")
+record(mbbi, "$(DEVICE)$(SENSOR):GtGlobalErr")
 {
     field(DESC, "Set bits for global errors")
-    field(INP, "$(DEVICE):ERR.VAL PP")
+    field(INP, "$(DEVICE)$(SENSOR):ERR.VAL PP")
     field(VAL,"0")
     field(ZRST,"OK")
     field(ONST,"NotCMD!")
@@ -189,15 +242,15 @@ record(mbbi, "$(DEVICE):GtGlobalErr")
 
 ###Pressure
 
-record(stringout, "$(DEVICE):StPErr")
+record(stringout, "$(DEVICE)$(SENSOR):StPErr")
 {
    field(DESC, "Set string for pressure errors")
-   field(DOL,"$(DEVICE):ERR.VAL")
+   field(DOL,"$(DEVICE)$(SENSOR):ERR.VAL")
    field(OMSL,"closed_loop")
-   field(OUT,"$(DEVICE):GtPErr")
+   field(OUT,"$(DEVICE)$(SENSOR):GtPErr")
 }
 
-record(mbbi, "$(DEVICE):GtPErr")
+record(mbbi, "$(DEVICE)$(SENSOR):GtPErr")
 {
     field(DESC, "Set bits for pressure errors")
     field(VAL,"0")
@@ -217,36 +270,36 @@ record(mbbi, "$(DEVICE):GtPErr")
 }
 ###Relay set point and HC error
 
-record(stringout, "$(DEVICE):StSetRlyPntErr")
+record(stringout, "$(DEVICE)$(SENSOR):StSetRlyPntErr")
 {
    field(DESC, "Set string for rly errors")
-   field(DOL,"$(DEVICE):ERR.VAL")
+   field(DOL,"$(DEVICE)$(SENSOR):ERR.VAL")
    field(OMSL,"closed_loop")
-   field(OUT,"$(DEVICE):GtSetRlyPntErr")
+   field(OUT,"$(DEVICE)$(SENSOR):GtSetRlyPntErr")
 }
 
-record(mbbi, "$(DEVICE):GtSetRlyPntErr")
+record(mbbi, "$(DEVICE)$(SENSOR):GtSetRlyPntErr")
 {
     field(DESC, "Set bits for Rly errors")
-    field(INP, "$(DEVICE):ERR.VAL PP")
+    field(INP, "$(DEVICE)$(SENSOR):ERR.VAL PP")
     field(VAL,"0")
     field(ZRST,"OK")
     field(ONST,"OUT!")
 }
 ###Cold Cathode/ HC comands and error
 
-record(stringout, "$(DEVICE):StCCHCErr")
+record(stringout, "$(DEVICE)$(SENSOR):StCCHCErr")
 {
    field(DESC, "Set string for CC errors")
-   field(DOL,"$(DEVICE):ERR.VAL")
+   field(DOL,"$(DEVICE)$(SENSOR):ERR.VAL")
    field(OMSL,"closed_loop")
-   field(OUT,"$(DEVICE):GtCCHCErr")
+   field(OUT,"$(DEVICE)$(SENSOR):GtCCHCErr")
 }
 
-record(mbbi, "$(DEVICE):GtCCHCErr")
+record(mbbi, "$(DEVICE)$(SENSOR):GtCCHCErr")
 {
     field(DESC, "Set bits for CC errors")
-    field(INP, "$(DEVICE):ERR.VAL PP")
+    field(INP, "$(DEVICE)$(SENSOR):ERR.VAL PP")
     field(VAL,"0")
     field(ZRST,"OK")
     field(ONST,"AGAIN")
@@ -262,161 +315,160 @@ record(mbbi, "$(DEVICE):GtCCHCErr")
 # Read pressure set points
 #
 
-record(ai, "$(DEVICE):GtP")
+
+record(ai, "$(DEVICE)$(SENSOR):GtP")
 {
     field(DESC, "Channel=1-5 Pressure")
     field(DTYP, "stream")
-    field(INP,  "@mks937.proto get_pres($(SENSOR),$(DEVICE):ERR) $(PORT)")
+    field(INP,  "@mks937.proto get_pres($(SENSOR),$(DEVICE)$(SENSOR):ERR) $(PORT)")
     field(EGU,  $(UNITS='Torr'))
-    field(PREC, "9")
-    field(LOPR, "0")
-    field(HOPR, "1000")
-    field(LOW,  "")
-    field(HIGH, "")
-    field(LOLO, "1e-11")
-    field(HIHI, "1e+4")
+    field(PREC, "2")
     field(LSV,  "MINOR")
     field(HSV,  "MINOR")
-    field(LLSV, "MAJOR")
-    field(HHSV, "MAJOR")
 }
 
-record(ai, "$(DEVICE):GtC")
+record(ai, "$(DEVICE)$(SENSOR):GtC")
 {
     field(DESC, "Channel=1,2 combination sensor.")
     field(DTYP, "stream")
-    field(INP,  "@mks937.proto get_comb($(SENSOR),$(DEVICE):ERR) $(PORT)")
+    field(INP,  "@mks937.proto get_comb($(SENSOR),$(DEVICE)$(SENSOR):ERR) $(PORT)")
     field(EGU,  $(UNITS='Torr'))
+#    field(LOPR, "$(DEVICE)$(SENSOR):GtSenRngL")
+#    field(HOPR, "$(DEVICE)$(SENSOR):GtSenRngH")
+#    field(LOW,  "$(DEVICE)$(SENSOR):GtSenRngL")
+#    field(HIGH, "$(DEVICE)$(SENSOR):GtSenRngH")
+    field(LSV,  "MINOR")
+    field(HSV,  "MINOR")
 }
 
 ################################################################################
 # Hot cathode settings
 #
 
-record(ai, "$(DEVICE):GtRLY")
+record(ai, "$(DEVICE)$(SENSOR):GtRLY")
 {
     field(DESC, "Channel=1-5 Relay set points")
     field(DTYP, "stream")
-    field(INP,  "@mks937.proto get_gen('RLY',$(SENSOR),$(DEVICE):ERR) $(PORT)")
+    field(INP,  "@mks937.proto get_gen('RLY',$(SENSOR),$(DEVICE)$(SENSOR):ERR) $(PORT)")
     field(EGU,  $(UNITS='Torr'))
 }
 
-record(ao, "$(DEVICE):StRLY")
+record(ao, "$(DEVICE)$(SENSOR):StRLY")
 {
     field(DESC, "Relay disable")
     field(DESC, "Channel=1-5 Set relay points")
     field(DTYP, "stream")
-    field(OUT,  "@mks937.proto set_gen('RLY',$(SENSOR),$(DEVICE):ERR) $(PORT)")
+    field(OUT,  "@mks937.proto set_gen('RLY',$(SENSOR),$(DEVICE)$(SENSOR):ERR) $(PORT)")
 }
 
-record(ao, "$(DEVICE):StDisableRLY")
+record(ao, "$(DEVICE)$(SENSOR):StDisableRLY")
 {
     field(DESC, "Relay set points")
     field(DESC, "Channel=1-5 disable relay")
     field(DTYP, "stream")
-    field(OUT,  "@mks937.proto dis_gen('RLY',$(SENSOR),$(DEVICE):ERR) $(PORT)")
+    field(OUT,  "@mks937.proto dis_gen('RLY',$(SENSOR),$(DEVICE)$(SENSOR):ERR) $(PORT)")
 }
 
-record(ai, "$(DEVICE):GtPRO")
+record(ai, "$(DEVICE)$(SENSOR):GtPRO")
 {
     field(DESC, "Channel=1,2,4 Protection set points")
     field(DTYP, "stream")
-    field(INP,  "@mks937.proto get_gen('PRO',$(SENSOR),$(DEVICE):ERR) $(PORT)")
+    field(INP,  "@mks937.proto get_gen('PRO',$(SENSOR),$(DEVICE)$(SENSOR):ERR) $(PORT)")
     field(EGU,  $(UNITS='Torr'))
 }
 
-record(ao, "$(DEVICE):StPRO")
+record(ao, "$(DEVICE)$(SENSOR):StPRO")
 {
     field(DESC, "Channel=1,2,4 Set protection points")
     field(DTYP, "stream")
-    field(OUT,  "@mks937.proto set_gen('PRO',$(SENSOR),$(DEVICE):ERR) $(PORT)")
+    field(OUT,  "@mks937.proto set_gen('PRO',$(SENSOR),$(DEVICE)$(SENSOR):ERR) $(PORT)")
 }
 
-record(ao, "$(DEVICE):StDisablePRO")
+record(ao, "$(DEVICE)$(SENSOR):StDisablePRO")
 {
     field(DESC, "Channel=1,2,4 disable protection")
     field(DTYP, "stream")
-    field(OUT,  "@mks937.proto dis_gen('PRO',$(SENSOR),$(DEVICE):ERR) $(PORT)")
+    field(OUT,  "@mks937.proto dis_gen('PRO',$(SENSOR),$(DEVICE)$(SENSOR):ERR) $(PORT)")
 }
 
-record(ai, "$(DEVICE):GtCTL")
+record(ai, "$(DEVICE)$(SENSOR):GtCTL")
 {
     field(DESC, "Channel=1,2 control set points")
     field(DTYP, "stream")
-    field(INP,  "@mks937.proto get_gen('CTL',$(SENSOR),$(DEVICE):ERR) $(PORT)")
+    field(INP,  "@mks937.proto get_gen('CTL',$(SENSOR),$(DEVICE)$(SENSOR):ERR) $(PORT)")
     field(EGU,  $(UNITS='Torr'))
 }
 
-record(ao, "$(DEVICE):StCTL")
+record(ao, "$(DEVICE)$(SENSOR):StCTL")
 {
     field(DESC, "Channel=1,2 Set control points")
     field(DTYP, "stream")
-    field(OUT,  "@mks937.proto set_gen('CTL',$(SENSOR),$(DEVICE):ERR) $(PORT)")
+    field(OUT,  "@mks937.proto set_gen('CTL',$(SENSOR),$(DEVICE)$(SENSOR):ERR) $(PORT)")
 }
 
-record(ao, "$(DEVICE):StDisableCTL")
+record(ao, "$(DEVICE)$(SENSOR):StDisableCTL")
 {
     field(DESC, "Channel=1,2 disable control")
     field(DTYP, "stream")
-    field(OUT,  "@mks937.proto dis_gen('CTL',$(SENSOR),$(DEVICE):ERR) $(PORT)")
+    field(OUT,  "@mks937.proto dis_gen('CTL',$(SENSOR),$(DEVICE)$(SENSOR):ERR) $(PORT)")
 }
 
-record(ai, "$(DEVICE):GtSEN")
+record(ai, "$(DEVICE)$(SENSOR):GtSEN")
 {
     field(DESC, "Channel=1,2 HC sensitivity set points")
     field(DTYP, "stream")
-    field(INP,  "@mks937.proto get_gen('SEN',$(SENSOR),$(DEVICE):ERR) $(PORT)")
+    field(INP,  "@mks937.proto get_gen('SEN',$(SENSOR),$(DEVICE)$(SENSOR):ERR) $(PORT)")
     field(EGU,  $(UNITS='Torr'))
 }
 
-record(ao, "$(DEVICE):StSEN")
+record(ao, "$(DEVICE)$(SENSOR):StSEN")
 {
     field(DESC, "Channel=1,2 Set HC sensitivity points")
     field(DTYP, "stream")
-    field(OUT,  "@mks937.proto set_gen('SEN',$(SENSOR),$(DEVICE):ERR) $(PORT)")
+    field(OUT,  "@mks937.proto set_gen('SEN',$(SENSOR),$(DEVICE)$(SENSOR):ERR) $(PORT)")
 }
 
 ################################################################################
 # Setpoint relay commands
 #
 
-record(stringin, "$(DEVICE):StER")
+record(stringin, "$(DEVICE)$(SENSOR):StER")
 {
     field(DESC, "Enable setpoint relay n=1-5")
     field(DTYP, "stream")
-    field(INP,  "@mks937.proto set_er($(SENSOR),$(DEVICE):ERR) $(PORT)")
+    field(INP,  "@mks937.proto set_er($(SENSOR),$(DEVICE)$(SENSOR):ERR) $(PORT)")
 }
 
-record(stringin, "$(DEVICE):StXR")
+record(stringin, "$(DEVICE)$(SENSOR):StXR")
 {
     field(DESC, "Disable setpoint relay n=1-5")
     field(DTYP, "stream")
-    field(INP,  "@mks937.proto set_xr($(SENSOR),$(DEVICE):ERR) $(PORT)")
+    field(INP,  "@mks937.proto set_xr($(SENSOR),$(DEVICE)$(SENSOR):ERR) $(PORT)")
 }
 
-record(mbbiDirect, "$(DEVICE):GtRELAYS")
+record(mbbiDirect, "$(DEVICE)$(SENSOR):GtRELAYS")
 {
     field(DESC, "Five bit relay state; MSB=channel 1")
     field(DTYP, "stream")
-    field(INP,  "@mks937.proto get_rly($(SENSOR),$(DEVICE):ERR) $(PORT)")
+    field(INP,  "@mks937.proto get_rly($(SENSOR),$(DEVICE)$(SENSOR):ERR) $(PORT)")
 }
 
 ################################################################################
 # Cold cathode commands
 #
 
-record(stringin, "$(DEVICE):StECC")
+record(stringin, "$(DEVICE)$(SENSOR):StECC")
 {
     field(DESC, "Enable cold cathode ch,1,2,4")
     field(DTYP, "stream")
-    field(INP,  "@mks937.proto set_ecc($(SENSOR),$(DEVICE):ERR) $(PORT)")
+    field(INP,  "@mks937.proto set_ecc($(SENSOR),$(DEVICE)$(SENSOR):ERR) $(PORT)")
 }
 
-record(stringin, "$(DEVICE):StXCC")
+record(stringin, "$(DEVICE)$(SENSOR):StXCC")
 {
     field(DESC, "Disable cold cathode channel n=1,2,4")
     field(DTYP, "stream")
-    field(INP,  "@mks937.proto set_xcc($(SENSOR),$(DEVICE):ERR) $(PORT)")
+    field(INP,  "@mks937.proto set_xcc($(SENSOR),$(DEVICE)$(SENSOR):ERR) $(PORT)")
 }
 
 ################################################################################
@@ -427,38 +479,38 @@ record(stringin, "$(DEVICE):StXCC")
 #Interlocks test the pressure at the hot cathode sensor is below 10-2 torr
 #before enabling the filament, or it may be damaged. 
 
-record(stringin, "$(DEVICE):StEFIL")
+record(stringin, "$(DEVICE)$(SENSOR):StEFIL")
 {
     field(DESC, "Enable hot cathode ch,1,2")
     field(DTYP, "stream")
-    field(INP,  "@mks937.proto set_efil($(SENSOR),$(DEVICE):ERR) $(PORT)")
+    field(INP,  "@mks937.proto set_efil($(SENSOR),$(DEVICE)$(SENSOR):ERR) $(PORT)")
 }
 
-record(stringin, "$(DEVICE):StEDEG")
+record(stringin, "$(DEVICE)$(SENSOR):StEDEG")
 {
     field(DESC, "Enable degass hot cathode ch 1,2")
     field(DTYP, "stream")
-    field(INP,  "@mks937.proto set_edeg($(SENSOR),$(DEVICE):ERR) $(PORT)")
+    field(INP,  "@mks937.proto set_edeg($(SENSOR),$(DEVICE)$(SENSOR):ERR) $(PORT)")
 }
-record(stringin, "$(DEVICE):StXFIL")
+record(stringin, "$(DEVICE)$(SENSOR):StXFIL")
 {
     field(DESC, "Disable hot cathode ch,1,2")
     field(DTYP, "stream")
-    field(INP,  "@mks937.proto set_xfil($(SENSOR),$(DEVICE):ERR) $(PORT)")
+    field(INP,  "@mks937.proto set_xfil($(SENSOR),$(DEVICE)$(SENSOR):ERR) $(PORT)")
 }
 
-record(stringin, "$(DEVICE):StXDEG")
+record(stringin, "$(DEVICE)$(SENSOR):StXDEG")
 {
     field(DESC, "Disable degass hot cathode n=1,2")
     field(DTYP, "stream")
-    field(INP,  "@mks937.proto set_xdeg($(SENSOR),$(DEVICE):ERR) $(PORT)")
+    field(INP,  "@mks937.proto set_xdeg($(SENSOR),$(DEVICE)$(SENSOR):ERR) $(PORT)")
 }
 
-record(mbbi, "$(DEVICE):GtDEGAS")
+record(mbbi, "$(DEVICE)$(SENSOR):GtDEGAS")
 {
     field(DESC, "HC abd A slot degas")
     field(DTYP, "stream")
-    field(INP,  "@mks937.proto get_deg($(SENSOR),$(DEVICE):ERR) $(PORT)")
+    field(INP,  "@mks937.proto get_deg($(SENSOR),$(DEVICE)$(SENSOR):ERR) $(PORT)")
 }
 
 
