@@ -1,0 +1,273 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 235
+y 84
+w 720
+h 900
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-12.0"
+btnFont "helvetica-bold-r-14.0"
+fgColor index 0
+bgColor index 50
+textColor index 14
+ctlFgColor1 index 1
+ctlFgColor2 index 7
+ctlBgColor1 index 1
+ctlBgColor2 index 21
+topShadowColor index 2
+botShadowColor index 0
+endScreenProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 14
+y 91
+w 40
+h 10
+controlPv "$(P)1:GtSenType"
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 19
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 7
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 15
+y 253
+w 40
+h 14
+controlPv "$(P)2:GtSenType"
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 19
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 7
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 19
+y 411
+w 40
+h 14
+controlPv "$(P)3:GtSenType"
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 19
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 7
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 17
+y 569
+w 40
+h 14
+controlPv "$(P)4:GtSenType"
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 19
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 7
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 16
+y 725
+w 40
+h 14
+controlPv "$(P)5:GtSenType"
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 19
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 7
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 34
+y 46
+w 56
+h 24
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 1
+useDisplayBg
+value {
+  "Errors:"
+}
+autoSize
+endObjectProperties
+
+# (Message Box)
+object activeMessageBoxClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 22
+y 112
+w 675
+h 130
+fgColor index 14
+bgColor index 2
+2ndBgColor index 1
+topShadowColor index 2
+botShadowColor index 0
+indicatorPv "$(P)1:ERR"
+font "helvetica-medium-r-18.0"
+bufferSize 1000
+fileSize 100000
+flushTimerValue 600
+readOnly
+endObjectProperties
+
+# (Message Box)
+object activeMessageBoxClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 21
+y 274
+w 673
+h 130
+fgColor index 14
+bgColor index 2
+2ndBgColor index 1
+topShadowColor index 2
+botShadowColor index 0
+indicatorPv "$(P)2:ERR"
+font "helvetica-medium-r-18.0"
+bufferSize 1000
+fileSize 100000
+flushTimerValue 600
+readOnly
+endObjectProperties
+
+# (Message Box)
+object activeMessageBoxClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 19
+y 432
+w 675
+h 130
+fgColor index 14
+bgColor index 2
+2ndBgColor index 1
+topShadowColor index 2
+botShadowColor index 0
+indicatorPv "$(P)3:ERR"
+font "helvetica-medium-r-18.0"
+bufferSize 1000
+fileSize 100000
+flushTimerValue 600
+readOnly
+endObjectProperties
+
+# (Message Box)
+object activeMessageBoxClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 17
+y 589
+w 675
+h 130
+fgColor index 14
+bgColor index 2
+2ndBgColor index 1
+topShadowColor index 2
+botShadowColor index 0
+indicatorPv "$(P)4:ERR"
+font "helvetica-medium-r-18.0"
+bufferSize 1000
+fileSize 100000
+flushTimerValue 600
+readOnly
+endObjectProperties
+
+# (Message Box)
+object activeMessageBoxClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 17
+y 744
+w 675
+h 130
+fgColor index 14
+bgColor index 2
+2ndBgColor index 1
+topShadowColor index 2
+botShadowColor index 0
+indicatorPv "$(P)5:ERR"
+font "helvetica-medium-r-18.0"
+bufferSize 1000
+fileSize 100000
+flushTimerValue 600
+readOnly
+endObjectProperties
+

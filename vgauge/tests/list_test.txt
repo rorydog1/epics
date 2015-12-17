@@ -3,6 +3,7 @@
 ##############
 # Set Error:
 # ONERROR, Error record from PV
+# SETDELAY n (in seconds and 0 to reset)
 # All other lines:
 # record and value,record and field to read, desired MKS response, expected output from IOC PV, IOC data type
 #############
@@ -68,26 +69,42 @@ ONERROR,mks937a1:ERR.VAL
 #Note: no MKS response here so just use DUMMY
 
 #Test sensor code mapping
-mks937a1:StUpdateRange TC,mks937a1:GtSenT,DUMMY,5,1
+#mks937a1:StUpdateRange TC,mks937a1:GtSenT,DUMMY,5,1
 
 #Test sensor range finding
-mks937a1:StUpdateRange TC,mks937a1:GtSenRngL,DUMMY,0.001,2
-mks937a1:StUpdateRange TC,mks937a1:GtSenRngH,DUMMY,0.1,2
-mks937a1:StUpdateRange TC,mks937a1:GtSenRngRlyL,DUMMY,0.002,2
-mks937a1:StUpdateRange TC,mks937a1:GtSenRngRlyH,DUMMY,0.95,2
+#mks937a1:StUpdateRange TC,mks937a1:GtSenRngL,DUMMY,0.001,2
+#mks937a1:StUpdateRange TC,mks937a1:GtSenRngH,DUMMY,0.1,2
+#mks937a1:StUpdateRange TC,mks937a1:GtSenRngRlyL,DUMMY,0.002,2
+#mks937a1:StUpdateRange TC,mks937a1:GtSenRngRlyH,DUMMY,0.95,2
 
-mks937a1:StUpdateRange CC,mks937a1:GtSenRngL,DUMMY,1e-11,2
-mks937a1:StUpdateRange CP,mks937a1:GtSenRngH,DUMMY,1000,2
-mks937a1:StUpdateRange PR,mks937a1:GtSenRngRlyL,DUMMY,0.002,2
+#mks937a1:StUpdateRange CC,mks937a1:GtSenRngL,DUMMY,1e-11,2
+#mks937a1:StUpdateRange CP,mks937a1:GtSenRngH,DUMMY,1000,2
+#mks937a1:StUpdateRange PR,mks937a1:GtSenRngRlyL,DUMMY,0.002,2
 
 #Test CM
-mks937a1:StUpdateRange CM,mks937a1:GtSenRngL,DUMMY,0.01,2
-mks937a1:StUpdateRange CM,mks937a1:GtSenRngH,DUMMY,10,2
-mks937a1:StUpdateRange CM,mks937a1:GtSenRngRlyL,DUMMY,0.1,2
-mks937a1:StUpdateRange CM,mks937a1:GtSenRngRlyH,DUMMY,9.5,2
+#mks937a1:StUpdateRange CM,mks937a1:GtSenRngL,DUMMY,0.01,2
+#mks937a1:StUpdateRange CM,mks937a1:GtSenRngH,DUMMY,10,2
+#mks937a1:StUpdateRange CM,mks937a1:GtSenRngRlyL,DUMMY,0.1,2
+#mks937a1:StUpdateRange CM,mks937a1:GtSenRngRlyH,DUMMY,9.5,2
 
+#Test EDM
+SETDELAY,2
+mks937a2:GtP 0,mks937a2:GtP,1.0E-02,0.01,2
+mks937a2:GtP 0,mks937a2:GtP,1.0E-03,0.001,2
 
+mks937a4:GtP 0,mks937a4:GtP,1.0E-00,1,2
+mks937a4:GtP 0,mks937a4:GtP,8.0E-00,8,2
 
+mks937a1:GtC 0,mks937a1:GtC,1.0E-02,0.01,2
+mks937a1:GtC 0,mks937a1:GtC,1.0E-03,0.001,2
 
+mks937a2:GtC 0,mks937a2:GtC,1.0E-02,0.01,2
+mks937a2:GtC 0,mks937a2:GtC,1.0E-03,0.001,2
+
+mks937a1:GtP 0,mks937a1:ERR,LO,LO,0
+mks937a1:GtP 0,mks937a1:ERR,AA_E+22,AA_E,0
+mks937a2:GtP 0,mks937a2:ERR,HI,HI,0
+mks937a2:GtP 0,mks937a2:ERR,AA_E+22,AA_E,0
+SETDELAY,0
 
 

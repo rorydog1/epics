@@ -1,0 +1,179 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 503
+y 248
+w 600
+h 350
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-12.0"
+btnFont "helvetica-bold-r-14.0"
+fgColor index 0
+bgColor index 50
+textColor index 14
+ctlFgColor1 index 1
+ctlFgColor2 index 7
+ctlBgColor1 index 1
+ctlBgColor2 index 21
+topShadowColor index 2
+botShadowColor index 0
+showGrid
+endScreenProperties
+
+# (Meter)
+object activeMeterClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 20
+y 130
+w 259
+h 167
+caseColor index 49
+scaleColor index 49
+labelColor index 49
+fgColor index 49
+bgColor index 1
+topShadowColor index 2
+botShadowColor index 0
+readPv "$(P)1:GtC"
+label "Pressure (Torr) Chan 1"
+showScale
+scaleFormat "Exponential"
+scalePrecision ""
+useDisplayBg
+labelIntervals "10"
+complexNeedle
+3d
+scaleMin "$(CLO1)"
+scaleMax "$(CHI1)"
+labelFontTag "helvetica-medium-r-18.0"
+scaleFontTag "helvetica-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 110
+y 10
+w 370
+h 40
+lineColor index 0
+fill
+fillColor index 31
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 120
+y 20
+w 174
+h 21
+controlPv "$(P)1:GtDeviceName"
+fgColor index 14
+bgColor index 19
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 310
+y 20
+w 168
+h 24
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 19
+useDisplayBg
+value {
+  "Combined Pressure"
+}
+autoSize
+endObjectProperties
+
+# (Meter)
+object activeMeterClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 310
+y 130
+w 259
+h 167
+caseColor index 49
+scaleColor index 49
+labelColor index 49
+fgColor index 49
+bgColor index 1
+topShadowColor index 2
+botShadowColor index 0
+readPv "$(P)2:GtC"
+label "Pressure (Torr) Chan 1"
+showScale
+scaleFormat "Exponential"
+scalePrecision ""
+useDisplayBg
+labelIntervals "10"
+complexNeedle
+3d
+scaleMin "$(CLO2)"
+scaleMax "$(CHI2)"
+labelFontTag "helvetica-medium-r-18.0"
+scaleFontTag "helvetica-medium-r-12.0"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 20
+y 90
+w 153
+h 24
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 1
+useDisplayBg
+value {
+  "Combined Chan 1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 310
+y 90
+w 153
+h 24
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 1
+useDisplayBg
+value {
+  "Combined Chan 2"
+}
+autoSize
+endObjectProperties
+

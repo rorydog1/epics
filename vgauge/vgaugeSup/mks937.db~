@@ -6,22 +6,26 @@
 # Each device sensor (1-5) is started from st.cmd with a new dbLoadRecords
 #
 #
-# substitutions:
+# substitutions snd record names:
 #  - DEVICE name
 # PORT    - asyn PORT
 # SENSOR  - SENSOR (1-5)
+
 # SEN_TY  - CC,PR,CP,CM,TC => Cold Cathode, Pirani, Convection Pirani, Capacitance Manometer, Thermocouple
 #         - Override default ranges in:
 #	    GtSenRngL
 #           GtSenRngH
 #           GtSenRngRlyL
 #           GtSenRngRlyH
-#         - A CM (Capacative Manometer) is a special case. Set the scale in CAPMAN and its ranges are calculated in
+#         - A CM (Capacative Manometer) is a special case. Set the scale in CAPMAN and its ranges are calculated
 #           GtCmRangeL
 #           GtCmRangeH
 #           GtCmRelayRngL
-#           GtCmRelayRngH 
+#           GtCmRelayRngH
 # CAPMAN  - Scale of capacative manometer. Default is 100
+
+#GtCombRng- Sensor ranges 1 and 2 combined: GtCombRng A- Comb 1 low,B- Comb 1 high, C- Comb 2 low, D- Comb 2 high
+
 # UNITS   - Default = Torr
 
 
@@ -37,7 +41,7 @@
 
 
 ################################################################################
-#General Info fro OIPs
+#General Info for OIPs
 
 record(stringin, "$(DEVICE)$(SENSOR):GtDeviceName")
 {
@@ -66,10 +70,15 @@ record(stringin,"$(DEVICE)$(SENSOR):GtTypeCP")
 #Deal with the CM calculatio in GtCmRange*
 #The sensor type and the CM ranges are fed into GtSen*
 #calc records translate that sensor number to the correct range for a sensor
+#
+#Note:
+#The above does not apply to combined ranges and you only alter/read
+#GtCombSenRngHL 1(Combined sens 1 L),2(Combined sens 1 H),3(Combined sens 2 L),4(Combined 2 sens H)
 
 record(stringin, "$(DEVICE)$(SENSOR):StUpdateRange")
 {
     field(VAL,"$(SENTYP)")
+    field(PINI,"YES")
     field(FLNK,"$(DEVICE)$(SENSOR):PrvRngFan")
 }
 
@@ -111,7 +120,7 @@ record(mbbi, "$(DEVICE)$(SENSOR):GtSenT")
     field(ZRSV,"INVALID")
 }
 
-###Sensor ranges
+###Sensor ranges 1-5
 
 record(calc, "$(DEVICE)$(SENSOR):GtSenRngL")
 {
@@ -137,6 +146,18 @@ record(calc, "$(DEVICE)$(SENSOR):GtSenRngH")
     field(INPD, "$(DEVICE)$(SENSOR):GtCmRangeH.VAL")
     field(INPE,1.0e-01)
     field(CALC,"L=1?A:L=2?B:L=3?C:L=4?D:E")
+}
+
+###Sensor ranges 1 and 2 combined: GtCombRng A- Comb 1 low,B- Comb 1 high, C- Comb 2 low, D- Comb 2 high
+
+record(calc, "$(DEVICE)$(SENSOR):GtCombSenRng")
+{
+    field(DESC, "High sensor range")
+#   Low
+    field(INPA,1.0e-11)#1 low
+    field(INPB,4.0e-02)#1 high
+    field(INPC,1.0e-11)#2 low
+    field(INPD,1.0e-02)#2 high
 }
 
 ### Relay setpoint ranges
@@ -217,6 +238,7 @@ record(stringout, "$(DEVICE)$(SENSOR):StGlobalErr")
     field(DOL,"$(DEVICE)$(SENSOR):ERR.VAL")
     field(OMSL,"closed_loop")
     field(OUT,"$(DEVICE)$(SENSOR):GtGlobalErr")
+    field(FLNK,"$(DEVICE)$(SENSOR):GtGlobalErr")
 }
 
 record(mbbi, "$(DEVICE)$(SENSOR):GtGlobalErr")
@@ -247,6 +269,7 @@ record(stringout, "$(DEVICE)$(SENSOR):StPErr")
    field(DOL,"$(DEVICE)$(SENSOR):ERR.VAL")
    field(OMSL,"closed_loop")
    field(OUT,"$(DEVICE)$(SENSOR):GtPErr")
+   field(FLNK,"$(DEVICE)$(SENSOR):GtPErr")
 }
 
 record(mbbi, "$(DEVICE)$(SENSOR):GtPErr")
@@ -266,7 +289,18 @@ record(mbbi, "$(DEVICE)$(SENSOR):GtPErr")
     field(TEST,"LO<E")
     field(ELST,"AA_E")
     field(TVST,"HI>E")
+    field(TTST,"HI")
+    field(FLNK,"$(DEVICE)$(SENSOR):GtPErrEDM")
 }
+
+record (calc, "$(DEVICE)$(SENSOR):GtPErrEDM")
+{
+   field(DESC, "1-16 to EDM bit display")
+   field(INPA,"$(DEVICE)$(SENSOR):GtPErr")
+   field(CALC,"A=0?0:2**(A-1)")
+}
+
+
 ###Relay set point and HC error
 
 record(stringout, "$(DEVICE)$(SENSOR):StSetRlyPntErr")
@@ -321,7 +355,6 @@ record(ai, "$(DEVICE)$(SENSOR):GtP")
     field(DTYP, "stream")
     field(INP,  "@mks937.proto get_pres($(SENSOR),$(DEVICE)$(SENSOR):ERR) $(PORT)")
     field(EGU,  $(UNITS='Torr'))
-    field(PREC, "2")
     field(LSV,  "MINOR")
     field(HSV,  "MINOR")
 }
@@ -332,10 +365,6 @@ record(ai, "$(DEVICE)$(SENSOR):GtC")
     field(DTYP, "stream")
     field(INP,  "@mks937.proto get_comb($(SENSOR),$(DEVICE)$(SENSOR):ERR) $(PORT)")
     field(EGU,  $(UNITS='Torr'))
-#    field(LOPR, "$(DEVICE)$(SENSOR):GtSenRngL")
-#    field(HOPR, "$(DEVICE)$(SENSOR):GtSenRngH")
-#    field(LOW,  "$(DEVICE)$(SENSOR):GtSenRngL")
-#    field(HIGH, "$(DEVICE)$(SENSOR):GtSenRngH")
     field(LSV,  "MINOR")
     field(HSV,  "MINOR")
 }

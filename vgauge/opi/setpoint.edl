@@ -3,10 +3,10 @@ beginScreenProperties
 major 4
 minor 0
 release 1
-x 532
-y 60
+x 155
+y 151
 w 700
-h 850
+h 689
 font "helvetica-medium-r-18.0"
 ctlFont "helvetica-medium-r-12.0"
 btnFont "helvetica-bold-r-14.0"
@@ -20,6 +20,7 @@ ctlBgColor2 index 21
 topShadowColor index 2
 botShadowColor index 0
 showGrid
+snapToGrid
 endScreenProperties
 
 # (Meter)
@@ -357,12 +358,12 @@ release 0
 x 450
 y 500
 w 40
-h 194
-controlPv "$(P)1:GtPErrEDM"
+h 180
+controlPv "$(P)1:GtPErr"
 lineColor index 0
 onColor index 20
 offColor index 7
-numBits 13
+numBits 12
 endObjectProperties
 
 # (Text Monitor)
@@ -372,7 +373,7 @@ major 4
 minor 7
 release 0
 x 340
-y 678
+y 665
 w 110
 h 14
 controlPv "$(P)1:GtPErr.ONST"
@@ -395,7 +396,7 @@ major 4
 minor 7
 release 0
 x 340
-y 663
+y 650
 w 110
 h 20
 controlPv "$(P)1:GtPErr.TWST"
@@ -418,7 +419,7 @@ major 4
 minor 7
 release 0
 x 340
-y 648
+y 635
 w 110
 h 14
 controlPv "$(P)1:GtPErr.THST"
@@ -441,7 +442,7 @@ major 4
 minor 7
 release 0
 x 340
-y 633
+y 620
 w 110
 h 14
 controlPv "$(P)1:GtPErr.FRST"
@@ -464,7 +465,7 @@ major 4
 minor 7
 release 0
 x 340
-y 618
+y 605
 w 110
 h 14
 controlPv "$(P)1:GtPErr.FVST"
@@ -487,7 +488,7 @@ major 4
 minor 7
 release 0
 x 340
-y 603
+y 590
 w 110
 h 14
 controlPv "$(P)1:GtPErr.SXST"
@@ -510,7 +511,7 @@ major 4
 minor 7
 release 0
 x 340
-y 588
+y 575
 w 110
 h 14
 controlPv "$(P)1:GtPErr.SVST"
@@ -533,7 +534,7 @@ major 4
 minor 7
 release 0
 x 340
-y 573
+y 560
 w 110
 h 14
 controlPv "$(P)1:GtPErr.EIST"
@@ -556,7 +557,7 @@ major 4
 minor 7
 release 0
 x 340
-y 558
+y 545
 w 110
 h 14
 controlPv "$(P)1:GtPErr.NIST"
@@ -579,7 +580,7 @@ major 4
 minor 7
 release 0
 x 340
-y 543
+y 530
 w 110
 h 14
 controlPv "$(P)1:GtPErr.TEST"
@@ -602,7 +603,7 @@ major 4
 minor 7
 release 0
 x 340
-y 528
+y 515
 w 110
 h 14
 controlPv "$(P)1:GtPErr.ELST"
@@ -625,7 +626,7 @@ major 4
 minor 7
 release 0
 x 340
-y 513
+y 500
 w 110
 h 14
 controlPv "$(P)1:GtPErr.TVST"
@@ -650,12 +651,12 @@ release 0
 x 650
 y 500
 w 40
-h 194
-controlPv "$(P)5:GtPErrEDM"
+h 180
+controlPv "$(P)5:GtPErr"
 lineColor index 0
 onColor index 20
 offColor index 7
-numBits 13
+numBits 12
 endObjectProperties
 
 # (Byte)
@@ -667,12 +668,12 @@ release 0
 x 600
 y 500
 w 40
-h 194
-controlPv "$(P)4:GtPErrEDM"
+h 180
+controlPv "$(P)4:GtPErr"
 lineColor index 0
 onColor index 20
 offColor index 7
-numBits 13
+numBits 12
 endObjectProperties
 
 # (Byte)
@@ -684,12 +685,12 @@ release 0
 x 550
 y 500
 w 40
-h 194
-controlPv "$(P)3:GtPErrEDM"
+h 180
+controlPv "$(P)3:GtPErr"
 lineColor index 0
 onColor index 20
 offColor index 7
-numBits 13
+numBits 12
 endObjectProperties
 
 # (Byte)
@@ -701,12 +702,12 @@ release 0
 x 500
 y 500
 w 40
-h 194
-controlPv "$(P)2:GtPErrEDM"
+h 180
+controlPv "$(P)2:GtPErr"
 lineColor index 0
 onColor index 20
 offColor index 7
-numBits 13
+numBits 12
 endObjectProperties
 
 # (Text Monitor)
@@ -816,172 +817,6 @@ font "helvetica-medium-r-12.0"
 fgColor index 14
 bgColor index 19
 useDisplayBg
-autoHeight
-limitsFromDb
-nullColor index 7
-useHexPrefix
-newPos
-objType "monitors"
-endObjectProperties
-
-# (Related Display)
-object relatedDisplayClass
-beginObjectProperties
-major 4
-minor 4
-release 0
-x 545
-y 14
-w 124
-h 39
-fgColor index 14
-bgColor index 1
-topShadowColor index 2
-botShadowColor index 0
-font "helvetica-bold-r-14.0"
-buttonLabel "Menu"
-numPvs 4
-numDsps 2
-displayFileName {
-  0 "comb_gauge.edl"
-  1 "err.edl"
-}
-menuLabel {
-  0 "Combined chan 1 and 2"
-  1 "Errors"
-}
-endObjectProperties
-
-# (Text Monitor)
-object activeXTextDspClass:noedit
-beginObjectProperties
-major 4
-minor 7
-release 0
-x 340
-y 500
-w 110
-h 14
-controlPv "$(P)1:GtPErr.TTST"
-font "helvetica-medium-r-12.0"
-fgColor index 14
-bgColor index 19
-useDisplayBg
-autoHeight
-limitsFromDb
-nullColor index 7
-useHexPrefix
-newPos
-objType "monitors"
-endObjectProperties
-
-# (Text Monitor)
-object activeXTextDspClass:noedit
-beginObjectProperties
-major 4
-minor 7
-release 0
-x 107
-y 216
-w 144
-h 29
-controlPv "$(P)1:GtP"
-format "exponential"
-font "helvetica-medium-r-24.0"
-fgColor index 20
-bgColor index 78
-autoHeight
-limitsFromDb
-nullColor index 7
-useHexPrefix
-newPos
-objType "monitors"
-endObjectProperties
-
-# (Text Monitor)
-object activeXTextDspClass:noedit
-beginObjectProperties
-major 4
-minor 7
-release 0
-x 102
-y 619
-w 144
-h 29
-controlPv "$(P)5:GtP"
-format "exponential"
-font "helvetica-medium-r-24.0"
-fgColor index 20
-bgColor index 78
-autoHeight
-limitsFromDb
-nullColor index 7
-useHexPrefix
-newPos
-objType "monitors"
-endObjectProperties
-
-# (Text Monitor)
-object activeXTextDspClass:noedit
-beginObjectProperties
-major 4
-minor 7
-release 0
-x 499
-y 218
-w 144
-h 29
-controlPv "$(P)2:GtP"
-format "exponential"
-font "helvetica-medium-r-24.0"
-fgColor index 20
-bgColor index 78
-autoHeight
-limitsFromDb
-nullColor index 7
-useHexPrefix
-newPos
-objType "monitors"
-endObjectProperties
-
-# (Text Monitor)
-object activeXTextDspClass:noedit
-beginObjectProperties
-major 4
-minor 7
-release 0
-x 503
-y 416
-w 144
-h 29
-controlPv "$(P)4:GtP"
-format "exponential"
-font "helvetica-medium-r-24.0"
-fgColor index 20
-bgColor index 78
-autoHeight
-limitsFromDb
-nullColor index 7
-useHexPrefix
-newPos
-objType "monitors"
-endObjectProperties
-
-# (Text Monitor)
-object activeXTextDspClass:noedit
-beginObjectProperties
-major 4
-minor 7
-release 0
-x 109
-y 416
-w 144
-h 29
-controlPv "$(P)3:GtP"
-format "exponential"
-font "helvetica-medium-r-24.0"
-fgColor index 20
-bgColor index 78
 autoHeight
 limitsFromDb
 nullColor index 7

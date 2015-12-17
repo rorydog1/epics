@@ -17,6 +17,8 @@
 ENVIRON=../../
 ENVIRONS=set_environment.script
 WHOAMI=`whoami`
+USER_DELAY=0
+ERROR_RECORD=""
 
 #Kill old gawk background processes attached to tty
 
@@ -55,7 +57,9 @@ do
  echo $PV $PFIELD $SDOUT $PVOUT $TYPE
  # If this is an error record, record and read next line
  [ "$PV" = "ONERROR" ] && { ERROR_RECORD=$PFIELD; continue; }
- 
+ # Read any user dealys
+ [ "$PV" = "SETDELAY" ] && { USER_DELAY=$PFIELD; echo "DELAY SET TO:"$USER_DELAY; continue; }
+
  #Flush error record
  caput  $ERROR_RECORD.VAL 0 2> /dev/null > /dev/null
 
@@ -66,13 +70,14 @@ do
 
  #Use caput to trigger the record. caget does not trigger the record, only reads it. Use a caput and ignore input vals
  #Save any errors
- caput  `echo $PV | awk '{print $1}' `echo $PV | awk '{print $2}'` 2> /dev/null > /dev/null
+ caput  `echo $PV | awk '{print $1}'` `echo $PV | awk '{print $2}'` 2> /dev/null > /dev/null
  TESTOUT=`caget -d$TYPE $PFIELD | awk '/Value/{print substr($0, index($0,$2))}'`
  ERROR_RESULT=`caget $ERROR_RECORD`
  echo "IOC responded" $TESTOUT "and user expected" $PVOUT
 
  #Check that the record returned what you expected
  [ "$TESTOUT" = "$PVOUT" ] && { echo "<OK> $PFIELD"; } || { echo "************Error $PFIELD : Type $ERROR_RESULT"; }
+ sleep $USER_DELAY"s"
 done < $INPUTF
 
 #Kill last gawk

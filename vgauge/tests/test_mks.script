@@ -17,6 +17,8 @@
 ENVIRON=../../
 ENVIRONS=set_environment.script
 WHOAMI=`whoami`
+USER_DELAY=0
+ERROR_RECORD=""
 
 #Kill old gawk background processes attached to tty
 
@@ -55,7 +57,9 @@ do
  echo $PV $PFIELD $SDOUT $PVOUT $TYPE
  # If this is an error record, record and read next line
  [ "$PV" = "ONERROR" ] && { ERROR_RECORD=$PFIELD; continue; }
- 
+ # Read any user dealys
+ [ "$PV" = "SETDELAY" ] && { USER_DELAY=$PFIELD; echo "DELAY SET TO: "$USER_DELAY; continue; }
+
  #Flush error record
  caput  $ERROR_RECORD.VAL 0 2> /dev/null > /dev/null
 
@@ -73,6 +77,7 @@ do
 
  #Check that the record returned what you expected
  [ "$TESTOUT" = "$PVOUT" ] && { echo "<OK> $PFIELD"; } || { echo "************Error $PFIELD : Type $ERROR_RESULT"; }
+ sleep $USER_DELAY"s"
 done < $INPUTF
 
 #Kill last gawk

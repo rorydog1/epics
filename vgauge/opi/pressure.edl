@@ -3,22 +3,23 @@ beginScreenProperties
 major 4
 minor 0
 release 1
-x 178
-y 243
-w 602
-h 689
+x 233
+y 87
+w 700
+h 850
 font "helvetica-medium-r-18.0"
 ctlFont "helvetica-medium-r-12.0"
 btnFont "helvetica-bold-r-14.0"
 fgColor index 0
 bgColor index 50
-textColor index 0
+textColor index 14
 ctlFgColor1 index 1
 ctlFgColor2 index 7
-ctlBgColor1 index 19
+ctlBgColor1 index 1
 ctlBgColor2 index 21
 topShadowColor index 2
 botShadowColor index 0
+showGrid
 endScreenProperties
 
 # (Meter)
@@ -27,8 +28,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 23
-y 111
+x 30
+y 90
 w 259
 h 167
 caseColor index 49
@@ -59,8 +60,8 @@ beginObjectProperties
 major 4
 minor 0
 release 0
-x 154
-y 12
+x 200
+y 10
 w 312
 h 43
 lineColor index 0
@@ -74,8 +75,8 @@ beginObjectProperties
 major 10
 minor 0
 release 0
-x 160
-y 22
+x 210
+y 20
 w 174
 h 21
 controlPv "$(P)1:GtDeviceName"
@@ -90,8 +91,8 @@ beginObjectProperties
 major 4
 minor 1
 release 1
-x 354
-y 22
+x 400
+y 20
 w 75
 h 24
 font "helvetica-medium-r-18.0"
@@ -110,8 +111,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 302
-y 111
+x 430
+y 90
 w 259
 h 167
 caseColor index 49
@@ -142,8 +143,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 303
-y 313
+x 430
+y 290
 w 259
 h 167
 caseColor index 49
@@ -174,8 +175,8 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 24
-y 313
+x 30
+y 290
 w 259
 h 167
 caseColor index 49
@@ -206,10 +207,10 @@ beginObjectProperties
 major 4
 minor 1
 release 0
-x 24
-y 513
-w 259
-h 167
+x 30
+y 490
+w 260
+h 170
 caseColor index 49
 scaleColor index 49
 labelColor index 49
@@ -238,8 +239,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 25
-y 85
+x 40
+y 60
 w 69
 h 24
 controlPv "$(P)1:GtSenType"
@@ -261,8 +262,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 304
-y 86
+x 430
+y 70
 w 69
 h 24
 controlPv "$(P)2:GtSenType"
@@ -284,8 +285,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 26
-y 288
+x 40
+y 270
 w 69
 h 24
 controlPv "$(P)3:GtSenType"
@@ -307,8 +308,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 304
-y 289
+x 430
+y 270
 w 69
 h 24
 controlPv "$(P)4:GtSenType"
@@ -330,8 +331,8 @@ beginObjectProperties
 major 4
 minor 7
 release 0
-x 27
-y 487
+x 40
+y 470
 w 69
 h 24
 controlPv "$(P)5:GtSenType"
@@ -339,6 +340,648 @@ font "helvetica-medium-r-18.0"
 fgColor index 14
 bgColor index 19
 useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 7
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 450
+y 500
+w 40
+h 194
+controlPv "$(P)1:GtPErrEDM"
+lineColor index 0
+onColor index 20
+offColor index 7
+numBits 13
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 340
+y 678
+w 110
+h 14
+controlPv "$(P)1:GtPErr.ONST"
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 19
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 7
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 340
+y 663
+w 110
+h 20
+controlPv "$(P)1:GtPErr.TWST"
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 19
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 7
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 340
+y 648
+w 110
+h 14
+controlPv "$(P)1:GtPErr.THST"
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 19
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 7
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 340
+y 633
+w 110
+h 14
+controlPv "$(P)1:GtPErr.FRST"
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 19
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 7
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 340
+y 618
+w 110
+h 14
+controlPv "$(P)1:GtPErr.FVST"
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 19
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 7
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 340
+y 603
+w 110
+h 14
+controlPv "$(P)1:GtPErr.SXST"
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 19
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 7
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 340
+y 588
+w 110
+h 14
+controlPv "$(P)1:GtPErr.SVST"
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 19
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 7
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 340
+y 573
+w 110
+h 14
+controlPv "$(P)1:GtPErr.EIST"
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 19
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 7
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 340
+y 558
+w 110
+h 14
+controlPv "$(P)1:GtPErr.NIST"
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 19
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 7
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 340
+y 543
+w 110
+h 14
+controlPv "$(P)1:GtPErr.TEST"
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 19
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 7
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 340
+y 528
+w 110
+h 14
+controlPv "$(P)1:GtPErr.ELST"
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 19
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 7
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 340
+y 513
+w 110
+h 14
+controlPv "$(P)1:GtPErr.TVST"
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 19
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 7
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 650
+y 500
+w 40
+h 194
+controlPv "$(P)5:GtPErrEDM"
+lineColor index 0
+onColor index 20
+offColor index 7
+numBits 13
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 600
+y 500
+w 40
+h 194
+controlPv "$(P)4:GtPErrEDM"
+lineColor index 0
+onColor index 20
+offColor index 7
+numBits 13
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 550
+y 500
+w 40
+h 194
+controlPv "$(P)3:GtPErrEDM"
+lineColor index 0
+onColor index 20
+offColor index 7
+numBits 13
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 500
+y 500
+w 40
+h 194
+controlPv "$(P)2:GtPErrEDM"
+lineColor index 0
+onColor index 20
+offColor index 7
+numBits 13
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 450
+y 480
+w 40
+h 10
+controlPv "$(P)1:GtSenType"
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 19
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 7
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 500
+y 480
+w 40
+h 14
+controlPv "$(P)2:GtSenType"
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 19
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 7
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 550
+y 480
+w 40
+h 14
+controlPv "$(P)3:GtSenType"
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 19
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 7
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 600
+y 480
+w 40
+h 14
+controlPv "$(P)4:GtSenType"
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 19
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 7
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 650
+y 480
+w 40
+h 14
+controlPv "$(P)5:GtSenType"
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 19
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 7
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 545
+y 14
+w 124
+h 39
+fgColor index 14
+bgColor index 1
+topShadowColor index 2
+botShadowColor index 0
+font "helvetica-bold-r-14.0"
+buttonLabel "Menu"
+numPvs 4
+numDsps 2
+displayFileName {
+  0 "comb_gauge.edl"
+  1 "err.edl"
+}
+menuLabel {
+  0 "Combined chan 1 and 2"
+  1 "Errors"
+}
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 340
+y 500
+w 110
+h 14
+controlPv "$(P)1:GtPErr.TTST"
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 19
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 7
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 107
+y 216
+w 144
+h 29
+controlPv "$(P)1:GtP"
+format "exponential"
+font "helvetica-medium-r-24.0"
+fgColor index 20
+bgColor index 78
+autoHeight
+limitsFromDb
+nullColor index 7
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 102
+y 619
+w 144
+h 29
+controlPv "$(P)5:GtP"
+format "exponential"
+font "helvetica-medium-r-24.0"
+fgColor index 20
+bgColor index 78
+autoHeight
+limitsFromDb
+nullColor index 7
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 499
+y 218
+w 144
+h 29
+controlPv "$(P)2:GtP"
+format "exponential"
+font "helvetica-medium-r-24.0"
+fgColor index 20
+bgColor index 78
+autoHeight
+limitsFromDb
+nullColor index 7
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 503
+y 416
+w 144
+h 29
+controlPv "$(P)4:GtP"
+format "exponential"
+font "helvetica-medium-r-24.0"
+fgColor index 20
+bgColor index 78
+autoHeight
+limitsFromDb
+nullColor index 7
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 109
+y 416
+w 144
+h 29
+controlPv "$(P)3:GtP"
+format "exponential"
+font "helvetica-medium-r-24.0"
+fgColor index 20
+bgColor index 78
 autoHeight
 limitsFromDb
 nullColor index 7

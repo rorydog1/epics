@@ -1,0 +1,15 @@
+HERE=$PWD
+cd /home/rory/Desktop/epics
+source set_environment.script
+cd $HERE
+
+#Start screens:
+
+#Pressure 1-5
+edm -m "P=mks937a,LO1=`caget -t mks937a1:GtSenRngL`,HI1=`caget -t mks937a1:GtSenRngH`,LO2=`caget -t mks937a2:GtSenRngL`,HI2=`caget -t mks937a2:GtSenRngH`,LO3=`caget -t mks937a3:GtSenRngL`,HI3=`caget -t mks937a3:GtSenRngH`,LO4=`caget -t mks937a4:GtSenRngL`,HI4=`caget -t mks937a4:GtSenRngH`,LO5=`caget -t mks937a5:GtSenRngL`,HI5=`caget -t mks937a5:GtSenRngH`,CLO1=`caget -t mks937a1:GtCombSenRng.A`,CHI1=`caget -t mks937a1:GtCombSenRng.B`,CLO2=`caget -t mks937a2:GtCombSenRng.C`,CHI2=`caget -t mks937a2:GtCombSenRng.D`" pressure.edl
+
+#Pressure combined 1-2
+#Set the range here or in IOC
+#edm -m "P=mks937a,CLO1=`caget -t mks937a1:GtCombSenRng.A`,CHI1=`caget -t mks937a1:GtCombSenRng.B`,CLO2=`caget -t mks937a2:GtCombSenRng.C`,CHI2=`caget -t mks937a2:GtCombSenRng.D`" comb_gauge.edl
+
+
