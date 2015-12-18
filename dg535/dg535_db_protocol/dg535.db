@@ -1,0 +1,62 @@
+# Template database for the dg535 Stanford Research Systems delay and pulse generator
+# Rory Clarke 18/12/2015
+#
+# Notation: St are setters, Gt are getters
+#
+#
+# substitutions snd record names:
+#  - DEVICE name
+# PORT    - asyn PORT
+
+#ERR will hold any message that is not parsed by StreamDevice. These can be a mix of errors or warnings
+#
+
+
+################################################################################
+#General Info for OIPs
+
+record(stringin, "$(DEVICE):GtDeviceName")
+{
+    field(VAL,"$(DEVICE)")
+}
+
+
+
+
+################################################################################
+
+################################################################################
+#Errors:
+#Errors have to be read from the device after a command string
+
+
+record(stringin, "$(DEVICE):CL")
+{
+    field(DESC,"Clear device")
+    field(DTYP, "stream")
+    field(INP,"@dg535.proto get_CL() $(PORT)")
+}
+
+record(stringin, "$(DEVICE):TEST")
+{
+    field(DESC,"Generate a test error")
+    field(DTYP, "stream")
+    field(INP,"@dg535.proto get_TEST() $(PORT)")
+}
+
+record(ai, "$(DEVICE):ES")
+{
+    field(DESC,"Get errors")
+    field(DTYP, "stream")
+    field(INP,"@dg535.proto get_ES() $(PORT)")
+}
+
+record(ai, "$(DEVICE):IS")
+{
+    field(DESC,"Get machine state")
+    field(DTYP, "stream")
+    field(INP,"@dg535.proto get_IS() $(PORT)")
+}
+
+
+

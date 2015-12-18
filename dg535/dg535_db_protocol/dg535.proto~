@@ -1,0 +1,31 @@
+## Stream Device Protocol for the dg535 Stanford Research Systems delay and pulse generator
+## Rory Clarke 18/12/2015
+
+
+
+
+
+##############################################
+#Char input
+#
+
+OutTerminator   = CR LF;
+InTerminator   = CR;
+MaxInput = 10;
+ReplyTimeout = 5000;
+LockTimeout = 8000;
+
+#Generate an error for testing
+get_test{out "BAD;ES"; in "%8b"} 
+
+##############################################
+#Commands
+#
+
+#Clear
+get_CL {out "CL"}
+
+#Get errors and machine state
+get_ES {out "ES"; in "%8b"}
+get_IS {out "IS"; in "%8b"}
+
