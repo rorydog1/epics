@@ -16,13 +16,13 @@
 IOCNAME=vgauge
 IOCPATH=../../bin/linux-x86_64
 IOCTESTP=$PWD/../iocBoot/iocvgauge/
-IOCTEST=$PWD/test_st.cmd
+IOCTEST=st.cmd
 ENVIRON=../../
 ENVIRONS=set_environment.script
 WHOAMI=`whoami`
 
 #Kill old background processes
-
+rm -f temp.st
 for PS in $( ps -u $WHOAMI | grep socat | awk '{print $1}' ); do echo "Killing socat $PS"; kill $PS; wait; done
 for PS in $( ps -u $WHOAMI | grep $IOCNAME | awk '{print $1}' ); do echo "Killing $IOCNAME $PS"; kill $PS; wait; done
 
@@ -35,8 +35,12 @@ CWD=$PWD
 cd $ENVIRON
 source $ENVIRONS
 cd $IOCTESTP
+
+#Change IOC serial port
+sed "s|/dev/tty.*\"|$HOME/COM8\"|" $IOCTEST > temp.st
 #Run IOC
-$IOCPATH/$IOCNAME $IOCTEST
+
+$IOCPATH/$IOCNAME temp.st
 
 
 

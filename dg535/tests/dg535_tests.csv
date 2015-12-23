@@ -1,8 +1,6 @@
-# Format (CSV): 
+# Format (CSV): with | as the FS. Comma is used by the device 
 
 ##############
-# Set Error:
-# ONERROR, Error record from PV (Put a dummy record if not needed)
 # SETDELAY,n (in seconds and 0 to reset)
 # All other lines:
 # record and value,record and field to read, desired MKS response, expected output from IOC PV, IOC data type
@@ -21,9 +19,26 @@
 # DBR_STS_SHORT  8  DBR_TIME_ENUM   17  DBR_GR_DOUBLE   27
 # DBR_STS_INT    8  DBR_TIME_CHAR   18  DBR_CTRL_STRING 28
 
-#Dummy for the dg535
-ONERROR,dg535:GtES
-#Test output
-dg535:GtDly,dg535:GtDly,1,1,1
+#Test output delay A
+dg535:StCL 0|dg535:StCL|0|0|1
+#dg535:StC1 2|dg535:StC1|0|2|1
+#There is a delay before the device responds. Wait for this
+#SETDELAY|5
+#dg535:GtDly 0|dg535:GtDly|1,0.000000000000|0|0
+#SETDELAY|0
+#dg535:StC1 0|dg535:StC2|1|1|1
+#dg535:StC1 0|dg535:StDly1rel2|0|0|1
+
+
+#Change delay
+dg535:StC1 3|dg535:StC1|3|3|1
+dg535:StC2 2|dg535:StC2|2|2|1
+dg535:StDly1rel2 123.123456789015|dg535:StDly1rel2|123.123456789015|123.123456789015|0
+SETDELAY|5
+dg535:GtDly 0|dg535:GtDly|1,123.123456789015|1.23123456789015e+02|0
+SETDELAY|0
+#
+dg535:StC1 3|dg535:StC2|2|2|1
+
 
 

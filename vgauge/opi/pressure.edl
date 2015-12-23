@@ -3,8 +3,8 @@ beginScreenProperties
 major 4
 minor 0
 release 1
-x 233
-y 87
+x 235
+y 140
 w 700
 h 850
 font "helvetica-medium-r-18.0"
@@ -44,6 +44,7 @@ label "Pressure (Torr) Chan 1"
 showScale
 scaleFormat "Exponential"
 scalePrecision ""
+scaleLimitsFromDb
 useDisplayBg
 labelIntervals "10"
 complexNeedle
@@ -127,6 +128,7 @@ label "Pressure (Torr) Chan 1"
 showScale
 scaleFormat "Exponential"
 scalePrecision ""
+scaleLimitsFromDb
 useDisplayBg
 labelIntervals "10"
 complexNeedle
@@ -159,6 +161,7 @@ label "Pressure (Torr) Chan 1"
 showScale
 scaleFormat "Exponential"
 scalePrecision ""
+scaleLimitsFromDb
 useDisplayBg
 labelIntervals "10"
 complexNeedle
@@ -191,6 +194,7 @@ label "Pressure (Torr) Chan 1"
 showScale
 scaleFormat "Exponential"
 scalePrecision ""
+scaleLimitsFromDb
 useDisplayBg
 labelIntervals "10"
 complexNeedle
@@ -223,6 +227,7 @@ label "Pressure (Torr) Chan 1"
 showScale
 scaleFormat "Exponential"
 scalePrecision ""
+scaleLimitsFromDb
 useDisplayBg
 labelIntervals "10"
 complexNeedle

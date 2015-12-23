@@ -26,8 +26,9 @@ for PS in $( ps -u $WHOAMI | grep "gawk" | awk '{print $1}' ); do echo "Killing 
 
 # Look for test
 INPUTF=list_test.txt
+
+#Delimiter for test file used by awk
 OLDIFS=$IFS
-#Delimiter for test file
 IFS=,
 [ ! -f $INPUT ] && { echo "$INPUT file for tests not found"; exit 99; }
 
@@ -58,7 +59,7 @@ do
  # If this is an error record, record and read next line
  [ "$PV" = "ONERROR" ] && { ERROR_RECORD=$PFIELD; continue; }
  # Read any user dealys
- [ "$PV" = "SETDELAY" ] && { USER_DELAY=$PFIELD; echo "DELAY SET TO:"$USER_DELAY; continue; }
+ [ "$PV" = "SETDELAY" ] && { USER_DELAY=$PFIELD; echo "DELAY SET TO: "$USER_DELAY; continue; }
 
  #Flush error record
  caput  $ERROR_RECORD.VAL 0 2> /dev/null > /dev/null

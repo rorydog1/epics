@@ -8,9 +8,22 @@
 #  - DEVICE name
 # PORT    - asyn PORT
 
-#ERR will hold any message that is not parsed by StreamDevice. These can be a mix of errors or warnings
-#
+####Set C1 and C2
+#Lookup code and update numerical record when code loaded
+#1) put channel output name string into StCode
+#2) trigger GtCodeC1
+#3) StC1 will now be set to the value of the output
+#4) Same for C2
 
+####Set dealy and load d535
+#Do above to set C1 and C2
+#StDly1rel2 123.123456789012
+#C1=C2+delay
+
+####Get delay for C1
+#Do above to set C1
+#GtDly
+#Now GtDly holds delay and C2 has been set to C2 from dg535 
 
 ################################################################################
 #General Info for OIPs
@@ -30,33 +43,132 @@ record(stringin, "$(DEVICE):GtDeviceName")
 #Errors have to be read from the device after a command string
 
 
-record(stringin, "$(DEVICE):CL")
+record(stringin, "$(DEVICE):StCL")
 {
     field(DESC,"Clear device")
     field(DTYP, "stream")
     field(INP,"@dg535.proto get_CL() $(PORT)")
 }
 
-record(stringin, "$(DEVICE):TEST")
+record(stringin, "$(DEVICE):StTEST")
 {
     field(DESC,"Generate a test error")
     field(DTYP, "stream")
     field(INP,"@dg535.proto get_TEST() $(PORT)")
 }
 
-record(mbbi, "$(DEVICE):ES")
+record(ai, "$(DEVICE):GtES")
 {
     field(DESC,"Get errors")
     field(DTYP, "stream")
     field(INP,"@dg535.proto get_ES() $(PORT)")
 }
 
-record(mbbi, "$(DEVICE):IS")
+record(ai, "$(DEVICE):GtIS")
 {
     field(DESC,"Get machine state")
     field(DTYP, "stream")
     field(INP,"@dg535.proto get_IS() $(PORT)")
 }
+
+#######################
+#Channel
+#Channel 1 (Main) and 2 (Relative)
+
+#Lookup code and update numerical record when code loaded
+#1 put channel output name string into StCode
+#2 trigger GtCodeC1
+#3 StC1 will now be set to the value of the output
+
+record(stringout,"$(DEVICE):StCode")
+{
+    field(DESC, "Enter O/P code to lookup")
+    field(OUT,"$(DEVICE):StOutLT PP")
+}
+
+record(fanout, "$(DEVICE):GtCodeC1")
+{
+    field(DESC, "Lookup O/P code for C1")
+    field(LNK1,"$(DEVICE):StOutLT")
+    field(LNK2,"$(DEVICE):StC1")
+}
+
+record(fanout, "$(DEVICE):GtCodeC2")
+{
+    field(DESC, "Lookup O/P code for C2")
+    field(LNK1,"$(DEVICE):StOutLT")
+    field(LNK2,"$(DEVICE):StC2")
+}
+
+record(mbbi, "$(DEVICE):StOutLT")
+{
+    field(DESC, "Channel code")
+    field(ZRST,"TrigIn")
+    field(ONST,"TrigOut")
+    field(TWST,"A out")
+    field(THST,"B out")
+    field(FRST,"AB -AB out")
+    field(FVST,"C out")
+    field(SXST,"D out")
+    field(SVST,"CD -CD out")
+}
+
+
+
+record(ai, "$(DEVICE):StC1")
+{
+    field(DESC,"Set main channel number")
+    field(INP,"$(DEVICE):StOutLT")
+    field(HIHI,"1000")
+    field(LOLO,"0")
+    field(HOPR,"1000")
+    field(LOPR,"0")
+    field(PREC,"14")
+}
+
+record(ai, "$(DEVICE):StC2")
+{
+    field(DESC,"Set rel channel number")
+    field(INP,"$(DEVICE):StOutLT")
+    field(HIHI,"1000")
+    field(LOLO,"0")
+    field(HOPR,"1000")
+    field(LOPR,"0")
+    field(PREC,"14")
+}
+
+#######################
+#Delay 
+#Delay Time of channel i is set to t seconds relative to channel j. Example:
+#DT 3,2,1.2E-6 will set B=A+1.2E-6 seconds
+
+
+#Delay set in VAL
+#write to device
+record(stringout, "$(DEVICE):StDly1rel2")
+{
+    field(DESC,"Send delay string to device")
+    field(DTYP, "stream")
+    field(OUT,"@dg535.proto set_TD($(DEVICE):StC1,$(DEVICE):StC2,$(DEVICE):GtDly) $(PORT)")
+}
+
+#Read C1 delay from device
+#update C2 with reletive channel to selected C1
+#delay stored in VAL
+record(ai,"$(DEVICE):GtDly")
+{
+    field(DESC,"Get delay C1 C2")
+    field(DTYP,"stream")
+    field(PREC,"14")
+    field(INP,"@dg535.proto get_TD($(DEVICE):StC1,$(DEVICE):StC2) $(PORT)")
+}
+
+
+
+
+
+
+
 
 
 

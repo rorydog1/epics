@@ -15,7 +15,7 @@ dg535_registerRecordDeviceDriver pdbbase
 epicsEnvSet ("STREAM_PROTOCOL_PATH","$(EPICS_BASE)/dg535/dg535_db_protocol")
 
 ## Configure devices
-   drvAsynSerialPortConfigure("L0","/dev/ttyUSB2",0,0,0)
+   drvAsynSerialPortConfigure("L0","/home/rory/COM8",0,0,0)
    asynSetOption("L0",-1,"baud","9600")
    asynSetOption("L0",-1,"bits","8")
    asynSetOption("L0",-1,"parity","even")

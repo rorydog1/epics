@@ -26,8 +26,9 @@ for PS in $( ps -u $WHOAMI | grep "gawk" | awk '{print $1}' ); do echo "Killing 
 
 # Look for test
 INPUTF=list_test.txt
+
+#Delimiter for test file used by awk
 OLDIFS=$IFS
-#Delimiter for test file
 IFS=,
 [ ! -f $INPUT ] && { echo "$INPUT file for tests not found"; exit 99; }
 
@@ -68,7 +69,7 @@ do
  #Record this PID
  OLDPID=$! 
 
- #Use caput to trigger the record. caget does not trigger the record, only reads it. Use a caput and ignore input vals
+ #Use caput to trigger the record. caget does not trigger the record, only reads it.
  #Save any errors
  caput  `echo $PV | awk '{print $1}'` `echo $PV | awk '{print $2}'` 2> /dev/null > /dev/null
  TESTOUT=`caget -d$TYPE $PFIELD | awk '/Value/{print substr($0, index($0,$2))}'`

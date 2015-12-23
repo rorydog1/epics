@@ -1,10 +1,10 @@
 #!/usr/bin/bash
 
 #
-#MKS937A Simulator
+#DG535 Simulator
 #
 
-#This is a series of automated tests for the mks973 db records
+#This is a series of automated tests for the DG535 db records
 #Run start_ioc_tty.script:
 #1) Set up two connected tty ports using socat (Called COM8 and COM9)
 #2) connect IOC at one end, COM8
@@ -20,21 +20,26 @@ WHOAMI=`whoami`
 USER_DELAY=0
 ERROR_RECORD=""
 
+#Local port parameters must match the st file: Set them here... 
+stty -F $HOME/COM9 sane
+stty -F $HOME/COM9 9600 cs8 -parodd -echo onlcr
+
+
 #Kill old gawk background processes attached to tty
 
 for PS in $( ps -u $WHOAMI | grep "gawk" | awk '{print $1}' ); do echo "Killing gawk $PS"; kill $PS; wait; done
 
-# Look for test
-INPUTF=list_test.txt
+#Delimiter for test file used by awk
 OLDIFS=$IFS
-#Delimiter for test file
-IFS=,
-[ ! -f $INPUT ] && { echo "$INPUT file for tests not found"; exit 99; }
+IFS=|
+# Look for test
+INPUTF=dg535_tests.csv
+[ ! -f $INPUTF ] && { echo "$INPUTF file for tests not found"; exit 99; }
 
-# Port parameters must match the st file. Start awk simulation. Get PID
+# Start awk simulation. Get PID
 
-stty -F $HOME/COM9 sane
-stty -F $HOME/COM9 9600 cs8 -parodd -echo
+
+
 
 # Run tests
 CWD=$PWD
@@ -54,30 +59,31 @@ do
  [ "$PVTEST" = "#" ] && { continue; }
 
  #Show what was read in
- echo $PV $PFIELD $SDOUT $PVOUT $TYPE
- # If this is an error record, record and read next line
- [ "$PV" = "ONERROR" ] && { ERROR_RECORD=$PFIELD; continue; }
+
+
  # Read any user dealys
  [ "$PV" = "SETDELAY" ] && { USER_DELAY=$PFIELD; echo "DELAY SET TO: "$USER_DELAY; continue; }
-
+ echo $PV $PFIELD $SDOUT $PVOUT $TYPE
  #Flush error record
- caput  $ERROR_RECORD.VAL 0 2> /dev/null > /dev/null
+
 
  #Start gawk simulation with variables from the file
- gawk '{print "Sim In: "$0 >> "/dev/tty"; print "'$SDOUT'"; print "Sim Out: '$SDOUT'" >>"/dev/tty" }' $HOME/COM9 > $HOME/COM9 &
+ gawk 'BEGIN { FS = "\n" } ;{print "Sim In: "$0 >> "/dev/tty"; print "'$SDOUT'"; print "Sim Out: '$SDOUT'" >>"/dev/tty" }' $HOME/COM9 > $HOME/COM9 &
  #Record this PID
  OLDPID=$! 
 
- #Use caput to trigger the record. caget does not trigger the record, only reads it. Use a caput and ignore input vals
- #Save any errors
+ #Use caput to trigger the record. caget does not trigger the record, only reads it.
+ #If there is a delay, then wait to read the output
+
  caput  `echo $PV | awk '{print $1}'` `echo $PV | awk '{print $2}'` 2> /dev/null > /dev/null
+ sleep $USER_DELAY"s"
  TESTOUT=`caget -d$TYPE $PFIELD | awk '/Value/{print substr($0, index($0,$2))}'`
- ERROR_RESULT=`caget $ERROR_RECORD`
+
  echo "IOC responded" $TESTOUT "and user expected" $PVOUT
 
  #Check that the record returned what you expected
- [ "$TESTOUT" = "$PVOUT" ] && { echo "<OK> $PFIELD"; } || { echo "************Error $PFIELD : Type $ERROR_RESULT"; }
- sleep $USER_DELAY"s"
+ [ "$TESTOUT" = "$PVOUT" ] && { echo "<OK> $PFIELD"; } || { echo "************Error $PFIELD"; }
+
 done < $INPUTF
 
 #Kill last gawk

@@ -1,6 +1,9 @@
 # Template database for the the vacuum gaugeMKS 937A
 # Rory Clarke 26/11/2015
-#
+####################
+# Changes
+# 20/12/2015 EDM meter ranges read from the records
+#####################
 # Notation: S are setters, G are getters
 # The MKS must be set to pressure in Torr otherwise HC will fail
 # Each device sensor (1-5) is started from st.cmd with a new dbLoadRecords
@@ -24,9 +27,12 @@
 #           GtCmRelayRngH
 # CAPMAN  - Scale of capacative manometer. Default is 100
 
-#GtCombRng- Sensor ranges 1 and 2 combined: GtCombRng A- Comb 1 low,B- Comb 1 high, C- Comb 2 low, D- Comb 2 high
+#         - Sensor ranges 1 and 2 combined overridden in
+# COMBL	  - combined sensor to use low range (1,2)
+# COMBH   - combined sensor to use for high range (1,2)
 
 # UNITS   - Default = Torr
+
 
 
 # Notes:
@@ -82,28 +88,67 @@ record(stringin, "$(DEVICE)$(SENSOR):StUpdateRange")
     field(FLNK,"$(DEVICE)$(SENSOR):PrvRngFan")
 }
 
+record(stringin, "$(DEVICE)$(SENSOR):StUpdateCmbRangeL")
+{   
+    field(DESC, "Low sensor for combination")
+    field(VAL,"$(COMBL=CC)")
+    field(PINI,"YES")
+    field(FLNK,"$(DEVICE)$(SENSOR):PrvCmbLFan")
+}
+
+record(stringin, "$(DEVICE)$(SENSOR):StUpdateCmbRangeH")
+{
+    field(DESC, "High sensor for combination")
+    field(VAL,"$(COMBH=CC)")
+    field(PINI,"YES")
+    field(FLNK,"$(DEVICE)$(SENSOR):PrvCmbHFan")
+}
+
+
 record(fanout, "$(DEVICE)$(SENSOR):PrvRngFan")
 {
+    field(DESC, "Fanout for pressure ranges")
     field(LNK1,"$(DEVICE)$(SENSOR):StSenT")
     field(LNK2,"$(DEVICE)$(SENSOR):GtCmRangeL")
     field(LNK3,"$(DEVICE)$(SENSOR):GtCmRangeH")
-    field(LNK4,"$(DEVICE)$(SENSOR):GtCmRangeRlyL")
-    field(LNK5,"$(DEVICE)$(SENSOR):GtCmRangeRlyH")
-    field(LNK6,"$(DEVICE)$(SENSOR):PrvRngFan2")
+    field(LNK4,"$(DEVICE)$(SENSOR):GtSenRngL")
+    field(LNK5,"$(DEVICE)$(SENSOR):GtSenRngH")
 }
 
-record(fanout, "$(DEVICE)$(SENSOR):PrvRngFan2")
+record(fanout, "$(DEVICE)$(SENSOR):PrvCmbLFan")
 {
-    field(LNK1,"$(DEVICE)$(SENSOR):GtSenRngL")
-    field(LNK2,"$(DEVICE)$(SENSOR):GtSenRngH")
-    field(LNK3,"$(DEVICE)$(SENSOR):GtSenRngRlyL")
-    field(LNK4,"$(DEVICE)$(SENSOR):GtSenRngRlyH")
+    field(DESC, "Fanout for comb 1,2 low ranges")
+    field(LNK1,"$(DEVICE)$(SENSOR):StCbmTL")
+    field(LNK2,"$(DEVICE)$(SENSOR):GtCombRngL")
+}
+
+record(fanout, "$(DEVICE)$(SENSOR):PrvCmbHFan")
+{
+    field(DESC, "Fanout for comb 1,2 high ranges")
+    field(LNK1,"$(DEVICE)$(SENSOR):StCbmTH")
+    field(LNK2,"$(DEVICE)$(SENSOR):GtCombRngH")
 }
 
 record(stringout, "$(DEVICE)$(SENSOR):StSenT")
 {
     field(DESC, "Set string for GtSenT")
     field(DOL,"$(DEVICE)$(SENSOR):StUpdateRange.VAL")
+    field(OMSL,"closed_loop")
+    field(OUT,"$(DEVICE)$(SENSOR):GtSenT")
+}
+
+record(stringout, "$(DEVICE)$(SENSOR):StCmbTL")
+{
+    field(DESC, "Set string for GtSenT")
+    field(DOL,"$(DEVICE)$(SENSOR):StUpdateCmbRangeL.VAL")
+    field(OMSL,"closed_loop")
+    field(OUT,"$(DEVICE)$(SENSOR):GtSenT")
+}
+
+record(stringout, "$(DEVICE)$(SENSOR):StCmbTH")
+{
+    field(DESC, "Set string for GtSenT")
+    field(DOL,"$(DEVICE)$(SENSOR):StUpdateCmbRangeH.VAL")
     field(OMSL,"closed_loop")
     field(OUT,"$(DEVICE)$(SENSOR):GtSenT")
 }
@@ -122,7 +167,7 @@ record(mbbi, "$(DEVICE)$(SENSOR):GtSenT")
 
 ###Sensor ranges 1-5
 
-record(calc, "$(DEVICE)$(SENSOR):GtSenRngL")
+record(calcout, "$(DEVICE)$(SENSOR):GtSenRngL")
 {
     field(DESC, "Low sensor range")
     field(INPL, "$(DEVICE)$(SENSOR):GtSenT.VAL")
@@ -133,9 +178,12 @@ record(calc, "$(DEVICE)$(SENSOR):GtSenRngL")
     field(INPD, "$(DEVICE)$(SENSOR):GtCmRangeL.VAL")
     field(INPE,1.0e-03)
     field(CALC,"L=1?A:L=2?B:L=3?C:L=4?D:E")
+    field(OOPT,"Every Time")
+    field(OUT,"$(DEVICE)$(SENSOR):GtP.LOPR PP")
 }
 
-record(calc, "$(DEVICE)$(SENSOR):GtSenRngH")
+
+record(calcout, "$(DEVICE)$(SENSOR):GtSenRngH")
 {
     field(DESC, "High sensor range")
     field(INPL, "$(DEVICE)$(SENSOR):GtSenT.VAL")
@@ -146,46 +194,41 @@ record(calc, "$(DEVICE)$(SENSOR):GtSenRngH")
     field(INPD, "$(DEVICE)$(SENSOR):GtCmRangeH.VAL")
     field(INPE,1.0e-01)
     field(CALC,"L=1?A:L=2?B:L=3?C:L=4?D:E")
+    field(OOPT,"Every Time")
+    field(OUT,"$(DEVICE)$(SENSOR):GtP.HOPR PP")
 }
 
-###Sensor ranges 1 and 2 combined: GtCombRng A- Comb 1 low,B- Comb 1 high, C- Comb 2 low, D- Comb 2 high
+###Sensor ranges of combination sensors on channel 1 and 2
 
-record(calc, "$(DEVICE)$(SENSOR):GtCombSenRng")
+record(calcout, "$(DEVICE)$(SENSOR):GtCombRngL")
+{
+    field(DESC, "Low sensor range")
+    field(INPL, "$(DEVICE)$(SENSOR):GtSenT.VAL")
+#   Low
+    field(INPA,1.0e-11)
+    field(INPB,5.0e-04)
+    field(INPC,1.0e-03)
+    field(INPD, "$(DEVICE)$(SENSOR):GtCmRangeL.VAL")
+    field(INPE,1.0e-03)
+    field(CALC,"L=1?A:L=2?B:L=3?C:L=4?D:E")
+    field(OOPT,"Every Time")
+    field(OUT,"$(DEVICE)$(SENSOR):GtC.LOPR PP")
+}
+
+
+record(calcout, "$(DEVICE)$(SENSOR):GtCombRngH")
 {
     field(DESC, "High sensor range")
-#   Low
-    field(INPA,1.0e-11)#1 low
-    field(INPB,4.0e-02)#1 high
-    field(INPC,1.0e-11)#2 low
-    field(INPD,1.0e-02)#2 high
-}
-
-### Relay setpoint ranges
-
-record(calc, "$(DEVICE)$(SENSOR):GtSenRngRlyL")
-{
-    field(DESC, "Low realy sensor range")
     field(INPL, "$(DEVICE)$(SENSOR):GtSenT.VAL")
 #   Low
-    field(INPA,2.0e-12)
-    field(INPB,2.0e-03)
-    field(INPC,2.0e-03)
-    field(INPD, "$(DEVICE)$(SENSOR):GtCmRangeRlyL.VAL")
-    field(INPE,2.0e-03)
+    field(INPA,1.0e-02)
+    field(INPB,4.0e-02)
+    field(INPC,1.0e+03)
+    field(INPD, "$(DEVICE)$(SENSOR):GtCmRangeH.VAL")
+    field(INPE,1.0e-01)
     field(CALC,"L=1?A:L=2?B:L=3?C:L=4?D:E")
-}
-
-record(calc, "$(DEVICE)$(SENSOR):GtSenRngRlyH")
-{
-    field(DESC, "High relay sensor range")
-    field(INPL, "$(DEVICE)$(SENSOR):GtSenT.VAL")
-#   High
-    field(INPA,9.5e-03)
-    field(INPB,9.5e+01)
-    field(INPC,9.5e+02)
-    field(INPD, "$(DEVICE)$(SENSOR):GtCmRangeRlyH.VAL")
-    field(INPE,9.5e-01)
-    field(CALC,"L=1?A:L=2?B:L=3?C:L=4?D:E")
+    field(OOPT,"Every Time")
+    field(OUT,"$(DEVICE)$(SENSOR):GtC.HOPR PP")
 }
 
 ### Capacative manometer ranges
@@ -308,7 +351,8 @@ record(stringout, "$(DEVICE)$(SENSOR):StSetRlyPntErr")
    field(DESC, "Set string for rly errors")
    field(DOL,"$(DEVICE)$(SENSOR):ERR.VAL")
    field(OMSL,"closed_loop")
-   field(OUT,"$(DEVICE)$(SENSOR):GtSetRlyPntErr")
+   field(OUT, "$(DEVICE)$(SENSOR):GtSetRlyPntErr")
+   field(FLNK,"$(DEVICE)$(SENSOR):GtSetRlyPntErr")
 }
 
 record(mbbi, "$(DEVICE)$(SENSOR):GtSetRlyPntErr")
@@ -326,7 +370,8 @@ record(stringout, "$(DEVICE)$(SENSOR):StCCHCErr")
    field(DESC, "Set string for CC errors")
    field(DOL,"$(DEVICE)$(SENSOR):ERR.VAL")
    field(OMSL,"closed_loop")
-   field(OUT,"$(DEVICE)$(SENSOR):GtCCHCErr")
+   field(OUT, "$(DEVICE)$(SENSOR):GtCCHCErr")
+   field(FLNK,"$(DEVICE)$(SENSOR):GtCCHCErr")
 }
 
 record(mbbi, "$(DEVICE)$(SENSOR):GtCCHCErr")

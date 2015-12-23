@@ -26,7 +26,11 @@ epicsEnvSet ("STREAM_PROTOCOL_PATH","$(EPICS_BASE)/vgauge/vgaugeSup")
 ## Load record instances
 #dbLoadRecords("db/xxx.db","user=roryHost")
 dbLoadRecords("db/asynRecord.db","P=norum:,R=asyn,PORT=L0,ADDR=0,IMAX=100,OMAX=100")
-dbLoadRecords("$(EPICS_BASE)/vgauge/vgaugeSup/mks937.db","DEVICE=mks937a,SENSOR=1,SENTYP=CC,CAPMAN=10,PORT=L0")
+dbLoadRecords("$(EPICS_BASE)/vgauge/vgaugeSup/mks937.db","DEVICE=mks937a,SENSOR=1,SENTYP=CC,PORT=L0,COMBL=CC,COMBH=PR")
+dbLoadRecords("$(EPICS_BASE)/vgauge/vgaugeSup/mks937.db","DEVICE=mks937a,SENSOR=2,SENTYP=PR,PORT=L0,COMBL=CC,COMBH=CP")
+dbLoadRecords("$(EPICS_BASE)/vgauge/vgaugeSup/mks937.db","DEVICE=mks937a,SENSOR=3,SENTYP=CP,PORT=L0")
+dbLoadRecords("$(EPICS_BASE)/vgauge/vgaugeSup/mks937.db","DEVICE=mks937a,SENSOR=4,SENTYP=CM,CAPMAN=10,PORT=L0")
+dbLoadRecords("$(EPICS_BASE)/vgauge/vgaugeSup/mks937.db","DEVICE=mks937a,SENSOR=5,SENTYP=TC,PORT=L0")
 
 cd "${TOP}/iocBoot/${IOC}"
 iocInit

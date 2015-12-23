@@ -1,8 +1,9 @@
 ## Stream Device Protocol for the dg535 Stanford Research Systems delay and pulse generator
 ## Rory Clarke 18/12/2015
 
-
-
+# The DG535 takes a float that is 15 digits wide with 12 precision:
+# 123.123456789012
+# Unless you are working at 64 bits your precision may not be wide enough
 
 
 ##############################################
@@ -11,12 +12,12 @@
 
 OutTerminator   = CR LF;
 InTerminator   = CR;
-MaxInput = 10;
+MaxInput = 0;
 ReplyTimeout = 5000;
 LockTimeout = 8000;
 
 #Generate an error for testing
-get_test{out "BAD;ES"; in "%8b"} 
+get_test{out "BAD"} 
 
 ##############################################
 #Commands
@@ -29,3 +30,6 @@ get_CL {out "CL"}
 get_ES {out "ES"; in "%8b"}
 get_IS {out "IS"; in "%8b"}
 
+#Set delay
+set_TD {out"DT%(\$1).1u,%(\$2).1u,$s"}
+get_TD {out"DT%(\$1).1u"; in "%(\$2)u,%17f"}
