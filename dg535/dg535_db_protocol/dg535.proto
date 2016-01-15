@@ -13,8 +13,8 @@
 OutTerminator   = CR LF;
 InTerminator   = CR;
 MaxInput = 0;
-ReplyTimeout = 5000;
-LockTimeout = 8000;
+ReplyTimeout = 15000;
+LockTimeout = 24000;
 
 #Generate an error for testing
 get_test{out "BAD"} 
@@ -32,4 +32,17 @@ get_IS {out "IS"; in "%8b"}
 
 #Set delay
 set_TD {out"DT%(\$1).1u,%(\$2).1u,%s"}
-get_TD {out"DT%(\$1).1u"; in "%(\$2)u,%17f"}
+get_TD {out"DT%(\$1).1u"; in "%(\$2)u,%(\$3)f"}
+
+#Set terminaion resistance
+set_TD {out"TZ%(\$1).1u,%1u"}
+get_TD {out"TZ%(\$1).1u"; in "%(\%2)u"}
+
+#Set output mode
+#Note, VAR has OO OA (offset and amp) These only have an effect for the VAR mode
+set_TD {out"OM%(\$1).1u,%1u"}
+
+#Get params
+get_PARM {out"OM%(\$1).1u; OA%(\$1).1u; OO%(\$1).1u ; OP%(\$1).1u"; in "%(\$2)u"; in "%(\$3)u"; in "%(\$4)u";in "%(\$5)u" }
+
+

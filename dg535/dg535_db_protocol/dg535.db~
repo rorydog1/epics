@@ -8,25 +8,69 @@
 #  - DEVICE name
 # PORT    - asyn PORT
 
-####Set C1 and C2
-#Lookup code and update numerical record when code loaded
-#1) put channel output name string into StCode
-#2) trigger GtCodeC1
-#3) StC1 will now be set to the value of the output
-#4) Same for C2
 
-####Set dealy and load d535
-#Do above to set C1 and C2
-#StDly1rel2 123.123456789012
-#C1=C2+delay
+####Get errors and machine state
 
-####Get delay for C1
-#Do above to set C1
-#GtDly
-#Now GtDly holds delay and C2 has been set to C2 from dg535 
+#  GtDeviceName => General info
+#  StCL	=> Clear machine
+#  GtES => Error state
+
+#     Bit:
+#     7  Always zero
+#     6  Recalled data was corrupt
+#     5  Delay range error
+#     4  Delay linkage error
+#     3  Wrong mode for the command
+#     2  Value is outside allowed range
+#     1  Wrong number of parameters
+#     0  Unrecognized command
+
+#  GtIS => Machine state
+
+#     Bit:
+
+#    7 Memory contents corrupted
+#    6 Service request
+#    5 Always zero
+#    4 Trigger rate too high
+#    3 80MHz PLL is unlocked
+#    2 Trigger has occurred
+#    1 Busy with timing cycle
+#    0 Command error detected
+
+#### Set C1 and C2
+
+# Lookup code and update numerical record when code loaded:
+# Enter channel name string into StC1 or StC2
+# Or change VAL number directly
+
+####Set and get delay
+
+#Set delay
+#  Do above to set C1 and C2 => C1=C2+delay
+#  StDly1rel2 123.123456789012
+
+
+#Get delay for C1
+#  Do above to set C1
+#  GtDly
+#  Now GtDly holds delay and C2 has been set from dg535
+
+####Set and get termiantion resistance
+
+##Set term res
+#  Do above to set C1
+#  0=50 Ohm load, 1= high-Z load
+#  StTZ {0,1}
+
+
+##Get term res
+#  Do above to set C1
+#  GtTZ
+#  Now GtDly holds termination resistance value
 
 ################################################################################
-#General Info for OIPs
+#General Info
 
 record(stringin, "$(DEVICE):GtDeviceName")
 {
@@ -37,10 +81,7 @@ record(stringin, "$(DEVICE):GtDeviceName")
 
 
 ################################################################################
-
-################################################################################
-#Errors:
-#Errors have to be read from the device after a command string
+#Clear device and generate a test error
 
 
 record(stringin, "$(DEVICE):StCL")
@@ -57,12 +98,18 @@ record(stringin, "$(DEVICE):StTEST")
     field(INP,"@dg535.proto get_TEST() $(PORT)")
 }
 
+################################################################################
+#Read errors and machine state
+
+
 record(ai, "$(DEVICE):GtES")
 {
     field(DESC,"Get errors")
     field(DTYP, "stream")
     field(INP,"@dg535.proto get_ES() $(PORT)")
 }
+
+
 
 record(ai, "$(DEVICE):GtIS")
 {
@@ -71,38 +118,27 @@ record(ai, "$(DEVICE):GtIS")
     field(INP,"@dg535.proto get_IS() $(PORT)")
 }
 
-#######################
-#Channel
+
+################################################################################
+#Two channels can be set relative to each other:
 #Channel 1 (Main) and 2 (Relative)
 
-#Lookup code and update numerical record when code loaded
-#1 put channel output name string into StCode
-#2 trigger GtCodeC1
-#3 StC1 will now be set to the value of the output
-
-record(stringout,"$(DEVICE):StCode")
+record(mbbi, "$(DEVICE):StC1")
 {
-    field(DESC, "Enter O/P code to lookup")
-    field(OUT,"$(DEVICE):StOutLT PP")
+    field(DESC, "Channel code C1")
+    field(ZRST,"TrigIn")
+    field(ONST,"TrigOut")
+    field(TWST,"A out")
+    field(THST,"B out")
+    field(FRST,"AB -AB out")
+    field(FVST,"C out")
+    field(SXST,"D out")
+    field(SVST,"CD -CD out")
 }
 
-record(fanout, "$(DEVICE):GtCodeC1")
+record(mbbi, "$(DEVICE):StC2")
 {
-    field(DESC, "Lookup O/P code for C1")
-    field(LNK1,"$(DEVICE):StOutLT")
-    field(LNK2,"$(DEVICE):StC1")
-}
-
-record(fanout, "$(DEVICE):GtCodeC2")
-{
-    field(DESC, "Lookup O/P code for C2")
-    field(LNK1,"$(DEVICE):StOutLT")
-    field(LNK2,"$(DEVICE):StC2")
-}
-
-record(mbbi, "$(DEVICE):StOutLT")
-{
-    field(DESC, "Channel code")
+    field(DESC, "Channel code C2")
     field(ZRST,"TrigIn")
     field(ONST,"TrigOut")
     field(TWST,"A out")
@@ -114,60 +150,84 @@ record(mbbi, "$(DEVICE):StOutLT")
 }
 
 
-
-record(ai, "$(DEVICE):StC1")
-{
-    field(DESC,"Set main channel number")
-    field(INP,"$(DEVICE):StOutLT")
-    field(HIHI,"1000")
-    field(LOLO,"0")
-    field(HOPR,"1000")
-    field(LOPR,"0")
-    field(PREC,"14")
-}
-
-record(ai, "$(DEVICE):StC2")
-{
-    field(DESC,"Set rel channel number")
-    field(INP,"$(DEVICE):StOutLT")
-    field(HIHI,"1000")
-    field(LOLO,"0")
-    field(HOPR,"1000")
-    field(LOPR,"0")
-    field(PREC,"14")
-}
-
-#######################
+################################################################################
 #Delay 
-#Delay Time of channel i is set to t seconds relative to channel j. Example:
-#DT 3,2,1.2E-6 will set B=A+1.2E-6 seconds
+#Delay Time of C1 is set to t seconds relative to C2
 
 
 #Delay set in VAL
 #write to device
-record(stringout, "$(DEVICE):StDly1rel2")
+record(ao, "$(DEVICE):StDly1rel2")
 {
-    field(DESC,"Send delay string to device")
+    field(DESC,"Set delay in VAL")
     field(DTYP, "stream")
-    field(OUT,"@dg535.proto set_TD($(DEVICE):StC1,$(DEVICE):StC2,$(DEVICE):GtDly) $(PORT)")
+    field(HIHI, "999.999999999996")
+    field(LOLO, "-0.0000000000001")
+    field(OUT,"@dg535.proto set_TD($(DEVICE):StC1,$(DEVICE):StC2) $(PORT)")
 }
 
 #Read C1 delay from device
 #update C2 with reletive channel to selected C1
-#delay stored in VAL
+#updage VAL of StDly1rel2
 record(ai,"$(DEVICE):GtDly")
 {
     field(DESC,"Get delay C1 C2")
     field(DTYP,"stream")
     field(PREC,"14")
-    field(INP,"@dg535.proto get_TD($(DEVICE):StC1,$(DEVICE):StC2) $(PORT)")
+    field(INP,"@dg535.proto get_TD($(DEVICE):StC1,$(DEVICE):StC2,$(DEVICE):StDly1rel2) $(PORT)")
 }
 
+################################################################################
+##Set termination resistance
+
+#Set term resistance
+record(bo, "$(DEVICE):StTZ")
+{
+    field(DESC,"Set term res VAL")
+    field(DTYP, "stream")
+    field(ZNAME, "50ohm")
+    field(ONAM, "HiZ")
+    field(OUT,"@dg535.proto set_TZ($(DEVICE):StC1) $(PORT)")
+}
+
+#Get term resisance
+record(bi,"$(DEVICE):GtTZ")
+{
+    field(DESC,"Get termination resistance")
+    field(DTYP,"stream")
+    field(ZNAME, "50ohm")
+    field(ONAM, "HiZ")
+    field(INP,"@dg535.proto get_TZ($(DEVICE):StC1,$(DEVICE):StTZ) $(PORT)")
+}
+
+record(mbbo, "$(DEVICE):StOM")
+{
+    field(DESC, "Set C1 out mode VAL")
+    field(DTYP, "stream")
+    field(ZRST,"TTL")
+    field(ONST,"NIM")
+    field(TWST,"ECL")
+    field(THST,"VAR")
+    field(OUT,"@dg535.proto set_OM($(DEVICE):StC1) $(PORT)")
+}
+
+record(mbbi, "$(DEVICE):GtOM")
+{
+    field(DESC, "Get C1 out mode VAL")
+    field(DTYP, "stream")
+    field(ZRST,"TTL")
+    field(ONST,"NIM")
+    field(TWST,"ECL")
+    field(THST,"VAR")
+    field(INP,"@dg535.proto get_OM($(DEVICE):StC1,$(DEVICE):StOM) $(PORT)")
+}
+
+###Offsets and Amp for VAR, polarity for other states
 
 
 
-
-
+################################################################################
+#Set triggers
 
 
 
