@@ -8,13 +8,23 @@
 #  - DEVICE name
 # PORT    - asyn PORT
 
+####Note about scanning, PP and Event:
+
+#   Only St records should change data on the device! Gt only reads
+#   All St records are set to Event. This will allow you to change St values without
+#   triggering stream device write. 
+#   Gt reads will update St values from the machine but will not 
+#   trigger a write (as you would only write the same values anyway!)
+#   When an St value is changed, trigger the record with an event to write the value to the machine
+ 
 
 ####Get errors and machine state
 
-#  GtDeviceName => General info
-#  StCL	=> Clear machine
-#  GtES => Error state
-
+#  GtDeviceName (stringin) => General info
+#  StCL	        (void)     => Clear machine
+#  StTest       (void)     => Generate a test error
+#  GtES         (ai)       => Error state
+                
 #     Bit:
 #     7  Always zero
 #     6  Recalled data was corrupt
@@ -25,7 +35,7 @@
 #     1  Wrong number of parameters
 #     0  Unrecognized command
 
-#  GtIS => Machine state
+#  GtIS         (ai)       => Machine state
 
 #     Bit:
 
@@ -40,34 +50,84 @@
 
 #### Set C1 and C2
 
-# Lookup code and update numerical record when code loaded:
-# Enter channel name string into StC1 or StC2
-# Or change VAL number directly
+#  StC1; StC2   (ENUM) 
+
+#    0 TrigIn
+#    1 TrigOut
+#    2 A out
+#    3 B out
+#    4 AB -AB out
+#    5 C out
+#    6 D out
+#    7 CD -CD out
 
 ####Set and get delay
 
 #Set delay
-#  Do above to set C1 and C2 => C1=C2+delay
-#  StDly1rel2 123.123456789012
+
+#  StDlyC1C2     (ao)   => 123.123456789012. First set C1 and C2 as above. Delay will be C1=C2+delay
+#                          -10^-13 < Delay < 1000
+
+#  GtDly         (void) => Get delay for C1
+#                          Do above to set C1
+#                          StDlyC1C2 holds delay and C2 has been set from dg535
+
+####Set and get termination resistance
 
 
-#Get delay for C1
+#  StTZ         (ENUM)  => Set termination resistance 
+#                          Do above to set C1
+#                          0=50ohm 
+#                          1= HiZ load
+#                          Note: If channel = 0 (Trig in), this command is used to set the
+#                          impedance of the external trigger input
+
+##
 #  Do above to set C1
-#  GtDly
-#  Now GtDly holds delay and C2 has been set from dg535
+#  GtTZ        (void)  => Get term res
+#                         Now StTZ holds termination resistance value
 
-####Set and get termiantion resistance
+####Set and get Output Mode
 
-##Set term res
-#  Do above to set C1
-#  0=50 Ohm load, 1= high-Z load
-#  StTZ {0,1}
+#  StOM        (ENUM)  => Set mode:
+#                         0=TTL
+#                         1=NIM 
+#                         2=ECL 
+#                         3=VAL
 
+#  StPOL       (ENUM)  => Set polarity. This affects TTL, NIM, ECL
+#                         0=inverted
+#                         1=normal
 
-##Get term res
-#  Do above to set C1
-#  GtTZ
-#  Now GtDly holds termination resistance value
+#  StAMP       (ENUM)  => Set amplitude in volts. This affects VAR, +-4v
+#  StOFF       (ao)    => Set an offset in volts. This affects VAR, +-4v
+
+#  GtOM        (void)  => Set StOM, StPOL, StAMP, StOFF from machine's values
+
+####Set and get triggers
+
+#  StTrig      (ENUM)   => Channel independent. Set mode:
+#                         0=Int
+#                         1=Ext 
+#                         2=SS 
+#                         3=Bur
+#  GtTrig      (void)   => Set StTrig with trigger value
+
+#  StExtTL     (ao)     => Set external trigger level volts
+#  GtExtTL     (ao)     => Get external trigger level
+
+#  StTrigS     (ao)     => Set trigger slope level: 0=Falling, 1=Rising
+#  GtTrigS     (ao)     => Get trigger slope level
+
+#  StTrigRT     (ENUM)  => 0 = Int, 1 = Burst; Internal or burst rate respectively
+#                          Used with StTrigRF
+
+#  StTrigRF     (ao)    => 0.001 < Freq < 10^6 for setting in StTrigRT
+#  GtrigRateInf (void)  => Set StTrigRT and StTrigRF from device
+
+###Single shot mode
+#  FireSS      (void)   => Only in TM2: Fire single shot
+
 
 ################################################################################
 #General Info
@@ -152,41 +212,44 @@ record(mbbi, "$(DEVICE):StC2")
 
 ################################################################################
 #Delay 
-#Delay Time of C1 is set to t seconds relative to C2
+#Delay Time of C1 is set to t seconds relative to C2 (see header for use)
 
 
 #Delay set in VAL
 #write to device
-record(ao, "$(DEVICE):StDly1rel2")
+record(ao, "$(DEVICE):StDlyC1C2")
 {
     field(DESC,"Set delay in VAL")
     field(DTYP, "stream")
     field(HIHI, "999.999999999996")
     field(LOLO, "-0.0000000000001")
+    field(HHSV, "INVALID")
+    field(LLSV, "INVALID")
+    field(SCAN, "Event")
     field(OUT,"@dg535.proto set_TD($(DEVICE):StC1,$(DEVICE):StC2) $(PORT)")
 }
 
 #Read C1 delay from device
 #update C2 with reletive channel to selected C1
-#updage VAL of StDly1rel2
+#updage VAL of StDlyC1C2
 record(ai,"$(DEVICE):GtDly")
 {
     field(DESC,"Get delay C1 C2")
     field(DTYP,"stream")
-    field(PREC,"14")
-    field(INP,"@dg535.proto get_TD($(DEVICE):StC1,$(DEVICE):StC2,$(DEVICE):StDly1rel2) $(PORT)")
+    field(INP,"@dg535.proto get_TD($(DEVICE):StC1,$(DEVICE):StC2,$(DEVICE):StDlyC1C2) $(PORT)")
 }
 
 ################################################################################
-##Set termination resistance
+##Set termination resistance (see header for use)
 
 #Set term resistance
 record(bo, "$(DEVICE):StTZ")
 {
-    field(DESC,"Set term res VAL")
+    field(DESC,"Set term resistance")
     field(DTYP, "stream")
-    field(ZNAME, "50ohm")
+    field(ZNAM, "50ohm")
     field(ONAM, "HiZ")
+    field(SCAN, "Event")
     field(OUT,"@dg535.proto set_TZ($(DEVICE):StC1) $(PORT)")
 }
 
@@ -194,12 +257,14 @@ record(bo, "$(DEVICE):StTZ")
 record(bi,"$(DEVICE):GtTZ")
 {
     field(DESC,"Get termination resistance")
-    field(DTYP,"stream")
-    field(ZNAME, "50ohm")
-    field(ONAM, "HiZ")
+    field(DTYP, "stream")
     field(INP,"@dg535.proto get_TZ($(DEVICE):StC1,$(DEVICE):StTZ) $(PORT)")
 }
 
+################################################################################
+##Set output mode (see header for use)
+
+#Set output mode
 record(mbbo, "$(DEVICE):StOM")
 {
     field(DESC, "Set C1 out mode VAL")
@@ -208,27 +273,192 @@ record(mbbo, "$(DEVICE):StOM")
     field(ONST,"NIM")
     field(TWST,"ECL")
     field(THST,"VAR")
+    field(SCAN, "Event")
     field(OUT,"@dg535.proto set_OM($(DEVICE):StC1) $(PORT)")
 }
 
-record(mbbi, "$(DEVICE):GtOM")
+#Set output polarity (NIM TTL ECL only)
+record(bo, "$(DEVICE):StPOL")
 {
-    field(DESC, "Get C1 out mode VAL")
+    field(DESC,"Set POL N,T,E")
     field(DTYP, "stream")
-    field(ZRST,"TTL")
-    field(ONST,"NIM")
-    field(TWST,"ECL")
-    field(THST,"VAR")
-    field(INP,"@dg535.proto get_OM($(DEVICE):StC1,$(DEVICE):StOM) $(PORT)")
+    field(ZNAM, "inverted")
+    field(ONAM, "normal")
+    field(SCAN, "Event")
+    field(OUT,"@dg535.proto set_POL($(DEVICE):StC1) $(PORT)")
 }
 
-###Offsets and Amp for VAR, polarity for other states
+#Set Amp (VAR only)
+record(ao, "$(DEVICE):StAMP")
+{
+    field(DESC,"Set Amp VAL")
+    field(DTYP, "stream")
+    field(HIHI, "4.1")
+    field(LOLO, "-4.1")
+    field(HHSV, "INVALID")
+    field(LLSV, "INVALID")
+    field(SCAN, "Event")
+    field(OUT,"@dg535.proto set_AMP($(DEVICE):StC1) $(PORT)")
+}
 
+#Set Offset (VAR only)
+record(ao, "$(DEVICE):StOFF")
+{
+    field(DESC,"Set offset VAL")
+    field(DTYP, "stream")
+    field(HIHI, "4.1")
+    field(LOLO, "-4.1")
+    field(HHSV, "INVALID")
+    field(LLSV, "INVALID")
+    field(SCAN, "Event")
+    field(OUT,"@dg535.proto set_OFF($(DEVICE):StC1) $(PORT)")
+}
+
+###Get Output mode; Offsets and Amp for VAR, polarity for other modes
+#Get params
+record(bi,"$(DEVICE):GtOM")
+{
+    field(DESC,"Get output mode info")
+    field(DTYP, "stream")
+    field(INP,"@dg535.proto get_PARM($(DEVICE),StC1,StOM,StAMP,StOFF,StPOL) $(PORT)")
+}
 
 
 ################################################################################
 #Set triggers
 
+#Set trigger mode
+record(mbbo, "$(DEVICE):StTrigM")
+{
+    field(DESC,"Set trigger mode")
+    field(DTYP, "stream")
+    field(ZRST, "Int")
+    field(ONST, "Ext")
+    field(TWST, "SS")
+    field(THST, "Bur")
+    field(SCAN, "Event")
+    field(OUT,"@dg535.proto set_Trig() $(PORT)")
+}
 
+#Get trigger mode
+record(mbbi,"$(DEVICE):GtTrigM")
+{
+    field(DESC,"Get trigger mode")
+    field(DTYP, "stream")
+    field(INP,"@dg535.proto get_Trig($(DEVICE):StTrigM) $(PORT)")
+}
+
+###
+
+#Set external trigger level volts
+record(ao, "$(DEVICE):StExtTrig")
+{
+    field(DESC,"Set trigger volts")
+    field(DTYP, "stream")
+    field(SCAN, "Event")
+    field(OUT,"@dg535.proto set_ext_volts() $(PORT)")
+}
+
+#Get external trigger level
+record(ai,"$(DEVICE):GtExtTrig")
+{
+    field(DESC,"Get trigger mode")
+    field(DTYP, "stream")
+    field(INP,"@dg535.proto get_ext_volts($(DEVICE):StExtTrig) $(PORT)")
+}
+
+###
+
+#Set trigger slope
+record(mbbo, "$(DEVICE):StTrigS")
+{
+    field(DESC,"Set trigger slope")
+    field(ZRST, "Falling")
+    field(ONST, "Rising")
+    field(DTYP, "stream")
+    field(SCAN, "Event")
+    field(OUT,"@dg535.proto set_trig_slope() $(PORT)")
+}
+
+#Get external trigger level
+record(mbbi,"$(DEVICE):GtTrigS")
+{
+    field(DESC,"Get trigger slope")
+    field(DTYP, "stream")
+    field(INP,"@dg535.proto get_trig_slope($(DEVICE):StTrigS) $(PORT)")
+}
+###
+# Fire single shot TM2 only:
+
+record(bo,"$(DEVICE):FireSS")
+{
+    field(DESC,"Fire single shot")
+    field(DTYP, "stream")
+    field(OUT,"@dg535.proto fire_SS() $(PORT)")
+}
+
+###
+
+#Set trigger rate frequency internal
+record(ao, "$(DEVICE):StTrigRtInt")
+{
+    field(DESC,"Set trigger rate frequency")
+    field(DTYP, "stream")
+    field(HIHI, "1000000")
+    field(LOLO, "0.0009")
+    field(HHSV, "INVALID")
+    field(LLSV, "INVALID")
+    field(SCAN, "Event")
+    field(OUT,"@dg535.proto set_freq_int($(DEVICE):StTrigM) $(PORT)")
+}
+
+#Set trigger rate frequency burst
+record(ao, "$(DEVICE):StTrigRtBurst")
+{
+    field(DESC,"Set trigger rate frequency")
+    field(DTYP, "stream")
+    field(HIHI, "1000000")
+    field(LOLO, "0.0009")
+    field(HHSV, "INVALID")
+    field(LLSV, "INVALID")
+    field(SCAN, "Event")
+    field(OUT,"@dg535.proto set_freq_burst($(DEVICE):StTrigM) $(PORT)")
+}
+
+#Set trigger burst count
+record(ao, "$(DEVICE):StBC")
+{
+    field(DESC,"Set burst count")
+    field(DTYP, "stream")
+    field(HIHI, "32767")
+    field(LOLO, "1")
+    field(HHSV, "INVALID")
+    field(LLSV, "INVALID")
+    field(SCAN, "Event")
+    field(OUT,"@dg535.proto set_burst_count() $(PORT)")
+}
+
+#Set trigger burst period
+record(ao, "$(DEVICE):StBP")
+{
+    field(DESC,"Set burst period")
+    field(DTYP, "stream")
+    field(HIHI, "32767")
+    field(LOLO, "3")
+    field(HHSV, "INVALID")
+    field(LLSV, "INVALID")
+    field(SCAN, "Event")
+    field(OUT,"@dg535.proto set_burst_period() $(PORT)")
+}
+
+#Get trigger rate type and frequency
+record(bi,"$(DEVICE):GtTrigRateInf")
+{
+    field(DESC,"Get trigger mode")
+    field(DTYP, "stream")
+    field(INP,"@dg535.proto get_rate_inf($(DEVICE),StTrigRtInt,StTrigRtBurst,StBC,StBP) $(PORT)")
+}
+
+###
 
 

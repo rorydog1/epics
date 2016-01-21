@@ -26,3 +26,8 @@ export EDMLIBS=$EPICS_EXTENSIONS/lib/$EPICS_HOST_ARCH
 
 #Config async
 export ASYN="$EPICS_EXTENSIONS/src/asyn4-27/"
+
+#caQtDM
+export EPICSEXTENSIONS=/home/rory/Desktop/epics/extensions/qt
+export QTDM_LIBINSTALL=/home/rory/Desktop/epics/extensions/qt/lib/linux-x86_64
+export QTDM_BININSTALL=/home/rory/Desktop/epics/extensions/qt/bin/linux-x86_64

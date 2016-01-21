@@ -15,7 +15,7 @@ dg535_registerRecordDeviceDriver pdbbase
 epicsEnvSet ("STREAM_PROTOCOL_PATH","$(EPICS_BASE)/dg535/dg535_db_protocol")
 
 ## Configure devices
-   drvAsynSerialPortConfigure("L0","/dev/ttyUSB1",0,0,0)
+   drvAsynSerialPortConfigure("L0","/dev/ttyUSB0",0,0,0)
    asynSetOption("L0",-1,"baud","9600")
    asynSetOption("L0",-1,"bits","8")
    asynSetOption("L0",-1,"parity","even")
@@ -33,3 +33,48 @@ iocInit
 
 ## Start any sequence programs
 #seq sncxxx,"user=roryHost"
+
+## Testing
+
+##General
+#dbl
+#dbgf dg535:StOM
+
+##Serial Debug On
+asynSetTraceIOMask("L0",-1,0x2)
+asynSetTraceMask("L0",-1,0x9)
+
+#Test output mode sequence
+#dbpf dg535:StC1 3
+#dbtr  dg535:GtOM
+#dbtr  dg535:GtTrigM
+
+#####Test trigger mode
+#dbpf  dg535:GtTrigRateInf.PROC 1
+#Should be machine values
+#dbgf  dg535:StTrigRtInt
+#dbgf  dg535:StTrigRtBurst
+
+###Test Trigger settings
+#Set some values local
+#dbpf  dg535:StTrigRtBurst 1000
+#dbpf  dg535:StTrigRtInt   8000
+#Send to machine
+#dbpf  dg535:StTrigRtBurst.PROC 1
+#dbpf  dg535:StTrigRtInt.PROC 1
+#Change local to dummy values
+#dbpf  dg535:StTrigRtInt  1
+#dbpf  dg535:StTrigRtBurst 1
+##Should change back to set values of 1000, 8000 from machine:
+#dbpf  dg535:GtTrigRateInf.PROC 1
+#dbpf  dg535:StTrigRtInt.PROC 1
+#dbgf  dg535:StTrigRtBurst
+
+###Test external trigger voltage setting
+#dbpf  dg535:GtExtTrig.PROC 1
+#dbgf  dg535:StExtTrig
+#dbpf  dg535:StExtTrig 2
+#dbpf  dg535:StExtTrig.PROC
+#dbpf  dg535:GtExtTrig.PROC 1
+
+
