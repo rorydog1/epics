@@ -1,0 +1,5 @@
+SUPPORT=/home/rory/Desktop/epics/rgamv2/iocs
+WORK=/home/rory/Desktop/epics/rgamv2/iocs
+
+# Place any example specific dependencies here
+PYDRV=          $(SUPPORT)/pyDrv/1-2
