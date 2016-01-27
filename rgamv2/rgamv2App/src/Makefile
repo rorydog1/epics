@@ -15,11 +15,12 @@ USR_CXXFLAGS_DEFAULT += -fno-operator-names
 #USR_CXXFLAGS_DEFAULT += -save-temps
 #USR_CXXFLAGS_DEFAULT += -fimplicit-templates
 
+PROD_IOC = rgamv2
+
 # -------------------------------
 # Build an Diamond Support Module
 # -------------------------------
-LIBRARY_IOC_Linux += rgamv2
-#PROD_IOC = rgamv2
+#LIBRARY_IOC_Linux += rgamv2
 # xxxRecord.dbd will be installed into <top>/dbd
 DBD += rgamv2Include.dbd
 DBD += rgaInclude.dbd
@@ -28,6 +29,7 @@ DBD += rgaInclude.dbd
 rgamv2_SRCS_Linux   +=rgamv2.cpp
 
 # We need to link against the EPICS Base libraries
+rgamv2_LIBS += asyn
 rgamv2_LIBS += $(EPICS_BASE_IOC_LIBS)
-
+ 
 include $(TOP)/configure/RULES
