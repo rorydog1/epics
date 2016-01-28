@@ -32,4 +32,4 @@ iocInit
 
 drvAsynIPPortConfigure("L0","148.79.130.58:10014",0,0,0)
 mv2init("T1","L0")
-dbLoadRecords("../../db/rgamv2.template","device=chas,PORT=L0")
+dbLoadRecords("../../db/rgamv2.template","device=chas,PORT=T1")

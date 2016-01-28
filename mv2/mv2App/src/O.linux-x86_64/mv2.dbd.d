@@ -1,10 +1,9 @@
 # DO NOT EDIT: This file created by mkmf.pl,v 1.5 2002/03/25 21:33:24 jba Exp $ 
 
 ../O.Common/mv2.dbd : /home/rory/Desktop/epics/dbd/base.dbd
-../O.Common/mv2.dbd : ../xxxSupport.dbd
-../O.Common/mv2.dbd : ../dbSubExample.dbd
-../O.Common/mv2.dbd : ../mv2Hello.dbd
-../O.Common/mv2.dbd : ../initTrace.dbd
+../O.Common/mv2.dbd : /home/rory/Desktop/epics/extensions/src/asyn4-27/dbd/drvAsynIPPort.dbd
+../O.Common/mv2.dbd : /home/rory/Desktop/epics/extensions/src/asyn4-27/dbd/asyn.dbd
+../O.Common/mv2.dbd : ../rgamv2Include.dbd
 ../O.Common/mv2.dbd : /home/rory/Desktop/epics/dbd/menuGlobal.dbd
 ../O.Common/mv2.dbd : /home/rory/Desktop/epics/dbd/menuConvert.dbd
 ../O.Common/mv2.dbd : /home/rory/Desktop/epics/dbd/aaiRecord.dbd
@@ -36,7 +35,8 @@
 ../O.Common/mv2.dbd : /home/rory/Desktop/epics/dbd/subArrayRecord.dbd
 ../O.Common/mv2.dbd : /home/rory/Desktop/epics/dbd/waveformRecord.dbd
 ../O.Common/mv2.dbd : /home/rory/Desktop/epics/dbd/devSoft.dbd
-../O.Common/mv2.dbd : ../xxxRecord.dbd
+../O.Common/mv2.dbd : /home/rory/Desktop/epics/extensions/src/asyn4-27/dbd/asynRecord.dbd
+../O.Common/mv2.dbd : /home/rory/Desktop/epics/extensions/src/asyn4-27/dbd/devEpics.dbd
 ../O.Common/mv2.dbd : /home/rory/Desktop/epics/dbd/menuAlarmSevr.dbd
 ../O.Common/mv2.dbd : /home/rory/Desktop/epics/dbd/menuAlarmStat.dbd
 ../O.Common/mv2.dbd : /home/rory/Desktop/epics/dbd/menuCompress.dbd
@@ -49,6 +49,18 @@
 ../O.Common/mv2.dbd : /home/rory/Desktop/epics/dbd/menuSimm.dbd
 ../O.Common/mv2.dbd : /home/rory/Desktop/epics/dbd/menuYesNo.dbd
 ../O.Common/mv2.dbd : /home/rory/Desktop/epics/dbd/dbCommon.dbd
+../O.Common/mv2.dbd : /home/rory/Desktop/epics/extensions/src/asyn4-27/dbd/devAsynOctet.dbd
+../O.Common/mv2.dbd : /home/rory/Desktop/epics/extensions/src/asyn4-27/dbd/devAsynInt32.dbd
+../O.Common/mv2.dbd : /home/rory/Desktop/epics/extensions/src/asyn4-27/dbd/devAsynInt8Array.dbd
+../O.Common/mv2.dbd : /home/rory/Desktop/epics/extensions/src/asyn4-27/dbd/devAsynInt16Array.dbd
+../O.Common/mv2.dbd : /home/rory/Desktop/epics/extensions/src/asyn4-27/dbd/devAsynInt32Array.dbd
+../O.Common/mv2.dbd : /home/rory/Desktop/epics/extensions/src/asyn4-27/dbd/devAsynInt32TimeSeries.dbd
+../O.Common/mv2.dbd : /home/rory/Desktop/epics/extensions/src/asyn4-27/dbd/devAsynFloat64.dbd
+../O.Common/mv2.dbd : /home/rory/Desktop/epics/extensions/src/asyn4-27/dbd/devAsynFloat32Array.dbd
+../O.Common/mv2.dbd : /home/rory/Desktop/epics/extensions/src/asyn4-27/dbd/devAsynFloat64Array.dbd
+../O.Common/mv2.dbd : /home/rory/Desktop/epics/extensions/src/asyn4-27/dbd/devAsynFloat64TimeSeries.dbd
+../O.Common/mv2.dbd : /home/rory/Desktop/epics/extensions/src/asyn4-27/dbd/devAsynUInt32Digital.dbd
+../O.Common/mv2.dbd : /home/rory/Desktop/epics/extensions/src/asyn4-27/dbd/devAsynRecord.dbd
 
 
 ../O.Common/mv2Include.dbd : ../Makefile

@@ -36,7 +36,7 @@ DBD += mv2.dbd
 # mv2.dbd will include these files:
 mv2_DBD += base.dbd
 mv2_DBD += drvAsynIPPort.dbd
-mv2_DBD += asyn.dbd
+#mv2_DBD += xxxSupport.dbd
 #mv2_DBD += dbSubExample.dbd
 #mv2_DBD += mv2Hello.dbd
 #mv2_DBD += initTrace.dbd
