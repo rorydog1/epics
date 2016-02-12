@@ -1,0 +1,5135 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 347
+y 185
+w 1300
+h 700
+font "arial-medium-r-16.0"
+ctlFont "arial-bold-r-16.0"
+btnFont "arial-medium-r-16.0"
+fgColor index 14
+bgColor index 3
+textColor index 14
+ctlFgColor1 index 25
+ctlFgColor2 index 18
+ctlBgColor1 index 3
+ctlBgColor2 index 5
+topShadowColor index 1
+botShadowColor index 11
+title "VELA TDC"
+snapToGrid
+gridSize 2
+endScreenProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 312
+y 82
+w 20
+h 292
+controlPv "EBT-INJ-TDC-HV-01:Cml"
+lineColor index 14
+onColor index 18
+offColor index 20
+lineWidth 2
+endian "little"
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 334
+y 82
+w 20
+h 292
+controlPv "EBT-INJ-TDC-HV-01:Cmi"
+lineColor index 14
+onColor index 18
+offColor index 20
+lineWidth 2
+endian "little"
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 334
+y 372
+w 20
+h 292
+controlPv "EBT-INJ-TDC-HV-02:Cmi"
+lineColor index 14
+onColor index 18
+offColor index 20
+lineWidth 2
+endian "little"
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 312
+y 372
+w 20
+h 292
+controlPv "EBT-INJ-TDC-HV-02:Cml"
+lineColor index 14
+onColor index 18
+offColor index 20
+lineWidth 2
+endian "little"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 312
+y 58
+w 118
+h 21
+font "arial-bold-r-18.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "HV Interlocks"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 360
+y 121
+w 250
+h 16
+controlPv "EBT-INJ-TDC-HV-01:Ilk3.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 360
+y 139
+w 250
+h 16
+controlPv "EBT-INJ-TDC-HV-01:Ilk4.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 360
+y 157
+w 250
+h 16
+controlPv "EBT-INJ-TDC-HV-01:Ilk5.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 360
+y 175
+w 250
+h 16
+controlPv "EBT-INJ-TDC-HV-01:Ilk6.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 360
+y 193
+w 250
+h 16
+controlPv "EBT-INJ-TDC-HV-01:Ilk7.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 360
+y 212
+w 250
+h 16
+controlPv "EBT-INJ-TDC-HV-01:Ilk8.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 360
+y 102
+w 250
+h 16
+controlPv "EBT-INJ-TDC-HV-01:Ilk2.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 360
+y 84
+w 250
+h 16
+controlPv "EBT-INJ-TDC-HV-01:Ilk1.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 360
+y 267
+w 250
+h 16
+controlPv "EBT-INJ-TDC-HV-01:Ilk11.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 360
+y 284
+w 250
+h 16
+controlPv "EBT-INJ-TDC-HV-01:Ilk12.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 360
+y 302
+w 250
+h 16
+controlPv "EBT-INJ-TDC-HV-01:Ilk13.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 360
+y 321
+w 250
+h 16
+controlPv "EBT-INJ-TDC-HV-01:Ilk14.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 360
+y 338
+w 250
+h 16
+controlPv "EBT-INJ-TDC-HV-01:Ilk15.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 360
+y 357
+w 250
+h 16
+controlPv "EBT-INJ-TDC-HV-01:Ilk16.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 360
+y 248
+w 250
+h 16
+controlPv "EBT-INJ-TDC-HV-01:Ilk10.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 360
+y 230
+w 250
+h 16
+controlPv "EBT-INJ-TDC-HV-01:Ilk9.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 360
+y 412
+w 250
+h 16
+controlPv "EBT-INJ-TDC-HV-02:Ilk3.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 360
+y 429
+w 250
+h 16
+controlPv "EBT-INJ-TDC-HV-02:Ilk4.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 360
+y 447
+w 250
+h 16
+controlPv "EBT-INJ-TDC-HV-02:Ilk5.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 360
+y 465
+w 250
+h 16
+controlPv "EBT-INJ-TDC-HV-02:Ilk6.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 360
+y 483
+w 250
+h 16
+controlPv "EBT-INJ-TDC-HV-02:Ilk7.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 360
+y 502
+w 250
+h 16
+controlPv "EBT-INJ-TDC-HV-02:Ilk8.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 360
+y 392
+w 250
+h 16
+controlPv "EBT-INJ-TDC-HV-02:Ilk2.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 360
+y 375
+w 250
+h 16
+controlPv "EBT-INJ-TDC-HV-02:Ilk1.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 360
+y 556
+w 250
+h 16
+controlPv "EBT-INJ-TDC-HV-02:Ilk11.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 360
+y 574
+w 250
+h 16
+controlPv "EBT-INJ-TDC-HV-02:Ilk12.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 360
+y 592
+w 250
+h 16
+controlPv "EBT-INJ-TDC-HV-02:Ilk13.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 360
+y 610
+w 250
+h 16
+controlPv "EBT-INJ-TDC-HV-02:Ilk14.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 360
+y 628
+w 250
+h 16
+controlPv "EBT-INJ-TDC-HV-02:Ilk15.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 360
+y 646
+w 250
+h 16
+controlPv "EBT-INJ-TDC-HV-02:Ilk16.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 360
+y 538
+w 250
+h 16
+controlPv "EBT-INJ-TDC-HV-02:Ilk10.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 360
+y 519
+w 250
+h 16
+controlPv "EBT-INJ-TDC-HV-02:Ilk9.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 4
+y 80
+w 20
+h 292
+controlPv "EBT-INJ-TDC-STBY-01:Cml"
+lineColor index 14
+onColor index 18
+offColor index 20
+lineWidth 2
+endian "little"
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 26
+y 80
+w 20
+h 292
+controlPv "EBT-INJ-TDC-STBY-01:Cmi"
+lineColor index 14
+onColor index 18
+offColor index 20
+lineWidth 2
+endian "little"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 4
+y 56
+w 164
+h 21
+font "arial-bold-r-18.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Standby Interlocks"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 52
+y 118
+w 250
+h 16
+controlPv "EBT-INJ-TDC-STBY-01:Ilk3.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 52
+y 137
+w 250
+h 16
+controlPv "EBT-INJ-TDC-STBY-01:Ilk4.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 52
+y 155
+w 250
+h 16
+controlPv "EBT-INJ-TDC-STBY-01:Ilk5.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 52
+y 174
+w 250
+h 16
+controlPv "EBT-INJ-TDC-STBY-01:Ilk6.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 52
+y 191
+w 250
+h 16
+controlPv "EBT-INJ-TDC-STBY-01:Ilk7.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 52
+y 210
+w 250
+h 16
+controlPv "EBT-INJ-TDC-STBY-01:Ilk8.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 52
+y 101
+w 250
+h 16
+controlPv "EBT-INJ-TDC-STBY-01:Ilk2.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 52
+y 82
+w 250
+h 16
+controlPv "EBT-INJ-TDC-STBY-01:Ilk1.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 52
+y 264
+w 250
+h 16
+controlPv "EBT-INJ-TDC-STBY-01:Ilk11.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 52
+y 283
+w 250
+h 16
+controlPv "EBT-INJ-TDC-STBY-01:Ilk12.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 52
+y 301
+w 250
+h 16
+controlPv "EBT-INJ-TDC-STBY-01:Ilk13.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 52
+y 319
+w 250
+h 16
+controlPv "EBT-INJ-TDC-STBY-01:Ilk14.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 52
+y 337
+w 250
+h 16
+controlPv "EBT-INJ-TDC-STBY-01:Ilk15.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 52
+y 356
+w 250
+h 16
+controlPv "EBT-INJ-TDC-STBY-01:Ilk16.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 52
+y 246
+w 250
+h 16
+controlPv "EBT-INJ-TDC-STBY-01:Ilk10.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 52
+y 228
+w 250
+h 16
+controlPv "EBT-INJ-TDC-STBY-01:Ilk9.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 604
+y 278
+w 26
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControlDouble.edl"
+}
+symbols {
+  0 "device=EBT-INJ-TDC-FPSU-01"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 634
+y 276
+w 129
+h 24
+font "arial-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Focus 1 PSU"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 602
+y 278
+w 28
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-TDC-FPSU-01:Sta"
+gateDownPv "EBT-INJ-TDC-FPSU-01:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-TDC-FPSU-01:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 602
+y 302
+w 26
+h 14
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControlDouble.edl"
+}
+symbols {
+  0 "device=EBT-INJ-TDC-FPSU-02"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 602
+y 300
+w 28
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-TDC-FPSU-02:Sta"
+gateDownPv "EBT-INJ-TDC-FPSU-02:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-TDC-FPSU-02:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 602
+y 322
+w 26
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControlDouble.edl"
+}
+symbols {
+  0 "device=EBT-INJ-TDC-FPSU-03"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 602
+y 320
+w 28
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-TDC-FPSU-03:Sta"
+gateDownPv "EBT-INJ-TDC-FPSU-03:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-TDC-FPSU-03:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 634
+y 298
+w 129
+h 24
+font "arial-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Focus 2 PSU"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 634
+y 318
+w 129
+h 24
+font "arial-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Focus 3 PSU"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 604
+y 344
+w 26
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControlDouble.edl"
+}
+symbols {
+  0 "device=EBT-INJ-TDC-HET-01"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 602
+y 342
+w 28
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-TDC-HET-01:Sta"
+gateDownPv "EBT-INJ-TDC-HET-01:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-TDC-HET-01:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 634
+y 338
+w 129
+h 24
+font "arial-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Heater PSU"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 740
+y 278
+w 26
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControlDouble.edl"
+}
+symbols {
+  0 "device=EBT-INJ-TDC-BIAS-01"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 770
+y 276
+w 129
+h 24
+font "arial-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Pulse Bias PSU"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 738
+y 278
+w 28
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-TDC-BIAS-01:Sta"
+gateDownPv "EBT-INJ-TDC-BIAS-01:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-TDC-BIAS-01:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 738
+y 302
+w 26
+h 14
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControlDouble.edl"
+}
+symbols {
+  0 "device=EBT-INJ-TDC-THY-01"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 738
+y 300
+w 28
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-TDC-THY-01:Sta"
+gateDownPv "EBT-INJ-TDC-THY-01:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-TDC-THY-01:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 738
+y 322
+w 26
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControlDouble.edl"
+}
+symbols {
+  0 "device=EBT-INJ-TDC-CHARG-01"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 738
+y 320
+w 28
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-TDC-CHARG-01:Sta"
+gateDownPv "EBT-INJ-TDC-CHARG-01:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-TDC-CHARG-01:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 770
+y 298
+w 129
+h 24
+font "arial-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Thyratron Contactor"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 770
+y 318
+w 129
+h 24
+font "arial-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Charger Enable"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 740
+y 344
+w 26
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControlDouble.edl"
+}
+symbols {
+  0 "device=EBT-INJ-TDC-SPARE-01"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 738
+y 342
+w 28
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-TDC-SPARE-01:Sta"
+gateDownPv "EBT-INJ-TDC-SPARE-01:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-TDC-SPARE-01:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 770
+y 338
+w 129
+h 24
+font "arial-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "SPARE"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 740
+y 278
+w 26
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControlDouble.edl"
+}
+symbols {
+  0 "device=EBT-INJ-TDC-BIAS-01"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 770
+y 276
+w 129
+h 24
+font "arial-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Pulse Bias PSU"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 738
+y 278
+w 28
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-TDC-BIAS-01:Sta"
+gateDownPv "EBT-INJ-TDC-BIAS-01:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-TDC-BIAS-01:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 738
+y 302
+w 26
+h 14
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControlDouble.edl"
+}
+symbols {
+  0 "device=EBT-INJ-TDC-THY-01"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 738
+y 300
+w 28
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-TDC-THY-01:Sta"
+gateDownPv "EBT-INJ-TDC-THY-01:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-TDC-THY-01:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 738
+y 322
+w 26
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControlDouble.edl"
+}
+symbols {
+  0 "device=EBT-INJ-TDC-CHARG-01"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 738
+y 320
+w 28
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-TDC-CHARG-01:Sta"
+gateDownPv "EBT-INJ-TDC-CHARG-01:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-TDC-CHARG-01:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 770
+y 298
+w 129
+h 24
+font "arial-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Thyratron Contactor"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 770
+y 318
+w 129
+h 24
+font "arial-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Charger Enable"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 740
+y 344
+w 26
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControlDouble.edl"
+}
+symbols {
+  0 "device=EBT-INJ-TDC-SPARE-01"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 738
+y 342
+w 28
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-TDC-SPARE-01:Sta"
+gateDownPv "EBT-INJ-TDC-SPARE-01:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-TDC-SPARE-01:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 770
+y 338
+w 129
+h 24
+font "arial-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "SPARE"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 740
+y 278
+w 26
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControlDouble.edl"
+}
+symbols {
+  0 "device=EBT-INJ-TDC-BIAS-01"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 770
+y 276
+w 129
+h 24
+font "arial-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Pulse Bias PSU"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 738
+y 278
+w 28
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-TDC-BIAS-01:Sta"
+gateDownPv "EBT-INJ-TDC-BIAS-01:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-TDC-BIAS-01:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 738
+y 302
+w 26
+h 14
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControlDouble.edl"
+}
+symbols {
+  0 "device=EBT-INJ-TDC-THY-01"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 738
+y 300
+w 28
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-TDC-THY-01:Sta"
+gateDownPv "EBT-INJ-TDC-THY-01:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-TDC-THY-01:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 738
+y 322
+w 26
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControlDouble.edl"
+}
+symbols {
+  0 "device=EBT-INJ-TDC-CHARG-01"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 738
+y 320
+w 28
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-TDC-CHARG-01:Sta"
+gateDownPv "EBT-INJ-TDC-CHARG-01:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-TDC-CHARG-01:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 770
+y 298
+w 129
+h 24
+font "arial-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Thyratron Contactor"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 770
+y 318
+w 129
+h 24
+font "arial-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Charger Enable"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 740
+y 344
+w 26
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControlDouble.edl"
+}
+symbols {
+  0 "device=EBT-INJ-TDC-SPARE-01"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 738
+y 342
+w 28
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-TDC-SPARE-01:Sta"
+gateDownPv "EBT-INJ-TDC-SPARE-01:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-TDC-SPARE-01:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 770
+y 338
+w 129
+h 24
+font "arial-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "SPARE"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 604
+y 278
+w 26
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControlDouble.edl"
+}
+symbols {
+  0 "device=EBT-INJ-TDC-FPSU-01"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 634
+y 276
+w 129
+h 24
+font "arial-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Focus 1 PSU"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 602
+y 278
+w 28
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-TDC-FPSU-01:Sta"
+gateDownPv "EBT-INJ-TDC-FPSU-01:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-TDC-FPSU-01:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 602
+y 302
+w 26
+h 14
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControlDouble.edl"
+}
+symbols {
+  0 "device=EBT-INJ-TDC-FPSU-02"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 602
+y 300
+w 28
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-TDC-FPSU-02:Sta"
+gateDownPv "EBT-INJ-TDC-FPSU-02:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-TDC-FPSU-02:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 602
+y 322
+w 26
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControlDouble.edl"
+}
+symbols {
+  0 "device=EBT-INJ-TDC-FPSU-03"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 602
+y 320
+w 28
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-TDC-FPSU-03:Sta"
+gateDownPv "EBT-INJ-TDC-FPSU-03:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-TDC-FPSU-03:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 634
+y 298
+w 129
+h 24
+font "arial-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Focus 2 PSU"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 634
+y 318
+w 129
+h 24
+font "arial-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Focus 3 PSU"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 604
+y 344
+w 26
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControlDouble.edl"
+}
+symbols {
+  0 "device=EBT-INJ-TDC-HET-01"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 602
+y 342
+w 28
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-TDC-HET-01:Sta"
+gateDownPv "EBT-INJ-TDC-HET-01:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-TDC-HET-01:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 634
+y 338
+w 129
+h 24
+font "arial-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Heater PSU"
+}
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 4
+y 397
+w 20
+h 297
+controlPv "EBT-INJ-TDC-RF-01:Cml"
+lineColor index 14
+onColor index 18
+offColor index 20
+lineWidth 2
+endian "little"
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 26
+y 397
+w 20
+h 297
+controlPv "EBT-INJ-TDC-RF-01:Cmi"
+lineColor index 14
+onColor index 18
+offColor index 20
+lineWidth 2
+endian "little"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 4
+y 374
+w 117
+h 21
+font "arial-bold-r-18.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "RF Interlocks"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 52
+y 434
+w 250
+h 16
+controlPv "EBT-INJ-TDC-RF-01:Ilk3.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 52
+y 454
+w 250
+h 16
+controlPv "EBT-INJ-TDC-RF-01:Ilk4.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 52
+y 472
+w 250
+h 16
+controlPv "EBT-INJ-TDC-RF-01:Ilk5.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 52
+y 492
+w 250
+h 16
+controlPv "EBT-INJ-TDC-RF-01:Ilk6.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 52
+y 510
+w 250
+h 16
+controlPv "EBT-INJ-TDC-RF-01:Ilk7.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 52
+y 528
+w 250
+h 16
+controlPv "EBT-INJ-TDC-RF-01:Ilk8.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 52
+y 416
+w 250
+h 16
+controlPv "EBT-INJ-TDC-RF-01:Ilk2.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 52
+y 398
+w 250
+h 16
+controlPv "EBT-INJ-TDC-RF-01:Ilk1.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 52
+y 584
+w 250
+h 16
+controlPv "EBT-INJ-TDC-RF-01:Ilk11.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 52
+y 604
+w 250
+h 16
+controlPv "EBT-INJ-TDC-RF-01:Ilk12.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 52
+y 622
+w 250
+h 16
+controlPv "EBT-INJ-TDC-RF-01:Ilk13.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 52
+y 640
+w 250
+h 16
+controlPv "EBT-INJ-TDC-RF-01:Ilk14.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 52
+y 660
+w 250
+h 16
+controlPv "EBT-INJ-TDC-RF-01:Ilk15.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 52
+y 678
+w 250
+h 16
+controlPv "EBT-INJ-TDC-RF-01:Ilk16.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 52
+y 566
+w 250
+h 16
+controlPv "EBT-INJ-TDC-RF-01:Ilk10.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 52
+y 548
+w 250
+h 16
+controlPv "EBT-INJ-TDC-RF-01:Ilk9.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 926
+y 186
+w 82
+h 18
+controlPv "EBT-TDC-HEATER-01:RV"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1015
+y 190
+w 247
+h 16
+controlPv "EBT-TDC-HEATER-01:RV.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 926
+y 68
+w 82
+h 18
+controlPv "EBT-TDC-FOCUS-01:RV"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1015
+y 72
+w 247
+h 16
+controlPv "EBT-TDC-FOCUS-01:RV.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 926
+y 206
+w 82
+h 18
+controlPv "EBT-TDC-HEATER-01:RI"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1015
+y 210
+w 247
+h 16
+controlPv "EBT-TDC-HEATER-01:RI.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 926
+y 88
+w 82
+h 18
+controlPv "EBT-TDC-FOCUS-01:RI"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1015
+y 92
+w 247
+h 16
+controlPv "EBT-TDC-FOCUS-01:RI.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 926
+y 107
+w 82
+h 18
+controlPv "EBT-TDC-FOCUS-02:RV"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1015
+y 111
+w 247
+h 16
+controlPv "EBT-TDC-FOCUS-02:RV.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 926
+y 127
+w 82
+h 18
+controlPv "EBT-TDC-FOCUS-02:RI"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1015
+y 131
+w 247
+h 16
+controlPv "EBT-TDC-FOCUS-02:RI.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 926
+y 147
+w 82
+h 18
+controlPv "EBT-TDC-FOCUS-03:RV"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1015
+y 151
+w 247
+h 16
+controlPv "EBT-TDC-FOCUS-03:RV.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 926
+y 166
+w 82
+h 18
+controlPv "EBT-TDC-FOCUS-03:RI"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1015
+y 170
+w 247
+h 16
+controlPv "EBT-TDC-FOCUS-03:RI.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 926
+y 390
+w 82
+h 18
+controlPv "EBT-TDC-PROBE-02:RP"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1016
+y 390
+w 248
+h 16
+controlPv "EBT-TDC-PROBE-02:RP.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 926
+y 371
+w 82
+h 18
+controlPv "EBT-TDC-PROBE-01:RP"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1016
+y 372
+w 248
+h 16
+controlPv "EBT-TDC-PROBE-01:RP.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 926
+y 352
+w 82
+h 18
+controlPv "EBT-TDC-SF6-01:RP"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1016
+y 352
+w 248
+h 16
+controlPv "EBT-TDC-SF6-01:RP.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 926
+y 332
+w 82
+h 18
+controlPv "EBT-TDC-CHGER-01:RV"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1016
+y 332
+w 248
+h 16
+controlPv "EBT-TDC-CHGER-01:RV.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 926
+y 312
+w 82
+h 18
+controlPv "EBT-TDC-BODY-01:RI"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1016
+y 312
+w 248
+h 16
+controlPv "EBT-TDC-BODY-01:RI.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 926
+y 293
+w 82
+h 18
+controlPv "EBT-TDC-IONP-01:RI"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1016
+y 296
+w 248
+h 16
+controlPv "EBT-TDC-IONP-01:RI.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 926
+y 274
+w 82
+h 18
+controlPv "EBT-TDC-IONP-01:RV"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1016
+y 276
+w 248
+h 16
+controlPv "EBT-TDC-IONP-01:RV.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 926
+y 254
+w 82
+h 18
+controlPv "EBT-TDC-HVPSU-01:RI"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1016
+y 256
+w 248
+h 16
+controlPv "EBT-TDC-HVPSU-01:RI.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 926
+y 234
+w 82
+h 18
+controlPv "EBT-TDC-HVPSU-01:RV"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1016
+y 236
+w 248
+h 16
+controlPv "EBT-TDC-HVPSU-01:RV.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 926
+y 626
+w 82
+h 17
+controlPv "EBT-TDC-CAV-DT-01:RT"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1016
+y 626
+w 248
+h 16
+controlPv "EBT-TDC-CAV-DT-01:RT.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 926
+y 606
+w 82
+h 17
+controlPv "EBT-TDC-CAV-RET-01:RT"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1016
+y 608
+w 248
+h 16
+controlPv "EBT-TDC-CAV-RET-01:RT.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 926
+y 587
+w 82
+h 17
+controlPv "EBT-TDC-CAV-FEED-01:RT"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1016
+y 588
+w 248
+h 16
+controlPv "EBT-TDC-CAV-FEED-01:RT.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 926
+y 568
+w 82
+h 17
+controlPv "EBT-TDC-WG-DT-01:RT"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1016
+y 570
+w 248
+h 16
+controlPv "EBT-TDC-WG-DT-01:RT.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 550
+y 6
+w 39
+h 21
+font "arial-bold-r-18.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "TDC"
+}
+autoSize
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 598
+y 82
+w 84
+h 34
+fgColor index 14
+onColor index 85
+offColor index 85
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-TDC-STBY-01:On"
+buttonType "push"
+3d
+font "courier-bold-r-12.0"
+objType "controls"
+colorPv "EBT-INJ-TDC-STBY-01:Sta"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 690
+y 82
+w 84
+h 34
+fgColor index 20
+onColor index 25
+offColor index 25
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-TDC-STBY-01:Off"
+buttonType "push"
+3d
+font "courier-bold-r-12.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 690
+y 124
+w 84
+h 34
+fgColor index 20
+onColor index 25
+offColor index 25
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-TDC-HV-01:Off"
+buttonType "push"
+3d
+font "courier-bold-r-12.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 690
+y 166
+w 84
+h 34
+fgColor index 20
+onColor index 25
+offColor index 25
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-TDC-RF-01:Off"
+buttonType "push"
+3d
+font "courier-bold-r-12.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 598
+y 124
+w 84
+h 34
+fgColor index 14
+onColor index 85
+offColor index 85
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-TDC-HV-01:On"
+buttonType "push"
+3d
+font "courier-bold-r-12.0"
+objType "controls"
+colorPv "EBT-INJ-TDC-HV-01:Sta"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 598
+y 166
+w 84
+h 34
+fgColor index 14
+onColor index 85
+offColor index 85
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-TDC-RF-01:On"
+buttonType "push"
+3d
+font "courier-bold-r-12.0"
+objType "controls"
+colorPv "EBT-INJ-TDC-RF-01:Sta"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 784
+y 124
+w 84
+h 34
+fgColor index 20
+onColor index 25
+offColor index 25
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-TDC-HV-01:Rst"
+buttonType "push"
+3d
+font "courier-bold-r-12.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 784
+y 164
+w 84
+h 34
+fgColor index 20
+onColor index 25
+offColor index 25
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-TDC-RF-01:Rst"
+buttonType "push"
+3d
+font "courier-bold-r-12.0"
+objType "controls"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 674
+y 48
+w 114
+h 21
+font "arial-bold-r-18.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Main Control"
+}
+autoSize
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 784
+y 82
+w 84
+h 34
+fgColor index 20
+onColor index 25
+offColor index 25
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-TDC-STBY-01:Rst"
+buttonType "push"
+3d
+font "courier-bold-r-12.0"
+objType "controls"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 926
+y 549
+w 82
+h 17
+controlPv "EBT-TDC-WG-RET-01:RT"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1016
+y 552
+w 248
+h 16
+controlPv "EBT-TDC-WG-RET-01:RT.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 926
+y 530
+w 82
+h 17
+controlPv "EBT-TDC-WG-FEED-01:RT"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1016
+y 532
+w 248
+h 16
+controlPv "EBT-TDC-WG-FEED-01:RT.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 926
+y 511
+w 82
+h 17
+controlPv "EBT-TDC-BOD-DT-01:RT"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1016
+y 514
+w 248
+h 16
+controlPv "EBT-TDC-BOD-DT-01:RT.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 926
+y 492
+w 82
+h 17
+controlPv "EBT-TDC-BOD-RET-01:RT"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1016
+y 494
+w 248
+h 16
+controlPv "EBT-TDC-BOD-RET-01:RT.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 926
+y 473
+w 82
+h 17
+controlPv "EBT-TDC-BOD-FEED-01:RT"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1016
+y 476
+w 248
+h 16
+controlPv "EBT-TDC-BOD-FEED-01:RT.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 926
+y 454
+w 82
+h 17
+controlPv "EBT-TDC-COL-DT-01:RT"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1016
+y 456
+w 248
+h 16
+controlPv "EBT-TDC-COL-DT-01:RT.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 926
+y 435
+w 82
+h 17
+controlPv "EBT-TDC-COL-RET-01:RT"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1016
+y 436
+w 248
+h 16
+controlPv "EBT-TDC-COL-RET-01:RT.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 926
+y 416
+w 82
+h 17
+controlPv "EBT-TDC-COL-FEED-01:RT"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1016
+y 418
+w 248
+h 16
+controlPv "EBT-TDC-COL-FEED-01:RT.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 720
+y 584
+w 248
+h 16
+controlPv "EBT-TDC-CHILL-01:ST.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Entry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 602
+y 573
+w 116
+h 34
+controlPv "EBT-TDC-CHILL-01:ST"
+fgColor index 25
+fgAlarm
+bgColor index 3
+fill
+font "arial-bold-r-14.0"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 720
+y 516
+w 248
+h 16
+controlPv "EBT-TDC-PBIAS-01:SI.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Entry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 602
+y 505
+w 116
+h 34
+controlPv "EBT-TDC-PBIAS-01:SI"
+fgColor index 25
+fgAlarm
+bgColor index 3
+fill
+font "arial-bold-r-14.0"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 720
+y 618
+w 248
+h 16
+controlPv "EBT-TDC-RF-01:SV.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Entry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 602
+y 608
+w 116
+h 34
+controlPv "EBT-TDC-RF-01:SV"
+fgColor index 25
+fgAlarm
+bgColor index 3
+fill
+font "arial-bold-r-14.0"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 720
+y 550
+w 248
+h 16
+controlPv "EBT-TDC-HVPSU-01:SV.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Entry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 602
+y 539
+w 116
+h 34
+controlPv "EBT-TDC-HVPSU-01:SV"
+fgColor index 25
+fgAlarm
+bgColor index 3
+fill
+font "arial-bold-r-14.0"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 720
+y 446
+w 248
+h 16
+controlPv "EBT-TDC-FOCUS-03:SV.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Entry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 602
+y 436
+w 116
+h 34
+controlPv "EBT-TDC-FOCUS-03:SV"
+fgColor index 25
+fgAlarm
+bgColor index 3
+fill
+font "arial-bold-r-14.0"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 720
+y 412
+w 248
+h 16
+controlPv "EBT-TDC-FOCUS-02:SV.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Entry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 602
+y 402
+w 116
+h 34
+controlPv "EBT-TDC-FOCUS-02:SV"
+fgColor index 25
+fgAlarm
+bgColor index 3
+fill
+font "arial-bold-r-14.0"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 720
+y 376
+w 248
+h 16
+controlPv "EBT-TDC-FOCUS-01:SV.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Entry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 602
+y 368
+w 116
+h 34
+controlPv "EBT-TDC-FOCUS-01:SV"
+fgColor index 25
+fgAlarm
+bgColor index 3
+fill
+font "arial-bold-r-14.0"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 720
+y 480
+w 248
+h 16
+controlPv "EBT-TDC-HEAT-01:SI.DESC"
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Entry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 602
+y 470
+w 116
+h 34
+controlPv "EBT-TDC-HEAT-01:SI"
+fgColor index 25
+fgAlarm
+bgColor index 3
+fill
+font "arial-bold-r-14.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 0
+w 1310
+h 28
+lineColor index 36
+fill
+fillColor index 36
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 592
+y 6
+w 93
+h 21
+font "arial-bold-r-18.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "VELA TDC"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 586
+y 38
+w 300
+h 182
+lineColor index 14
+fillColor index 3
+endObjectProperties
+

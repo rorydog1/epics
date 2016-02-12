@@ -1,0 +1,9118 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x -251
+y 165
+w 1548
+h 700
+font "arial-medium-r-18.0"
+ctlFont "arial-medium-r-18.0"
+btnFont "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 3
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+title "VELA Magnets"
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 902
+y 296
+w 64
+h 81
+lineColor index 47
+fillColor index 3
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 590
+y 259
+w 211
+h 205
+lineColor index 34
+fillColor index 0
+lineWidth 8
+numPoints 2
+xPoints {
+  0 590
+  1 801
+}
+yPoints {
+  0 259
+  1 464
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 54
+y 256
+w 1474
+h 0
+lineColor index 32
+fillColor index 0
+lineWidth 10
+numPoints 2
+xPoints {
+  0 54
+  1 1528
+}
+yPoints {
+  0 256
+  1 256
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 775
+y 450
+w 65
+h 30
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 775
+y 450
+w 65
+h 30
+lineColor index 34
+fill
+fillColor index 34
+lineWidth 0
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 784
+y 455
+w 50
+h 20
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "DUMP"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 404
+y 242
+w 150
+h 36
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 404
+y 242
+w 150
+h 36
+lineColor index 32
+fill
+fillColor index 32
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 417
+y 253
+w 127
+h 14
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "DEFLECTING CAVITY"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 4
+y 243
+w 54
+h 36
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 4
+y 243
+w 54
+h 36
+lineColor index 32
+fill
+fillColor index 32
+lineWidth 0
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 17
+y 254
+w 26
+h 14
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "GUN"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 931
+y 253
+w 155
+h 152
+lineColor index 32
+fillColor index 0
+lineWidth 10
+numPoints 2
+xPoints {
+  0 931
+  1 1086
+}
+yPoints {
+  0 253
+  1 405
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1086
+y 401
+w 0
+h 249
+lineColor index 32
+fillColor index 0
+lineWidth 10
+numPoints 2
+xPoints {
+  0 1086
+  1 1086
+}
+yPoints {
+  0 401
+  1 650
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 19
+y 85
+w 226
+h 67
+
+beginGroup
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 74
+y 140
+w 54
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "-- Set Value"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 74
+y 115
+w 147
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "-- Right mouse key to increment"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 74
+y 105
+w 144
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "-- Click above line for the menu"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 74
+y 90
+w 171
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "-- Readback - Click here to switch on"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 74
+y 125
+w 144
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "-- Left mouse key to decrement"
+}
+autoSize
+endObjectProperties
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 19
+y 105
+w 49
+h 30
+fgColor index 14
+bgColor index 15
+topShadowColor index 49
+botShadowColor index 49
+coarseValue "0"
+fineValue "0"
+label "MAG X"
+font "helvetica-medium-r-8.0"
+scaleMin 0
+scaleMax 0
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 19
+y 85
+w 50
+h 20
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 0
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 19
+y 135
+w 50
+h 15
+lineColor index 7
+fill
+fillColor index 8
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 925
+y 224
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 925
+y 224
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 925
+y 244
+w 49
+h 30
+fgColor index 14
+bgColor index 87
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-DIP-02:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "DIP 02"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-DIP-03:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 925
+y 224
+w 50
+h 20
+controlPv "EBT-INJ-MAG-DIP-02:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 925
+y 275
+w 51
+h 16
+controlPv "EBT-INJ-MAG-DIP-02:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 925
+y 224
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "D2"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-DIP-02"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1061
+y 369
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1061
+y 369
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1061
+y 389
+w 49
+h 30
+fgColor index 14
+bgColor index 87
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-DIP-03:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "DIP 03"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-DIP-03:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1061
+y 369
+w 50
+h 20
+controlPv "EBT-INJ-MAG-DIP-03:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1061
+y 420
+w 51
+h 16
+controlPv "EBT-INJ-MAG-DIP-03:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 1061
+y 369
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "D3"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-DIP-03"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 183
+y 223
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 183
+y 223
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 183
+y 243
+w 49
+h 30
+fgColor index 14
+bgColor index 85
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-QUAD-01:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "QUAD 01"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-QUAD-01:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 183
+y 223
+w 50
+h 20
+controlPv "EBT-INJ-MAG-QUAD-01:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 183
+y 274
+w 51
+h 16
+controlPv "EBT-INJ-MAG-QUAD-01:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 183
+y 223
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-QUAD-01"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 237
+y 223
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 237
+y 223
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 237
+y 243
+w 49
+h 30
+fgColor index 14
+bgColor index 85
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-QUAD-02:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "QUAD 02"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-QUAD-02:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 237
+y 223
+w 50
+h 20
+controlPv "EBT-INJ-MAG-QUAD-02:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 237
+y 274
+w 51
+h 16
+controlPv "EBT-INJ-MAG-QUAD-02:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 237
+y 223
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q2"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-QUAD-02"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 291
+y 223
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 291
+y 223
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 291
+y 243
+w 49
+h 30
+fgColor index 14
+bgColor index 85
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-QUAD-03:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "QUAD 03"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-QUAD-03:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 291
+y 223
+w 50
+h 20
+controlPv "EBT-INJ-MAG-QUAD-03:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 291
+y 274
+w 51
+h 16
+controlPv "EBT-INJ-MAG-QUAD-03:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 291
+y 223
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q3"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-QUAD-03"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 345
+y 223
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 345
+y 223
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 345
+y 243
+w 49
+h 30
+fgColor index 14
+bgColor index 85
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-QUAD-04:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "QUAD 04"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-QUAD-04:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 345
+y 223
+w 50
+h 20
+controlPv "EBT-INJ-MAG-QUAD-04:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 345
+y 274
+w 51
+h 16
+controlPv "EBT-INJ-MAG-QUAD-04:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 345
+y 223
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q4"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-QUAD-04"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 654
+y 308
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 654
+y 308
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 654
+y 328
+w 49
+h 30
+fgColor index 14
+bgColor index 85
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-QUAD-05:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "QUAD 05"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-QUAD-05:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 654
+y 308
+w 50
+h 20
+controlPv "EBT-INJ-MAG-QUAD-05:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 654
+y 359
+w 51
+h 16
+controlPv "EBT-INJ-MAG-QUAD-05:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 654
+y 308
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q5"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-QUAD-05"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 714
+y 373
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 714
+y 373
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 714
+y 393
+w 49
+h 30
+fgColor index 14
+bgColor index 85
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-QUAD-06:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "QUAD 06"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-QUAD-06:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 714
+y 373
+w 50
+h 20
+controlPv "EBT-INJ-MAG-QUAD-06:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 714
+y 424
+w 51
+h 16
+controlPv "EBT-INJ-MAG-QUAD-06:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 714
+y 373
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q6"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-QUAD-06"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 631
+y 224
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 631
+y 224
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 631
+y 244
+w 49
+h 30
+fgColor index 14
+bgColor index 85
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-QUAD-07:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "QUAD 07"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-QUAD-07:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 631
+y 224
+w 50
+h 20
+controlPv "EBT-INJ-MAG-QUAD-07:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 631
+y 275
+w 51
+h 16
+controlPv "EBT-INJ-MAG-QUAD-07:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 631
+y 224
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q7"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-QUAD-07"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 688
+y 224
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 688
+y 224
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 688
+y 244
+w 49
+h 30
+fgColor index 14
+bgColor index 85
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-QUAD-08:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "QUAD 08"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-QUAD-08:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 688
+y 224
+w 50
+h 20
+controlPv "EBT-INJ-MAG-QUAD-08:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 688
+y 275
+w 51
+h 16
+controlPv "EBT-INJ-MAG-QUAD-08:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 688
+y 224
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q8"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-QUAD-08"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 748
+y 224
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 748
+y 224
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 748
+y 244
+w 49
+h 30
+fgColor index 14
+bgColor index 85
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-QUAD-09:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "QUAD 09"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-QUAD-09:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 748
+y 224
+w 50
+h 20
+controlPv "EBT-INJ-MAG-QUAD-09:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 748
+y 275
+w 51
+h 16
+controlPv "EBT-INJ-MAG-QUAD-09:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 748
+y 224
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q9"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-QUAD-09"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 808
+y 224
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 808
+y 224
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 808
+y 244
+w 49
+h 30
+fgColor index 14
+bgColor index 85
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-QUAD-10:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "QUAD 10"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-QUAD-10:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 808
+y 224
+w 50
+h 20
+controlPv "EBT-INJ-MAG-QUAD-10:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 808
+y 275
+w 51
+h 16
+controlPv "EBT-INJ-MAG-QUAD-10:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 808
+y 224
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q10"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-QUAD-10"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 861
+y 224
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 861
+y 224
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 861
+y 244
+w 49
+h 30
+fgColor index 14
+bgColor index 85
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-QUAD-11:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "QUAD 11"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-QUAD-11:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 861
+y 224
+w 50
+h 20
+controlPv "EBT-INJ-MAG-QUAD-11:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 861
+y 275
+w 51
+h 16
+controlPv "EBT-INJ-MAG-QUAD-11:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 861
+y 224
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q11"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-QUAD-11"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 993
+y 295
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 993
+y 295
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 993
+y 315
+w 49
+h 30
+fgColor index 14
+bgColor index 85
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-QUAD-12:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "QUAD 12"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-QUAD-12:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 993
+y 295
+w 50
+h 20
+controlPv "EBT-INJ-MAG-QUAD-12:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 993
+y 346
+w 51
+h 16
+controlPv "EBT-INJ-MAG-QUAD-12:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 993
+y 295
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q12"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-QUAD-12"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1060
+y 514
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1060
+y 514
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1060
+y 534
+w 49
+h 30
+fgColor index 14
+bgColor index 85
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-QUAD-14:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "QUAD 14"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-QUAD-14:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1060
+y 514
+w 50
+h 20
+controlPv "EBT-INJ-MAG-QUAD-14:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1060
+y 565
+w 51
+h 16
+controlPv "EBT-INJ-MAG-QUAD-14:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 1060
+y 514
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q14"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-QUAD-14"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 985
+y 224
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 985
+y 224
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 985
+y 244
+w 49
+h 30
+fgColor index 14
+bgColor index 85
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-QUAD-15:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "QUAD 15"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-QUAD-15:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 985
+y 224
+w 50
+h 20
+controlPv "EBT-INJ-MAG-QUAD-15:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 985
+y 275
+w 51
+h 16
+controlPv "EBT-INJ-MAG-QUAD-15:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 985
+y 224
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q15"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-QUAD-15"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 115
+y 224
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 115
+y 224
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 115
+y 244
+w 49
+h 30
+fgColor index 14
+bgColor index 85
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-SOL-01:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "SOL 01"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-SOL-01:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 115
+y 224
+w 50
+h 20
+controlPv "EBT-INJ-MAG-SOL-01:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 115
+y 275
+w 51
+h 16
+controlPv "EBT-INJ-MAG-SOL-01:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 115
+y 224
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "S1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-SOL-01"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 63
+y 224
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 63
+y 224
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 63
+y 244
+w 49
+h 30
+fgColor index 14
+bgColor index 85
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-BSOL-01:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "BSOL 01"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-HVCOR-01:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 63
+y 224
+w 50
+h 20
+controlPv "EBT-INJ-MAG-BSOL-01:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 63
+y 275
+w 51
+h 16
+controlPv "EBT-INJ-MAG-BSOL-01:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 63
+y 224
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "S1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-BSOL-01"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1117
+y 92
+w 101
+h 325
+lineColor index 14
+fill
+fillColor index 4
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1121
+y 247
+w 92
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Shield Wall"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 0
+w 1550
+h 35
+lineColor index 14
+fill
+fillColor index 53
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 674
+y 5
+w 123
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "VELA Magnets"
+}
+autoSize
+lineWidth 4
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 340
+y 263
+w 120
+h 115
+
+beginGroup
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 399
+y 263
+w 0
+h 35
+lineColor index 47
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 399
+  1 399
+}
+yPoints {
+  0 298
+  1 263
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 340
+y 298
+w 120
+h 80
+lineColor index 47
+fillColor index 3
+lineWidth 2
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 402
+y 303
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 402
+y 303
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 402
+y 323
+w 49
+h 30
+fgColor index 14
+bgColor index 88
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-HCOR-03:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "HCOR 03"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-HVCOR-01:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 402
+y 303
+w 50
+h 20
+controlPv "EBT-INJ-MAG-HCOR-03:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 402
+y 354
+w 51
+h 16
+controlPv "EBT-INJ-MAG-HCOR-03:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 402
+y 303
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "HV01"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-HVCOR-01"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 346
+y 303
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 346
+y 303
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 346
+y 323
+w 49
+h 30
+fgColor index 14
+bgColor index 88
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-VCOR-03:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "VCOR 03"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-HVCOR-01:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 346
+y 303
+w 50
+h 20
+controlPv "EBT-INJ-MAG-VCOR-03:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 346
+y 354
+w 51
+h 16
+controlPv "EBT-INJ-MAG-VCOR-03:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 346
+y 303
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "HV01"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-HVCOR-01"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 564
+y 223
+w 51
+h 67
+
+beginGroup
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 564
+y 223
+w 50
+h 20
+controlPv "EBT-INJ-MAG-DIP-01:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 564
+y 223
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "D1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-DIP-01"
+}
+endObjectProperties
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 564
+y 243
+w 49
+h 30
+fgColor index 14
+bgColor index 87
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-DIP-01:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "DIP 01"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-DIP-01:Sta"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 564
+y 274
+w 51
+h 16
+controlPv "EBT-INJ-MAG-DIP-01:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1060
+y 444
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1060
+y 444
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1060
+y 464
+w 49
+h 30
+fgColor index 14
+bgColor index 85
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-QUAD-13:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "QUAD 13"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-QUAD-13:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1060
+y 444
+w 50
+h 20
+controlPv "EBT-INJ-MAG-QUAD-13:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1060
+y 495
+w 51
+h 16
+controlPv "EBT-INJ-MAG-QUAD-13:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 1060
+y 444
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q13"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-QUAD-13"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 171
+y 264
+w 0
+h 35
+lineColor index 47
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 171
+  1 171
+}
+yPoints {
+  0 299
+  1 264
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 52
+y 300
+w 120
+h 80
+lineColor index 47
+fillColor index 3
+lineWidth 2
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 114
+y 305
+w 51
+h 70
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 114
+y 305
+w 51
+h 70
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 114
+y 326
+w 49
+h 31
+fgColor index 14
+bgColor index 88
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-HCOR-01:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "HCOR 01"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-HVCOR-01:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 114
+y 305
+w 50
+h 21
+controlPv "EBT-INJ-MAG-HCOR-01:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 114
+y 356
+w 51
+h 16
+controlPv "EBT-INJ-MAG-HCOR-01:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 114
+y 305
+w 50
+h 21
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "HV01"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-HVCOR-01"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 57
+y 305
+w 51
+h 70
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 57
+y 305
+w 51
+h 70
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 57
+y 326
+w 49
+h 31
+fgColor index 14
+bgColor index 88
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-VCOR-01:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "VCOR 01"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-HVCOR-01:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 57
+y 305
+w 50
+h 21
+controlPv "EBT-INJ-MAG-VCOR-01:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 57
+y 356
+w 51
+h 16
+controlPv "EBT-INJ-MAG-VCOR-01:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 57
+y 305
+w 50
+h 21
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "HV01"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-HVCOR-01"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 177
+y 264
+w 120
+h 116
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 241
+y 305
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 241
+y 305
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 241
+y 325
+w 49
+h 30
+fgColor index 14
+bgColor index 88
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-HCOR-02:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "HCOR 02"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-HVCOR-01:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 241
+y 305
+w 50
+h 20
+controlPv "EBT-INJ-MAG-HCOR-02:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 241
+y 356
+w 51
+h 16
+controlPv "EBT-INJ-MAG-HCOR-02:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 241
+y 305
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "HV01"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-HVCOR-01"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 177
+y 300
+w 120
+h 80
+lineColor index 47
+fillColor index 3
+lineWidth 2
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 183
+y 305
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 183
+y 305
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 183
+y 325
+w 49
+h 30
+fgColor index 14
+bgColor index 88
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-VCOR-02:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "VCOR 02"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-HVCOR-01:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 183
+y 305
+w 50
+h 20
+controlPv "EBT-INJ-MAG-VCOR-02:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 183
+y 356
+w 51
+h 16
+controlPv "EBT-INJ-MAG-VCOR-02:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 183
+y 305
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "HV01"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-HVCOR-01"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 177
+y 264
+w 0
+h 35
+lineColor index 47
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 177
+  1 177
+}
+yPoints {
+  0 299
+  1 264
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 559
+y 264
+w 0
+h 34
+lineColor index 47
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 559
+  1 559
+}
+yPoints {
+  0 298
+  1 264
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 465
+y 298
+w 120
+h 80
+lineColor index 47
+fillColor index 3
+lineWidth 2
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 528
+y 304
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 528
+y 304
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 528
+y 324
+w 49
+h 30
+fgColor index 14
+bgColor index 88
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-HCOR-04:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "HCOR 04"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-HVCOR-01:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 528
+y 304
+w 50
+h 20
+controlPv "EBT-INJ-MAG-HCOR-04:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 528
+y 355
+w 51
+h 16
+controlPv "EBT-INJ-MAG-HCOR-04:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 528
+y 304
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "HV01"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-HVCOR-01"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 471
+y 304
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 471
+y 304
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 471
+y 324
+w 49
+h 30
+fgColor index 14
+bgColor index 88
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-VCOR-04:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "VCOR 04"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-HVCOR-01:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 471
+y 304
+w 50
+h 20
+controlPv "EBT-INJ-MAG-VCOR-04:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 471
+y 355
+w 51
+h 16
+controlPv "EBT-INJ-MAG-VCOR-04:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 471
+y 304
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "HV01"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-HVCOR-01"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 476
+y 383
+w 120
+h 80
+lineColor index 47
+fillColor index 3
+lineWidth 2
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 537
+y 388
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 537
+y 388
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 537
+y 408
+w 49
+h 30
+fgColor index 14
+bgColor index 88
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-HCOR-05:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "HCOR 05"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-HVCOR-01:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 537
+y 388
+w 50
+h 20
+controlPv "EBT-INJ-MAG-HCOR-05:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 537
+y 439
+w 51
+h 16
+controlPv "EBT-INJ-MAG-HCOR-05:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 537
+y 388
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "HV01"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-HVCOR-01"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 481
+y 388
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 481
+y 388
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 481
+y 408
+w 49
+h 30
+fgColor index 14
+bgColor index 88
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-VCOR-05:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "VCOR 05"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-HVCOR-01:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 481
+y 388
+w 50
+h 20
+controlPv "EBT-INJ-MAG-VCOR-05:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 481
+y 439
+w 51
+h 16
+controlPv "EBT-INJ-MAG-VCOR-05:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 481
+y 388
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "HV01"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-HVCOR-01"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 425
+y 574
+w 0
+h 0
+lineColor index 14
+fillColor index 0
+numPoints 1
+xPoints {
+  0 425
+}
+yPoints {
+  0 574
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 596
+y 300
+w 32
+h 122
+lineColor index 47
+fillColor index 0
+lineWidth 3
+numPoints 3
+xPoints {
+  0 596
+  1 628
+  2 628
+}
+yPoints {
+  0 422
+  1 422
+  2 300
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 685
+y 102
+w 120
+h 80
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 685
+y 102
+w 120
+h 80
+lineColor index 47
+fillColor index 3
+lineWidth 2
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 748
+y 108
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 748
+y 108
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 748
+y 128
+w 49
+h 30
+fgColor index 14
+bgColor index 88
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-HCOR-07:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "HCOR 07"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-HVCOR-01:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 748
+y 108
+w 50
+h 20
+controlPv "EBT-INJ-MAG-HCOR-07:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 748
+y 159
+w 51
+h 16
+controlPv "EBT-INJ-MAG-HCOR-07:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 748
+y 108
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "HV01"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-HVCOR-01"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 691
+y 108
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 691
+y 108
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 691
+y 128
+w 49
+h 30
+fgColor index 14
+bgColor index 88
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-VCOR-07:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "VCOR 07"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-HVCOR-01:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 691
+y 108
+w 50
+h 20
+controlPv "EBT-INJ-MAG-VCOR-07:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 691
+y 159
+w 51
+h 16
+controlPv "EBT-INJ-MAG-VCOR-07:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 691
+y 108
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "HV01"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-HVCOR-01"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 742
+y 183
+w 0
+h 71
+lineColor index 47
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 742
+  1 742
+}
+yPoints {
+  0 183
+  1 254
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 803
+y 264
+w 0
+h 33
+lineColor index 47
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 803
+  1 803
+}
+yPoints {
+  0 297
+  1 264
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 777
+y 297
+w 120
+h 80
+lineColor index 47
+fillColor index 3
+lineWidth 2
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 840
+y 302
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 840
+y 302
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 840
+y 322
+w 49
+h 30
+fgColor index 14
+bgColor index 88
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-HCOR-08:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "HCOR 08"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-HVCOR-01:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 840
+y 302
+w 50
+h 20
+controlPv "EBT-INJ-MAG-HCOR-08:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 840
+y 353
+w 51
+h 16
+controlPv "EBT-INJ-MAG-HCOR-08:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 840
+y 302
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "HV01"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-HVCOR-01"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 783
+y 302
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 783
+y 302
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 783
+y 322
+w 49
+h 30
+fgColor index 14
+bgColor index 88
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-VCOR-08:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "VCOR 08"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-HVCOR-01:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 783
+y 302
+w 50
+h 20
+controlPv "EBT-INJ-MAG-VCOR-08:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 783
+y 353
+w 51
+h 16
+controlPv "EBT-INJ-MAG-VCOR-08:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 783
+y 302
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "HV01"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-HVCOR-01"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 979
+y 406
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 979
+y 406
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 979
+y 426
+w 49
+h 30
+fgColor index 14
+bgColor index 88
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-VCOR-11:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "VCOR 11"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-HVCOR-01:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 979
+y 406
+w 50
+h 20
+controlPv "EBT-INJ-MAG-VCOR-11:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 979
+y 457
+w 51
+h 16
+controlPv "EBT-INJ-MAG-VCOR-11:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 979
+y 406
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "HV01"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-HVCOR-01"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 966
+y 312
+w 19
+h 0
+lineColor index 47
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 966
+  1 985
+}
+yPoints {
+  0 312
+  1 312
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 908
+y 301
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 908
+y 301
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 908
+y 321
+w 49
+h 30
+fgColor index 14
+bgColor index 88
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-VCOR-10:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "VCOR 10"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-HVCOR-01:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 908
+y 301
+w 50
+h 20
+controlPv "EBT-INJ-MAG-VCOR-10:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 908
+y 352
+w 51
+h 16
+controlPv "EBT-INJ-MAG-VCOR-10:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 908
+y 301
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "HV01"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-HVCOR-01"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 923
+y 585
+w 325
+h 61
+lineColor index 14
+fill
+fillColor index 4
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1039
+y 606
+w 92
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Shield Wall"
+}
+autoSize
+lineWidth 3
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1238
+y 88
+w 54
+h 21
+font "arial-medium-r-20.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Beam"
+}
+autoSize
+lineWidth 3
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1027
+y 650
+w 118
+h 21
+font "arial-medium-r-20.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Beam Area 2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1237
+y 115
+w 59
+h 21
+font "arial-medium-r-20.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Area 1"
+}
+autoSize
+lineWidth 3
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 709
+y 339
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControlDouble.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-PRR-05"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 707
+y 317
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControlDouble.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-PRN-05"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 707
+y 317
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-MAG-PRN-05:Sta"
+gateDownPv "EBT-INJ-MAG-PRN-05:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-MAG-PRN-05:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 707
+y 339
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-MAG-PRR-05:Sta"
+gateDownPv "EBT-INJ-MAG-PRR-05:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-MAG-PRR-05:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 740
+y 320
+w 15
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PN"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 740
+y 341
+w 14
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PR"
+}
+autoSize
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 121
+y 206
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-PRR-07"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 119
+y 188
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-PRN-07"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 119
+y 188
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-MAG-PRN-07:Sta"
+gateDownPv "EBT-INJ-MAG-PRN-07:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-MAG-PRN-07:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 119
+y 206
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-MAG-PRR-07:Sta"
+gateDownPv "EBT-INJ-MAG-PRR-07:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-MAG-PRR-07:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 152
+y 190
+w 15
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PN"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 152
+y 208
+w 14
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PR"
+}
+autoSize
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 1117
+y 474
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-PRBR-04"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 1115
+y 456
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-PRBN-04"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1115
+y 456
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-MAG-PRBN-04:Sta"
+gateDownPv "EBT-INJ-MAG-PRBN-04:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-MAG-PRBN-04:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1115
+y 474
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-MAG-PRBR-04:Sta"
+gateDownPv "EBT-INJ-MAG-PRBR-04:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-MAG-PRBR-04:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1148
+y 458
+w 15
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PN"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1148
+y 476
+w 14
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PR"
+}
+autoSize
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 556
+y 232
+w 0
+h 0
+lineColor index 14
+fillColor index 0
+lineWidth 2
+numPoints 1
+xPoints {
+  0 556
+}
+yPoints {
+  0 232
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 621
+y 181
+w 0
+h 72
+lineColor index 47
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 621
+  1 621
+}
+yPoints {
+  0 181
+  1 253
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 560
+y 102
+w 120
+h 80
+lineColor index 47
+fillColor index 3
+lineWidth 2
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 623
+y 107
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 623
+y 107
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 623
+y 127
+w 49
+h 30
+fgColor index 14
+bgColor index 88
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-HCOR-06:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "HCOR 06"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-HVCOR-01:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 623
+y 107
+w 50
+h 20
+controlPv "EBT-INJ-MAG-HCOR-06:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 623
+y 158
+w 51
+h 16
+controlPv "EBT-INJ-MAG-HCOR-06:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 623
+y 107
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "HV01"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-HVCOR-01"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 566
+y 107
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 566
+y 107
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 566
+y 127
+w 49
+h 30
+fgColor index 14
+bgColor index 88
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-VCOR-06:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "VCOR 06"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-HVCOR-01:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 566
+y 107
+w 50
+h 20
+controlPv "EBT-INJ-MAG-VCOR-06:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 566
+y 158
+w 51
+h 16
+controlPv "EBT-INJ-MAG-VCOR-06:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 566
+y 107
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "HV01"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-HVCOR-01"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 564
+y 185
+w 50
+h 36
+
+beginGroup
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 566
+y 205
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-PRAR-04"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 564
+y 185
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-PRAN-04"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 564
+y 185
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-MAG-PRAN-04:Sta"
+gateDownPv "EBT-INJ-MAG-PRAN-04:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-MAG-PRAN-04:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 564
+y 205
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-MAG-PRAR-04:Sta"
+gateDownPv "EBT-INJ-MAG-PRAR-04:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-MAG-PRAR-04:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 599
+y 188
+w 15
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PN"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 599
+y 207
+w 14
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PR"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 634
+y 185
+w 48
+h 36
+
+beginGroup
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 636
+y 205
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-PRAR-03"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 634
+y 185
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-PRAN-03"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 634
+y 185
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-MAG-PRAN-03:Sta"
+gateDownPv "EBT-INJ-MAG-PRAN-03:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-MAG-PRAN-03:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 634
+y 205
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-MAG-PRAR-03:Sta"
+gateDownPv "EBT-INJ-MAG-PRAR-03:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-MAG-PRAR-03:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 667
+y 186
+w 15
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PN"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 667
+y 207
+w 14
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PR"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 692
+y 186
+w 48
+h 36
+
+beginGroup
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 694
+y 206
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-PRBR-03"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 692
+y 186
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-PRBN-03"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 692
+y 186
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-MAG-PRBN-03:Sta"
+gateDownPv "EBT-INJ-MAG-PRBN-03:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-MAG-PRBN-03:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 692
+y 206
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-MAG-PRBR-03:Sta"
+gateDownPv "EBT-INJ-MAG-PRBR-03:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-MAG-PRBR-03:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 725
+y 188
+w 15
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PN"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 725
+y 208
+w 14
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PR"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 589
+y 257
+w 0
+h 0
+lineColor index 34
+fillColor index 0
+lineWidth 8
+numPoints 1
+xPoints {
+  0 589
+}
+yPoints {
+  0 257
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 589
+y 256
+w 0
+h 0
+lineColor index 34
+fillColor index 0
+lineWidth 8
+numPoints 1
+xPoints {
+  0 589
+}
+yPoints {
+  0 256
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 186
+y 186
+w 53
+h 35
+
+beginGroup
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 188
+y 205
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-PRAR-01"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 186
+y 186
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-PRAN-01"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 186
+y 186
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-MAG-PRAN-01:Sta"
+gateDownPv "EBT-INJ-MAG-PRAN-01:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-MAG-PRAN-01:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 186
+y 205
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-MAG-PRAR-01:Sta"
+gateDownPv "EBT-INJ-MAG-PRAR-01:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-MAG-PRAR-01:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 219
+y 187
+w 15
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PN"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 220
+y 207
+w 14
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PR"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 240
+y 185
+w 48
+h 36
+
+beginGroup
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 242
+y 205
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-PRBR-01"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 240
+y 185
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-PRBN-01"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 240
+y 185
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-MAG-PRBN-01:Sta"
+gateDownPv "EBT-INJ-MAG-PRBN-01:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-MAG-PRBN-01:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 240
+y 205
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-MAG-PRBR-01:Sta"
+gateDownPv "EBT-INJ-MAG-PRBR-01:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-MAG-PRBR-01:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 273
+y 187
+w 15
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PN"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 273
+y 207
+w 14
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PR"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 293
+y 185
+w 47
+h 36
+
+beginGroup
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 295
+y 205
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-PRAR-02"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 293
+y 185
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-PRAN-02"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 293
+y 185
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-MAG-PRAN-02:Sta"
+gateDownPv "EBT-INJ-MAG-PRAN-02:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-MAG-PRAN-02:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 293
+y 205
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-MAG-PRAR-02:Sta"
+gateDownPv "EBT-INJ-MAG-PRAR-02:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-MAG-PRAR-02:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 326
+y 188
+w 15
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PN"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 326
+y 208
+w 14
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PR"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 348
+y 187
+w 48
+h 34
+
+beginGroup
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 350
+y 205
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-PRBR-02"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 348
+y 187
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-PRBN-02"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 348
+y 187
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-MAG-PRBN-02:Sta"
+gateDownPv "EBT-INJ-MAG-PRBN-02:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-MAG-PRBN-02:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 348
+y 205
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-MAG-PRBR-02:Sta"
+gateDownPv "EBT-INJ-MAG-PRBR-02:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-MAG-PRBR-02:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 381
+y 190
+w 15
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PN"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 381
+y 208
+w 14
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PR"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 751
+y 205
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-PRAR-08"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 751
+y 185
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-PRAN-08"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 749
+y 185
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-MAG-PRAN-08:Sta"
+gateDownPv "EBT-INJ-MAG-PRAN-08:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-MAG-PRAN-08:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 749
+y 206
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-MAG-PRAR-08:Sta"
+gateDownPv "EBT-INJ-MAG-PRAR-08:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-MAG-PRAR-08:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 785
+y 188
+w 15
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PN"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 785
+y 207
+w 14
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PR"
+}
+autoSize
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 808
+y 205
+w 34
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-PRBR-08"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 808
+y 187
+w 34
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-PRBN-08"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 808
+y 186
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-MAG-PRBN-08:Sta"
+gateDownPv "EBT-INJ-MAG-PRBN-08:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-MAG-PRBN-08:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 808
+y 205
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-MAG-PRBR-08:Sta"
+gateDownPv "EBT-INJ-MAG-PRBR-08:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-MAG-PRBR-08:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 917
+y 183
+w 0
+h 71
+lineColor index 47
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 917
+  1 917
+}
+yPoints {
+  0 183
+  1 254
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 854
+y 102
+w 120
+h 80
+lineColor index 47
+fillColor index 3
+lineWidth 2
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 916
+y 108
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 916
+y 108
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 916
+y 128
+w 49
+h 30
+fgColor index 14
+bgColor index 88
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-HCOR-09:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "HCOR 09"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-HVCOR-01:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 916
+y 108
+w 50
+h 20
+controlPv "EBT-INJ-MAG-HCOR-09:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 916
+y 159
+w 51
+h 16
+controlPv "EBT-INJ-MAG-HCOR-09:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 916
+y 108
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "HV01"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-HVCOR-01"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 860
+y 108
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 860
+y 108
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 860
+y 128
+w 49
+h 30
+fgColor index 14
+bgColor index 88
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-INJ-MAG-VCOR-09:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "VCOR 09"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-HVCOR-01:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 860
+y 108
+w 50
+h 20
+controlPv "EBT-INJ-MAG-VCOR-09:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 860
+y 159
+w 51
+h 16
+controlPv "EBT-INJ-MAG-VCOR-09:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 860
+y 108
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "HV01"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-HVCOR-01"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 863
+y 204
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-PRAR-09"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 863
+y 186
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-PRAN-09"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 861
+y 185
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-MAG-PRAN-09:Sta"
+gateDownPv "EBT-INJ-MAG-PRAN-09:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-MAG-PRAN-09:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 861
+y 204
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-MAG-PRAR-09:Sta"
+gateDownPv "EBT-INJ-MAG-PRAR-09:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-MAG-PRAR-09:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 896
+y 188
+w 15
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PN"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 896
+y 206
+w 14
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PR"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 843
+y 206
+w 14
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PR"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 843
+y 188
+w 15
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PN"
+}
+autoSize
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 987
+y 205
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-PRBR-09"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 987
+y 188
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-PRBN-09"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 986
+y 186
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-MAG-PRBN-09:Sta"
+gateDownPv "EBT-INJ-MAG-PRBN-09:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-MAG-PRBN-09:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 986
+y 205
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-MAG-PRBR-09:Sta"
+gateDownPv "EBT-INJ-MAG-PRBR-09:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-MAG-PRBR-09:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1021
+y 188
+w 15
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PN"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1022
+y 206
+w 14
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PR"
+}
+autoSize
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 1047
+y 332
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-PRAR-10"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 1046
+y 311
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-PRAN-10"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1045
+y 311
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-MAG-PRAN-10:Sta"
+gateDownPv "EBT-INJ-MAG-PRAN-10:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-MAG-PRAN-10:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1045
+y 331
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-MAG-PRAR-10:Sta"
+gateDownPv "EBT-INJ-MAG-PRAR-10:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-MAG-PRAR-10:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1080
+y 313
+w 15
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PN"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1080
+y 332
+w 14
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PR"
+}
+autoSize
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 1113
+y 548
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-PRBR-10"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 1114
+y 531
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-MAG-PRBN-10"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1112
+y 530
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-MAG-PRBN-10:Sta"
+gateDownPv "EBT-INJ-MAG-PRBN-10:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-MAG-PRBN-10:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1112
+y 549
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "EBT-INJ-MAG-PRBR-10:Sta"
+gateDownPv "EBT-INJ-MAG-PRBR-10:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-INJ-MAG-PRBR-10:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1146
+y 532
+w 15
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PN"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1147
+y 550
+w 14
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PR"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 972
+y 401
+w 64
+h 81
+lineColor index 47
+fillColor index 3
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1035
+y 440
+w 48
+h 0
+lineColor index 47
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 1035
+  1 1083
+}
+yPoints {
+  0 440
+  1 440
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1238
+y 222
+w 51
+h 69
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1238
+y 222
+w 51
+h 69
+
+beginGroup
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1238
+y 242
+w 49
+h 30
+fgColor index 14
+bgColor index 85
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-BA1-MAG-QUAD-01:SI"
+coarseValue "0.1"
+fineValue ".01"
+label "QUAD 01"
+font "helvetica-medium-r-8.0"
+limitsFromDb
+colorPv "EBT-INJ-MAG-QUAD-15:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1238
+y 222
+w 50
+h 20
+controlPv "EBT-BA1-MAG-QUAD-01:RI"
+displayMode "decimal"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1238
+y 273
+w 51
+h 16
+controlPv "EBT-BA1-MAG-QUAD-01:SI"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 6
+editable
+autoHeight
+motifWidget
+precision 3
+nullColor index 18
+useKp
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 1238
+y 222
+w 50
+h 20
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-BA1-MAG-QUAD-01"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 1240
+y 203
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-BA1-PRAR-QUAD-01"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 1240
+y 186
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-BA1-PRAN-QUAD-01"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1239
+y 184
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "EBT-BA1-PRAN-QUAD-01:Sta"
+gateDownPv "EBT-BA1-PRAN-QUAD-01:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-BA1-PRAN-QUAD-01:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1239
+y 203
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "EBT-BA1-PRAR-QUAD-01:Sta"
+gateDownPv "EBT-BA1-PRAR-QUAD-01:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "EBT-BA1-PRAR-QUAD-01:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1274
+y 186
+w 15
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PN"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1275
+y 204
+w 14
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PR"
+}
+autoSize
+endObjectProperties
+

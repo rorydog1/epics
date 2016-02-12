@@ -1,0 +1,4145 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 377
+y 48
+w 650
+h 805
+font "arial-medium-r-16.0"
+ctlFont "arial-bold-r-16.0"
+btnFont "arial-medium-r-16.0"
+fgColor index 14
+bgColor index 3
+textColor index 14
+ctlFgColor1 index 25
+ctlFgColor2 index 18
+ctlBgColor1 index 3
+ctlBgColor2 index 5
+topShadowColor index 1
+botShadowColor index 11
+title "COOL-IT Rack Comissioning"
+gridSize 1
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 11
+y 27
+w 422
+h 178
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 227
+y 230
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 227
+y 230
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 319
+y 235
+w 94
+h 18
+controlPv "LIN-CRY-TI-8001:degK"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 233
+y 238
+w 83
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-8001"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 227
+y 261
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 227
+y 261
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 319
+y 266
+w 94
+h 18
+controlPv "LIN-CRY-TI-8002:degK"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 233
+y 269
+w 83
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-8002"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 227
+y 292
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 227
+y 292
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 319
+y 297
+w 94
+h 18
+controlPv "LIN-CRY-TI-8003:degK"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 233
+y 300
+w 83
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-8003"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 227
+y 322
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 227
+y 322
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 319
+y 327
+w 94
+h 18
+controlPv "LIN-CRY-TI-8005:degK"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 233
+y 330
+w 83
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-8005"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 227
+y 353
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 227
+y 353
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 319
+y 358
+w 94
+h 18
+controlPv "LIN-CRY-TI-8006:degK"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 233
+y 361
+w 83
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-8006"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 227
+y 384
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 227
+y 384
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 319
+y 389
+w 94
+h 18
+controlPv "LIN-CRY-TI-8008:degK"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 233
+y 392
+w 83
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-8008"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 227
+y 414
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 227
+y 414
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 319
+y 419
+w 94
+h 18
+controlPv "LIN-CRY-TI-8010:degK"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 233
+y 422
+w 83
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-8010"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 227
+y 445
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 227
+y 445
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 319
+y 450
+w 94
+h 18
+controlPv "LIN-CRY-TI-8011:degK"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 233
+y 453
+w 83
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-8011"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 227
+y 475
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 227
+y 475
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 319
+y 480
+w 94
+h 18
+controlPv "LIN-CRY-TI-8012:degK"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 233
+y 483
+w 83
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-8012"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 86
+y 101
+w 120
+h 28
+controlPv "LIN-CAV-MOT-01:RPOS"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 20
+y 105
+w 90
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Position"
+}
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 85
+y 130
+w 119
+h 28
+controlPv "LIN-CAV-MOT-01:SSTA"
+fgColor index 18
+fgAlarm
+bgColor index 3
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 0
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 119
+y 167
+w 80
+h 28
+fgColor index 25
+onColor index 4
+offColor index 3
+topShadowColor index 1
+botShadowColor index 11
+controlPv "LIN-CAV-MOT-01:HOME"
+pressValue "1"
+onLabel "Home"
+offLabel "Home"
+3d
+useEnumNumeric
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 21
+y 168
+w 80
+h 28
+fgColor index 25
+onColor index 4
+offColor index 3
+topShadowColor index 1
+botShadowColor index 11
+controlPv "LIN-CAV-MOT-01:ABRT"
+pressValue "1"
+onLabel "Abort"
+offLabel "Abort"
+3d
+useEnumNumeric
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 94
+y 69
+w 90
+h 25
+controlPv "LIN-CAV-MOT-01:MABS"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+editable
+autoHeight
+motifWidget
+precision 0
+nullColor index 0
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 20
+y 73
+w 90
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Set Position"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 23
+y 134
+w 90
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Status"
+}
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 304
+y 101
+w 120
+h 28
+controlPv "LIN-CAV-MOT-02:RPOS"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 238
+y 105
+w 90
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Position"
+}
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 303
+y 130
+w 119
+h 28
+controlPv "LIN-CAV-MOT-02:SSTA"
+fgColor index 18
+fgAlarm
+bgColor index 3
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 0
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 337
+y 167
+w 80
+h 28
+fgColor index 25
+onColor index 4
+offColor index 3
+topShadowColor index 1
+botShadowColor index 11
+controlPv "LIN-CAV-MOT-02:HOME"
+pressValue "1"
+onLabel "Home"
+offLabel "Home"
+3d
+useEnumNumeric
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 239
+y 168
+w 80
+h 28
+fgColor index 25
+onColor index 4
+offColor index 3
+topShadowColor index 1
+botShadowColor index 11
+controlPv "LIN-CAV-MOT-02:ABRT"
+pressValue "1"
+onLabel "Abort"
+offLabel "Abort"
+3d
+useEnumNumeric
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 312
+y 69
+w 90
+h 25
+controlPv "LIN-CAV-MOT-02:MABS"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+editable
+autoHeight
+motifWidget
+precision 0
+nullColor index 0
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 238
+y 73
+w 90
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Set Position"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 242
+y 134
+w 90
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Status"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 61
+y 39
+w 103
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CAV-MOT-01"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 273
+y 37
+w 103
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CAV-MOT-02"
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 16
+y 229
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 16
+y 229
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 108
+y 234
+w 94
+h 18
+controlPv "LIN-CRY-TI-8018:T02"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 22
+y 237
+w 83
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-8018"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 15
+y 261
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 15
+y 261
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 107
+y 266
+w 94
+h 18
+controlPv "LIN-CRY-TI-8019:T03"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 21
+y 269
+w 83
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-8019"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 14
+y 291
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 14
+y 291
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 106
+y 296
+w 94
+h 18
+controlPv "LIN-CRY-TI-8020:T04"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 20
+y 299
+w 83
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-8020"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 14
+y 339
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 14
+y 339
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 106
+y 344
+w 94
+h 18
+controlPv "LIN-CRY-TI-8022:T02"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 20
+y 347
+w 83
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-8022"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 14
+y 370
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 14
+y 370
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 106
+y 375
+w 94
+h 18
+controlPv "LIN-CRY-TI-8024:T04"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 20
+y 378
+w 83
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-8024"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 12
+y 424
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 12
+y 424
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 104
+y 429
+w 94
+h 18
+controlPv "LIN-CRY-TI-8082:T02"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 18
+y 432
+w 83
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-8082"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 12
+y 455
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 12
+y 455
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 104
+y 460
+w 94
+h 18
+controlPv "LIN-CRY-TI-8083:T03"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 18
+y 463
+w 83
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-8083"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 12
+y 486
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 12
+y 486
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 104
+y 491
+w 94
+h 18
+controlPv "LIN-CRY-TI-8084:T04"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 18
+y 494
+w 83
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-8084"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 51
+y 208
+w 103
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Cryocon M14_1 A"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 55
+y 321
+w 103
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Cryocon M14_2 B"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 52
+y 404
+w 103
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Cryocon M14_3 C"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 278
+y 211
+w 103
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "NI Crate"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 151
+y 5
+w 178
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "McLennan Motor Drive"
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 25
+y 662
+w 133
+h 62
+
+beginGroup
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 25
+y 668
+w 133
+h 56
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "tpg256a.edl"
+}
+setPosition {
+  0 "button"
+}
+symbols {
+  0 "device=LIN-CRY-PI-7001"
+}
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 27
+y 701
+w 100
+h 22
+controlPv "LIN-CRY-PI-7001:STA"
+fgColor index 18
+fgAlarm
+bgColor index 3
+font "arial-bold-r-14.0"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 27
+y 662
+w 55
+h 45
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "PI-7001"
+}
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 87
+y 668
+w 70
+h 28
+controlPv "LIN-CRY-PI-7001:P"
+displayMode "exp"
+precision 2
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "arial-bold-r-16.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 138
+y 704
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 17
+fillAlarm
+alarmPv "LIN-CRY-PI-7001:ALARM"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 24
+y 642
+w 145
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Vac Gauge"
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 445
+y 23
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 445
+y 23
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 537
+y 28
+w 94
+h 18
+controlPv "LIN-CRY-TI-7013:RDGK"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 451
+y 31
+w 83
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-7013"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 445
+y 56
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 445
+y 56
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 537
+y 61
+w 94
+h 18
+controlPv "LIN-CRY-TI-7014:RDGK"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 451
+y 64
+w 83
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-7014"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 445
+y 89
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 445
+y 89
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 537
+y 94
+w 94
+h 18
+controlPv "LIN-CRY-TI-7015:RDGK"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 451
+y 97
+w 83
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-7015"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 445
+y 122
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 445
+y 122
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 537
+y 127
+w 94
+h 18
+controlPv "LIN-CRY-TI-7017:RDGK"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 451
+y 130
+w 83
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-7017"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 445
+y 155
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 445
+y 155
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 537
+y 160
+w 94
+h 18
+controlPv "LIN-CRY-TI-7018A:RDGK"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 451
+y 163
+w 90
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-7018A"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 445
+y 188
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 445
+y 188
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 537
+y 193
+w 94
+h 18
+controlPv "LIN-CRY-TI-7019:RDGK"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 451
+y 196
+w 83
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-7019"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 445
+y 221
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 445
+y 221
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 537
+y 226
+w 94
+h 18
+controlPv "LIN-CRY-TI-7021:RDGK"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 451
+y 229
+w 83
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-7021"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 445
+y 254
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 445
+y 254
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 537
+y 259
+w 94
+h 18
+controlPv "LIN-CRY-TI-7023A:RDGK"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 451
+y 262
+w 90
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-7023A"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 443
+y 309
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 443
+y 309
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 535
+y 314
+w 94
+h 18
+controlPv "LIN-CRY-TI-7024:RDGK"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 449
+y 317
+w 83
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-7024"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 443
+y 342
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 443
+y 342
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 535
+y 347
+w 94
+h 18
+controlPv "LIN-CRY-TI-7011:RDGK"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 449
+y 350
+w 83
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-7011"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 443
+y 375
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 443
+y 375
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 535
+y 380
+w 94
+h 18
+controlPv "LIN-CRY-TI-7012:RDGK"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 449
+y 383
+w 83
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-7012"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 443
+y 409
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 443
+y 409
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 535
+y 414
+w 94
+h 18
+controlPv "LIN-CRY-TI-7016:RDGK"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 449
+y 417
+w 83
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-7016"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 443
+y 442
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 443
+y 442
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 535
+y 447
+w 94
+h 18
+controlPv "LIN-CRY-TI-7020:RDGK"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 449
+y 450
+w 83
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-7020"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 443
+y 475
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 443
+y 475
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 535
+y 480
+w 94
+h 18
+controlPv "LIN-CRY-TI-7022:RDGK"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 449
+y 483
+w 83
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-7022"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 443
+y 508
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 443
+y 508
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 535
+y 513
+w 94
+h 18
+controlPv "LIN-CRY-TI-7023B:RDGK"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 449
+y 516
+w 90
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-7023B"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 443
+y 541
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 443
+y 541
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 535
+y 546
+w 94
+h 18
+controlPv "LIN-CRY-TI-7018B:RDGK"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 449
+y 549
+w 90
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-7018B"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 442
+y 590
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 442
+y 590
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 534
+y 595
+w 94
+h 18
+controlPv "LIN-CRY-TI-8052:RDGK"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 448
+y 598
+w 83
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-8052"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 441
+y 624
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 441
+y 624
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 533
+y 629
+w 94
+h 18
+controlPv "LIN-CRY-TI-8054:RDGK"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 447
+y 632
+w 83
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-8054"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 447
+y 5
+w 178
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LAKESHORE A"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 443
+y 290
+w 178
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LAKESHORE B"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 442
+y 570
+w 178
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LAKESHORE C"
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 227
+y 532
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 227
+y 532
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 319
+y 537
+w 94
+h 18
+controlPv "LIN-CRY-PI-7002:RADC"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 233
+y 540
+w 85
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-PI-7002"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 227
+y 564
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 227
+y 564
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 319
+y 569
+w 94
+h 18
+controlPv "LIN-CRY-PI-7003:RADC"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 233
+y 572
+w 85
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-PI-7003"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 227
+y 595
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 227
+y 595
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 319
+y 600
+w 94
+h 18
+controlPv "LIN-CRY-PI-7004:RADC"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 233
+y 603
+w 85
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-PI-7004"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 277
+y 512
+w 127
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "ADAM ADC"
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 11
+y 548
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 11
+y 548
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 103
+y 553
+w 94
+h 18
+controlPv "LIN-CRY-TI-4351A:T01"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 17
+y 556
+w 90
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-4351A"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 11
+y 610
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 11
+y 610
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 103
+y 615
+w 94
+h 18
+controlPv "LIN-CRY-TI-4352A:T01"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 17
+y 618
+w 90
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-4352A"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 51
+y 526
+w 103
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Cryocon M14_4"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 53
+y 588
+w 103
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Cryocon M14_5"
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 226
+y 656
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 226
+y 656
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 318
+y 661
+w 94
+h 18
+controlPv "LIN-CRY-LI-7032:RLEV"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 232
+y 664
+w 84
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-LI-7032"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 226
+y 687
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 226
+y 687
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 318
+y 692
+w 94
+h 18
+controlPv "LIN-CRY-LI-7031:RLEV"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 232
+y 695
+w 84
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-LI-7031"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 259
+y 632
+w 127
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "AMI Level Gauges"
+}
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 540
+y 728
+w 90
+h 25
+controlPv "LIN-CRY-TI-8022:T02:LIM"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+editable
+autoHeight
+motifWidget
+precision 0
+nullColor index 0
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 541
+y 768
+w 90
+h 25
+controlPv "LIN-CRY-TI-8052:RDGK:LIM"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+editable
+autoHeight
+motifWidget
+precision 0
+nullColor index 0
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 444
+y 732
+w 103
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "8022 Trip Level"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 444
+y 768
+w 103
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "8052 Trip Level"
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 443
+y 656
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 443
+y 656
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 535
+y 661
+w 94
+h 18
+controlPv "LIN-CRY-TI-8016:RDGK"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 449
+y 664
+w 83
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-8016"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 442
+y 690
+w 191
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 442
+y 690
+w 191
+h 28
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 534
+y 695
+w 94
+h 18
+controlPv "LIN-CRY-TI-8013:RDGK"
+precision 3
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 448
+y 698
+w 83
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LIN-CRY-TI-8013"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+

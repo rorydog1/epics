@@ -1,0 +1,607 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 321
+y 132
+w 450
+h 280
+font "arial-medium-r-18.0"
+ctlFont "arial-medium-r-18.0"
+btnFont "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+endScreenProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 9
+y 33
+w 128
+h 21
+controlPv "CLARA-HRRG-TEMP-01:RT1"
+format "float"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 30
+autoHeight
+limitsFromDb
+precision 4
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 9
+y 62
+w 128
+h 21
+controlPv "CLARA-HRRG-TEMP-01:RT2"
+format "float"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 30
+autoHeight
+limitsFromDb
+precision 8
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 9
+y 91
+w 128
+h 21
+controlPv "CLARA-HRRG-TEMP-01:RT3"
+format "float"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 30
+autoHeight
+limitsFromDb
+precision 8
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 9
+y 121
+w 128
+h 21
+controlPv "CLARA-HRRG-TEMP-01:RT4"
+format "float"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 30
+autoHeight
+limitsFromDb
+precision 8
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 9
+y 150
+w 128
+h 21
+controlPv "CLARA-HRRG-TEMP-01:RT5"
+format "float"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 30
+autoHeight
+limitsFromDb
+precision 8
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 9
+y 180
+w 128
+h 21
+controlPv "CLARA-HRRG-TEMP-01:RT6"
+format "float"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 30
+autoHeight
+limitsFromDb
+precision 8
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 9
+y 209
+w 128
+h 21
+controlPv "CLARA-HRRG-TEMP-01:RT7"
+format "float"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 30
+autoHeight
+limitsFromDb
+precision 8
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 9
+y 239
+w 128
+h 21
+controlPv "CLARA-HRRG-TEMP-01:RT8"
+format "float"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 30
+autoHeight
+limitsFromDb
+precision 8
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 145
+y 32
+w 128
+h 21
+controlPv "CLARA-HRRG-TEMP-01:RT1:RTAO"
+format "float"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 30
+autoHeight
+limitsFromDb
+precision 4
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 145
+y 61
+w 128
+h 21
+controlPv "CLARA-HRRG-TEMP-01:RT2:RTAO"
+format "float"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 30
+autoHeight
+limitsFromDb
+precision 8
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 145
+y 90
+w 128
+h 21
+controlPv "CLARA-HRRG-TEMP-01:RT3:RTAO"
+format "float"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 30
+autoHeight
+limitsFromDb
+precision 8
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 145
+y 120
+w 128
+h 21
+controlPv "CLARA-HRRG-TEMP-01:RT4:RTAO"
+format "float"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 30
+autoHeight
+limitsFromDb
+precision 8
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 145
+y 149
+w 128
+h 21
+controlPv "CLARA-HRRG-TEMP-01:RT5:RTAO"
+format "float"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 30
+autoHeight
+limitsFromDb
+precision 8
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 145
+y 179
+w 128
+h 21
+controlPv "CLARA-HRRG-TEMP-01:RT6:RTAO"
+format "float"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 30
+autoHeight
+limitsFromDb
+precision 8
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 145
+y 208
+w 128
+h 21
+controlPv "CLARA-HRRG-TEMP-01:RT7:RTAO"
+format "float"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 30
+autoHeight
+limitsFromDb
+precision 8
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 145
+y 238
+w 128
+h 21
+controlPv "CLARA-HRRG-TEMP-01:RT8:RTAO"
+format "float"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 30
+autoHeight
+limitsFromDb
+precision 4
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 49
+y 5
+w 42
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "RAW"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 155
+y 5
+w 105
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Compressed"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 282
+y 31
+w 116
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Ambient Book"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 279
+y 149
+w 116
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Ambient Book"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 284
+y 60
+w 67
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Ambient"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 280
+y 179
+w 67
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Ambient"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 284
+y 88
+w 118
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Fixed Resistor"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 281
+y 207
+w 118
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Fixed Resistor"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 281
+y 238
+w 148
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Precision Resistor"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 281
+y 119
+w 148
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Precision Resistor"
+}
+autoSize
+endObjectProperties
+

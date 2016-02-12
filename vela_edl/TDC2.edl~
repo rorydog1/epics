@@ -1,0 +1,440 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 765
+y 135
+w 720
+h 700
+font "arial-medium-r-16.0"
+ctlFont "arial-bold-r-16.0"
+btnFont "arial-medium-r-16.0"
+fgColor index 14
+bgColor index 3
+textColor index 14
+ctlFgColor1 index 25
+ctlFgColor2 index 18
+ctlBgColor1 index 3
+ctlBgColor2 index 5
+topShadowColor index 1
+botShadowColor index 11
+title "EBTF First Electrons"
+snapToGrid
+gridSize 2
+endScreenProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 320
+y 10
+w 39
+h 21
+font "arial-bold-r-18.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "TDC"
+}
+autoSize
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 414
+y 248
+w 84
+h 36
+fgColor index 14
+onColor index 85
+offColor index 85
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-RF-TDC-01:On"
+buttonType "push"
+3d
+font "courier-bold-r-12.0"
+objType "controls"
+colorPv "EBT-INJ-RF-TDC-01:Sta"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 510
+y 248
+w 100
+h 34
+fgColor index 20
+onColor index 25
+offColor index 25
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-RF-TDC-01:Off"
+buttonType "push"
+3d
+font "courier-bold-r-12.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 510
+y 290
+w 100
+h 34
+fgColor index 20
+onColor index 25
+offColor index 25
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-RF-TDC-02:Off"
+buttonType "push"
+3d
+font "courier-bold-r-12.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 510
+y 332
+w 100
+h 34
+fgColor index 20
+onColor index 25
+offColor index 25
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-RF-TDC-03:Off"
+buttonType "push"
+3d
+font "courier-bold-r-12.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 414
+y 290
+w 84
+h 36
+fgColor index 14
+onColor index 85
+offColor index 85
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-RF-TDC-02:On"
+buttonType "push"
+3d
+font "courier-bold-r-12.0"
+objType "controls"
+colorPv "EBT-INJ-RF-TDC-02:Sta"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 414
+y 332
+w 84
+h 36
+fgColor index 14
+onColor index 85
+offColor index 85
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-RF-TDC-03:On"
+buttonType "push"
+3d
+font "courier-bold-r-12.0"
+objType "controls"
+colorPv "EBT-INJ-RF-TDC-03:Sta"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 110
+y 128
+w 72
+h 28
+controlPv "EBT-CS-CS3B-PLC-01:DMG:0"
+displayMode "decimal"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 110
+y 164
+w 72
+h 28
+controlPv "EBT-CS-CS3B-PLC-01:DMG:1"
+displayMode "decimal"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 110
+y 238
+w 72
+h 28
+controlPv "EBT-CS-CS3B-PLC-01:DMG:3"
+displayMode "decimal"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 110
+y 202
+w 72
+h 28
+controlPv "EBT-CS-CS3B-PLC-01:DMG:2"
+displayMode "decimal"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 110
+y 312
+w 72
+h 28
+controlPv "EBT-CS-CS3B-PLC-01:DMG:5"
+displayMode "decimal"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 110
+y 276
+w 72
+h 28
+controlPv "EBT-CS-CS3B-PLC-01:DMG:4"
+displayMode "decimal"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 110
+y 386
+w 72
+h 28
+controlPv "EBT-CS-CS3B-PLC-01:DMG:7"
+displayMode "decimal"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 110
+y 350
+w 72
+h 28
+controlPv "EBT-CS-CS3B-PLC-01:DMG:6"
+displayMode "decimal"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 112
+y 422
+w 72
+h 28
+controlPv "EBT-CS-CS3B-PLC-01:DMG:8"
+displayMode "decimal"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 114
+y 496
+w 72
+h 28
+controlPv "EBT-CS-CS3B-PLC-01:DMG:10"
+displayMode "decimal"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 112
+y 460
+w 72
+h 28
+controlPv "EBT-CS-CS3B-PLC-01:DMG:9"
+displayMode "decimal"
+precision 1
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+

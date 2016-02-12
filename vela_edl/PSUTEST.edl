@@ -1,0 +1,673 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 250
+y 95
+w 478
+h 260
+font "arial-medium-r-18.0"
+ctlFont "arial-medium-r-18.0"
+btnFont "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 3
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+title "Polarity Reverse Test"
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 326
+y 70
+w 147
+h 162
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 174
+y 71
+w 145
+h 162
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 334
+y 83
+w 129
+h 20
+controlPv "PSU-01:DGS"
+displayMode "decimal"
+precision 2
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Meter)
+object activeMeterClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 10
+y 80
+w 145
+h 105
+caseColor index 0
+scaleColor index 26
+labelColor index 39
+fgColor index 20
+bgColor index 30
+topShadowColor index 0
+botShadowColor index 36
+readPv "PSU-01:RIP"
+showScale
+scaleFormat "FFloat"
+scalePrecision "0"
+useDisplayBg
+labelIntervals "10"
+majorIntervals "2"
+minorIntervals "5"
+complexNeedle
+scaleMin "-100"
+scaleMax "100"
+labelFontTag "arial-medium-r-8.0"
+scaleFontTag "arial-medium-r-8.0"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 15
+y 159
+w 129
+h 20
+controlPv "PSU-01:RIP"
+displayMode "decimal"
+precision 2
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 181
+y 104
+w 129
+h 20
+controlPv "PSU-01:SS"
+displayMode "decimal"
+precision 2
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 181
+y 147
+w 129
+h 20
+controlPv "PSU-01:RS"
+displayMode "decimal"
+precision 2
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 182
+y 89
+w 45
+h 14
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Request"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 181
+y 131
+w 73
+h 14
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Current State"
+}
+autoSize
+endObjectProperties
+
+# (Text Entry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 13
+y 189
+w 80
+h 34
+controlPv "PSU-01:RV"
+displayMode "decimal"
+precision 2
+fgColor index 14
+fgAlarm
+bgColor index 63
+fill
+font "helvetica-medium-r-10.0"
+lineWidth 1
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 334
+y 136
+w 62
+h 41
+fgColor index 20
+onColor index 25
+offColor index 25
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "PSU-01:DGB"
+buttonType "push"
+3d
+font "courier-bold-r-12.0"
+objType "controls"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 334
+y 104
+w 129
+h 20
+controlPv "PSU-01:DGS2"
+displayMode "decimal"
+precision 2
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 400
+y 137
+w 62
+h 41
+fgColor index 20
+onColor index 25
+offColor index 25
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "PSU-01:ABTB"
+buttonType "push"
+3d
+font "courier-bold-r-12.0"
+objType "controls"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 348
+y 187
+w 97
+h 14
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PSU Max Current"
+}
+autoSize
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 335
+y 202
+w 129
+h 20
+controlPv "PSU-01:MAX"
+displayMode "decimal"
+precision 2
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 198
+y 50
+w 92
+h 14
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Polarity Reverse"
+}
+autoSize
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 192
+y 187
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "POL-CAN-PN-01:Sta"
+gateDownPv "POL-CAN-PN-01:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "POL-CAN-PN-01:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 225
+y 189
+w 15
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PN"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 285
+y 189
+w 14
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PR"
+}
+autoSize
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 252
+y 187
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "POL-CAN-PR-01:Sta"
+gateDownPv "POL-CAN-PR-01:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "POL-CAN-PR-01:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 374
+y 50
+w 49
+h 14
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Degauss"
+}
+autoSize
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 192
+y 187
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=POL-CAN-PN-01"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 254
+y 188
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=POL-CAN-PR-01"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 111
+y 198
+w 31
+h 16
+file "auxl.edl"
+gateUpPv "PSU-CAN-01:Sta"
+gateDownPv "PSU-CAN-01:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 2
+initialIndex 1
+colorPv "PSU-CAN-01:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 112
+y 199
+w 29
+h 16
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=PSU-CAN-01"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 100
+y 193
+w 55
+h 27
+lineColor index 77
+fillColor index 0
+lineWidth 4
+visPv "PSU-01:DG39"
+visMin "0.5"
+visMax "1.5"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 69
+y 56
+w 24
+h 14
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PSU"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 2
+y 71
+w 164
+h 161
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x -4
+y -5
+w 482
+h 35
+lineColor index 14
+fill
+fillColor index 53
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 139
+y 3
+w 186
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Single Magnet Control"
+}
+autoSize
+lineWidth 4
+endObjectProperties
+

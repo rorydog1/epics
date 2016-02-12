@@ -13,6 +13,9 @@ mv2_registerRecordDeviceDriver pdbbase
 ##Connect
 #drvAsynIPPortConfigure ("mv2_port1",  "148.79.130.58:10014", 0, 0, 0)
 #dbLoadRecords("db/asynRgaRec.template","device=mv2,PORT=148.79.130.58:10014")
+drvAsynIPPortConfigure("L0","148.79.130.22:10014",0,0,0)
+mv2init("I0","L0")
+dbLoadRecords("db/rgamv2.template","device=chas,PORT=I0")
 
 ## Load record instances
 #dbLoadTemplate "db/userHost.substitutions"
@@ -26,10 +29,7 @@ mv2_registerRecordDeviceDriver pdbbase
 
 cd "${TOP}/iocBoot/${IOC}"
 iocInit
-
+#cd ${TOP}
 ## Start any sequence programs
 #seq sncExample, "user=roryHost"
 
-drvAsynIPPortConfigure("L0","148.79.130.58:10014",0,0,0)
-mv2init("T1","L0")
-dbLoadRecords("../../db/rgamv2.template","device=chas,PORT=L0")

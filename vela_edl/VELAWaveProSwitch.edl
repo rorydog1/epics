@@ -1,0 +1,930 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 219
+y 319
+w 600
+h 325
+font "arial-medium-r-18.0"
+ctlFont "arial-medium-r-18.0"
+btnFont "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 3
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+title "VELASCOPE 1"
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 0
+w 598
+h 35
+lineColor index 14
+fill
+fillColor index 53
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1
+y 8
+w 598
+h 21
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "VELASCOPE 1"
+}
+lineWidth 4
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 22
+y 52
+w 111
+h 210
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 22
+y 222
+w 111
+h 40
+fgColor index 14
+onColor index 4
+offColor index 2
+topShadowColor index 0
+botShadowColor index 14
+controlPv "wavepro-1:input4"
+pressValue "0"
+releaseValue "0"
+3d
+font "arial-medium-r-18.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 22
+y 174
+w 111
+h 40
+fgColor index 14
+onColor index 4
+offColor index 2
+topShadowColor index 0
+botShadowColor index 14
+controlPv "wavepro-1:input3"
+pressValue "0"
+releaseValue "0"
+3d
+font "arial-medium-r-18.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 22
+y 126
+w 111
+h 40
+fgColor index 14
+onColor index 4
+offColor index 2
+topShadowColor index 0
+botShadowColor index 14
+controlPv "wavepro-1:input2"
+pressValue "0"
+releaseValue "0"
+3d
+font "arial-medium-r-18.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 22
+y 78
+w 111
+h 40
+fgColor index 14
+onColor index 4
+offColor index 2
+topShadowColor index 0
+botShadowColor index 14
+controlPv "wavepro-1:input1"
+pressValue "0"
+releaseValue "0"
+3d
+font "arial-medium-r-18.0"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 36
+y 52
+w 82
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Channel 1"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 172
+y 52
+w 111
+h 210
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 172
+y 222
+w 111
+h 40
+fgColor index 14
+onColor index 4
+offColor index 2
+topShadowColor index 0
+botShadowColor index 14
+controlPv "wavepro-2:input4"
+pressValue "0"
+releaseValue "0"
+3d
+font "arial-medium-r-18.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 172
+y 174
+w 111
+h 40
+fgColor index 14
+onColor index 4
+offColor index 2
+topShadowColor index 0
+botShadowColor index 14
+controlPv "wavepro-2:input3"
+pressValue "0"
+releaseValue "0"
+3d
+font "arial-medium-r-18.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 172
+y 126
+w 111
+h 40
+fgColor index 14
+onColor index 4
+offColor index 2
+topShadowColor index 0
+botShadowColor index 14
+controlPv "wavepro-2:input2"
+pressValue "0"
+releaseValue "0"
+3d
+font "arial-medium-r-18.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 172
+y 78
+w 111
+h 40
+fgColor index 14
+onColor index 4
+offColor index 2
+topShadowColor index 0
+botShadowColor index 14
+controlPv "wavepro-2:input1"
+pressValue "0"
+releaseValue "0"
+3d
+font "arial-medium-r-18.0"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 186
+y 52
+w 82
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Channel 2"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 322
+y 52
+w 111
+h 210
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 322
+y 222
+w 111
+h 40
+fgColor index 14
+onColor index 4
+offColor index 2
+topShadowColor index 0
+botShadowColor index 14
+controlPv "wavepro-3:input4"
+pressValue "0"
+releaseValue "0"
+3d
+font "arial-medium-r-18.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 322
+y 174
+w 111
+h 40
+fgColor index 14
+onColor index 4
+offColor index 2
+topShadowColor index 0
+botShadowColor index 14
+controlPv "wavepro-3:input3"
+pressValue "0"
+releaseValue "0"
+3d
+font "arial-medium-r-18.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 322
+y 126
+w 111
+h 40
+fgColor index 14
+onColor index 4
+offColor index 2
+topShadowColor index 0
+botShadowColor index 14
+controlPv "wavepro-3:input2"
+pressValue "0"
+releaseValue "0"
+3d
+font "arial-medium-r-18.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 322
+y 78
+w 111
+h 40
+fgColor index 14
+onColor index 4
+offColor index 2
+topShadowColor index 0
+botShadowColor index 14
+controlPv "wavepro-3:input1"
+pressValue "0"
+releaseValue "0"
+3d
+font "arial-medium-r-18.0"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 336
+y 52
+w 82
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Channel 3"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 472
+y 52
+w 111
+h 210
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 472
+y 222
+w 111
+h 40
+fgColor index 14
+onColor index 4
+offColor index 2
+topShadowColor index 0
+botShadowColor index 14
+controlPv "wavepro-4:input4"
+pressValue "0"
+releaseValue "0"
+3d
+font "arial-medium-r-18.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 472
+y 174
+w 111
+h 40
+fgColor index 14
+onColor index 4
+offColor index 2
+topShadowColor index 0
+botShadowColor index 14
+controlPv "wavepro-4:input3"
+pressValue "0"
+releaseValue "0"
+3d
+font "arial-medium-r-18.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 472
+y 126
+w 111
+h 40
+fgColor index 14
+onColor index 4
+offColor index 2
+topShadowColor index 0
+botShadowColor index 14
+controlPv "wavepro-4:input2"
+pressValue "0"
+releaseValue "0"
+3d
+font "arial-medium-r-18.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 472
+y 78
+w 111
+h 40
+fgColor index 14
+onColor index 4
+offColor index 2
+topShadowColor index 0
+botShadowColor index 14
+controlPv "wavepro-4:input1"
+pressValue "0"
+releaseValue "0"
+3d
+font "arial-medium-r-18.0"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 486
+y 52
+w 82
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Channel 4"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 74
+w 16
+h 193
+controlPv "$(device)-1:led"
+lineColor index 14
+onColor index 15
+offColor index 19
+endian "little"
+numBits 4
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 155
+y 74
+w 16
+h 193
+controlPv "$(device)-2:led"
+lineColor index 14
+onColor index 15
+offColor index 19
+endian "little"
+numBits 4
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 305
+y 74
+w 16
+h 193
+controlPv "$(device)-3:led"
+lineColor index 14
+onColor index 15
+offColor index 19
+endian "little"
+numBits 4
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 455
+y 74
+w 16
+h 193
+controlPv "$(device)-4:led"
+lineColor index 14
+onColor index 15
+offColor index 19
+endian "little"
+numBits 4
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 23
+y 79
+w 108
+h 37
+controlPv "$(device)-1:input1.DESC"
+fgColor index 14
+bgColor index 0
+font "arial-medium-r-18.0"
+fontAlign "center"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 23
+y 127
+w 108
+h 37
+controlPv "$(device)-1:input2.DESC"
+fgColor index 14
+bgColor index 0
+font "arial-medium-r-18.0"
+fontAlign "center"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 23
+y 175
+w 108
+h 37
+controlPv "$(device)-1:input3.DESC"
+fgColor index 14
+bgColor index 0
+font "arial-medium-r-18.0"
+fontAlign "center"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 23
+y 223
+w 108
+h 37
+controlPv "$(device)-1:input4.DESC"
+fgColor index 14
+bgColor index 0
+font "arial-medium-r-18.0"
+fontAlign "center"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 172
+y 79
+w 108
+h 37
+controlPv "$(device)-2:input1.DESC"
+fgColor index 14
+bgColor index 0
+font "arial-medium-r-18.0"
+fontAlign "center"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 173
+y 127
+w 108
+h 37
+controlPv "$(device)-2:input2.DESC"
+fgColor index 14
+bgColor index 0
+font "arial-medium-r-18.0"
+fontAlign "center"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 173
+y 175
+w 108
+h 37
+controlPv "$(device)-2:input3.DESC"
+fgColor index 14
+bgColor index 0
+font "arial-medium-r-18.0"
+fontAlign "center"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 173
+y 223
+w 108
+h 37
+controlPv "$(device)-2:input4.DESC"
+fgColor index 14
+bgColor index 0
+font "arial-medium-r-18.0"
+fontAlign "center"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 324
+y 79
+w 108
+h 37
+controlPv "$(device)-3:input1.DESC"
+fgColor index 14
+bgColor index 0
+font "arial-medium-r-18.0"
+fontAlign "center"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 324
+y 127
+w 108
+h 37
+controlPv "$(device)-3:input2.DESC"
+fgColor index 14
+bgColor index 0
+font "arial-medium-r-18.0"
+fontAlign "center"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 323
+y 175
+w 108
+h 37
+controlPv "$(device)-3:input3.DESC"
+fgColor index 14
+bgColor index 0
+font "arial-medium-r-18.0"
+fontAlign "center"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 323
+y 223
+w 108
+h 37
+controlPv "$(device)-3:input4.DESC"
+fgColor index 14
+bgColor index 0
+font "arial-medium-r-18.0"
+fontAlign "center"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 473
+y 79
+w 108
+h 37
+controlPv "$(device)-4:input1.DESC"
+fgColor index 14
+bgColor index 0
+font "arial-medium-r-18.0"
+fontAlign "center"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 473
+y 127
+w 108
+h 37
+controlPv "$(device)-4:input2.DESC"
+fgColor index 14
+bgColor index 0
+font "arial-medium-r-18.0"
+fontAlign "center"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 473
+y 175
+w 108
+h 37
+controlPv "$(device)-4:input3.DESC"
+fgColor index 14
+bgColor index 0
+font "arial-medium-r-18.0"
+fontAlign "center"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 473
+y 223
+w 108
+h 37
+controlPv "$(device)-4:input4.DESC"
+fgColor index 14
+bgColor index 0
+font "arial-medium-r-18.0"
+fontAlign "center"
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 400
+y 283
+w 180
+h 35
+fgColor index 14
+bgColor index 4
+topShadowColor index 0
+botShadowColor index 14
+font "arial-medium-r-18.0"
+buttonLabel "Set Channel Names"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "VELAWaveProChanNames.edl"
+}
+setPosition {
+  0 "button"
+}
+endObjectProperties
+

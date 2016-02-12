@@ -1,0 +1,809 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 77
+y 352
+w 600
+h 470
+font "arial-medium-r-18.0"
+ctlFont "arial-medium-r-18.0"
+btnFont "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 3
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+title "VELASCOPE 2 Channel Names"
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 0
+w 598
+h 35
+lineColor index 14
+fill
+fillColor index 53
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 1
+w 597
+h 34
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "VELASCOPE 2 Channel Names"
+}
+lineWidth 4
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 36
+y 52
+w 82
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Channel 1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 186
+y 52
+w 82
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Channel 2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 336
+y 52
+w 82
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Channel 3"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 486
+y 52
+w 82
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Channel 4"
+}
+autoSize
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 23
+y 79
+w 108
+h 37
+controlPv "$(device)-1:input1.DESC"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 23
+y 127
+w 108
+h 37
+controlPv "$(device)-1:input2.DESC"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 23
+y 175
+w 108
+h 37
+controlPv "$(device)-1:input3.DESC"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 23
+y 223
+w 108
+h 37
+controlPv "$(device)-1:input4.DESC"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 23
+y 271
+w 108
+h 37
+controlPv "$(device)-1:input5.DESC"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 23
+y 319
+w 108
+h 37
+controlPv "$(device)-1:input6.DESC"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 23
+y 367
+w 108
+h 37
+controlPv "$(device)-1:input7.DESC"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 172
+y 79
+w 108
+h 37
+controlPv "$(device)-2:input1.DESC"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 172
+y 127
+w 108
+h 37
+controlPv "$(device)-2:input2.DESC"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 172
+y 175
+w 108
+h 37
+controlPv "$(device)-2:input3.DESC"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 172
+y 223
+w 108
+h 37
+controlPv "$(device)-2:input4.DESC"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 172
+y 271
+w 108
+h 37
+controlPv "$(device)-2:input5.DESC"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 172
+y 319
+w 108
+h 37
+controlPv "$(device)-2:input6.DESC"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 172
+y 367
+w 108
+h 37
+controlPv "$(device)-2:input7.DESC"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 324
+y 79
+w 108
+h 37
+controlPv "$(device)-3:input1.DESC"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 324
+y 127
+w 108
+h 37
+controlPv "$(device)-3:input2.DESC"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 324
+y 175
+w 108
+h 37
+controlPv "$(device)-3:input3.DESC"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 324
+y 223
+w 108
+h 37
+controlPv "$(device)-3:input4.DESC"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 324
+y 271
+w 108
+h 37
+controlPv "$(device)-3:input5.DESC"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 324
+y 319
+w 108
+h 37
+controlPv "$(device)-3:input6.DESC"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 324
+y 367
+w 108
+h 37
+controlPv "$(device)-3:input7.DESC"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 473
+y 79
+w 108
+h 37
+controlPv "$(device)-4:input1.DESC"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 473
+y 127
+w 108
+h 37
+controlPv "$(device)-4:input2.DESC"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 473
+y 175
+w 108
+h 37
+controlPv "$(device)-4:input3.DESC"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 473
+y 223
+w 108
+h 37
+controlPv "$(device)-4:input4.DESC"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 473
+y 271
+w 108
+h 37
+controlPv "$(device)-4:input5.DESC"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 473
+y 319
+w 108
+h 37
+controlPv "$(device)-4:input6.DESC"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 473
+y 367
+w 108
+h 37
+controlPv "$(device)-4:input7.DESC"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 414
+y 427
+w 170
+h 35
+fgColor index 14
+onColor index 4
+offColor index 4
+topShadowColor index 0
+botShadowColor index 14
+pressValue "0"
+releaseValue "0"
+onLabel "Close"
+offLabel "Close"
+closeOnPress
+closeOnRelease
+3d
+font "arial-medium-r-18.0"
+endObjectProperties
+

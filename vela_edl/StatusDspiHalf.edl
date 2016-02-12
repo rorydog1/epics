@@ -1,0 +1,304 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 139
+y 494
+w 250
+h 259
+font "arial-bold-i-18.0"
+ctlFont "arial-bold-i-18.0"
+btnFont "arial-bold-i-18.0"
+fgColor index 14
+bgColor index 0
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+endScreenProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 48
+y 1
+w 163
+h 20
+font "arial-bold-r-16.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "$(device)"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 69
+y 57
+w 110
+h 18
+font "courier-bold-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "INTERLOCKS"
+}
+autoSize
+endObjectProperties
+
+# (Exit Button)
+object activeExitButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 62
+y 222
+w 115
+h 25
+fgColor index 27
+bgColor index 53
+topShadowColor index 68
+botShadowColor index 71
+label "EXIT"
+font "courier-medium-r-10.0"
+3d
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 33
+y 83
+w 19
+h 122
+controlPv "$(device):Cmi"
+lineColor index 14
+onColor index 18
+offColor index 20
+lineWidth 2
+endian "little"
+numBits 4
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 39
+y 22
+w 175
+h 33
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 59
+y 22
+w 137
+h 33
+lineColor index 14
+fill
+fillColor index 85
+alarmPv "$(device):Sta"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 39
+y 27
+w 175
+h 24
+
+beginGroup
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 39
+y 27
+w 175
+h 24
+controlPv "$(device):Sta"
+font "courier-bold-r-24.0"
+fontAlign "center"
+fgColor index 49
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 69
+smartRefresh
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 210
+y 538
+w 50
+h 23
+lineColor index 14
+fill
+fillColor index 85
+alarmPv "Mod1AStatusText"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 61
+y 124
+w 249
+h 15
+controlPv "$(device):Ilk2.DESC"
+font "courier-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 61
+y 93
+w 249
+h 15
+controlPv "$(device):Ilk1.DESC"
+font "courier-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 60
+y 154
+w 249
+h 15
+controlPv "$(device):Ilk3.DESC"
+font "courier-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 61
+y 183
+w 249
+h 15
+controlPv "$(device):Ilk4.DESC"
+font "courier-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 12
+y 83
+w 19
+h 122
+controlPv "$(device):Cml"
+lineColor index 14
+onColor index 18
+offColor index 20
+lineWidth 2
+endian "little"
+numBits 4
+endObjectProperties
+

@@ -1,0 +1,1926 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 761
+y 55
+w 900
+h 820
+font "arial-medium-r-18.0"
+ctlFont "arial-medium-r-18.0"
+btnFont "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 3
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+title "ALICE COOL-IT"
+showGrid
+snapToGrid
+gridSize 5
+endScreenProperties
+
+# (PNG Image)
+object activePngClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 35
+w 902
+h 796
+file "COOL-IT3.png"
+uniformSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 0
+w 1160
+h 35
+lineColor index 53
+fill
+fillColor index 53
+lineWidth 0
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 310
+y 0
+w 251
+h 36
+font "arial-bold-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "ALICE COOL-IT"
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 570
+y 170
+w 80
+h 30
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 570
+y 170
+w 80
+h 30
+lineColor index 14
+fill
+fillColor index 3
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 574
+y 183
+w 71
+h 16
+controlPv "LIN-CRY-PI-7004:RADC"
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 17
+bgColor index 1
+autoHeight
+precision 1
+nullColor index 0
+useHexPrefix
+showUnits
+useAlarmBorder
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 590
+y 170
+w 38
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PI-7004"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 515
+y 105
+w 80
+h 30
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 515
+y 105
+w 80
+h 30
+lineColor index 14
+fill
+fillColor index 3
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 519
+y 118
+w 71
+h 16
+controlPv "LIN-CRY-PI-7003:RADC"
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 17
+bgColor index 1
+autoHeight
+precision 1
+nullColor index 0
+useHexPrefix
+showUnits
+useAlarmBorder
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 535
+y 105
+w 38
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PI-7003"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 340
+y 255
+w 80
+h 30
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 340
+y 255
+w 80
+h 30
+lineColor index 14
+fill
+fillColor index 3
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 344
+y 268
+w 71
+h 16
+controlPv "LIN-CRY-PI-7002:RADC"
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 17
+bgColor index 1
+autoHeight
+precision 1
+nullColor index 0
+useHexPrefix
+showUnits
+useAlarmBorder
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 360
+y 255
+w 38
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PI-7002"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 700
+y 380
+w 80
+h 30
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 700
+y 380
+w 80
+h 30
+lineColor index 14
+fill
+fillColor index 3
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 704
+y 393
+w 71
+h 16
+controlPv "LIN-CRY-TI-7019:RDGK"
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 17
+bgColor index 1
+autoHeight
+precision 1
+nullColor index 0
+useHexPrefix
+showUnits
+useAlarmBorder
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 720
+y 380
+w 36
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "TI-7019"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 699
+y 417
+w 80
+h 30
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 699
+y 417
+w 80
+h 30
+lineColor index 14
+fill
+fillColor index 3
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 703
+y 430
+w 71
+h 16
+controlPv "LIN-CRY-TI-7020:RDGK"
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 17
+bgColor index 1
+autoHeight
+precision 1
+nullColor index 0
+useHexPrefix
+showUnits
+useAlarmBorder
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 719
+y 417
+w 36
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "TI-7020"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 699
+y 462
+w 80
+h 30
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 699
+y 462
+w 80
+h 30
+lineColor index 14
+fill
+fillColor index 3
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 703
+y 475
+w 71
+h 16
+controlPv "LIN-CRY-TI-7021:RDGK"
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 17
+bgColor index 1
+autoHeight
+precision 1
+nullColor index 0
+useHexPrefix
+showUnits
+useAlarmBorder
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 719
+y 462
+w 36
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "TI-7021"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 699
+y 507
+w 80
+h 30
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 699
+y 507
+w 80
+h 30
+lineColor index 14
+fill
+fillColor index 3
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 703
+y 520
+w 71
+h 16
+controlPv "LIN-CRY-TI-7022:RDGK"
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 17
+bgColor index 1
+autoHeight
+precision 1
+nullColor index 0
+useHexPrefix
+showUnits
+useAlarmBorder
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 719
+y 507
+w 36
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "TI-7022"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 700
+y 740
+w 80
+h 30
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 700
+y 740
+w 80
+h 30
+lineColor index 14
+fill
+fillColor index 3
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 704
+y 753
+w 71
+h 16
+controlPv "LIN-CRY-TI-7011:RDGK"
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 17
+bgColor index 1
+autoHeight
+precision 1
+nullColor index 0
+useHexPrefix
+showUnits
+useAlarmBorder
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 720
+y 740
+w 36
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "TI-7011"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 565
+y 740
+w 80
+h 30
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 565
+y 740
+w 80
+h 30
+lineColor index 14
+fill
+fillColor index 3
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 569
+y 753
+w 71
+h 16
+controlPv "LIN-CRY-TI-7012:RDGK"
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 17
+bgColor index 1
+autoHeight
+precision 1
+nullColor index 0
+useHexPrefix
+showUnits
+useAlarmBorder
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 585
+y 740
+w 36
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "TI-7012"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 390
+y 740
+w 80
+h 30
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 390
+y 740
+w 80
+h 30
+lineColor index 14
+fill
+fillColor index 3
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 394
+y 753
+w 71
+h 16
+controlPv "LIN-CRY-TI-7013:RDGK"
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 17
+bgColor index 1
+autoHeight
+precision 1
+nullColor index 0
+useHexPrefix
+showUnits
+useAlarmBorder
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 410
+y 740
+w 36
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "TI-7013"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 210
+y 740
+w 80
+h 30
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 210
+y 740
+w 80
+h 30
+lineColor index 14
+fill
+fillColor index 3
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 214
+y 753
+w 71
+h 16
+controlPv "LIN-CRY-TI-7014:RDGK"
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 17
+bgColor index 1
+autoHeight
+precision 1
+nullColor index 0
+useHexPrefix
+showUnits
+useAlarmBorder
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 230
+y 740
+w 36
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "TI-7014"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 180
+y 620
+w 80
+h 30
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 180
+y 620
+w 80
+h 30
+lineColor index 14
+fill
+fillColor index 3
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 184
+y 633
+w 71
+h 16
+controlPv "LIN-CRY-TI-7015:RDGK"
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 17
+bgColor index 1
+autoHeight
+precision 1
+nullColor index 0
+useHexPrefix
+showUnits
+useAlarmBorder
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 200
+y 620
+w 36
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "TI-7015"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 160
+y 445
+w 80
+h 30
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 160
+y 445
+w 80
+h 30
+lineColor index 14
+fill
+fillColor index 3
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 164
+y 458
+w 71
+h 16
+controlPv "LIN-CRY-TI-7017:RDGK"
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 17
+bgColor index 1
+autoHeight
+precision 1
+nullColor index 0
+useHexPrefix
+showUnits
+useAlarmBorder
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 180
+y 445
+w 36
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "TI-7017"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 330
+y 445
+w 80
+h 30
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 330
+y 445
+w 80
+h 30
+lineColor index 14
+fill
+fillColor index 3
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 334
+y 458
+w 71
+h 16
+controlPv "LIN-CRY-TI-7024:RDGK"
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 17
+bgColor index 1
+autoHeight
+precision 1
+nullColor index 0
+useHexPrefix
+showUnits
+useAlarmBorder
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 350
+y 445
+w 36
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "TI-7024"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 425
+y 445
+w 80
+h 30
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 425
+y 445
+w 80
+h 30
+lineColor index 14
+fill
+fillColor index 3
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 429
+y 458
+w 71
+h 16
+controlPv "LIN-CRY-TI-7016:RDGK"
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 17
+bgColor index 1
+autoHeight
+precision 1
+nullColor index 0
+useHexPrefix
+showUnits
+useAlarmBorder
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 445
+y 445
+w 36
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "TI-7016"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 340
+y 410
+w 80
+h 30
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 340
+y 410
+w 80
+h 30
+lineColor index 14
+fill
+fillColor index 3
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 344
+y 423
+w 71
+h 16
+controlPv "LIN-CRY-TI-7023A:RDGK"
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 17
+bgColor index 1
+autoHeight
+precision 1
+nullColor index 0
+useHexPrefix
+showUnits
+useAlarmBorder
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 360
+y 410
+w 43
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "TI-7023A"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 465
+y 295
+w 80
+h 30
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 465
+y 295
+w 80
+h 30
+lineColor index 14
+fill
+fillColor index 3
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 469
+y 308
+w 71
+h 16
+controlPv "LIN-CRY-TI-7018A:RDGK"
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 17
+bgColor index 1
+autoHeight
+precision 1
+nullColor index 0
+useHexPrefix
+showUnits
+useAlarmBorder
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 485
+y 295
+w 43
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "TI-7018A"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 285
+w 105
+h 30
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 285
+w 105
+h 30
+lineColor index 14
+fill
+fillColor index 3
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 15
+y 298
+w 93
+h 16
+controlPv "LIN-CRY-PI-7001:P"
+format "exponential"
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 17
+fgAlarm
+bgColor index 1
+autoHeight
+precision 1
+nullColor index 0
+useHexPrefix
+showUnits
+useAlarmBorder
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 36
+y 285
+w 38
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PI-7001"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 310
+y 490
+w 45
+h 80
+indicatorColor index 15
+indicatorAlarm
+fgColor index 14
+bgColor index 0
+indicatorPv "LIN-CRY-LI-7031:RLEV"
+font "arial-medium-r-18.0"
+min "0"
+max "100"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 260
+y 555
+w 45
+h 16
+controlPv "LIN-CRY-LI-7031:RLEV"
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 17
+bgColor index 1
+autoHeight
+precision 1
+nullColor index 0
+useHexPrefix
+showUnits
+useAlarmBorder
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 260
+y 505
+w 27
+h 16
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LN2"
+}
+autoSize
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 575
+y 490
+w 45
+h 80
+indicatorColor index 15
+indicatorAlarm
+fgColor index 14
+bgColor index 0
+indicatorPv "LIN-CRY-LI-7032:RLEV"
+font "arial-medium-r-18.0"
+min "0"
+max "100"
+scaleFormat "FFloat"
+orientation "vertical"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 525
+y 560
+w 45
+h 16
+controlPv "LIN-CRY-LI-7032:RLEV"
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 17
+fgAlarm
+bgColor index 1
+autoHeight
+precision 1
+nullColor index 0
+useHexPrefix
+showUnits
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 535
+y 505
+w 26
+h 16
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LHe"
+}
+autoSize
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 615
+y 315
+w 80
+h 30
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 615
+y 315
+w 80
+h 30
+lineColor index 14
+fill
+fillColor index 3
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 619
+y 328
+w 71
+h 16
+controlPv "LIN-CRY-CV-710X:AO1"
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 17
+bgColor index 1
+autoHeight
+precision 1
+nullColor index 0
+useHexPrefix
+showUnits
+useAlarmBorder
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 635
+y 315
+w 42
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "CV 7102"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 335
+y 190
+w 80
+h 30
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 335
+y 190
+w 80
+h 30
+lineColor index 14
+fill
+fillColor index 3
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 339
+y 203
+w 71
+h 16
+controlPv "LIN-CRY-CV-710X:AO0"
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 17
+bgColor index 1
+autoHeight
+precision 1
+nullColor index 0
+useHexPrefix
+showUnits
+useAlarmBorder
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 355
+y 190
+w 42
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "CV 7101"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 10
+y 285
+w 105
+h 30
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "tpg256a.edl"
+}
+setPosition {
+  0 "button"
+}
+symbols {
+  0 "device=LIN-CRY-PI-7001"
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 319
+y 330
+w 15
+h 30
+
+beginGroup
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 319
+y 330
+w 15
+h 16
+lineColor index 14
+fill
+fillColor index 85
+alarmPv "LIN-CRY-LI-7031:LO"
+numPoints 5
+xPoints {
+  0 319
+  1 327
+  2 334
+  3 322
+  4 319
+}
+yPoints {
+  0 330
+  1 346
+  2 330
+  3 330
+  4 330
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 319
+y 346
+w 15
+h 16
+lineColor index 14
+fill
+fillColor index 85
+alarmPv "LIN-CRY-LI-7031:LO"
+numPoints 5
+xPoints {
+  0 334
+  1 327
+  2 319
+  3 332
+  4 334
+}
+yPoints {
+  0 362
+  1 346
+  2 362
+  3 362
+  4 362
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 335
+y 340
+w 45
+h 12
+font "helvetica-bold-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "CV-7115"
+}
+autoSize
+endObjectProperties
+

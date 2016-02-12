@@ -1,0 +1,156 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 184
+y 397
+w 650
+h 180
+font "arial-medium-r-18.0"
+ctlFont "arial-medium-r-18.0"
+btnFont "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 3
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+title "RF Power"
+endScreenProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 14
+y 13
+w 300
+h 44
+font "arial-medium-r-42.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "FWD POWER ="
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 15
+y 71
+w 283
+h 44
+font "arial-medium-r-42.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "REV POWER ="
+}
+autoSize
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 365
+y 13
+w 241
+h 44
+controlPv "EBT-INJ-RF-POW-01:RP2MW"
+font "arial-medium-r-42.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+showUnits
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 365
+y 71
+w 241
+h 44
+controlPv "EBT-INJ-RF-POW-01:RP1MW"
+font "arial-medium-r-42.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+showUnits
+newPos
+objType "controls"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 15
+y 129
+w 331
+h 44
+font "arial-medium-r-42.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "POWER RATIO ="
+}
+autoSize
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 365
+y 129
+w 241
+h 44
+controlPv "EBT-INJ-RF-POW-01:RATIO"
+font "arial-medium-r-42.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+showUnits
+newPos
+objType "controls"
+endObjectProperties
+

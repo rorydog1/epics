@@ -1,0 +1,1680 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 482
+y 235
+w 575
+h 490
+font "arial-medium-r-18.0"
+ctlFont "arial-medium-r-18.0"
+btnFont "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 3
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+title "VELA Digital Cameras"
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 0
+w 574
+h 35
+lineColor index 14
+fill
+fillColor index 53
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 19
+y 197
+w 457
+h 27
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 191
+y 203
+w 180
+h 19
+controlPv "EBT-CS-CS4A-IOC-01:STATUS"
+font "arial-medium-r-18.0"
+fgColor index 86
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+colorPv "EBT-CS-CS4A-IOC-01:STATUS"
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 19
+y 197
+w 70
+h 27
+fgColor index 14
+onColor index 4
+offColor index 3
+inconsistentColor index 14
+topShadowColor index 1
+botShadowColor index 11
+controlPv "EBT-CS-CS4A-IOC-01:STOP"
+onLabel "Stop"
+offLabel "Stop"
+labelType "literal"
+buttonType "push"
+3d
+font "arial-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 95
+y 197
+w 70
+h 27
+fgColor index 14
+onColor index 4
+offColor index 3
+inconsistentColor index 14
+topShadowColor index 1
+botShadowColor index 11
+controlPv "EBT-CS-CS4A-IOC-01:START"
+onLabel "Start"
+offLabel "Start"
+labelType "literal"
+buttonType "push"
+3d
+font "arial-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 316
+y 205
+w 65
+h 19
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "S140594"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 427
+y 205
+w 49
+h 19
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "YAG-4"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 19
+y 270
+w 457
+h 27
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 191
+y 276
+w 180
+h 19
+controlPv "EBT-CS-CS4A-IOC-02:STATUS"
+font "arial-medium-r-18.0"
+fgColor index 86
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+colorPv "EBT-CS-CS4A-IOC-02:STATUS"
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 19
+y 270
+w 70
+h 27
+fgColor index 14
+onColor index 4
+offColor index 3
+inconsistentColor index 14
+topShadowColor index 1
+botShadowColor index 11
+controlPv "EBT-CS-CS4A-IOC-02:STOP"
+onLabel "Stop"
+offLabel "Stop"
+labelType "literal"
+buttonType "push"
+3d
+font "arial-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 95
+y 270
+w 70
+h 27
+fgColor index 14
+onColor index 4
+offColor index 3
+inconsistentColor index 14
+topShadowColor index 1
+botShadowColor index 11
+controlPv "EBT-CS-CS4A-IOC-02:START"
+onLabel "Start"
+offLabel "Start"
+labelType "literal"
+buttonType "push"
+3d
+font "arial-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 316
+y 278
+w 65
+h 19
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "S140358"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 427
+y 278
+w 49
+h 19
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "YAG-6"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 19
+y 89
+w 457
+h 27
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 191
+y 95
+w 180
+h 19
+controlPv "EBT-CS-CS4A-IOC-03:STATUS"
+font "arial-medium-r-18.0"
+fgColor index 86
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+colorPv "EBT-CS-CS4A-IOC-03:STATUS"
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 19
+y 89
+w 70
+h 27
+fgColor index 14
+onColor index 4
+offColor index 3
+inconsistentColor index 14
+topShadowColor index 1
+botShadowColor index 11
+controlPv "EBT-CS-CS4A-IOC-03:STOP"
+onLabel "Stop"
+offLabel "Stop"
+labelType "literal"
+buttonType "push"
+3d
+font "arial-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 95
+y 89
+w 70
+h 27
+fgColor index 14
+onColor index 4
+offColor index 3
+inconsistentColor index 14
+topShadowColor index 1
+botShadowColor index 11
+controlPv "EBT-CS-CS4A-IOC-03:START"
+onLabel "Start"
+offLabel "Start"
+labelType "literal"
+buttonType "push"
+3d
+font "arial-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 316
+y 97
+w 65
+h 19
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "S140360"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 427
+y 97
+w 49
+h 19
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "YAG-1"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 19
+y 125
+w 457
+h 27
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 191
+y 131
+w 180
+h 19
+controlPv "EBT-CS-CS4A-IOC-04:STATUS"
+font "arial-medium-r-18.0"
+fgColor index 86
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+colorPv "EBT-CS-CS4A-IOC-04:STATUS"
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 19
+y 125
+w 70
+h 27
+fgColor index 14
+onColor index 4
+offColor index 3
+inconsistentColor index 14
+topShadowColor index 1
+botShadowColor index 11
+controlPv "EBT-CS-CS4A-IOC-04:STOP"
+onLabel "Stop"
+offLabel "Stop"
+labelType "literal"
+buttonType "push"
+3d
+font "arial-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 95
+y 125
+w 70
+h 27
+fgColor index 14
+onColor index 4
+offColor index 3
+inconsistentColor index 14
+topShadowColor index 1
+botShadowColor index 11
+controlPv "EBT-CS-CS4A-IOC-04:START"
+onLabel "Start"
+offLabel "Start"
+labelType "literal"
+buttonType "push"
+3d
+font "arial-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 316
+y 133
+w 65
+h 19
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "S140606"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 427
+y 133
+w 49
+h 19
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "YAG-2"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 19
+y 161
+w 457
+h 27
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 191
+y 167
+w 180
+h 19
+controlPv "EBT-CS-CS4A-IOC-05:STATUS"
+font "arial-medium-r-18.0"
+fgColor index 86
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+colorPv "EBT-CS-CS4A-IOC-05:STATUS"
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 19
+y 161
+w 70
+h 27
+fgColor index 14
+onColor index 4
+offColor index 3
+inconsistentColor index 14
+topShadowColor index 1
+botShadowColor index 11
+controlPv "EBT-CS-CS4A-IOC-05:STOP"
+onLabel "Stop"
+offLabel "Stop"
+labelType "literal"
+buttonType "push"
+3d
+font "arial-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 95
+y 161
+w 70
+h 27
+fgColor index 14
+onColor index 4
+offColor index 3
+inconsistentColor index 14
+topShadowColor index 1
+botShadowColor index 11
+controlPv "EBT-CS-CS4A-IOC-05:START"
+onLabel "Start"
+offLabel "Start"
+labelType "literal"
+buttonType "push"
+3d
+font "arial-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 316
+y 169
+w 65
+h 19
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "S140674"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 427
+y 169
+w 49
+h 19
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "YAG-3"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 19
+y 53
+w 520
+h 27
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 191
+y 59
+w 180
+h 19
+controlPv "EBT-CS-CS4A-IOC-06:STATUS"
+font "arial-medium-r-18.0"
+fgColor index 86
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+colorPv "EBT-CS-CS4A-IOC-06:STATUS"
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 19
+y 53
+w 70
+h 27
+fgColor index 14
+onColor index 4
+offColor index 3
+inconsistentColor index 14
+topShadowColor index 1
+botShadowColor index 11
+controlPv "EBT-CS-CS4A-IOC-06:STOP"
+onLabel "Stop"
+offLabel "Stop"
+labelType "literal"
+buttonType "push"
+3d
+font "arial-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 95
+y 53
+w 70
+h 27
+fgColor index 14
+onColor index 4
+offColor index 3
+inconsistentColor index 14
+topShadowColor index 1
+botShadowColor index 11
+controlPv "EBT-CS-CS4A-IOC-06:START"
+onLabel "Start"
+offLabel "Start"
+labelType "literal"
+buttonType "push"
+3d
+font "arial-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 316
+y 61
+w 65
+h 19
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "S140681"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 427
+y 61
+w 112
+h 19
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Virtual Cathode"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 19
+y 234
+w 457
+h 27
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 191
+y 240
+w 180
+h 19
+controlPv "EBT-CS-CS4A-IOC-07:STATUS"
+font "arial-medium-r-18.0"
+fgColor index 86
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+colorPv "EBT-CS-CS4A-IOC-07:STATUS"
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 19
+y 234
+w 70
+h 27
+fgColor index 14
+onColor index 4
+offColor index 3
+inconsistentColor index 14
+topShadowColor index 1
+botShadowColor index 11
+controlPv "EBT-CS-CS4A-IOC-07:STOP"
+onLabel "Stop"
+offLabel "Stop"
+labelType "literal"
+buttonType "push"
+3d
+font "arial-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 95
+y 234
+w 70
+h 27
+fgColor index 14
+onColor index 4
+offColor index 3
+inconsistentColor index 14
+topShadowColor index 1
+botShadowColor index 11
+controlPv "EBT-CS-CS4A-IOC-07:START"
+onLabel "Start"
+offLabel "Start"
+labelType "literal"
+buttonType "push"
+3d
+font "arial-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 316
+y 242
+w 65
+h 19
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "S140904"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 427
+y 242
+w 49
+h 19
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "YAG-5"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 19
+y 306
+w 457
+h 27
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 191
+y 312
+w 180
+h 19
+controlPv "EBT-CS-CS4A-IOC-08:STATUS"
+font "arial-medium-r-18.0"
+fgColor index 86
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+colorPv "EBT-CS-CS4A-IOC-08:STATUS"
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 19
+y 306
+w 70
+h 27
+fgColor index 14
+onColor index 4
+offColor index 3
+inconsistentColor index 14
+topShadowColor index 1
+botShadowColor index 11
+controlPv "EBT-CS-CS4A-IOC-08:STOP"
+onLabel "Stop"
+offLabel "Stop"
+labelType "literal"
+buttonType "push"
+3d
+font "arial-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 95
+y 306
+w 70
+h 27
+fgColor index 14
+onColor index 4
+offColor index 3
+inconsistentColor index 14
+topShadowColor index 1
+botShadowColor index 11
+controlPv "EBT-CS-CS4A-IOC-08:START"
+onLabel "Start"
+offLabel "Start"
+labelType "literal"
+buttonType "push"
+3d
+font "arial-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 316
+y 314
+w 65
+h 19
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "S141195"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 427
+y 314
+w 49
+h 19
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "YAG-7"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 19
+y 342
+w 457
+h 27
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 191
+y 348
+w 180
+h 19
+controlPv "EBT-CS-CS4A-IOC-09:STATUS"
+font "arial-medium-r-18.0"
+fgColor index 86
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+colorPv "EBT-CS-CS4A-IOC-09:STATUS"
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 19
+y 342
+w 70
+h 27
+fgColor index 14
+onColor index 4
+offColor index 3
+inconsistentColor index 14
+topShadowColor index 1
+botShadowColor index 11
+controlPv "EBT-CS-CS4A-IOC-09:STOP"
+onLabel "Stop"
+offLabel "Stop"
+labelType "literal"
+buttonType "push"
+3d
+font "arial-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 95
+y 342
+w 70
+h 27
+fgColor index 14
+onColor index 4
+offColor index 3
+inconsistentColor index 14
+topShadowColor index 1
+botShadowColor index 11
+controlPv "EBT-CS-CS4A-IOC-09:START"
+onLabel "Start"
+offLabel "Start"
+labelType "literal"
+buttonType "push"
+3d
+font "arial-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 316
+y 350
+w 65
+h 19
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "S140682"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 427
+y 350
+w 49
+h 19
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "YAG-8"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 19
+y 379
+w 479
+h 27
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 191
+y 385
+w 180
+h 19
+controlPv "EBT-CS-CS4A-IOC-10:STATUS"
+font "arial-medium-r-18.0"
+fgColor index 86
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+colorPv "EBT-CS-CS4A-IOC-10:STATUS"
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 19
+y 379
+w 70
+h 27
+fgColor index 14
+onColor index 4
+offColor index 3
+inconsistentColor index 14
+topShadowColor index 1
+botShadowColor index 11
+controlPv "EBT-CS-CS4A-IOC-10:STOP"
+onLabel "Stop"
+offLabel "Stop"
+labelType "literal"
+buttonType "push"
+3d
+font "arial-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 95
+y 379
+w 70
+h 27
+fgColor index 14
+onColor index 4
+offColor index 3
+inconsistentColor index 14
+topShadowColor index 1
+botShadowColor index 11
+controlPv "EBT-CS-CS4A-IOC-10:START"
+onLabel "Start"
+offLabel "Start"
+labelType "literal"
+buttonType "push"
+3d
+font "arial-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 316
+y 387
+w 65
+h 19
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "S140812"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 427
+y 387
+w 71
+h 19
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "YAG-BA1"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1
+y 9
+w 571
+h 19
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "VELA Digital Cameras"
+}
+lineWidth 4
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 19
+y 414
+w 446
+h 27
+
+beginGroup
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 19
+y 414
+w 70
+h 27
+fgColor index 14
+onColor index 4
+offColor index 3
+inconsistentColor index 14
+topShadowColor index 1
+botShadowColor index 11
+controlPv "EBT-CS-CS4A-IOC-11:STOP"
+onLabel "Stop"
+offLabel "Stop"
+labelType "literal"
+buttonType "push"
+3d
+font "arial-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 95
+y 414
+w 70
+h 27
+fgColor index 14
+onColor index 4
+offColor index 3
+inconsistentColor index 14
+topShadowColor index 1
+botShadowColor index 11
+controlPv "EBT-CS-CS4A-IOC-11:START"
+onLabel "Start"
+offLabel "Start"
+labelType "literal"
+buttonType "push"
+3d
+font "arial-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 191
+y 420
+w 180
+h 19
+controlPv "EBT-CS-CS4A-IOC-11:STATUS"
+font "arial-medium-r-18.0"
+fgColor index 86
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+colorPv "EBT-CS-CS4A-IOC-11:STATUS"
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 316
+y 422
+w 65
+h 19
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "S140845"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 427
+y 422
+w 38
+h 19
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "ED-1"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 19
+y 450
+w 446
+h 27
+
+beginGroup
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 427
+y 458
+w 38
+h 19
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "ED-2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 316
+y 458
+w 65
+h 19
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "S140842"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 191
+y 456
+w 180
+h 19
+controlPv "EBT-CS-CS4A-IOC-12:STATUS"
+font "arial-medium-r-18.0"
+fgColor index 86
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+colorPv "EBT-CS-CS4A-IOC-12:STATUS"
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 95
+y 450
+w 70
+h 27
+fgColor index 14
+onColor index 4
+offColor index 3
+inconsistentColor index 14
+topShadowColor index 1
+botShadowColor index 11
+controlPv "EBT-CS-CS4A-IOC-12:START"
+onLabel "Start"
+offLabel "Start"
+labelType "literal"
+buttonType "push"
+3d
+font "arial-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 19
+y 450
+w 70
+h 27
+fgColor index 14
+onColor index 4
+offColor index 3
+inconsistentColor index 14
+topShadowColor index 1
+botShadowColor index 11
+controlPv "EBT-CS-CS4A-IOC-12:STOP"
+onLabel "Stop"
+offLabel "Stop"
+labelType "literal"
+buttonType "push"
+3d
+font "arial-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+

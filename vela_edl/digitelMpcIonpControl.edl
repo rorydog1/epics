@@ -1,0 +1,552 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 225
+y 138
+w 335
+h 364
+font "arial-medium-r-16.0"
+ctlFont "arial-bold-r-16.0"
+btnFont "arial-medium-r-16.0"
+fgColor index 14
+bgColor index 3
+textColor index 14
+ctlFgColor1 index 25
+ctlFgColor2 index 18
+ctlBgColor1 index 3
+ctlBgColor2 index 5
+topShadowColor index 1
+botShadowColor index 11
+title "Digitel MPC Ion Pump Controller - $(device)"
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 0
+w 335
+h 27
+lineColor index 53
+fill
+fillColor index 53
+lineWidth 0
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 0
+w 335
+h 27
+font "arial-bold-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "$(device)"
+}
+endObjectProperties
+
+# (Exit Button)
+object activeExitButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 225
+y 331
+w 105
+h 28
+fgColor index 46
+bgColor index 3
+topShadowColor index 1
+botShadowColor index 11
+label "Exit"
+font "arial-bold-r-16.0"
+3d
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 5
+y 40
+w 90
+h 19
+font "arial-bold-r-16.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Pressure"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 5
+y 73
+w 90
+h 19
+font "arial-bold-r-16.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Status"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 5
+y 139
+w 90
+h 19
+font "arial-bold-r-16.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Voltage"
+}
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 95
+y 34
+w 80
+h 28
+controlPv "$(device):P"
+displayMode "exp"
+precision 1
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "arial-bold-r-16.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 95
+y 133
+w 80
+h 28
+controlPv "$(device):V"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "arial-bold-r-16.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 265
+y 139
+w 64
+h 19
+font "arial-bold-r-16.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Current"
+}
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 180
+y 133
+w 80
+h 28
+controlPv "$(device):I"
+displayMode "engineer"
+precision 1
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "arial-bold-r-16.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 95
+y 232
+w 80
+h 28
+controlPv "$(device):SP1"
+displayMode "exp"
+precision 1
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "arial-bold-r-16.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 95
+y 265
+w 80
+h 28
+controlPv "$(device):SP2"
+displayMode "exp"
+precision 1
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "arial-bold-r-16.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 5
+y 172
+w 90
+h 19
+font "arial-bold-r-16.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Pump Size"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 5
+y 205
+w 90
+h 19
+font "arial-bold-r-16.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Calibration"
+}
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 95
+y 67
+w 226
+h 28
+controlPv "$(device):STA"
+fgColor index 18
+fgAlarm
+bgColor index 3
+fill
+font "arial-bold-r-16.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 95
+y 166
+w 80
+h 28
+controlPv "$(device):SIZE"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "arial-bold-r-16.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 5
+y 238
+w 90
+h 19
+font "arial-bold-r-16.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Setpoint 1"
+}
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 95
+y 199
+w 80
+h 28
+controlPv "$(device):CAL"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "arial-bold-r-16.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 5
+y 271
+w 90
+h 19
+font "arial-bold-r-16.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Setpoint 2"
+}
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 331
+w 105
+h 28
+fgColor index 25
+onColor index 4
+offColor index 3
+topShadowColor index 1
+botShadowColor index 11
+controlPv "$(device):START"
+pressValue "Start"
+onLabel "Start"
+offLabel "Start"
+3d
+font "arial-bold-r-16.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 115
+y 331
+w 105
+h 28
+fgColor index 25
+onColor index 4
+offColor index 3
+topShadowColor index 1
+botShadowColor index 11
+controlPv "$(device):START"
+pressValue "Stop"
+onLabel "Stop"
+offLabel "Stop"
+3d
+font "arial-bold-r-16.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 95
+y 100
+w 226
+h 28
+controlPv "$(device):ERR"
+fgColor index 18
+fgAlarm
+bgColor index 3
+fill
+font "arial-bold-r-16.0"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 5
+y 106
+w 90
+h 19
+font "arial-bold-r-16.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Error Code"
+}
+endObjectProperties
+
+# (Bar)
+object activeBarClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 180
+y 34
+w 150
+h 28
+indicatorColor index 18
+indicatorAlarm
+fgColor index 14
+bgColor index 3
+indicatorPv "$(device):PLOG"
+font "arial-bold-r-16.0"
+labelTicks 10
+majorTicks 1
+minorTicks 2
+border
+limitsFromDb
+precision 0
+scaleFormat "FFloat"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 5
+y 304
+w 90
+h 19
+font "arial-bold-r-16.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Strapping"
+}
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 95
+y 298
+w 80
+h 28
+controlPv "$(device):HV"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "arial-bold-r-16.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+

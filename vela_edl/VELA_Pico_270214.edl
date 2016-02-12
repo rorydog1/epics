@@ -1,0 +1,1481 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 406
+y 67
+w 750
+h 300
+font "arial-medium-r-16.0"
+ctlFont "arial-bold-r-16.0"
+btnFont "arial-medium-r-16.0"
+fgColor index 14
+bgColor index 3
+textColor index 14
+ctlFgColor1 index 25
+ctlFgColor2 index 18
+ctlBgColor1 index 3
+ctlBgColor2 index 5
+topShadowColor index 1
+botShadowColor index 11
+title "VELA Pico Motors"
+snapToGrid
+gridSize 2
+endScreenProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 742
+y 900
+w 39
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "MB14"
+}
+autoSize
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 16
+y 20
+w 176
+h 116
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 16
+y 20
+w 176
+h 116
+lineColor index 14
+fillColor index 3
+lineWidth 2
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 16
+y 20
+w 176
+h 116
+fgColor index 44
+bgColor index 3
+topShadowColor index 1
+botShadowColor index 11
+font "arial-medium-r-16.0"
+invisible
+buttonLabel "Mirror Box 1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "picoMotor.edl"
+}
+setPosition {
+  0 "button"
+}
+symbols {
+  0 "device=EBT-INJ-PICO-01,title=VELA Mirror Box 3,motorA=PM5-V,motorB=PM5-H,motorC=PM6-V"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 20
+y 24
+w 86
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Mirror Box 3"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 22
+y 48
+w 40
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PM5-V"
+}
+autoSize
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 82
+y 42
+w 100
+h 26
+controlPv "EBT-INJ-PICO-01:RCUM1"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 82
+y 72
+w 100
+h 26
+controlPv "EBT-INJ-PICO-01:RCUM2"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 22
+y 78
+w 40
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PM5-H"
+}
+autoSize
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 82
+y 102
+w 100
+h 26
+controlPv "EBT-INJ-PICO-01:RCUM3"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 22
+y 108
+w 40
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PM6-V"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 194
+y 20
+w 176
+h 116
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 194
+y 20
+w 176
+h 116
+lineColor index 14
+fillColor index 3
+lineWidth 2
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 194
+y 20
+w 176
+h 116
+fgColor index 44
+bgColor index 3
+topShadowColor index 1
+botShadowColor index 11
+font "arial-medium-r-16.0"
+invisible
+buttonLabel "Mirror Box 1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "picoMotor.edl"
+}
+setPosition {
+  0 "button"
+}
+symbols {
+  0 "device=EBT-INJ-PICO-02,title=VELA Mirror Box 3,motorA=PM6-H,motorB=FM3-V,motorC=FM3-H"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 198
+y 24
+w 86
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Mirror Box 3"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 200
+y 48
+w 40
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PM6-H"
+}
+autoSize
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 260
+y 42
+w 100
+h 26
+controlPv "EBT-INJ-PICO-02:RCUM1"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 260
+y 72
+w 100
+h 26
+controlPv "EBT-INJ-PICO-02:RCUM2"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 200
+y 78
+w 40
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "FM3-V"
+}
+autoSize
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 260
+y 102
+w 100
+h 26
+controlPv "EBT-INJ-PICO-02:RCUM3"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 200
+y 108
+w 40
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "FM3-H"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 372
+y 20
+w 176
+h 116
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 372
+y 20
+w 176
+h 116
+lineColor index 14
+fillColor index 3
+lineWidth 2
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 372
+y 20
+w 176
+h 116
+fgColor index 44
+bgColor index 3
+topShadowColor index 1
+botShadowColor index 11
+font "arial-medium-r-16.0"
+invisible
+buttonLabel "Mirror Box 1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "picoMotor.edl"
+}
+setPosition {
+  0 "button"
+}
+symbols {
+  0 "device=EBT-INJ-PICO-03,title=VELA Mirror Box 3,motorA=PM4-V,motorB=PM4-H,motorC=PM3-V"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 376
+y 24
+w 86
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Mirror Box 3"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 378
+y 48
+w 40
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PM4-V"
+}
+autoSize
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 438
+y 42
+w 100
+h 26
+controlPv "EBT-INJ-PICO-03:RCUM1"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 438
+y 72
+w 100
+h 26
+controlPv "EBT-INJ-PICO-03:RCUM2"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 378
+y 78
+w 40
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PM4-H"
+}
+autoSize
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 438
+y 102
+w 100
+h 26
+controlPv "EBT-INJ-PICO-03:RCUM3"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 378
+y 108
+w 40
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PM3-V"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 552
+y 20
+w 176
+h 116
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 552
+y 20
+w 176
+h 116
+lineColor index 14
+fillColor index 3
+lineWidth 2
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 552
+y 20
+w 176
+h 116
+fgColor index 44
+bgColor index 3
+topShadowColor index 1
+botShadowColor index 11
+font "arial-medium-r-16.0"
+invisible
+buttonLabel "Mirror Box 1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "picoMotor.edl"
+}
+setPosition {
+  0 "button"
+}
+symbols {
+  0 "device=EBT-INJ-PICO-04,title=VELA Mirror Box 3,motorA=PM3-H,motorB=SPARE,motorC=SPARE"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 556
+y 24
+w 86
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Mirror Box 3"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 558
+y 48
+w 40
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PM3-H"
+}
+autoSize
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 618
+y 42
+w 100
+h 26
+controlPv "EBT-INJ-PICO-04:RCUM1"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 618
+y 72
+w 100
+h 26
+controlPv "EBT-INJ-PICO-04:RCUM2"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 558
+y 78
+w 41
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "SPARE"
+}
+autoSize
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 618
+y 102
+w 100
+h 26
+controlPv "EBT-INJ-PICO-04:RCUM3"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 558
+y 108
+w 41
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "SPARE"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 96
+y 158
+w 176
+h 116
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 96
+y 158
+w 176
+h 116
+lineColor index 14
+fillColor index 3
+lineWidth 2
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 96
+y 158
+w 176
+h 116
+fgColor index 44
+bgColor index 3
+topShadowColor index 1
+botShadowColor index 11
+font "arial-medium-r-16.0"
+invisible
+buttonLabel "Mirror Box 1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "picoMotor.edl"
+}
+setPosition {
+  0 "button"
+}
+symbols {
+  0 "device=EBT-INJ-PICO-05,title=VELA Mirror Box 2/1,motorA=FM2-V,motorB=FM2-H,motorC=PM1-V"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 100
+y 162
+w 98
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Mirror Box 2/1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 102
+y 186
+w 40
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "FM2-V"
+}
+autoSize
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 162
+y 180
+w 100
+h 26
+controlPv "EBT-INJ-PICO-05:RCUM1"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 162
+y 210
+w 100
+h 26
+controlPv "EBT-INJ-PICO-05:RCUM2"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 102
+y 216
+w 40
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "FM2-H"
+}
+autoSize
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 162
+y 240
+w 100
+h 26
+controlPv "EBT-INJ-PICO-05:RCUM3"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 102
+y 246
+w 40
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PM1-V"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 294
+y 158
+w 176
+h 116
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 294
+y 158
+w 176
+h 116
+lineColor index 14
+fillColor index 3
+lineWidth 2
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 294
+y 158
+w 176
+h 116
+fgColor index 44
+bgColor index 3
+topShadowColor index 1
+botShadowColor index 11
+font "arial-medium-r-16.0"
+invisible
+buttonLabel "Mirror Box 1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "picoMotor.edl"
+}
+setPosition {
+  0 "button"
+}
+symbols {
+  0 "device=EBT-INJ-PICO-06,title=VELA Mirror Box 2/1,motorA=PM2-V,motorB=PM2-H,motorC=PM1-H"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 298
+y 162
+w 98
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Mirror Box 2/1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 300
+y 186
+w 40
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PM2-V"
+}
+autoSize
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 360
+y 180
+w 100
+h 26
+controlPv "EBT-INJ-PICO-06:RCUM1"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 360
+y 210
+w 100
+h 26
+controlPv "EBT-INJ-PICO-06:RCUM2"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 300
+y 216
+w 40
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PM2-H"
+}
+autoSize
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 360
+y 240
+w 100
+h 26
+controlPv "EBT-INJ-PICO-06:RCUM3"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 300
+y 246
+w 40
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PM1-H"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 488
+y 156
+w 176
+h 116
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 488
+y 156
+w 176
+h 116
+lineColor index 14
+fillColor index 3
+lineWidth 2
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 488
+y 156
+w 176
+h 116
+fgColor index 44
+bgColor index 3
+topShadowColor index 1
+botShadowColor index 11
+font "arial-medium-r-16.0"
+invisible
+buttonLabel "Mirror Box 1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "picoMotor.edl"
+}
+setPosition {
+  0 "button"
+}
+symbols {
+  0 "device=EBT-INJ-PICO-07,title=VELA Mirror Box 2/1,motorA=FM1-V,motorB=FM1-H,motorC=SPARE"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 492
+y 160
+w 98
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Mirror Box 2/1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 494
+y 184
+w 40
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "FM1-V"
+}
+autoSize
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 554
+y 178
+w 100
+h 26
+controlPv "EBT-INJ-PICO-07:RCUM1"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 554
+y 208
+w 100
+h 26
+controlPv "EBT-INJ-PICO-07:RCUM2"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 494
+y 214
+w 40
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "FM1-H"
+}
+autoSize
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 554
+y 238
+w 100
+h 26
+controlPv "EBT-INJ-PICO-07:RCUM3"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 494
+y 244
+w 41
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "SPARE"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+

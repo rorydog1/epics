@@ -1,0 +1,883 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 314
+y 78
+w 492
+h 910
+font "arial-medium-r-18.0"
+ctlFont "arial-medium-r-18.0"
+btnFont "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 3
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 275
+y 48
+w 199
+h 147
+lineColor index 14
+fillColor index 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 16
+y 48
+w 254
+h 147
+lineColor index 14
+fillColor index 0
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 17
+y 14
+w 456
+h 19
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "VELA TDC LLRF Panel"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 34
+y 56
+w 197
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Master Oscillator Status"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 32
+y 87
+w 45
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "I REF"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 32
+y 121
+w 54
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Q REF"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 32
+y 157
+w 50
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Phase"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 110
+y 84
+w 133
+h 25
+controlPv "EBT:TDC-Ir:RD"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 16
+bgColor index 12
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 110
+y 119
+w 133
+h 25
+controlPv "EBT:TDC-Qr:RD"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 16
+bgColor index 12
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 110
+y 154
+w 133
+h 25
+controlPv "EBT:TDC-Phsr:RD"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 16
+bgColor index 12
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 16
+y 199
+w 458
+h 107
+lineColor index 14
+fillColor index 0
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 214
+y 203
+w 62
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Control"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 236
+w 82
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Amplitude"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 270
+w 50
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Phase"
+}
+autoSize
+endObjectProperties
+
+# (Motif Slider)
+object activeMotifSliderClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 135
+y 235
+w 232
+h 26
+fgColor index 1
+bgColor index 3
+2ndBgColor index 8
+topShadowColor index 1
+botShadowColor index 11
+increment 1
+controlPv "EBT:TDC-Aset:WR"
+controlLabelType "pvName"
+font "arial-medium-r-18.0"
+precision 1
+scaleMin 0
+scaleMax 16384
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 383
+y 236
+w 62
+h 21
+controlPv "EBT:TDC-Aset:WR"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Motif Slider)
+object activeMotifSliderClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 135
+y 267
+w 232
+h 26
+fgColor index 1
+bgColor index 3
+2ndBgColor index 8
+topShadowColor index 1
+botShadowColor index 11
+increment 1
+controlPv "EBT:TDC-Phi:WR"
+controlLabelType "pvName"
+font "arial-medium-r-18.0"
+precision 1
+scaleMin -180
+scaleMax 180
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 383
+y 270
+w 62
+h 21
+controlPv "EBT:TDC-Phi:WR"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+precision 2
+nullColor index 0
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (X-Y Graph)
+object xyGraphClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+# Geometry
+x 17
+y 459
+w 331
+h 137
+# Appearance
+border
+graphTitle "RF 3 REV Power"
+fgColor index 14
+bgColor index 0
+gridColor index 14
+font "arial-medium-r-18.0"
+# Operating Modes
+nPts 2
+# X axis properties
+xAxisSrc "fromUser"
+xMin 0
+xMax 230
+xAxisSmoothing 1
+# Y axis properties
+yAxisSrc "AutoScale"
+yMax 1
+# Y2 axis properties
+y2AxisSrc "AutoScale"
+y2Max 1
+# Trace Properties
+numTraces 1
+yPv {
+  0 "EBT-INJ-RF-POW-03:RTRAC1"
+}
+plotUpdateMode {
+  0 "y"
+}
+plotColor {
+  0 index 20
+}
+endObjectProperties
+
+# (X-Y Graph)
+object xyGraphClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+# Geometry
+x 17
+y 316
+w 331
+h 137
+# Appearance
+border
+graphTitle "RF 3 FWD Power"
+fgColor index 14
+bgColor index 0
+gridColor index 14
+font "arial-medium-r-18.0"
+# Operating Modes
+nPts 2
+# X axis properties
+xAxisSrc "fromUser"
+xMin 0
+xMax 230
+xAxisSmoothing 1
+# Y axis properties
+yAxisSrc "AutoScale"
+yMax 1
+# Y2 axis properties
+y2AxisSrc "AutoScale"
+y2Max 1
+# Trace Properties
+numTraces 1
+yPv {
+  0 "EBT-INJ-RF-POW-03:RTRAC2"
+}
+plotUpdateMode {
+  0 "y"
+}
+plotColor {
+  0 index 20
+}
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 358
+y 500
+w 110
+h 55
+controlPv "EBT-INJ-RF-POW-03:RP1MW"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 16
+bgColor index 12
+precision 3
+nullColor index 0
+fastUpdate
+useHexPrefix
+showUnits
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 358
+y 357
+w 110
+h 55
+controlPv "EBT-INJ-RF-POW-03:RP2MW"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 16
+bgColor index 12
+precision 3
+nullColor index 0
+fastUpdate
+useHexPrefix
+showUnits
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 395
+y 437
+w 42
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Ratio"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 368
+y 461
+w 88
+h 21
+controlPv "EBT-INJ-RF-POW-03:RATIO"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 16
+bgColor index 12
+autoHeight
+precision 1
+nullColor index 0
+useHexPrefix
+showUnits
+newPos
+objType "monitors"
+endObjectProperties
+
+# (X-Y Graph)
+object xyGraphClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+# Geometry
+x 17
+y 611
+w 331
+h 137
+# Appearance
+border
+graphTitle "RF 4 FWD Power"
+fgColor index 14
+bgColor index 0
+gridColor index 14
+font "arial-medium-r-18.0"
+# Operating Modes
+nPts 2
+# X axis properties
+xAxisSrc "fromUser"
+xMin 0
+xMax 230
+xAxisSmoothing 1
+# Y axis properties
+yAxisSrc "AutoScale"
+yMax 1
+# Y2 axis properties
+y2AxisSrc "AutoScale"
+y2Max 1
+# Trace Properties
+numTraces 1
+yPv {
+  0 "EBT-INJ-RF-POW-04:RTRAC2"
+}
+plotUpdateMode {
+  0 "y"
+}
+plotColor {
+  0 index 20
+}
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 358
+y 652
+w 110
+h 55
+controlPv "EBT-INJ-RF-POW-04:RP2MW"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 16
+bgColor index 12
+precision 3
+nullColor index 0
+fastUpdate
+useHexPrefix
+showUnits
+newPos
+objType "monitors"
+endObjectProperties
+
+# (X-Y Graph)
+object xyGraphClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+# Geometry
+x 17
+y 753
+w 331
+h 137
+# Appearance
+border
+graphTitle "RF 4 REV Power"
+fgColor index 14
+bgColor index 0
+gridColor index 14
+font "arial-medium-r-18.0"
+# Operating Modes
+nPts 2
+# X axis properties
+xAxisSrc "fromUser"
+xMin 0
+xMax 230
+xAxisSmoothing 1
+# Y axis properties
+yAxisSrc "AutoScale"
+yMax 1
+# Y2 axis properties
+y2AxisSrc "AutoScale"
+y2Max 1
+# Trace Properties
+numTraces 1
+yPv {
+  0 "EBT-INJ-RF-POW-04:RTRAC1"
+}
+plotUpdateMode {
+  0 "y"
+}
+plotColor {
+  0 index 20
+}
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 358
+y 794
+w 110
+h 55
+controlPv "EBT-INJ-RF-POW-04:RP1MW"
+font "arial-medium-r-18.0"
+fontAlign "center"
+fgColor index 16
+bgColor index 12
+precision 3
+nullColor index 0
+fastUpdate
+useHexPrefix
+showUnits
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 406
+y 413
+w 61
+h 16
+controlPv "EBT-INJ-RF-POW-01:MARK2"
+font "arial-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+editable
+autoHeight
+limitsFromDb
+nullColor index 0
+smartRefresh
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 357
+y 413
+w 47
+h 16
+font "arial-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Cursor:"
+}
+autoSize
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 407
+y 556
+w 61
+h 16
+controlPv "EBT-INJ-RF-POW-01:MARK2"
+font "arial-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+editable
+autoHeight
+limitsFromDb
+nullColor index 0
+smartRefresh
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 358
+y 556
+w 47
+h 16
+font "arial-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Cursor:"
+}
+autoSize
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 407
+y 708
+w 61
+h 16
+controlPv "EBT-INJ-RF-POW-01:MARK2"
+font "arial-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+editable
+autoHeight
+limitsFromDb
+nullColor index 0
+smartRefresh
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 358
+y 708
+w 47
+h 16
+font "arial-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Cursor:"
+}
+autoSize
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 407
+y 850
+w 61
+h 16
+controlPv "EBT-INJ-RF-POW-01:MARK2"
+font "arial-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+editable
+autoHeight
+limitsFromDb
+nullColor index 0
+smartRefresh
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 358
+y 850
+w 47
+h 16
+font "arial-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Cursor:"
+}
+autoSize
+endObjectProperties
+

@@ -1,0 +1,879 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 322
+y 288
+w 684
+h 300
+font "arial-bold-i-18.0"
+ctlFont "arial-bold-i-18.0"
+btnFont "arial-bold-i-18.0"
+fgColor index 14
+bgColor index 0
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+title "YAG Control"
+showGrid
+snapToGrid
+gridSize 5
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 395
+y 102
+w 109
+h 59
+lineColor index 14
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 242
+y 190
+w 105
+h 59
+lineColor index 14
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 526
+y 77
+w 149
+h 98
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 295
+y 175
+w 310
+h 105
+lineColor index 14
+fillColor index 0
+lineWidth 2
+lineStyle "dash"
+numPoints 7
+xPoints {
+  0 295
+  1 295
+  2 605
+  3 605
+  4 605
+  5 605
+  6 605
+}
+yPoints {
+  0 250
+  1 280
+  2 280
+  3 175
+  4 175
+  5 175
+  6 175
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 210
+y 80
+w 165
+h 100
+lineColor index 32
+fill
+fillColor index 32
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 210
+y 80
+w 165
+h 100
+lineColor index 14
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 220
+y 85
+w 145
+h 87
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 220
+y 135
+w 30
+h 38
+lineColor index 14
+fill
+fillColor index 15
+visPv "INJ-DIA-YAG-01:Sta"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 277
+y 135
+w 30
+h 38
+lineColor index 14
+fill
+fillColor index 15
+visPv "INJ-DIA-YAG-01:RPOS"
+visMin "-96000"
+visMax "-40850"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 335
+y 135
+w 30
+h 38
+lineColor index 14
+fill
+fillColor index 15
+visPv "INJ-DIA-YAG-01:RPOS"
+visMin "-40850"
+visMax "10000"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 335
+y 86
+w 30
+h 38
+lineColor index 14
+fill
+fillColor index 21
+visPv "INJ-DIA-YAG-01:RPOS"
+visMin "-110000"
+visMax "-40850"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 277
+y 86
+w 30
+h 38
+lineColor index 14
+fill
+fillColor index 21
+visPv "INJ-DIA-YAG-01:RPOS"
+visMin "-110000"
+visMax "-96000"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 277
+y 86
+w 30
+h 38
+lineColor index 14
+fill
+fillColor index 21
+visPv "INJ-DIA-YAG-01:RPOS"
+visMin "-40850"
+visMax "10000"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 220
+y 86
+w 30
+h 38
+lineColor index 14
+fill
+fillColor index 21
+visPv "INJ-DIA-YAG-01:Sta"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 12
+y 50
+w 157
+h 133
+lineColor index 14
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x -1
+y -1
+w 695
+h 34
+lineColor index 53
+fill
+fillColor index 53
+lineWidth 0
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 19
+y 74
+w 145
+h 19
+
+beginGroup
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 19
+y 74
+w 145
+h 19
+controlPv "Mod1AStatusText"
+font "courier-bold-r-24.0"
+fontAlign "center"
+fgColor index 49
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 69
+smartRefresh
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 18
+y 75
+w 145
+h 22
+lineColor index 14
+fill
+fillColor index 85
+alarmPv "INJ-DIA-YAG-01:Sta"
+endObjectProperties
+
+# (Exit Button)
+object activeExitButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 443
+y 215
+w 115
+h 25
+fgColor index 27
+bgColor index 53
+topShadowColor index 68
+botShadowColor index 71
+label "EXIT"
+font "courier-medium-r-10.0"
+3d
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 17
+y 100
+w 146
+h 23
+fgColor index 22
+bgColor index 68
+topShadowColor index 56
+botShadowColor index 73
+font "courier-bold-r-12.0"
+buttonLabel "Display Interlocks"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusDspiHalf.edl"
+}
+symbols {
+  0 "device=1A"
+}
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 17
+y 125
+w 46
+h 54
+fgColor index 20
+onColor index 25
+offColor index 25
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "$(device):Off"
+labelType "pvState"
+buttonType "push"
+3d
+font "courier-bold-r-12.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 114
+y 125
+w 51
+h 54
+fgColor index 20
+onColor index 25
+offColor index 25
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "$(device):Rst"
+labelType "pvState"
+buttonType "push"
+3d
+font "courier-bold-r-12.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 65
+y 125
+w 46
+h 54
+fgColor index 20
+onColor index 25
+offColor index 25
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "$(device):On"
+labelType "pvState"
+buttonType "push"
+3d
+font "courier-bold-r-12.0"
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 19
+y 76
+w 145
+h 24
+controlPv "$(device):Sta"
+font "courier-bold-r-20.0"
+fontAlign "center"
+fgColor index 49
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 69
+smartRefresh
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 17
+y 58
+w 145
+h 15
+font "arial-bold-r-14.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "RF Stage"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 530
+y 88
+w 145
+h 11
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Motor Stage"
+}
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 298
+y 193
+w 46
+h 54
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "$(device):MSABS"
+pressValue "-105"
+onLabel "OUT"
+offLabel "OUT"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 245
+y 193
+w 46
+h 54
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "$(device):MSABS"
+pressValue "$(pos1)"
+onLabel "$(item1)"
+offLabel "$(item1)"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 397
+y 105
+w 51
+h 54
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "$(device):MSABS"
+pressValue "$(pos2)"
+onLabel "$(item2)"
+offLabel "$(item2)"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 589
+y 105
+w 78
+h 22
+controlPv "$(device):RCAL"
+fgColor index 17
+fgAlarm
+bgColor index 1
+fill
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 589
+y 128
+w 78
+h 31
+controlPv "$(device):MSABS"
+fgColor index 14
+fgAlarm
+bgColor index 63
+fill
+font "helvetica-medium-r-10.0"
+lineWidth 2
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 228
+y 5
+w 207
+h 20
+font "arial-bold-r-16.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "INJ-DIA-YAG-01 (UNIT A)"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 215
+y 45
+w 158
+h 34
+font "arial-bold-r-28.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "RF  YAG  HS"
+}
+autoSize
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 169
+y 131
+w 43
+h 0
+lineColor index 14
+fillColor index 0
+lineWidth 5
+numPoints 2
+xPoints {
+  0 212
+  1 169
+}
+yPoints {
+  0 131
+  1 131
+}
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 454
+y 105
+w 46
+h 54
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "$(device):MSABS"
+pressValue "-105"
+onLabel "OUT"
+offLabel "OUT"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 295
+y 180
+w 0
+h 12
+lineColor index 14
+fillColor index 0
+lineWidth 5
+numPoints 3
+xPoints {
+  0 295
+  1 295
+  2 295
+}
+yPoints {
+  0 180
+  1 192
+  2 192
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 375
+y 135
+w 20
+h 0
+lineColor index 14
+fillColor index 0
+lineWidth 5
+numPoints 2
+xPoints {
+  0 395
+  1 375
+}
+yPoints {
+  0 133
+  1 133
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 450
+y 160
+w 155
+h 30
+lineColor index 14
+fillColor index 0
+lineWidth 2
+lineStyle "dash"
+numPoints 3
+xPoints {
+  0 450
+  1 450
+  2 605
+}
+yPoints {
+  0 160
+  1 190
+  2 190
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 535
+y 105
+w 46
+h 54
+fgColor index 20
+bgColor index 25
+topShadowColor index 0
+botShadowColor index 48
+font "courier-bold-r-12.0"
+buttonLabel "HOME"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "Confirm2.edl"
+}
+symbols {
+  0 "device=$(device):CMND,value=$(home),message2=Through The Beam - Continue?,message=Homing Will Pass All Devices,confirm=Yes,title=Home The Motor"
+}
+propagateMacros {
+  0 0
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 170
+y 285
+w 387
+h 16
+font "arial-bold-i-14.0"
+fgColor index 20
+bgColor index 0
+useDisplayBg
+value {
+  "Any Motor Moving will set Pockels cell width to 10nS"
+}
+autoSize
+endObjectProperties
+

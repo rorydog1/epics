@@ -1,0 +1,8 @@
+#!/bin/sh
+# Default directory is set up for erlpconsole1 and erlpconsole2
+# If running from erlpserv1 you'll have to navigate to the right directory
+#cd /home/erlp/burt
+LD_LIBRARY_PATH=$EPICS_EXTENSIONS/lib/$HOST_ARCH:$EPICS_BASE/lib/$HOST_ARCH
+export LD_LIBRARY_PATH
+cd /home/alice_dlfiles03/Snapshots
+burtgooey

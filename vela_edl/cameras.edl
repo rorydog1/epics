@@ -1,0 +1,1438 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 988
+y 97
+w 460
+h 560
+font "arial-medium-r-18.0"
+ctlFont "arial-medium-r-18.0"
+btnFont "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 3
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 0
+w 460
+h 34
+lineColor index 14
+fill
+fillColor index 6
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 48
+y 7
+w 364
+h 21
+
+beginGroup
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 397
+y 7
+w 15
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "]  "
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 373
+y 7
+w 20
+h 21
+controlPv "EBT-CS-CS4A-IOC-01:cameraCount"
+font "helvetica-medium-r-18.0"
+fgColor index 14
+fgAlarm
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+smartRefresh
+fastUpdate
+useHexPrefix
+useAlarmBorder
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 48
+y 7
+w 324
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "VELA Camera Control [Active Cameras "
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 20
+y 80
+w 428
+h 32
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 352
+y 80
+w 96
+h 32
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-CAM-02:CAM:Stop.PROC"
+pressValue "1"
+onLabel "Turn Off"
+offLabel "Turn Off"
+3d
+useEnumNumeric
+font "helvetica-medium-r-18.0"
+visPv "EBT-INJ-DIA-CAM-02:CAM:CameraState"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 20
+y 86
+w 207
+h 21
+controlPv "EBT-INJ-DIA-CAM-02:CAM:CameraName"
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 245
+y 80
+w 96
+h 32
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-CAM-02:CAM:Start.PROC"
+pressValue "1"
+onLabel "Turn On"
+offLabel "Turn On"
+3d
+useEnumNumeric
+font "helvetica-medium-r-18.0"
+visPv "EBT-INJ-DIA-CAM-02:CAM:CameraState"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 20
+y 43
+w 428
+h 32
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 352
+y 43
+w 96
+h 32
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-CAM-01:CAM:Stop.PROC"
+pressValue "1"
+onLabel "Turn Off"
+offLabel "Turn Off"
+3d
+useEnumNumeric
+font "helvetica-medium-r-18.0"
+visPv "EBT-INJ-DIA-CAM-01:CAM:CameraState"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 20
+y 49
+w 207
+h 21
+controlPv "EBT-INJ-DIA-CAM-01:CAM:CameraName"
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 245
+y 43
+w 96
+h 32
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-CAM-01:CAM:Start.PROC"
+pressValue "1"
+onLabel "Turn On"
+offLabel "Turn On"
+3d
+useEnumNumeric
+font "helvetica-medium-r-18.0"
+visPv "EBT-INJ-DIA-CAM-01:CAM:CameraState"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 20
+y 519
+w 428
+h 32
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 352
+y 519
+w 96
+h 32
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-CAM-14:CAM:Stop.PROC"
+pressValue "1"
+onLabel "Turn Off"
+offLabel "Turn Off"
+3d
+useEnumNumeric
+font "helvetica-medium-r-18.0"
+visPv "EBT-INJ-DIA-CAM-14:CAM:CameraState"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 20
+y 525
+w 207
+h 21
+controlPv "EBT-INJ-DIA-CAM-14:CAM:CameraName"
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 245
+y 519
+w 96
+h 32
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-CAM-14:CAM:Start.PROC"
+pressValue "1"
+onLabel "Turn On"
+offLabel "Turn On"
+3d
+useEnumNumeric
+font "helvetica-medium-r-18.0"
+visPv "EBT-INJ-DIA-CAM-14:CAM:CameraState"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 20
+y 482
+w 428
+h 32
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 352
+y 482
+w 96
+h 32
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-CAM-13:CAM:Stop.PROC"
+pressValue "1"
+onLabel "Turn Off"
+offLabel "Turn Off"
+3d
+useEnumNumeric
+font "helvetica-medium-r-18.0"
+visPv "EBT-INJ-DIA-CAM-13:CAM:CameraState"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 20
+y 488
+w 207
+h 21
+controlPv "EBT-INJ-DIA-CAM-13:CAM:CameraName"
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 245
+y 482
+w 96
+h 32
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-CAM-13:CAM:Start.PROC"
+pressValue "1"
+onLabel "Turn On"
+offLabel "Turn On"
+3d
+useEnumNumeric
+font "helvetica-medium-r-18.0"
+visPv "EBT-INJ-DIA-CAM-13:CAM:CameraState"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 20
+y 445
+w 428
+h 32
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 352
+y 445
+w 96
+h 32
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-CAM-12:CAM:Stop.PROC"
+pressValue "1"
+onLabel "Turn Off"
+offLabel "Turn Off"
+3d
+useEnumNumeric
+font "helvetica-medium-r-18.0"
+visPv "EBT-INJ-DIA-CAM-12:CAM:CameraState"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 20
+y 451
+w 207
+h 21
+controlPv "EBT-INJ-DIA-CAM-12:CAM:CameraName"
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 245
+y 445
+w 96
+h 32
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-CAM-12:CAM:Start.PROC"
+pressValue "1"
+onLabel "Turn On"
+offLabel "Turn On"
+3d
+useEnumNumeric
+font "helvetica-medium-r-18.0"
+visPv "EBT-INJ-DIA-CAM-12:CAM:CameraState"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 20
+y 408
+w 428
+h 32
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 352
+y 408
+w 96
+h 32
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-CAM-11:CAM:Stop.PROC"
+pressValue "1"
+onLabel "Turn Off"
+offLabel "Turn Off"
+3d
+useEnumNumeric
+font "helvetica-medium-r-18.0"
+visPv "EBT-INJ-DIA-CAM-11:CAM:CameraState"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 20
+y 414
+w 207
+h 21
+controlPv "EBT-INJ-DIA-CAM-11:CAM:CameraName"
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 245
+y 408
+w 96
+h 32
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-CAM-11:CAM:Start.PROC"
+pressValue "1"
+onLabel "Turn On"
+offLabel "Turn On"
+3d
+useEnumNumeric
+font "helvetica-medium-r-18.0"
+visPv "EBT-INJ-DIA-CAM-11:CAM:CameraState"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 20
+y 372
+w 428
+h 32
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 352
+y 372
+w 96
+h 32
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-CAM-10:CAM:Stop.PROC"
+pressValue "1"
+onLabel "Turn Off"
+offLabel "Turn Off"
+3d
+useEnumNumeric
+font "helvetica-medium-r-18.0"
+visPv "EBT-INJ-DIA-CAM-10:CAM:CameraState"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 20
+y 378
+w 207
+h 21
+controlPv "EBT-INJ-DIA-CAM-10:CAM:CameraName"
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 245
+y 372
+w 96
+h 32
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-CAM-10:CAM:Start.PROC"
+pressValue "1"
+onLabel "Turn On"
+offLabel "Turn On"
+3d
+useEnumNumeric
+font "helvetica-medium-r-18.0"
+visPv "EBT-INJ-DIA-CAM-10:CAM:CameraState"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 20
+y 335
+w 428
+h 32
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 352
+y 335
+w 96
+h 32
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-CAM-09:CAM:Stop.PROC"
+pressValue "1"
+onLabel "Turn Off"
+offLabel "Turn Off"
+3d
+useEnumNumeric
+font "helvetica-medium-r-18.0"
+visPv "EBT-INJ-DIA-CAM-09:CAM:CameraState"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 20
+y 341
+w 207
+h 21
+controlPv "EBT-INJ-DIA-CAM-09:CAM:CameraName"
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 245
+y 335
+w 96
+h 32
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-CAM-09:CAM:Start.PROC"
+pressValue "1"
+onLabel "Turn On"
+offLabel "Turn On"
+3d
+useEnumNumeric
+font "helvetica-medium-r-18.0"
+visPv "EBT-INJ-DIA-CAM-09:CAM:CameraState"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 20
+y 299
+w 428
+h 32
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 352
+y 299
+w 96
+h 32
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-CAM-08:CAM:Stop.PROC"
+pressValue "1"
+onLabel "Turn Off"
+offLabel "Turn Off"
+3d
+useEnumNumeric
+font "helvetica-medium-r-18.0"
+visPv "EBT-INJ-DIA-CAM-08:CAM:CameraState"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 20
+y 305
+w 207
+h 21
+controlPv "EBT-INJ-DIA-CAM-08:CAM:CameraName"
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 245
+y 299
+w 96
+h 32
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-CAM-08:CAM:Start.PROC"
+pressValue "1"
+onLabel "Turn On"
+offLabel "Turn On"
+3d
+useEnumNumeric
+font "helvetica-medium-r-18.0"
+visPv "EBT-INJ-DIA-CAM-08:CAM:CameraState"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 20
+y 262
+w 428
+h 32
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 352
+y 262
+w 96
+h 32
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-CAM-07:CAM:Stop.PROC"
+pressValue "1"
+onLabel "Turn Off"
+offLabel "Turn Off"
+3d
+useEnumNumeric
+font "helvetica-medium-r-18.0"
+visPv "EBT-INJ-DIA-CAM-07:CAM:CameraState"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 20
+y 268
+w 207
+h 21
+controlPv "EBT-INJ-DIA-CAM-07:CAM:CameraName"
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 245
+y 262
+w 96
+h 32
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-CAM-07:CAM:Start.PROC"
+pressValue "1"
+onLabel "Turn On"
+offLabel "Turn On"
+3d
+useEnumNumeric
+font "helvetica-medium-r-18.0"
+visPv "EBT-INJ-DIA-CAM-07:CAM:CameraState"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 20
+y 226
+w 428
+h 32
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 352
+y 226
+w 96
+h 32
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-CAM-06:CAM:Stop.PROC"
+pressValue "1"
+onLabel "Turn Off"
+offLabel "Turn Off"
+3d
+useEnumNumeric
+font "helvetica-medium-r-18.0"
+visPv "EBT-INJ-DIA-CAM-06:CAM:CameraState"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 20
+y 232
+w 207
+h 21
+controlPv "EBT-INJ-DIA-CAM-06:CAM:CameraName"
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 245
+y 226
+w 96
+h 32
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-CAM-06:CAM:Start.PROC"
+pressValue "1"
+onLabel "Turn On"
+offLabel "Turn On"
+3d
+useEnumNumeric
+font "helvetica-medium-r-18.0"
+visPv "EBT-INJ-DIA-CAM-06:CAM:CameraState"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 20
+y 189
+w 428
+h 32
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 352
+y 189
+w 96
+h 32
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-CAM-05:CAM:Stop.PROC"
+pressValue "1"
+onLabel "Turn Off"
+offLabel "Turn Off"
+3d
+useEnumNumeric
+font "helvetica-medium-r-18.0"
+visPv "EBT-INJ-DIA-CAM-05:CAM:CameraState"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 20
+y 195
+w 207
+h 21
+controlPv "EBT-INJ-DIA-CAM-05:CAM:CameraName"
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 245
+y 189
+w 96
+h 32
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-CAM-05:CAM:Start.PROC"
+pressValue "1"
+onLabel "Turn On"
+offLabel "Turn On"
+3d
+useEnumNumeric
+font "helvetica-medium-r-18.0"
+visPv "EBT-INJ-DIA-CAM-05:CAM:CameraState"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 20
+y 153
+w 428
+h 32
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 352
+y 153
+w 96
+h 32
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-CAM-04:CAM:Stop.PROC"
+pressValue "1"
+onLabel "Turn Off"
+offLabel "Turn Off"
+3d
+useEnumNumeric
+font "helvetica-medium-r-18.0"
+visPv "EBT-INJ-DIA-CAM-04:CAM:CameraState"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 20
+y 159
+w 207
+h 21
+controlPv "EBT-INJ-DIA-CAM-04:CAM:CameraName"
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 245
+y 153
+w 96
+h 32
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-CAM-04:CAM:Start.PROC"
+pressValue "1"
+onLabel "Turn On"
+offLabel "Turn On"
+3d
+useEnumNumeric
+font "helvetica-medium-r-18.0"
+visPv "EBT-INJ-DIA-CAM-04:CAM:CameraState"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 20
+y 116
+w 428
+h 32
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 352
+y 116
+w 96
+h 32
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-CAM-03:CAM:Stop.PROC"
+pressValue "1"
+onLabel "Turn Off"
+offLabel "Turn Off"
+3d
+useEnumNumeric
+font "helvetica-medium-r-18.0"
+visPv "EBT-INJ-DIA-CAM-03:CAM:CameraState"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 20
+y 122
+w 207
+h 21
+controlPv "EBT-INJ-DIA-CAM-03:CAM:CameraName"
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 245
+y 116
+w 96
+h 32
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-CAM-03:CAM:Start.PROC"
+pressValue "1"
+onLabel "Turn On"
+offLabel "Turn On"
+3d
+useEnumNumeric
+font "helvetica-medium-r-18.0"
+visPv "EBT-INJ-DIA-CAM-03:CAM:CameraState"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+

@@ -1,0 +1,188 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 818
+y 87
+w 230
+h 300
+font "arial-medium-r-18.0"
+ctlFont "arial-medium-r-18.0"
+btnFont "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 6
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+endScreenProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 5
+y 9
+w 222
+h 20
+font "arial-medium-r-24.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Rapiscan"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 26
+y 67
+w 177
+h 26
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+buttonLabel "Columator"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "SmartMotorClass5.edl"
+}
+setPosition {
+  0 "button"
+}
+symbols {
+  0 "device=EBT-BA1-RPS-COL-01:R"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 26
+y 101
+w 177
+h 26
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+buttonLabel "Detector H"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "SmartMotorClass5.edl"
+}
+setPosition {
+  0 "button"
+}
+symbols {
+  0 "device=EBT-BA1-RPS-DET-01:H"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 26
+y 137
+w 177
+h 26
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+buttonLabel "Detector V"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "SmartMotorClass5.edl"
+}
+setPosition {
+  0 "button"
+}
+symbols {
+  0 "device=EBT-BA1-RPS-DET-01:V"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 26
+y 174
+w 177
+h 26
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+buttonLabel "Sample H"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "SmartMotorClass5.edl"
+}
+setPosition {
+  0 "button"
+}
+symbols {
+  0 "device=EBT-BA1-RPS-SAM-01:H"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 26
+y 210
+w 177
+h 26
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+buttonLabel "Sample V"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "SmartMotorClass5.edl"
+}
+setPosition {
+  0 "button"
+}
+symbols {
+  0 "device=EBT-BA1-RPS-SAM-01:V"
+}
+endObjectProperties
+

@@ -1,0 +1,823 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 346
+y 162
+w 750
+h 600
+font "arial-medium-r-18.0"
+ctlFont "arial-medium-r-18.0"
+btnFont "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 6
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+endScreenProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 209
+y 7
+w 297
+h 20
+font "arial-medium-r-24.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "EBTF YAG 01 CONTROL"
+}
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 102
+y 394
+w 86
+h 46
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-YAG-01:H:MABS"
+pressValue "42.58"
+onLabel "MIRROR"
+offLabel "MIRROR"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 193
+y 394
+w 86
+h 46
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-YAG-01:H:MABS"
+pressValue "75.317"
+onLabel "50u SLIT"
+offLabel "50u SLIT"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 284
+y 394
+w 86
+h 46
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-YAG-01:H:MABS"
+pressValue "100.332"
+onLabel "25u SLIT"
+offLabel "25u SLIT"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 375
+y 394
+w 86
+h 46
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-YAG-01:H:MABS"
+pressValue "125.315"
+onLabel "6.3mm HOLE"
+offLabel "6.3mm HOLE"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 467
+y 394
+w 86
+h 46
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-YAG-01:H:MABS"
+pressValue "150.342"
+onLabel "10mm HOLE"
+offLabel "10mm HOLE"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 578
+y 189
+w 88
+h 46
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-YAG-01:V:MABS"
+pressValue "51.07"
+onLabel "YAG"
+offLabel "YAG"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 578
+y 242
+w 88
+h 46
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-YAG-01:V:MABS"
+pressValue "101.94"
+onLabel "SLIT"
+offLabel "SLIT"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 578
+y 296
+w 88
+h 46
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-YAG-01:V:MABS"
+pressValue "148.8"
+onLabel "RF"
+offLabel "RF"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 70
+y 146
+w 175
+h 21
+font "arial-bold-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visMin "0.5"
+visMax "0.5"
+value {
+  "Horizontal Disabled"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 70
+y 179
+w 151
+h 21
+font "arial-bold-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Vertical Disabled"
+}
+autoSize
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 35
+y 136
+w 26
+h 30
+controlPv "EBT-INJ-DIA-YAG-01:H:PROT01"
+lineColor index 14
+onColor index 20
+offColor index 11
+endian "little"
+numBits 1
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 35
+y 170
+w 26
+h 30
+controlPv "EBT-INJ-DIA-YAG-01:V:PROT01"
+lineColor index 14
+onColor index 20
+offColor index 11
+endian "little"
+numBits 1
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 11
+y 394
+w 84
+h 46
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-YAG-01:H:MABS"
+pressValue "0"
+onLabel "OUT"
+offLabel "OUT"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 578
+y 136
+w 88
+h 46
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-YAG-01:V:MABS"
+pressValue "0"
+onLabel "OUT"
+offLabel "OUT"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 70
+y 212
+w 123
+h 21
+font "arial-bold-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Position Error"
+}
+autoSize
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 35
+y 204
+w 26
+h 30
+controlPv "EBT-INJ-DIA-YAG-01:PROT03"
+lineColor index 14
+onColor index 20
+offColor index 11
+endian "little"
+numBits 1
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 70
+y 244
+w 101
+h 21
+font "arial-bold-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Home Error"
+}
+autoSize
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 35
+y 239
+w 26
+h 30
+controlPv "EBT-INJ-DIA-YAG-01:PROT05"
+lineColor index 14
+onColor index 20
+offColor index 11
+endian "little"
+numBits 1
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 557
+y 348
+w 134
+h 131
+lineColor index 14
+fillColor index 0
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 584
+y 403
+w 76
+h 21
+font "arial-bold-r-18.0"
+fgColor index 15
+bgColor index 0
+useDisplayBg
+visPv "EBT-INJ-DIA-YAG-01:H:RPOS"
+visMin "32"
+visMax "52"
+value {
+  "MIRROR"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 584
+y 403
+w 75
+h 21
+font "arial-bold-r-18.0"
+fgColor index 15
+bgColor index 0
+useDisplayBg
+visPv "EBT-INJ-DIA-YAG-01:H:RPOS"
+visMin "65"
+visMax "85"
+value {
+  "50u SLIT"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 581
+y 401
+w 75
+h 21
+font "arial-bold-r-18.0"
+fgColor index 15
+bgColor index 0
+useDisplayBg
+visPv "EBT-INJ-DIA-YAG-01:H:RPOS"
+visMin "90"
+visMax "110"
+value {
+  "25u SLIT"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 566
+y 402
+w 112
+h 21
+font "arial-bold-r-18.0"
+fgColor index 15
+bgColor index 0
+useDisplayBg
+visPv "EBT-INJ-DIA-YAG-01:H:RPOS"
+visMin "115"
+visMax "135"
+value {
+  "6.3mm HOLE"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 570
+y 401
+w 107
+h 21
+font "arial-bold-r-18.0"
+fgColor index 15
+bgColor index 0
+useDisplayBg
+visPv "EBT-INJ-DIA-YAG-01:H:RPOS"
+visMin "140"
+visMax "160"
+value {
+  "10mm HOLE"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 603
+y 401
+w 40
+h 21
+font "arial-bold-r-18.0"
+fgColor index 15
+bgColor index 0
+useDisplayBg
+visPv "EBT-INJ-DIA-YAG-01:V:RPOS"
+visMin "41.245"
+visMax "61.245"
+value {
+  "YAG"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 603
+y 400
+w 39
+h 21
+font "arial-bold-r-18.0"
+fgColor index 15
+bgColor index 0
+useDisplayBg
+visPv "EBT-INJ-DIA-YAG-01:V:RPOS"
+visMin "92"
+visMax "112"
+value {
+  "SLIT"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 611
+y 398
+w 25
+h 21
+font "arial-bold-r-18.0"
+fgColor index 15
+bgColor index 0
+useDisplayBg
+visPv "EBT-INJ-DIA-YAG-01:V:RPOS"
+visMin "138"
+visMax "158"
+value {
+  "RF"
+}
+autoSize
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 366
+y 453
+w 108
+h 28
+controlPv "EBT-INJ-DIA-YAG-01:H:RPOS"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "arial-bold-r-14.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 152
+y 454
+w 195
+h 28
+controlPv "EBT-INJ-DIA-YAG-01:H:RPWRLOSS"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "arial-bold-r-14.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 519
+y 63
+w 195
+h 28
+controlPv "EBT-INJ-DIA-YAG-01:V:RPWRLOSS"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "arial-bold-r-14.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 566
+y 97
+w 108
+h 28
+controlPv "EBT-INJ-DIA-YAG-01:V:RPOS"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "arial-bold-r-14.0"
+fontAlign "center"
+lineWidth 1
+lineAlarm
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 285
+y 133
+w 204
+h 136
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-INJ-DIA-YAG-01:STOP"
+pressValue "0"
+onLabel "STOP"
+offLabel "STOP"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 198
+y 493
+w 233
+h 26
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+buttonLabel "HORIZONTAL FULL CONTROL"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "EBT-YAG.edl"
+}
+setPosition {
+  0 "button"
+}
+symbols {
+  0 "device=EBT-INJ-DIA-YAG-01:H"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 524
+y 33
+w 177
+h 26
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+buttonLabel "VERTICAL FULL CONTROL"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "EBT-YAG.edl"
+}
+setPosition {
+  0 "button"
+}
+symbols {
+  0 "device=EBT-INJ-DIA-YAG-01:V"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 131
+y 536
+w 529
+h 21
+font "arial-bold-r-18.0"
+fgColor index 22
+bgColor index 0
+useDisplayBg
+visMin "0.5"
+visMax "0.5"
+value {
+  "Only use Full Control when the motor positions can be seen"
+}
+autoSize
+endObjectProperties
+

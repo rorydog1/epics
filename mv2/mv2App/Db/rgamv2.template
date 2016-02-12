@@ -11,6 +11,8 @@
 # Head Status
 #
 # % gui, $(name=), sevr
+record(ai,"$(device):test"){}
+
 record(calc, "$(device):STA")
 {
     field(DESC, "Overall status")

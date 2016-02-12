@@ -1,0 +1,3370 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 259
+y 381
+w 1120
+h 420
+font "arial-medium-r-18.0"
+ctlFont "arial-medium-r-18.0"
+btnFont "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 6
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 19
+y 49
+w 157
+h 358
+lineColor index 14
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 563
+y 42
+w 552
+h 372
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 570
+y 50
+w 157
+h 358
+lineColor index 14
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 579
+y 104
+w 137
+h 239
+
+beginGroup
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 664
+y 327
+w 17
+h 16
+lineColor index 19
+fill
+fillColor index 19
+visPv "EBT-EDC-MOT-03:RPOSS"
+visMin "-50"
+visMax "-30"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 664
+y 289
+w 17
+h 16
+lineColor index 19
+fill
+fillColor index 19
+visPv "EBT-EDC-MOT-03:RPOSS"
+visMin "-96.3"
+visMax "-94.3"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 664
+y 255
+w 17
+h 16
+lineColor index 19
+fill
+fillColor index 19
+visPv "EBT-EDC-MOT-03:RPOSS"
+visMin "-109.3"
+visMax "-107.3"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 698
+y 106
+w 17
+h 16
+lineColor index 19
+fill
+fillColor index 19
+visPv "EBT-EDC-MOT-03:RPOSS"
+visMin "-136.3"
+visMax "-134.3"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 698
+y 142
+w 17
+h 16
+lineColor index 19
+fill
+fillColor index 19
+visPv "EBT-EDC-MOT-03:RPOSS"
+visMin "-130.3"
+visMax "-128.3"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 698
+y 180
+w 17
+h 16
+lineColor index 19
+fill
+fillColor index 19
+visPv "EBT-EDC-MOT-03:RPOSS"
+visMin "-124.3"
+visMax "-122.3"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 699
+y 216
+w 17
+h 16
+lineColor index 19
+fill
+fillColor index 19
+visPv "EBT-EDC-MOT-03:RPOSS"
+visMin "-118.3"
+visMax "-116.3"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 580
+y 212
+w 17
+h 16
+lineColor index 19
+fill
+fillColor index 19
+visPv "EBT-EDC-MOT-03:RPOSS"
+visMin "-118.3"
+visMax "-116.3"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 579
+y 178
+w 17
+h 16
+lineColor index 19
+fill
+fillColor index 19
+visPv "EBT-EDC-MOT-03:RPOSS"
+visMin "-124.3"
+visMax "-122.3"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 580
+y 140
+w 17
+h 16
+lineColor index 19
+fill
+fillColor index 19
+visPv "EBT-EDC-MOT-03:RPOSS"
+visMin "-130.3"
+visMax "-128.3"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 579
+y 104
+w 17
+h 16
+lineColor index 19
+fill
+fillColor index 19
+visPv "EBT-EDC-MOT-03:RPOSS"
+visMin "-136.3"
+visMax "-134.3"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 613
+y 105
+w 53
+h 237
+
+beginGroup
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 613
+y 326
+w 17
+h 16
+lineColor index 15
+fill
+fillColor index 15
+visPv "EBT-EDC-MOT-02:RPOSS"
+visMin "5.14"
+visMax "7.14"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 613
+y 288
+w 17
+h 16
+lineColor index 15
+fill
+fillColor index 15
+visPv "EBT-EDC-MOT-02:RPOSS"
+visMin "5.14"
+visMax "7.14"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 613
+y 254
+w 17
+h 16
+lineColor index 15
+fill
+fillColor index 15
+visPv "EBT-EDC-MOT-02:RPOSS"
+visMin "5.14"
+visMax "7.14"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 649
+y 213
+w 17
+h 16
+lineColor index 15
+fill
+fillColor index 15
+visPv "EBT-EDC-MOT-02:RPOSS"
+visMin "9.14"
+visMax "11.14"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 628
+y 213
+w 17
+h 16
+lineColor index 15
+fill
+fillColor index 15
+visPv "EBT-EDC-MOT-02:RPOSS"
+visMin "1.14"
+visMax "3.14"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 648
+y 178
+w 17
+h 16
+lineColor index 15
+fill
+fillColor index 15
+visPv "EBT-EDC-MOT-02:RPOSS"
+visMin "9.14"
+visMax "11.14"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 627
+y 179
+w 17
+h 16
+lineColor index 15
+fill
+fillColor index 15
+visPv "EBT-EDC-MOT-02:RPOSS"
+visMin "1.14"
+visMax "3.14"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 648
+y 141
+w 17
+h 16
+lineColor index 15
+fill
+fillColor index 15
+visPv "EBT-EDC-MOT-02:RPOSS"
+visMin "9.14"
+visMax "11.14"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 628
+y 141
+w 17
+h 16
+lineColor index 15
+fill
+fillColor index 15
+visPv "EBT-EDC-MOT-02:RPOSS"
+visMin "1.14"
+visMax "3.14"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 648
+y 105
+w 17
+h 16
+lineColor index 15
+fill
+fillColor index 15
+visPv "EBT-EDC-MOT-02:RPOSS"
+visMin "9.14"
+visMax "11.14"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 627
+y 105
+w 17
+h 16
+lineColor index 15
+fill
+fillColor index 15
+visPv "EBT-EDC-MOT-02:RPOSS"
+visMin "1.14"
+visMax "3.14"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 599
+y 99
+w 96
+h 252
+
+beginGroup
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 634
+y 317
+w 0
+h 0
+lineColor index 14
+fillColor index 0
+numPoints 1
+xPoints {
+  0 634
+}
+yPoints {
+  0 317
+}
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 599
+y 99
+w 27
+h 30
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-EDC-MOT-02:MABSS"
+pressValue "2.14"
+onLabel "S9"
+offLabel "S9"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 668
+y 99
+w 27
+h 30
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-EDC-MOT-02:MABSS"
+pressValue "10.14"
+onLabel "S10"
+offLabel "S10"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 599
+y 135
+w 27
+h 30
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-EDC-MOT-02:MABSS"
+pressValue "2.14"
+onLabel "S7"
+offLabel "S7"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 668
+y 136
+w 27
+h 30
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-EDC-MOT-02:MABSS"
+pressValue "10.14"
+onLabel "S8"
+offLabel "S8"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 599
+y 171
+w 27
+h 30
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-EDC-MOT-02:MABSS"
+pressValue "2.14"
+onLabel "S5"
+offLabel "S5"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 668
+y 173
+w 27
+h 30
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-EDC-MOT-02:MABSS"
+pressValue "10.14"
+onLabel "S6"
+offLabel "S6"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 599
+y 208
+w 27
+h 30
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-EDC-MOT-02:MABSS"
+pressValue "2.14"
+onLabel "S3"
+offLabel "S3"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 668
+y 209
+w 27
+h 30
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-EDC-MOT-02:MABSS"
+pressValue "10.14"
+onLabel "S4"
+offLabel "S4"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 634
+y 249
+w 27
+h 30
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-EDC-MOT-02:MABSS"
+pressValue "6.14"
+onLabel "SB2"
+offLabel "SB2"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 634
+y 283
+w 27
+h 30
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-EDC-MOT-02:MABSS"
+pressValue "6.14"
+onLabel "SB1"
+offLabel "SB1"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 634
+y 321
+w 27
+h 30
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-EDC-MOT-02:MABSS"
+pressValue "6.14"
+onLabel "Y"
+offLabel "Y"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 43
+w 548
+h 371
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 392
+y 8
+w 297
+h 28
+font "arial-medium-r-24.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "VELA Diffraction Chamber"
+}
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 248
+y 115
+w 120
+h 28
+controlPv "EBT-EDC-MOT-04:RPOSS"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 191
+y 119
+w 90
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Position"
+}
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 248
+y 148
+w 119
+h 28
+controlPv "EBT-EDC-MOT-04:SSTA"
+fgColor index 18
+fgAlarm
+bgColor index 3
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 0
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 284
+y 182
+w 80
+h 28
+fgColor index 25
+onColor index 4
+offColor index 3
+topShadowColor index 1
+botShadowColor index 11
+controlPv "EBT-EDC-MOT-04:ABRT"
+pressValue "1"
+onLabel "Abort"
+offLabel "Abort"
+3d
+useEnumNumeric
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 266
+y 84
+w 90
+h 25
+controlPv "EBT-EDC-MOT-04:MABSS"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+editable
+autoHeight
+motifWidget
+precision 2
+nullColor index 0
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 191
+y 87
+w 90
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Set Position"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 194
+y 148
+w 90
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Status"
+}
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 252
+y 301
+w 120
+h 28
+controlPv "EBT-EDC-MOT-05:RPOSS"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 195
+y 305
+w 90
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Position"
+}
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 252
+y 334
+w 119
+h 28
+controlPv "EBT-EDC-MOT-05:SSTA"
+fgColor index 18
+fgAlarm
+bgColor index 3
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 0
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 282
+y 370
+w 80
+h 28
+fgColor index 25
+onColor index 4
+offColor index 3
+topShadowColor index 1
+botShadowColor index 11
+controlPv "EBT-EDC-MOT-05:ABRT"
+pressValue "1"
+onLabel "Abort"
+offLabel "Abort"
+3d
+useEnumNumeric
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 270
+y 270
+w 90
+h 25
+controlPv "EBT-EDC-MOT-05:MABSS"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+editable
+autoHeight
+motifWidget
+precision 2
+nullColor index 0
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 195
+y 273
+w 90
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Set Position"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 198
+y 334
+w 90
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Status"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 232
+y 54
+w 275
+h 19
+font "arial-bold-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Aperture Plate M4 Horizontal"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 238
+y 240
+w 229
+h 19
+font "arial-bold-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Aperture Plate M5 Vertical"
+}
+endObjectProperties
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 400
+y 86
+w 49
+h 116
+fgColor index 14
+bgColor index 32
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-EDC-MOT-04:MABSS"
+coarseValue "1"
+fineValue "0.1"
+label "H"
+font "helvetica-medium-r-18.0"
+scaleMin -10000
+scaleMax 10000
+endObjectProperties
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 397
+y 277
+w 49
+h 116
+fgColor index 14
+bgColor index 32
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-EDC-MOT-05:MABSS"
+coarseValue "1"
+fineValue "0.1"
+label "V"
+font "helvetica-medium-r-18.0"
+scaleMin -10000
+scaleMax 10000
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 183
+y 237
+w 0
+h 0
+lineColor index 14
+fillColor index 0
+numPoints 1
+xPoints {
+  0 183
+}
+yPoints {
+  0 237
+}
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 796
+y 118
+w 120
+h 28
+controlPv "EBT-EDC-MOT-03:RPOSS"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 739
+y 122
+w 90
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Position"
+}
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 796
+y 151
+w 119
+h 28
+controlPv "EBT-EDC-MOT-03:SSTA"
+fgColor index 18
+fgAlarm
+bgColor index 3
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 0
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 832
+y 185
+w 80
+h 28
+fgColor index 25
+onColor index 4
+offColor index 3
+topShadowColor index 1
+botShadowColor index 11
+controlPv "EBT-EDC-MOT-03:ABRT"
+pressValue "1"
+onLabel "Abort"
+offLabel "Abort"
+3d
+useEnumNumeric
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 814
+y 87
+w 90
+h 25
+controlPv "EBT-EDC-MOT-03:MABSS"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+editable
+autoHeight
+motifWidget
+precision 2
+nullColor index 0
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 739
+y 90
+w 90
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Set Position"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 742
+y 151
+w 90
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Status"
+}
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 802
+y 304
+w 120
+h 28
+controlPv "EBT-EDC-MOT-02:RPOSS"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 2
+lineAlarm
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 745
+y 308
+w 90
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Position"
+}
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 802
+y 337
+w 119
+h 28
+controlPv "EBT-EDC-MOT-02:SSTA"
+fgColor index 18
+fgAlarm
+bgColor index 3
+fill
+font "arial-bold-r-12.0"
+fontAlign "center"
+lineWidth 0
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 832
+y 373
+w 80
+h 28
+fgColor index 25
+onColor index 4
+offColor index 3
+topShadowColor index 1
+botShadowColor index 11
+controlPv "EBT-EDC-MOT-02:ABRT"
+pressValue "1"
+onLabel "Abort"
+offLabel "Abort"
+3d
+useEnumNumeric
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 820
+y 273
+w 90
+h 25
+controlPv "EBT-EDC-MOT-02:MABSS"
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+editable
+autoHeight
+motifWidget
+precision 2
+nullColor index 0
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 745
+y 276
+w 90
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Set Position"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 748
+y 337
+w 90
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Status"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 832
+y 53
+w 185
+h 19
+font "arial-bold-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Sample M3 Vertical"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 820
+y 242
+w 201
+h 19
+font "arial-bold-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Sample M2 Horizontal"
+}
+endObjectProperties
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 948
+y 89
+w 49
+h 116
+fgColor index 14
+bgColor index 32
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-EDC-MOT-03:MABSS"
+coarseValue "1"
+fineValue "0.1"
+label "V"
+font "helvetica-medium-r-18.0"
+scaleMin -10000
+scaleMax 10000
+endObjectProperties
+
+# (Up/Down Button)
+object activeUpdownButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 947
+y 280
+w 49
+h 116
+fgColor index 14
+bgColor index 32
+topShadowColor index 49
+botShadowColor index 49
+controlPv "EBT-EDC-MOT-02:MABSS"
+coarseValue "1"
+fineValue "0.1"
+label "H"
+font "helvetica-medium-r-18.0"
+scaleMin -10000
+scaleMax 10000
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 460
+y 101
+w 19
+h 18
+controlPv "EBT-EDC-MOT-04:STAT"
+lineColor index 20
+onColor index 15
+offColor index 7
+endian "little"
+numBits 1
+shift 6
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 482
+y 101
+w 52
+h 19
+font "arial-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Error"
+}
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 460
+y 122
+w 19
+h 18
+controlPv "EBT-EDC-MOT-04:STAT"
+lineColor index 20
+onColor index 15
+offColor index 7
+endian "little"
+numBits 1
+shift 5
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 482
+y 122
+w 79
+h 19
+font "arial-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Inner Limit"
+}
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 460
+y 143
+w 19
+h 18
+controlPv "EBT-EDC-MOT-04:STAT"
+lineColor index 20
+onColor index 15
+offColor index 7
+endian "little"
+numBits 1
+shift 4
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 482
+y 143
+w 79
+h 19
+font "arial-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Outer Limit"
+}
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 460
+y 163
+w 19
+h 18
+controlPv "EBT-EDC-MOT-04:STAT"
+lineColor index 20
+onColor index 15
+offColor index 7
+endian "little"
+numBits 1
+shift 3
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 482
+y 163
+w 79
+h 19
+font "arial-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Jogging"
+}
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 458
+y 294
+w 19
+h 18
+controlPv "EBT-EDC-MOT-05:STAT"
+lineColor index 20
+onColor index 15
+offColor index 7
+endian "little"
+numBits 1
+shift 6
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 480
+y 294
+w 52
+h 19
+font "arial-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Error"
+}
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 458
+y 315
+w 19
+h 18
+controlPv "EBT-EDC-MOT-05:STAT"
+lineColor index 20
+onColor index 15
+offColor index 7
+endian "little"
+numBits 1
+shift 5
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 480
+y 315
+w 79
+h 19
+font "arial-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Inner Limit"
+}
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 458
+y 336
+w 19
+h 18
+controlPv "EBT-EDC-MOT-05:STAT"
+lineColor index 20
+onColor index 15
+offColor index 7
+endian "little"
+numBits 1
+shift 4
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 480
+y 336
+w 79
+h 19
+font "arial-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Outer Limit"
+}
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 458
+y 356
+w 19
+h 18
+controlPv "EBT-EDC-MOT-05:STAT"
+lineColor index 20
+onColor index 15
+offColor index 7
+endian "little"
+numBits 1
+shift 3
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 480
+y 356
+w 79
+h 19
+font "arial-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Jogging"
+}
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1009
+y 108
+w 19
+h 18
+controlPv "EBT-EDC-MOT-03:STAT"
+lineColor index 20
+onColor index 15
+offColor index 7
+endian "little"
+numBits 1
+shift 6
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1031
+y 108
+w 52
+h 19
+font "arial-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Error"
+}
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1009
+y 129
+w 19
+h 18
+controlPv "EBT-EDC-MOT-03:STAT"
+lineColor index 20
+onColor index 15
+offColor index 7
+endian "little"
+numBits 1
+shift 5
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1031
+y 129
+w 79
+h 19
+font "arial-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Upper Limit"
+}
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1009
+y 150
+w 19
+h 18
+controlPv "EBT-EDC-MOT-03:STAT"
+lineColor index 20
+onColor index 15
+offColor index 7
+endian "little"
+numBits 1
+shift 4
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1031
+y 150
+w 79
+h 19
+font "arial-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Lower Limit"
+}
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1009
+y 170
+w 19
+h 18
+controlPv "EBT-EDC-MOT-03:STAT"
+lineColor index 20
+onColor index 15
+offColor index 7
+endian "little"
+numBits 1
+shift 3
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1031
+y 170
+w 79
+h 19
+font "arial-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Jogging"
+}
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1010
+y 296
+w 19
+h 18
+controlPv "EBT-EDC-MOT-02:STAT"
+lineColor index 20
+onColor index 15
+offColor index 7
+endian "little"
+numBits 1
+shift 6
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1032
+y 296
+w 52
+h 19
+font "arial-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Error"
+}
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1010
+y 317
+w 19
+h 18
+controlPv "EBT-EDC-MOT-02:STAT"
+lineColor index 20
+onColor index 15
+offColor index 7
+endian "little"
+numBits 1
+shift 5
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1032
+y 317
+w 79
+h 19
+font "arial-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Right Limit"
+}
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1010
+y 338
+w 19
+h 18
+controlPv "EBT-EDC-MOT-02:STAT"
+lineColor index 20
+onColor index 15
+offColor index 7
+endian "little"
+numBits 1
+shift 4
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1032
+y 338
+w 79
+h 19
+font "arial-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Left Limit"
+}
+endObjectProperties
+
+# (Byte)
+object ByteClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1010
+y 358
+w 19
+h 18
+controlPv "EBT-EDC-MOT-02:STAT"
+lineColor index 20
+onColor index 15
+offColor index 7
+endian "little"
+numBits 1
+shift 3
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1032
+y 358
+w 79
+h 19
+font "arial-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Jogging"
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 600
+y 98
+w 96
+h 252
+
+beginGroup
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 635
+y 316
+w 0
+h 0
+lineColor index 14
+fillColor index 0
+numPoints 1
+xPoints {
+  0 635
+}
+yPoints {
+  0 316
+}
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 600
+y 98
+w 27
+h 30
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-EDC-MOT-03:MABSS"
+pressValue "-135.3"
+onLabel "S9"
+offLabel "S9"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 669
+y 98
+w 27
+h 30
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-EDC-MOT-03:MABSS"
+pressValue "-135.3"
+onLabel "S10"
+offLabel "S10"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 600
+y 134
+w 27
+h 30
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-EDC-MOT-03:MABSS"
+pressValue "-129.30"
+onLabel "S7"
+offLabel "S7"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 669
+y 135
+w 27
+h 30
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-EDC-MOT-03:MABSS"
+pressValue "-129.30"
+onLabel "S8"
+offLabel "S8"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 600
+y 170
+w 27
+h 30
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-EDC-MOT-03:MABSS"
+pressValue "-123.3"
+onLabel "S5"
+offLabel "S5"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 669
+y 172
+w 27
+h 30
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-EDC-MOT-03:MABSS"
+pressValue "-123.3"
+onLabel "S6"
+offLabel "S6"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 600
+y 207
+w 27
+h 30
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-EDC-MOT-03:MABSS"
+pressValue "-117.30"
+onLabel "S3"
+offLabel "S3"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 669
+y 208
+w 27
+h 30
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-EDC-MOT-03:MABSS"
+pressValue "-117.30"
+onLabel "S4"
+offLabel "S4"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 635
+y 248
+w 27
+h 30
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-EDC-MOT-03:MABSS"
+pressValue "-108.29"
+onLabel "SB2"
+offLabel "SB2"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 635
+y 282
+w 27
+h 30
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-EDC-MOT-03:MABSS"
+pressValue "-95.3"
+onLabel "SB1"
+offLabel "SB1"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 635
+y 320
+w 27
+h 30
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-EDC-MOT-03:MABSS"
+pressValue "-45"
+onLabel "Y"
+offLabel "Y"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 588
+y 360
+w 16
+h 16
+lineColor index 19
+fill
+fillColor index 19
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 588
+y 381
+w 16
+h 16
+lineColor index 15
+fill
+fillColor index 15
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 610
+y 358
+w 103
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Vertical"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 611
+y 381
+w 102
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Horizontal"
+}
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 604
+y 60
+w 90
+h 25
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-EDC-MOT-03:MABS"
+pressValue "-0.01"
+onLabel "OUT"
+offLabel "OUT"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 50
+y 58
+w 90
+h 25
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-EDC-MOT-04:MABS"
+pressValue "0"
+onLabel "OUT"
+offLabel "OUT"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 66
+y 113
+w 48
+h 136
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 66
+y 219
+w 48
+h 30
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-EDC-MOT-05:MABSS"
+pressValue "0"
+onLabel "0.5mm"
+offLabel "0.5mm"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 66
+y 183
+w 48
+h 30
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-EDC-MOT-05:MABSS"
+pressValue "0"
+onLabel "1mm"
+offLabel "1mm"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 66
+y 148
+w 48
+h 30
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-EDC-MOT-05:MABSS"
+pressValue "0"
+onLabel "2mm"
+offLabel "2mm"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 66
+y 113
+w 48
+h 30
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-EDC-MOT-05:MABSS"
+pressValue "0"
+onLabel "5mm"
+offLabel "5mm"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 66
+y 112
+w 48
+h 136
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 66
+y 112
+w 48
+h 30
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-EDC-MOT-04:MABSS"
+pressValue "106.69"
+onLabel "5mm"
+offLabel "5mm"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 66
+y 147
+w 48
+h 30
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-EDC-MOT-04:MABSS"
+pressValue "93.69"
+onLabel "2mm"
+offLabel "2mm"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 66
+y 182
+w 48
+h 30
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-EDC-MOT-04:MABSS"
+pressValue "80.69"
+onLabel "1mm"
+offLabel "1mm"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 66
+y 218
+w 48
+h 30
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-EDC-MOT-04:MABSS"
+pressValue "67.69"
+onLabel "0.5mm"
+offLabel "0.5mm"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 59
+y 451
+w 17
+h 16
+lineColor index 19
+fill
+fillColor index 19
+visPv "EBT-EDC-MOT-03:RPOSS"
+visMin "-50"
+visMax "-30"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 45
+y 118
+w 17
+h 124
+
+beginGroup
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 45
+y 226
+w 17
+h 16
+lineColor index 19
+fill
+fillColor index 19
+visPv "EBT-EDC-MOT-05:RPOSS"
+visMin "-.1"
+visMax ".1"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 45
+y 190
+w 17
+h 16
+lineColor index 19
+fill
+fillColor index 19
+visPv "EBT-EDC-MOT-05:RPOSS"
+visMin "-.1"
+visMax ".1"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 45
+y 154
+w 17
+h 16
+lineColor index 19
+fill
+fillColor index 19
+visPv "EBT-EDC-MOT-05:RPOSS"
+visMin "-.1"
+visMax ".1"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 45
+y 118
+w 17
+h 16
+lineColor index 19
+fill
+fillColor index 19
+visPv "EBT-EDC-MOT-05:RPOSS"
+visMin "-.1"
+visMax ".1"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 118
+y 119
+w 17
+h 124
+
+beginGroup
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 118
+y 227
+w 17
+h 16
+lineColor index 15
+fill
+fillColor index 15
+visPv "EBT-EDC-MOT-04:RPOSS"
+visMin "66.69"
+visMax "68.69"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 118
+y 191
+w 17
+h 16
+lineColor index 15
+fill
+fillColor index 15
+visPv "EBT-EDC-MOT-04:RPOSS"
+visMin "79.69"
+visMax "81.68"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 118
+y 155
+w 17
+h 16
+lineColor index 15
+fill
+fillColor index 15
+visPv "EBT-EDC-MOT-04:RPOSS"
+visMin "92.69"
+visMax "94.69"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 118
+y 119
+w 17
+h 16
+lineColor index 15
+fill
+fillColor index 15
+visPv "EBT-EDC-MOT-04:RPOSS"
+visMin "105.69"
+visMax "107.69"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 61
+y 377
+w 102
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Horizontal"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 60
+y 354
+w 103
+h 19
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Vertical"
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 38
+y 356
+w 16
+h 16
+lineColor index 19
+fill
+fillColor index 19
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 38
+y 377
+w 16
+h 16
+lineColor index 15
+fill
+fillColor index 15
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 144
+y 62
+w 17
+h 16
+lineColor index 15
+fill
+fillColor index 15
+visPv "EBT-EDC-MOT-04:RPOSS"
+visMin "-.1"
+visMax ".1"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 282
+y 592
+w 17
+h 16
+lineColor index 19
+fill
+fillColor index 19
+visPv "EBT-EDC-MOT-05:RPOSS"
+visMin "-.1"
+visMax ".1"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 282
+y 556
+w 17
+h 16
+lineColor index 19
+fill
+fillColor index 19
+visPv "EBT-EDC-MOT-05:RPOSS"
+visMin "-.1"
+visMax ".1"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 282
+y 520
+w 17
+h 16
+lineColor index 19
+fill
+fillColor index 19
+visPv "EBT-EDC-MOT-05:RPOSS"
+visMin "-.1"
+visMax ".1"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 699
+y 64
+w 17
+h 16
+lineColor index 19
+fill
+fillColor index 19
+visPv "EBT-EDC-MOT-03:RPOSS"
+visMin "-.1"
+visMax ".1"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 50
+y 59
+w 90
+h 25
+fgColor index 20
+onColor index 25
+offColor index 25
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-EDC-MOT-05:MABS"
+pressValue "0"
+onLabel "OUT"
+offLabel "OUT"
+3d
+useEnumNumeric
+font "courier-bold-r-12.0"
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 747
+y 186
+w 81
+h 28
+fgColor index 27
+bgColor index 3
+topShadowColor index 1
+botShadowColor index 11
+font "arial-medium-r-12.0"
+buttonLabel "Home"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "CheckBox.edl"
+}
+setPosition {
+  0 "button"
+}
+symbols {
+  0 "device=EBT-EDC-MOT-03:ZERO,title=To Home the Motor,press=Set Zero,value=0,description1=Motor Position will be reset,description2=Drive to positive to the Upper Limit, description3=Set Zero then -0.01 and Set Zero again"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 745
+y 373
+w 81
+h 28
+fgColor index 27
+bgColor index 3
+topShadowColor index 1
+botShadowColor index 11
+font "arial-medium-r-12.0"
+buttonLabel "Home"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "CheckBox.edl"
+}
+setPosition {
+  0 "button"
+}
+symbols {
+  0 "device=EBT-EDC-MOT-02:ZERO,title=To Home The Motor,press=Set Zero,description1=Motor Position will be reset,description2=Drive to negative to the Left Limit, description3=Press Set Zero"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 197
+y 182
+w 81
+h 28
+fgColor index 27
+bgColor index 3
+topShadowColor index 1
+botShadowColor index 11
+font "arial-medium-r-12.0"
+buttonLabel "Home"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "CheckBox.edl"
+}
+setPosition {
+  0 "button"
+}
+symbols {
+  0 "device=EBT-EDC-MOT-04:ZERO,title=To Home The Motor,press=Set Zero,value=0,description1=Motor Position will be reset,description2=Drive to negative to the Outer Limit, description3=Set Zero"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 195
+y 370
+w 81
+h 28
+fgColor index 27
+bgColor index 3
+topShadowColor index 1
+botShadowColor index 11
+font "arial-medium-r-12.0"
+buttonLabel "Home"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "CheckBox.edl"
+}
+setPosition {
+  0 "button"
+}
+symbols {
+  0 "device=EBT-EDC-MOT-05:ZERO,title=To Home The Motor,press=Set Zero,value=0,description1=Motor Position will be reset,description2=Drive to negative to the Outer Limit, description3=Set Zero then drive to 3.29 and Set Zero again"
+}
+endObjectProperties
+

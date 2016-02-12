@@ -1,0 +1,1742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+<class>MainWindow</class>
+<widget class="QMainWindow" name="MainWindow">
+    <property name="geometry">
+        <rect>
+            <x>38</x>
+            <y>41</y>
+            <width>1235</width>
+            <height>902</height>
+        </rect>
+    </property>
+    <property name="styleSheet">
+        <string>
+
+QWidget#centralWidget {background: rgba(255, 255, 255, 255);}
+
+</string>
+    </property>
+    <widget class="QWidget" name="centralWidget">
+        <widget class="caFrame" name="caFrame_0">
+            <property name="geometry">
+                <rect>
+                    <x>20</x>
+                    <y>15</y>
+                    <width>70</width>
+                    <height>65</height>
+                </rect>
+            </property>
+            <widget class="caGraphics" name="caGraphics_1">
+                <property name="form">
+                    <enum>caGraphics::Rectangle</enum>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>0</x>
+                        <y>0</y>
+                        <width>70</width>
+                        <height>65</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="foreground">
+                    <color alpha="255">
+                        <red>255</red>
+                        <green>255</green>
+                        <blue>255</blue>
+                    </color>
+                </property>
+                <property name="linestyle">
+                    <string>Solid</string>
+                </property>
+                <property name="fillstyle">
+                    <string>Outline</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <widget class="caPolyLine" name="caPolyLine_2">
+                <property name="geometry">
+                    <rect>
+                        <x>34</x>
+                        <y>21</y>
+                        <width>0</width>
+                        <height>19</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="xyPairs">
+                    <string>20,15;</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <widget class="caGraphics" name="caGraphics_3">
+                <property name="form">
+                    <enum>caGraphics::Rectangle</enum>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>7</y>
+                        <width>28</width>
+                        <height>15</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="foreground">
+                    <color alpha="255">
+                        <red>255</red>
+                        <green>255</green>
+                        <blue>255</blue>
+                    </color>
+                </property>
+                <property name="linestyle">
+                    <string>Solid</string>
+                </property>
+                <property name="fillstyle">
+                    <string>Filled</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <widget class="caGraphics" name="caGraphics_4">
+                <property name="form">
+                    <enum>caGraphics::Rectangle</enum>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>5</x>
+                        <y>35</y>
+                        <width>60</width>
+                        <height>25</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="foreground">
+                    <color alpha="255">
+                        <red>255</red>
+                        <green>255</green>
+                        <blue>255</blue>
+                    </color>
+                </property>
+                <property name="linestyle">
+                    <string>Solid</string>
+                </property>
+                <property name="fillstyle">
+                    <string>Filled</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <property name="channel">
+                <string>                                                                               </string>
+            </property>
+            <property name="visibility">
+                <string>Calc</string>
+            </property>
+            <property name="visibilityCalc">
+                <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+            </property>
+        </widget>
+        <widget class="caFrame" name="caFrame_5">
+            <property name="geometry">
+                <rect>
+                    <x>100</x>
+                    <y>15</y>
+                    <width>70</width>
+                    <height>65</height>
+                </rect>
+            </property>
+            <widget class="caGraphics" name="caGraphics_6">
+                <property name="form">
+                    <enum>caGraphics::Rectangle</enum>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>0</x>
+                        <y>0</y>
+                        <width>70</width>
+                        <height>65</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="foreground">
+                    <color alpha="255">
+                        <red>255</red>
+                        <green>255</green>
+                        <blue>255</blue>
+                    </color>
+                </property>
+                <property name="linestyle">
+                    <string>Solid</string>
+                </property>
+                <property name="fillstyle">
+                    <string>Outline</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <widget class="caPolyLine" name="caPolyLine_7">
+                <property name="geometry">
+                    <rect>
+                        <x>34</x>
+                        <y>21</y>
+                        <width>0</width>
+                        <height>19</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="xyPairs">
+                    <string>100,15;</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <widget class="caGraphics" name="caGraphics_8">
+                <property name="form">
+                    <enum>caGraphics::Rectangle</enum>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>7</y>
+                        <width>28</width>
+                        <height>15</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="foreground">
+                    <color alpha="255">
+                        <red>255</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="linestyle">
+                    <string>Solid</string>
+                </property>
+                <property name="fillstyle">
+                    <string>Filled</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <widget class="caGraphics" name="caGraphics_9">
+                <property name="form">
+                    <enum>caGraphics::Rectangle</enum>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>5</x>
+                        <y>35</y>
+                        <width>60</width>
+                        <height>25</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="foreground">
+                    <color alpha="255">
+                        <red>255</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="linestyle">
+                    <string>Solid</string>
+                </property>
+                <property name="fillstyle">
+                    <string>Filled</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <property name="channel">
+                <string>                                                                               </string>
+            </property>
+            <property name="visibility">
+                <string>Calc</string>
+            </property>
+            <property name="visibilityCalc">
+                <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+            </property>
+        </widget>
+        <widget class="caFrame" name="caFrame_10">
+            <property name="geometry">
+                <rect>
+                    <x>180</x>
+                    <y>15</y>
+                    <width>70</width>
+                    <height>65</height>
+                </rect>
+            </property>
+            <widget class="caGraphics" name="caGraphics_11">
+                <property name="form">
+                    <enum>caGraphics::Rectangle</enum>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>0</x>
+                        <y>0</y>
+                        <width>70</width>
+                        <height>65</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="foreground">
+                    <color alpha="255">
+                        <red>255</red>
+                        <green>255</green>
+                        <blue>255</blue>
+                    </color>
+                </property>
+                <property name="linestyle">
+                    <string>Solid</string>
+                </property>
+                <property name="fillstyle">
+                    <string>Outline</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <widget class="caPolyLine" name="caPolyLine_12">
+                <property name="geometry">
+                    <rect>
+                        <x>34</x>
+                        <y>21</y>
+                        <width>0</width>
+                        <height>19</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="xyPairs">
+                    <string>180,15;</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <widget class="caGraphics" name="caGraphics_13">
+                <property name="form">
+                    <enum>caGraphics::Rectangle</enum>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>7</y>
+                        <width>28</width>
+                        <height>15</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="foreground">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>255</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="linestyle">
+                    <string>Solid</string>
+                </property>
+                <property name="fillstyle">
+                    <string>Filled</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <widget class="caGraphics" name="caGraphics_14">
+                <property name="form">
+                    <enum>caGraphics::Rectangle</enum>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>5</x>
+                        <y>35</y>
+                        <width>60</width>
+                        <height>25</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="foreground">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>255</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="linestyle">
+                    <string>Solid</string>
+                </property>
+                <property name="fillstyle">
+                    <string>Filled</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <property name="channel">
+                <string>                                                                               </string>
+            </property>
+            <property name="visibility">
+                <string>Calc</string>
+            </property>
+            <property name="visibilityCalc">
+                <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+            </property>
+        </widget>
+        <widget class="caFrame" name="caFrame_15">
+            <property name="geometry">
+                <rect>
+                    <x>260</x>
+                    <y>15</y>
+                    <width>70</width>
+                    <height>65</height>
+                </rect>
+            </property>
+            <widget class="caGraphics" name="caGraphics_16">
+                <property name="form">
+                    <enum>caGraphics::Rectangle</enum>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>0</x>
+                        <y>0</y>
+                        <width>70</width>
+                        <height>65</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="foreground">
+                    <color alpha="255">
+                        <red>255</red>
+                        <green>255</green>
+                        <blue>255</blue>
+                    </color>
+                </property>
+                <property name="linestyle">
+                    <string>Solid</string>
+                </property>
+                <property name="fillstyle">
+                    <string>Outline</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <widget class="caPolyLine" name="caPolyLine_17">
+                <property name="geometry">
+                    <rect>
+                        <x>34</x>
+                        <y>21</y>
+                        <width>0</width>
+                        <height>19</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="xyPairs">
+                    <string>260,15;</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <widget class="caGraphics" name="caGraphics_18">
+                <property name="form">
+                    <enum>caGraphics::Rectangle</enum>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>7</y>
+                        <width>28</width>
+                        <height>15</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="foreground">
+                    <color alpha="255">
+                        <red>255</red>
+                        <green>255</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="linestyle">
+                    <string>Solid</string>
+                </property>
+                <property name="fillstyle">
+                    <string>Filled</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <widget class="caGraphics" name="caGraphics_19">
+                <property name="form">
+                    <enum>caGraphics::Rectangle</enum>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>5</x>
+                        <y>35</y>
+                        <width>60</width>
+                        <height>25</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="foreground">
+                    <color alpha="255">
+                        <red>255</red>
+                        <green>255</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="linestyle">
+                    <string>Solid</string>
+                </property>
+                <property name="fillstyle">
+                    <string>Filled</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <property name="channel">
+                <string>                                                                               </string>
+            </property>
+            <property name="visibility">
+                <string>Calc</string>
+            </property>
+            <property name="visibilityCalc">
+                <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+            </property>
+        </widget>
+        <widget class="caFrame" name="caFrame_20">
+            <property name="geometry">
+                <rect>
+                    <x>340</x>
+                    <y>15</y>
+                    <width>70</width>
+                    <height>65</height>
+                </rect>
+            </property>
+            <widget class="caGraphics" name="caGraphics_21">
+                <property name="form">
+                    <enum>caGraphics::Rectangle</enum>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>0</x>
+                        <y>0</y>
+                        <width>70</width>
+                        <height>65</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="foreground">
+                    <color alpha="255">
+                        <red>255</red>
+                        <green>255</green>
+                        <blue>255</blue>
+                    </color>
+                </property>
+                <property name="linestyle">
+                    <string>Solid</string>
+                </property>
+                <property name="fillstyle">
+                    <string>Outline</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <widget class="caPolyLine" name="caPolyLine_22">
+                <property name="geometry">
+                    <rect>
+                        <x>34</x>
+                        <y>21</y>
+                        <width>0</width>
+                        <height>19</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="xyPairs">
+                    <string>340,15;</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <widget class="caGraphics" name="caGraphics_23">
+                <property name="form">
+                    <enum>caGraphics::Rectangle</enum>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>7</y>
+                        <width>28</width>
+                        <height>15</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="foreground">
+                    <color alpha="255">
+                        <red>255</red>
+                        <green>176</green>
+                        <blue>96</blue>
+                    </color>
+                </property>
+                <property name="linestyle">
+                    <string>Solid</string>
+                </property>
+                <property name="fillstyle">
+                    <string>Filled</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <widget class="caGraphics" name="caGraphics_24">
+                <property name="form">
+                    <enum>caGraphics::Rectangle</enum>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>5</x>
+                        <y>35</y>
+                        <width>60</width>
+                        <height>25</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="foreground">
+                    <color alpha="255">
+                        <red>255</red>
+                        <green>176</green>
+                        <blue>96</blue>
+                    </color>
+                </property>
+                <property name="linestyle">
+                    <string>Solid</string>
+                </property>
+                <property name="fillstyle">
+                    <string>Filled</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <property name="channel">
+                <string>                                                                               </string>
+            </property>
+            <property name="visibility">
+                <string>Calc</string>
+            </property>
+            <property name="visibilityCalc">
+                <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+            </property>
+        </widget>
+        <widget class="caFrame" name="caFrame_25">
+            <property name="geometry">
+                <rect>
+                    <x>420</x>
+                    <y>15</y>
+                    <width>70</width>
+                    <height>65</height>
+                </rect>
+            </property>
+            <widget class="caGraphics" name="caGraphics_26">
+                <property name="form">
+                    <enum>caGraphics::Rectangle</enum>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>0</x>
+                        <y>0</y>
+                        <width>70</width>
+                        <height>65</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="foreground">
+                    <color alpha="255">
+                        <red>255</red>
+                        <green>255</green>
+                        <blue>255</blue>
+                    </color>
+                </property>
+                <property name="linestyle">
+                    <string>Solid</string>
+                </property>
+                <property name="fillstyle">
+                    <string>Outline</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <widget class="caPolyLine" name="caPolyLine_27">
+                <property name="geometry">
+                    <rect>
+                        <x>34</x>
+                        <y>21</y>
+                        <width>0</width>
+                        <height>19</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="xyPairs">
+                    <string>420,15;</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <widget class="caGraphics" name="caGraphics_28">
+                <property name="form">
+                    <enum>caGraphics::Rectangle</enum>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>7</y>
+                        <width>28</width>
+                        <height>15</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="foreground">
+                    <color alpha="255">
+                        <red>255</red>
+                        <green>0</green>
+                        <blue>255</blue>
+                    </color>
+                </property>
+                <property name="linestyle">
+                    <string>Solid</string>
+                </property>
+                <property name="fillstyle">
+                    <string>Filled</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <widget class="caGraphics" name="caGraphics_29">
+                <property name="form">
+                    <enum>caGraphics::Rectangle</enum>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>5</x>
+                        <y>35</y>
+                        <width>60</width>
+                        <height>25</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="foreground">
+                    <color alpha="255">
+                        <red>255</red>
+                        <green>0</green>
+                        <blue>255</blue>
+                    </color>
+                </property>
+                <property name="linestyle">
+                    <string>Solid</string>
+                </property>
+                <property name="fillstyle">
+                    <string>Filled</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <property name="channel">
+                <string>                                                                               </string>
+            </property>
+            <property name="visibility">
+                <string>Calc</string>
+            </property>
+            <property name="visibilityCalc">
+                <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+            </property>
+        </widget>
+        <widget class="caFrame" name="caFrame_30">
+            <property name="geometry">
+                <rect>
+                    <x>500</x>
+                    <y>15</y>
+                    <width>70</width>
+                    <height>65</height>
+                </rect>
+            </property>
+            <widget class="caGraphics" name="caGraphics_31">
+                <property name="form">
+                    <enum>caGraphics::Rectangle</enum>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>0</x>
+                        <y>0</y>
+                        <width>70</width>
+                        <height>65</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="foreground">
+                    <color alpha="255">
+                        <red>255</red>
+                        <green>255</green>
+                        <blue>255</blue>
+                    </color>
+                </property>
+                <property name="linestyle">
+                    <string>Solid</string>
+                </property>
+                <property name="fillstyle">
+                    <string>Outline</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <widget class="caPolyLine" name="caPolyLine_32">
+                <property name="geometry">
+                    <rect>
+                        <x>34</x>
+                        <y>21</y>
+                        <width>0</width>
+                        <height>19</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="xyPairs">
+                    <string>500,15;</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <widget class="caGraphics" name="caGraphics_33">
+                <property name="form">
+                    <enum>caGraphics::Rectangle</enum>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>7</y>
+                        <width>28</width>
+                        <height>15</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="foreground">
+                    <color alpha="255">
+                        <red>255</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="linestyle">
+                    <string>Solid</string>
+                </property>
+                <property name="fillstyle">
+                    <string>Filled</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <widget class="caGraphics" name="caGraphics_34">
+                <property name="form">
+                    <enum>caGraphics::Rectangle</enum>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>5</x>
+                        <y>35</y>
+                        <width>60</width>
+                        <height>25</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="foreground">
+                    <color alpha="255">
+                        <red>255</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="linestyle">
+                    <string>Solid</string>
+                </property>
+                <property name="fillstyle">
+                    <string>Filled</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <property name="channel">
+                <string>                                                                               </string>
+            </property>
+            <property name="visibility">
+                <string>Calc</string>
+            </property>
+            <property name="visibilityCalc">
+                <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+            </property>
+        </widget>
+        <widget class="caFrame" name="caFrame_35">
+            <property name="geometry">
+                <rect>
+                    <x>580</x>
+                    <y>15</y>
+                    <width>70</width>
+                    <height>65</height>
+                </rect>
+            </property>
+            <widget class="caGraphics" name="caGraphics_36">
+                <property name="form">
+                    <enum>caGraphics::Rectangle</enum>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>0</x>
+                        <y>0</y>
+                        <width>70</width>
+                        <height>65</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="foreground">
+                    <color alpha="255">
+                        <red>255</red>
+                        <green>255</green>
+                        <blue>255</blue>
+                    </color>
+                </property>
+                <property name="linestyle">
+                    <string>Solid</string>
+                </property>
+                <property name="fillstyle">
+                    <string>Outline</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <widget class="caPolyLine" name="caPolyLine_37">
+                <property name="geometry">
+                    <rect>
+                        <x>34</x>
+                        <y>21</y>
+                        <width>0</width>
+                        <height>19</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="xyPairs">
+                    <string>580,15;</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <widget class="caGraphics" name="caGraphics_38">
+                <property name="form">
+                    <enum>caGraphics::Rectangle</enum>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>7</y>
+                        <width>28</width>
+                        <height>15</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="foreground">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="linestyle">
+                    <string>Solid</string>
+                </property>
+                <property name="fillstyle">
+                    <string>Filled</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <widget class="caGraphics" name="caGraphics_39">
+                <property name="form">
+                    <enum>caGraphics::Rectangle</enum>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>5</x>
+                        <y>35</y>
+                        <width>60</width>
+                        <height>25</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="foreground">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="linestyle">
+                    <string>Solid</string>
+                </property>
+                <property name="fillstyle">
+                    <string>Filled</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <property name="channel">
+                <string>                                                                               </string>
+            </property>
+            <property name="visibility">
+                <string>Calc</string>
+            </property>
+            <property name="visibilityCalc">
+                <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+            </property>
+        </widget>
+        <widget class="caFrame" name="caFrame_40">
+            <property name="geometry">
+                <rect>
+                    <x>660</x>
+                    <y>15</y>
+                    <width>70</width>
+                    <height>65</height>
+                </rect>
+            </property>
+            <widget class="caGraphics" name="caGraphics_41">
+                <property name="form">
+                    <enum>caGraphics::Rectangle</enum>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>0</x>
+                        <y>0</y>
+                        <width>70</width>
+                        <height>65</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="foreground">
+                    <color alpha="255">
+                        <red>255</red>
+                        <green>255</green>
+                        <blue>255</blue>
+                    </color>
+                </property>
+                <property name="linestyle">
+                    <string>Solid</string>
+                </property>
+                <property name="fillstyle">
+                    <string>Outline</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <widget class="caPolyLine" name="caPolyLine_42">
+                <property name="geometry">
+                    <rect>
+                        <x>34</x>
+                        <y>21</y>
+                        <width>0</width>
+                        <height>19</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="xyPairs">
+                    <string>660,15;</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <widget class="caGraphics" name="caGraphics_43">
+                <property name="form">
+                    <enum>caGraphics::Rectangle</enum>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>7</y>
+                        <width>28</width>
+                        <height>15</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="foreground">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>255</blue>
+                    </color>
+                </property>
+                <property name="linestyle">
+                    <string>Solid</string>
+                </property>
+                <property name="fillstyle">
+                    <string>Filled</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <widget class="caGraphics" name="caGraphics_44">
+                <property name="form">
+                    <enum>caGraphics::Rectangle</enum>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>5</x>
+                        <y>35</y>
+                        <width>60</width>
+                        <height>25</height>
+                    </rect>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="foreground">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>255</blue>
+                    </color>
+                </property>
+                <property name="linestyle">
+                    <string>Solid</string>
+                </property>
+                <property name="fillstyle">
+                    <string>Filled</string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="channel">
+                    <string>                                                                               </string>
+                </property>
+                <property name="visibility">
+                    <string>Calc</string>
+                </property>
+                <property name="visibilityCalc">
+                    <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+                </property>
+            </widget>
+            <property name="channel">
+                <string>                                                                               </string>
+            </property>
+            <property name="visibility">
+                <string>Calc</string>
+            </property>
+            <property name="visibilityCalc">
+                <string>A&gt;                                       &amp;&amp;A&lt;=                                       </string>
+            </property>
+        </widget>
+        <zorder>caGraphics_1</zorder>
+        <zorder>caPolyLine_2</zorder>
+        <zorder>caGraphics_3</zorder>
+        <zorder>caGraphics_4</zorder>
+        <zorder>caFrame_0</zorder>
+        <zorder>caGraphics_6</zorder>
+        <zorder>caPolyLine_7</zorder>
+        <zorder>caGraphics_8</zorder>
+        <zorder>caGraphics_9</zorder>
+        <zorder>caFrame_5</zorder>
+        <zorder>caGraphics_11</zorder>
+        <zorder>caPolyLine_12</zorder>
+        <zorder>caGraphics_13</zorder>
+        <zorder>caGraphics_14</zorder>
+        <zorder>caFrame_10</zorder>
+        <zorder>caGraphics_16</zorder>
+        <zorder>caPolyLine_17</zorder>
+        <zorder>caGraphics_18</zorder>
+        <zorder>caGraphics_19</zorder>
+        <zorder>caFrame_15</zorder>
+        <zorder>caGraphics_21</zorder>
+        <zorder>caPolyLine_22</zorder>
+        <zorder>caGraphics_23</zorder>
+        <zorder>caGraphics_24</zorder>
+        <zorder>caFrame_20</zorder>
+        <zorder>caGraphics_26</zorder>
+        <zorder>caPolyLine_27</zorder>
+        <zorder>caGraphics_28</zorder>
+        <zorder>caGraphics_29</zorder>
+        <zorder>caFrame_25</zorder>
+        <zorder>caGraphics_31</zorder>
+        <zorder>caPolyLine_32</zorder>
+        <zorder>caGraphics_33</zorder>
+        <zorder>caGraphics_34</zorder>
+        <zorder>caFrame_30</zorder>
+        <zorder>caGraphics_36</zorder>
+        <zorder>caPolyLine_37</zorder>
+        <zorder>caGraphics_38</zorder>
+        <zorder>caGraphics_39</zorder>
+        <zorder>caFrame_35</zorder>
+        <zorder>caGraphics_41</zorder>
+        <zorder>caPolyLine_42</zorder>
+        <zorder>caGraphics_43</zorder>
+        <zorder>caGraphics_44</zorder>
+        <zorder>caFrame_40</zorder>
+    </widget>
+</widget>
+</ui>
