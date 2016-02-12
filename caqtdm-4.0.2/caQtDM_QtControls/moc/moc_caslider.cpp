@@ -1,121 +1,206 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'caslider.h'
 **
-** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.5)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.5.1)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
 #include "../src/caslider.h"
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'caslider.h' doesn't include <QObject>."
-#elif Q_MOC_OUTPUT_REVISION != 63
-#error "This file was generated using the moc from 4.8.5. It"
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.5.1. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
 
 QT_BEGIN_MOC_NAMESPACE
+struct qt_meta_stringdata_caSlider_t {
+    QByteArrayData data[32];
+    char stringdata0[277];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_caSlider_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_caSlider_t qt_meta_stringdata_caSlider = {
+    {
+QT_MOC_LITERAL(0, 0, 8), // "caSlider"
+QT_MOC_LITERAL(1, 9, 14), // "setSliderValue"
+QT_MOC_LITERAL(2, 24, 0), // ""
+QT_MOC_LITERAL(3, 25, 5), // "value"
+QT_MOC_LITERAL(4, 31, 8), // "repeater"
+QT_MOC_LITERAL(5, 40, 11), // "orientation"
+QT_MOC_LITERAL(6, 52, 15), // "Qt::Orientation"
+QT_MOC_LITERAL(7, 68, 7), // "channel"
+QT_MOC_LITERAL(8, 76, 9), // "direction"
+QT_MOC_LITERAL(9, 86, 9), // "Direction"
+QT_MOC_LITERAL(10, 96, 10), // "foreground"
+QT_MOC_LITERAL(11, 107, 10), // "background"
+QT_MOC_LITERAL(12, 118, 9), // "colorMode"
+QT_MOC_LITERAL(13, 128, 7), // "colMode"
+QT_MOC_LITERAL(14, 136, 10), // "limitsMode"
+QT_MOC_LITERAL(15, 147, 10), // "SourceMode"
+QT_MOC_LITERAL(16, 158, 8), // "maxValue"
+QT_MOC_LITERAL(17, 167, 8), // "minValue"
+QT_MOC_LITERAL(18, 176, 14), // "incrementValue"
+QT_MOC_LITERAL(19, 191, 9), // "elevation"
+QT_MOC_LITERAL(20, 201, 9), // "Elevation"
+QT_MOC_LITERAL(21, 211, 6), // "on_top"
+QT_MOC_LITERAL(22, 218, 5), // "as_is"
+QT_MOC_LITERAL(23, 224, 2), // "Up"
+QT_MOC_LITERAL(24, 227, 4), // "Down"
+QT_MOC_LITERAL(25, 232, 4), // "Left"
+QT_MOC_LITERAL(26, 237, 5), // "Right"
+QT_MOC_LITERAL(27, 243, 7), // "Default"
+QT_MOC_LITERAL(28, 251, 6), // "Static"
+QT_MOC_LITERAL(29, 258, 5), // "Alarm"
+QT_MOC_LITERAL(30, 264, 7), // "Channel"
+QT_MOC_LITERAL(31, 272, 4) // "User"
+
+    },
+    "caSlider\0setSliderValue\0\0value\0repeater\0"
+    "orientation\0Qt::Orientation\0channel\0"
+    "direction\0Direction\0foreground\0"
+    "background\0colorMode\0colMode\0limitsMode\0"
+    "SourceMode\0maxValue\0minValue\0"
+    "incrementValue\0elevation\0Elevation\0"
+    "on_top\0as_is\0Up\0Down\0Left\0Right\0Default\0"
+    "Static\0Alarm\0Channel\0User"
+};
+#undef QT_MOC_LITERAL
+
 static const uint qt_meta_data_caSlider[] = {
 
  // content:
-       6,       // revision
+       7,       // revision
        0,       // classname
        0,    0, // classinfo
        2,   14, // methods
-      12,   24, // properties
-       4,   60, // enums/sets
+      12,   28, // properties
+       4,   64, // enums/sets
        0,    0, // constructors
        0,       // flags
        0,       // signalCount
 
- // slots: signature, parameters, type, tag, flags
-      16,   10,    9,    9, 0x0a,
-      39,    9,    9,    9, 0x08,
+ // slots: name, argc, parameters, tag, flags
+       1,    1,   24,    2, 0x0a /* Public */,
+       4,    0,   27,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void, QMetaType::Double,    3,
+    QMetaType::Void,
 
  // properties: name, type, flags
-      66,   50, 0x0009410b,
-      86,   78, 0x0a095003,
-     104,   94, 0x0009510b,
-     121,  114, 0x43095103,
-     132,  114, 0x43095103,
-     151,  143, 0x0009510b,
-     172,  161, 0x0009510b,
-     190,  183, 0x06095103,
-     199,  183, 0x06095103,
-     208,  183, 0x06095103,
-      10,  183, 0x06095003,
-     233,  223, 0x0009510b,
+       5, 0x80000000 | 6, 0x0009410b,
+       7, QMetaType::QString, 0x00095003,
+       8, 0x80000000 | 9, 0x0009510b,
+      10, QMetaType::QColor, 0x00095103,
+      11, QMetaType::QColor, 0x00095103,
+      12, 0x80000000 | 13, 0x0009510b,
+      14, 0x80000000 | 15, 0x0009510b,
+      16, QMetaType::Double, 0x00095103,
+      17, QMetaType::Double, 0x00095103,
+      18, QMetaType::Double, 0x00095103,
+       3, QMetaType::Double, 0x00095003,
+      19, 0x80000000 | 20, 0x0009510b,
 
  // enums: name, flags, count, data
-     223, 0x0,    2,   76,
-      94, 0x0,    4,   80,
-     143, 0x0,    3,   88,
-     161, 0x0,    2,   94,
+      20, 0x0,    2,   80,
+       9, 0x0,    4,   84,
+      13, 0x0,    3,   92,
+      15, 0x0,    2,   98,
 
  // enum data: key, value
-     243, uint(caSlider::on_top),
-     250, uint(caSlider::as_is),
-     256, uint(caSlider::Up),
-     259, uint(caSlider::Down),
-     264, uint(caSlider::Left),
-     269, uint(caSlider::Right),
-     275, uint(caSlider::Default),
-     283, uint(caSlider::Static),
-     290, uint(caSlider::Alarm),
-     296, uint(caSlider::Channel),
-     304, uint(caSlider::User),
+      21, uint(caSlider::on_top),
+      22, uint(caSlider::as_is),
+      23, uint(caSlider::Up),
+      24, uint(caSlider::Down),
+      25, uint(caSlider::Left),
+      26, uint(caSlider::Right),
+      27, uint(caSlider::Default),
+      28, uint(caSlider::Static),
+      29, uint(caSlider::Alarm),
+      30, uint(caSlider::Channel),
+      31, uint(caSlider::User),
 
        0        // eod
-};
-
-static const char qt_meta_stringdata_caSlider[] = {
-    "caSlider\0\0value\0setSliderValue(double)\0"
-    "repeater()\0Qt::Orientation\0orientation\0"
-    "QString\0channel\0Direction\0direction\0"
-    "QColor\0foreground\0background\0colMode\0"
-    "colorMode\0SourceMode\0limitsMode\0double\0"
-    "maxValue\0minValue\0incrementValue\0"
-    "Elevation\0elevation\0on_top\0as_is\0Up\0"
-    "Down\0Left\0Right\0Default\0Static\0Alarm\0"
-    "Channel\0User\0"
 };
 
 void caSlider::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
-        Q_ASSERT(staticMetaObject.cast(_o));
         caSlider *_t = static_cast<caSlider *>(_o);
+        Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->setSliderValue((*reinterpret_cast< const double(*)>(_a[1]))); break;
         case 1: _t->repeater(); break;
         default: ;
         }
     }
+#ifndef QT_NO_PROPERTIES
+    else if (_c == QMetaObject::ReadProperty) {
+        caSlider *_t = static_cast<caSlider *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: *reinterpret_cast< Qt::Orientation*>(_v) = _t->orientation(); break;
+        case 1: *reinterpret_cast< QString*>(_v) = _t->getPV(); break;
+        case 2: *reinterpret_cast< Direction*>(_v) = _t->getDirection(); break;
+        case 3: *reinterpret_cast< QColor*>(_v) = _t->getForeground(); break;
+        case 4: *reinterpret_cast< QColor*>(_v) = _t->getBackground(); break;
+        case 5: *reinterpret_cast< colMode*>(_v) = _t->getColorMode(); break;
+        case 6: *reinterpret_cast< SourceMode*>(_v) = _t->getLimitsMode(); break;
+        case 7: *reinterpret_cast< double*>(_v) = _t->getMaxValue(); break;
+        case 8: *reinterpret_cast< double*>(_v) = _t->getMinValue(); break;
+        case 9: *reinterpret_cast< double*>(_v) = _t->getIncrementValue(); break;
+        case 10: *reinterpret_cast< double*>(_v) = _t->getSliderValue(); break;
+        case 11: *reinterpret_cast< Elevation*>(_v) = _t->getElevation(); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::WriteProperty) {
+        caSlider *_t = static_cast<caSlider *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: _t->setOrientation(*reinterpret_cast< Qt::Orientation*>(_v)); break;
+        case 1: _t->setPV(*reinterpret_cast< QString*>(_v)); break;
+        case 2: _t->setDirection(*reinterpret_cast< Direction*>(_v)); break;
+        case 3: _t->setForeground(*reinterpret_cast< QColor*>(_v)); break;
+        case 4: _t->setBackground(*reinterpret_cast< QColor*>(_v)); break;
+        case 5: _t->setColorMode(*reinterpret_cast< colMode*>(_v)); break;
+        case 6: _t->setLimitsMode(*reinterpret_cast< SourceMode*>(_v)); break;
+        case 7: _t->setMaxValue(*reinterpret_cast< double*>(_v)); break;
+        case 8: _t->setMinValue(*reinterpret_cast< double*>(_v)); break;
+        case 9: _t->setIncrementValue(*reinterpret_cast< double*>(_v)); break;
+        case 10: _t->setSliderValue(*reinterpret_cast< double*>(_v)); break;
+        case 11: _t->setElevation(*reinterpret_cast< Elevation*>(_v)); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::ResetProperty) {
+    }
+#endif // QT_NO_PROPERTIES
 }
 
-const QMetaObjectExtraData caSlider::staticMetaObjectExtraData = {
-    0,  qt_static_metacall 
-};
-
 const QMetaObject caSlider::staticMetaObject = {
-    { &QwtSlider::staticMetaObject, qt_meta_stringdata_caSlider,
-      qt_meta_data_caSlider, &staticMetaObjectExtraData }
+    { &QwtSlider::staticMetaObject, qt_meta_stringdata_caSlider.data,
+      qt_meta_data_caSlider,  qt_static_metacall, Q_NULLPTR, Q_NULLPTR}
 };
 
-#ifdef Q_NO_DATA_RELOCATION
-const QMetaObject &caSlider::getStaticMetaObject() { return staticMetaObject; }
-#endif //Q_NO_DATA_RELOCATION
 
 const QMetaObject *caSlider::metaObject() const
 {
-    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
 void *caSlider::qt_metacast(const char *_clname)
 {
-    if (!_clname) return 0;
-    if (!strcmp(_clname, qt_meta_stringdata_caSlider))
+    if (!_clname) return Q_NULLPTR;
+    if (!strcmp(_clname, qt_meta_stringdata_caSlider.stringdata0))
         return static_cast<void*>(const_cast< caSlider*>(this));
     return QwtSlider::qt_metacast(_clname);
 }
@@ -129,43 +214,15 @@ int caSlider::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
         if (_id < 2)
             qt_static_metacall(this, _c, _id, _a);
         _id -= 2;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 2)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 2;
     }
 #ifndef QT_NO_PROPERTIES
-      else if (_c == QMetaObject::ReadProperty) {
-        void *_v = _a[0];
-        switch (_id) {
-        case 0: *reinterpret_cast< Qt::Orientation*>(_v) = orientation(); break;
-        case 1: *reinterpret_cast< QString*>(_v) = getPV(); break;
-        case 2: *reinterpret_cast< Direction*>(_v) = getDirection(); break;
-        case 3: *reinterpret_cast< QColor*>(_v) = getForeground(); break;
-        case 4: *reinterpret_cast< QColor*>(_v) = getBackground(); break;
-        case 5: *reinterpret_cast< colMode*>(_v) = getColorMode(); break;
-        case 6: *reinterpret_cast< SourceMode*>(_v) = getLimitsMode(); break;
-        case 7: *reinterpret_cast< double*>(_v) = getMaxValue(); break;
-        case 8: *reinterpret_cast< double*>(_v) = getMinValue(); break;
-        case 9: *reinterpret_cast< double*>(_v) = getIncrementValue(); break;
-        case 10: *reinterpret_cast< double*>(_v) = getSliderValue(); break;
-        case 11: *reinterpret_cast< Elevation*>(_v) = getElevation(); break;
-        }
-        _id -= 12;
-    } else if (_c == QMetaObject::WriteProperty) {
-        void *_v = _a[0];
-        switch (_id) {
-        case 0: setOrientation(*reinterpret_cast< Qt::Orientation*>(_v)); break;
-        case 1: setPV(*reinterpret_cast< QString*>(_v)); break;
-        case 2: setDirection(*reinterpret_cast< Direction*>(_v)); break;
-        case 3: setForeground(*reinterpret_cast< QColor*>(_v)); break;
-        case 4: setBackground(*reinterpret_cast< QColor*>(_v)); break;
-        case 5: setColorMode(*reinterpret_cast< colMode*>(_v)); break;
-        case 6: setLimitsMode(*reinterpret_cast< SourceMode*>(_v)); break;
-        case 7: setMaxValue(*reinterpret_cast< double*>(_v)); break;
-        case 8: setMinValue(*reinterpret_cast< double*>(_v)); break;
-        case 9: setIncrementValue(*reinterpret_cast< double*>(_v)); break;
-        case 10: setSliderValue(*reinterpret_cast< double*>(_v)); break;
-        case 11: setElevation(*reinterpret_cast< Elevation*>(_v)); break;
-        }
-        _id -= 12;
-    } else if (_c == QMetaObject::ResetProperty) {
+   else if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
+            || _c == QMetaObject::ResetProperty || _c == QMetaObject::RegisterPropertyMetaType) {
+        qt_static_metacall(this, _c, _id, _a);
         _id -= 12;
     } else if (_c == QMetaObject::QueryPropertyDesignable) {
         _id -= 12;

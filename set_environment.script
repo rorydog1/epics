@@ -27,12 +27,19 @@ export EDMLIBS=$EPICS_EXTENSIONS/lib/$EPICS_HOST_ARCH
 #Config async
 export ASYN="$EPICS_EXTENSIONS/src/asyn4-27/"
 
+#Qt
+export PATH=$PATH":/home/rory/Qt/5.5/gcc_64/bin"
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH":/home/rory/Qt/5.5/gcc_64i/lib" 
+
 #caQtDM
 export EPICSEXTENSIONS=/home/rory/Desktop/epics/extensions/qt
 export QTDM_LIBINSTALL=/home/rory/Desktop/epics/extensions/qt/lib/linux-x86_64
 export QTDM_BININSTALL=/home/rory/Desktop/epics/extensions/qt/bin/linux-x86_64
+export QTHOME=/home/rory/Qt/5.5/gcc_64/
+export QWTHOME=/usr/local/qwt-6.1.2/
 
 #epicsqt
+export QWT_INCLUDE_PATH=/usr/local/qwt-6.1.2/include/
 export QMAKEFEATURES=/usr/local/qwt-6.1.2/features/
 export QE_FFMPEG=""
 export QE_TARGET_DIR=/usr/local/epicsqt
